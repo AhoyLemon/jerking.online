@@ -1,0 +1,27 @@
+//NORMALIZE, GET DEFAULTS
+@import "globals/_reset";
+@import "globals/_variables";
+@import "globals/_mixins";
+@import "globals/_extends";
+@import "globals/_z-index";
+@import "globals/_defaults";
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+//body { padding-top: 10vh; padding-bottom: 10vh; }
+.table-holder { padding-top: 10vh; padding-bottom: 10vh;
+  
+}
+
+
+table { max-width: 600px; margin-left: auto; margin-right: auto; border-collapse: collapse; font-size:14px;
+  th, td { padding: 0.5rem 1rem;
+    &:nth-child(3) { min-width: 7.2em; }
+  }
+  th { font-size: 0.7em; text-align: left; }
+  td { border:1px solid #999;
+    &:first-child { text-align: right; font-size:0.8em; }
+  }
+}

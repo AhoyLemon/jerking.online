@@ -1,0 +1,25 @@
+- var siteTitle = "Untitled Project"
+- var siteURL = "http://localhost:8008"
+- var description = ""
+- var d = new Date()
+- var lastUpdated = d.getFullYear() + '-' + (d.getMonth()<10?'0':'') + d.getMonth() + '-' + (d.getDate()<10?'0':'') + d.getDate() + '@' + (d.getHours()<10?'0':'') + d.getHours() + ':' + (d.getMinutes()<10?'0':'') + d.getMinutes() + ':' + (d.getSeconds()<10?'0':'') + d.getSeconds()
+
+doctype html
+html(lang="en")
+  head
+    include partials/head.jade
+  body
+    //include partials/aside.jade
+    
+    main.table-holder
+    
+      table.top-porn
+        thead
+          tr
+            th 
+            th TITLE
+            th WEEKLY GROSS
+            th RELEASE DATE
+        tbody#PornTitles
+        
+    include partials/javascripts.jade

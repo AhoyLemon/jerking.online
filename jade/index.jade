@@ -21,5 +21,12 @@ html(lang="en")
             th WEEKLY GROSS
             th RELEASE DATE
         tbody#PornTitles
-        
+    
+    button.make-porn(data-opens="casting") Make a Porn
+    aside.porn-maker.casting(data-drawer="casting")
+      button.close(data-closes="casting") X
+      .inner
+        .cast-selection#CastSelection
+      
+    
     include partials/javascripts.jade

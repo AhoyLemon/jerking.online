@@ -206,7 +206,7 @@ img {
 }
 
 b, strong {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 h1 {
@@ -259,6 +259,155 @@ ul li {
   .desktop-only {
     display: none;
   }
+}
+
+button {
+  font-family: "Rubik", sans-serif;
+  border: none;
+  font-size: 1em;
+  padding: 0.25em 0.5em;
+}
+
+button.make-porn {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #4885ed;
+  color: #eee;
+  transition: transform 0.3s ease;
+}
+
+button.make-porn.invisible {
+  transform: translateY(105%);
+}
+
+.porn-maker {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-105%);
+  font-family: "Rubik", sans-serif;
+  transition: transform ease 1.3s;
+}
+
+.porn-maker.visible {
+  transform: translateX(0);
+}
+
+.porn-maker .inner {
+  padding: 2em 1em 1em 1em;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.porn-maker .close {
+  position: absolute;
+  top: 0;
+  right: 7px;
+  color: #eee;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 2em;
+  padding: 0;
+  line-height: 100%;
+}
+
+.porn-maker .close:hover {
+  transform: scale(1.25);
+}
+
+.porn-maker.casting {
+  width: 40em;
+  background: #4885ed;
+}
+
+.cast-selection {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: strech;
+  -ms-flex-align: strech;
+  align-items: strech;
+  justify-content: space-between;
+}
+
+.cast-selection .cast {
+  width: 49%;
+  flex-basis: 49%;
+  flex-grow: 0;
+  flex-shrink: 1;
+  align-self: auto;
+}
+
+article.cast {
+  background: #fff;
+  border: 1px solid #313131;
+  margin-bottom: 1em;
+  padding: 1em;
+  cursor: pointer;
+}
+
+article.cast h4 {
+  font-size: 0.8rem;
+  margin-top: .5em;
+}
+
+article.cast ul.stats {
+  padding-left: 0;
+}
+
+article.cast ul.stats li {
+  list-style-type: none;
+  font-weight: 500;
+}
+
+article.cast ul.stats li:before {
+  font-weight: 400;
+}
+
+article.cast ul.stats li.gender:before {
+  content: "gender: ";
+}
+
+article.cast ul.stats li.sexuality:before {
+  content: "sexuality: ";
+}
+
+article.cast ul.stats li.height:before {
+  content: "height: ";
+}
+
+article.cast ul.tags, article.cast ul.kinks {
+  padding: 0.2em 0 0 0;
+}
+
+article.cast ul.tags li, article.cast ul.kinks li {
+  border-radius: 0.35em;
+  background: #313131;
+  color: #eee;
+  display: inline-block;
+  padding: 0.25em 0.75em;
+  margin: 0 0.5em 0.5em 0;
+  font-size: 0.8em;
+}
+
+article.cast.active {
+  background: #3eae12;
+}
+
+article.cast.incompatible {
+  opacity: 0.4;
+  cursor: not-allowed;
 }
 
 body {

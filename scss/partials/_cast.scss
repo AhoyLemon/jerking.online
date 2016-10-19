@@ -1,0 +1,41 @@
+button { font-family:$font; border:none; font-size:1em; padding:0.25em 0.5em;
+  &.make-porn { @include position(fixed,null,null,0,0); background:$blue; color:$white; transition:transform 0.3s ease;
+    &.invisible { transform:translateY(105%); }
+  }
+}
+
+.porn-maker { @include position(fixed,0,null,0,0); transform:translateX(-105%); font-family: $font; transition:transform ease 1.3s;
+  &.visible { transform:translateX(0); }
+  .inner { padding:2em 1em 1em 1em; height: 100%; overflow-x: hidden; overflow-y:auto; }
+  .close { @include position(absolute,0,7px,null,null); color:$white; background:transparent; outline:none; cursor:pointer; font-weight:$bold; font-size:2em; padding:0; line-height:100%;
+    &:hover { transform:scale(1.25); }
+  }
+  
+  
+  &.casting { width:40em; background:$blue;
+  }
+}
+
+.cast-selection { @include flex-container(); justify-content: space-between;
+  .cast { @include flex-item(49%,0); }
+}
+
+
+article.cast { background:#fff; border:1px solid $black; margin-bottom: 1em; padding:1em; cursor: pointer;
+  h4 { font-size:0.8rem; margin-top: .5em; }
+  ul.stats { padding-left: 0;
+    li { list-style-type: none; font-weight: $bold;
+      &:before { font-weight: $medium; }
+      &.gender:before { content: "gender: "; }
+      &.sexuality:before { content: "sexuality: "; }
+      &.height:before { content: "height: "; }
+    }
+  }
+  ul.tags, ul.kinks { padding:0.2em 0 0 0; 
+    li { border-radius: 0.35em; background:$black; color:$white; display: inline-block; padding:0.25em 0.75em; margin: 0 0.5em 0.5em 0; font-size:0.8em; }
+  }
+  &.active { background:$green; }
+  
+  &.incompatible { opacity: 0.4; cursor: not-allowed; }
+  
+}

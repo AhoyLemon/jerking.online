@@ -132,4 +132,15 @@ var pornTitles = [
   
   // Musicals...
   "Taint Must Be Shaven"
+  "Anything Grows"
+  "MILF Saigon"
+  "Diddler on the Roof"
+  "Man of La Muncha"
+  "The Jiz"
+  "Arse Nick and Old Mace"
+  "The Dong and I"
+  "Guys and Guys"
+  "Clamilton"
+  "Bring in 'da Boys, Bring in 'da Spunk"
+  "Scats"  
 ];

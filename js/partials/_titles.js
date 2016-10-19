@@ -113,8 +113,12 @@ var pornTitles = [
   "Spurtigo",
   "The Munchurian Candidass",
   "Glengarry, Glen Ross, and Six Or Seven Others",
-  "One Blew Over The Cockoo's Nest",
+  "One Blew Over The Cuckold's Nest",
   "The Bicycle Queef",
+  "Boyz N The Clitoral Hood",
+  "Gosford Porking",
+  "The Dark Bros In: Fuck Soup",
+  "The Assventures of Fuckaroo Buttzai Across The Gape Dimension",
   
   // These are all TV shows....
   "Welcome Back, Frotteur",

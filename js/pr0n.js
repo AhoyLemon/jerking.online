@@ -1,6 +1,6 @@
 // jshint -W117
-//@prepros-append partials/_titles.js
-//@prepros-append partials/_actors.js
+//@prepros-prepend partials/_titles.js
+//@prepros-prepend partials/_actors.js
 
 function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -8,11 +8,17 @@ function numberWithCommas(x) {
 
 var topMovies = [];
 
+var actor = {
+  race: "",
+  height: {}
+};
+
 $(document).ready(function() {
-  
-  generateHeight();
-  
-  console.log('there are '+pornTitles.length+' titles')
+  actor.height = generateHeight();
+  actor.race = generateRace();
+  actor.hair = generateHair();
+  console.log(actor);
+  console.log('there are '+pornTitles.length+' titles');
   var i = 0;
   while (i < 20) {
     var r = Math.floor((Math.random() * pornTitles.length));

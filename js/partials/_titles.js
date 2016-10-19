@@ -72,7 +72,7 @@ var pornTitles = [
   "Pee Wee's Big Member",
   "The Fantastic Foursome",
   "Play With Misty For Me",
-  "Dirty & Hairy",
+  "Dirty/Hairy",
   "The Squirt Locker",
   "Jiro Creams On Suki",
   "Poonrise Kingdom",
@@ -109,6 +109,12 @@ var pornTitles = [
   "2 Fast 2 Furry Puss",
   "Watersportsworld",
   "XXX: State of the Union: XXX",
+  "Jerk/Off",
+  "Spurtigo",
+  "The Munchurian Candidass",
+  "Glengarry, Glen Ross, and Six Or Seven Others",
+  "One Blew Over The Cockoo's Nest",
+  "The Bicycle Queef",
   
   // These are all TV shows....
   "Welcome Back, Frotteur",

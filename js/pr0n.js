@@ -1,5 +1,6 @@
 // jshint -W117
 //@prepros-append partials/_titles.js
+//@prepros-append partials/_actors.js
 
 function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -8,6 +9,8 @@ function numberWithCommas(x) {
 var topMovies = [];
 
 $(document).ready(function() {
+  
+  generateHeight();
   
   console.log('there are '+pornTitles.length+' titles')
   var i = 0;

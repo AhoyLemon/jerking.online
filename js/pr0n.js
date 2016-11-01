@@ -1,4 +1,5 @@
 // jshint -W117
+//@prepros-prepend partials/_functions.js
 //@prepros-prepend partials/_titles.js
 //@prepros-prepend partials/_actors.js
 

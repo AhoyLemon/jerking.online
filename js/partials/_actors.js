@@ -289,6 +289,8 @@ function generateSexuality(g) {
 }
 
 function generateKinks() {
+  var k = shuffle(possibleKinks);
+  console.log(k);
   var kinks = [];
   var x;
   $.each(possibleKinks, function(key, value) {

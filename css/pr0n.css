@@ -266,6 +266,7 @@ button {
   border: none;
   font-size: 1em;
   padding: 0.25em 0.5em;
+  cursor: pointer;
 }
 
 button.make-porn {
@@ -296,7 +297,7 @@ button.make-porn.invisible {
 }
 
 .porn-maker .inner {
-  padding: 2em 1em 1em 1em;
+  padding: 3em 1em 1em 1em;
   height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
@@ -304,16 +305,19 @@ button.make-porn.invisible {
 
 .porn-maker .close {
   position: absolute;
-  top: 0;
-  right: 7px;
+  top: 0.25em;
+  right: 0.25em;
   color: #eee;
-  background: transparent;
   outline: none;
   cursor: pointer;
   font-weight: 500;
   font-size: 2em;
   padding: 0;
   line-height: 100%;
+  background-color: #eee;
+  color: #4885ed;
+  width: 1em;
+  border-radius: 50%;
 }
 
 .porn-maker .close:hover {

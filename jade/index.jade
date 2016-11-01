@@ -27,6 +27,18 @@ html(lang="en")
       button.close(data-closes="casting") X
       .inner
         .cast-selection#CastSelection
+    aside.porn-maker.plot(data-drawer="plot")
+      button.close(data-closes="casting") X
+      .inner
+        .plot-selection#PlotSelection
+    aside.maker-steps
+      ul
+        li
+          button.casting(data-switch="casting") 1
+        li.plot
+          button.casting(data-switch="plot" disabled) 2
+      .button-holder
+        button#NextStep(data-switch="plot" disabled) Next Step
       
     
     include partials/javascripts.jade

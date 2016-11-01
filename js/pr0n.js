@@ -46,15 +46,14 @@ function lookForActors() {
     actor.tags = generateTags(actor);
   }
   console.log(availableActors);
-  
-  
+
   // Then let's set up the selections for them.
   $.each(availableActors, function(key, value) {
     var d = '<article class="cast" data-gender="'+availableActors[key].gender+'"';
     var avoidArray = [];
     $.each(availableActors[key].sex, function(k,v) {
       if (v == false) {
-        avoidArray.push(k)
+        avoidArray.push(k);
       }
     });
     d = d + 'data-avoid="'+avoidArray+'" ';
@@ -85,6 +84,8 @@ function lookForActors() {
     $('#CastSelection').append(d);
   });
   
+  
+  
 }
 
 function rankPornTitles() {
@@ -104,7 +105,7 @@ function rankPornTitles() {
   $.each(topMovies, function(key, value) {
     p = ((Math.random() * (99.999 - 88.8888)) + 88) / 100;
     g = parseInt(g * p);
-    s = Math.floor((Math.random() * 100) + 1);
+    s = Math.floor((Math.random() * 600) + 1);
     d = moment().subtract(s, 'days').format('l');
     $('#PornTitles').append('<tr><td>'+(key+1)+'</td><td>'+value+'</td><td><span class="s">$</span>'+numberWithCommas(g)+'</td><td>'+d+'</td></tr>');
   });
@@ -133,7 +134,7 @@ function findMismatches() {
         }
       }
     });
-  })
+  });
 }
 
 $('.porn-maker').on('click', 'article.cast', function() {
@@ -142,6 +143,14 @@ $('.porn-maker').on('click', 'article.cast', function() {
     $s.toggleClass('active');
     findMismatches();
   }
+  var castNum = $('article.cast.active').length;
+  if (castNum > 0) {
+    $('#NextStep').attr('disabled', false);
+    $('button[data-switch="plot"]').attr('disabled', false);
+  } else {
+    $('#NextStep').attr('disabled', true);
+    $('button[data-switch="plot"]').attr('disabled', true);
+  }
 });
 
 $('button[data-opens]').click(function() {
@@ -149,6 +158,9 @@ $('button[data-opens]').click(function() {
   $('[data-drawer="'+d+'"]').addClass('visible');
   $('[data-open="'+d+'"]').addClass('invisible');
   $('[data-closes="'+d+'"]').removeClass('invisible');
+  if (d == "casting") {
+    $('.maker-steps').addClass('visible');
+  }
 });
 
 $('button[data-closes]').click(function() {
@@ -156,4 +168,7 @@ $('button[data-closes]').click(function() {
   $('[data-drawer="'+d+'"]').removeClass('visible');
   $('[data-closes="'+d+'"]').addClass('invisible');
   $('[data-opens="'+d+'"]').removeClass('invisible');
+  if (d == "casting") {
+    $('.maker-steps').removeClass('visible');
+  }
 });

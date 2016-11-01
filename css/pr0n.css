@@ -285,7 +285,7 @@ button.make-porn.invisible {
 .porn-maker {
   position: fixed;
   top: 0;
-  bottom: 0;
+  bottom: 4rem;
   left: 0;
   transform: translateX(-105%);
   font-family: "Rubik", sans-serif;
@@ -412,6 +412,64 @@ article.cast.active {
 article.cast.incompatible {
   opacity: 0.4;
   cursor: not-allowed;
+}
+
+.maker-steps {
+  background: #313131;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 4rem;
+  padding: 1em;
+  transform: translateY(105%);
+  transition: all 0.3s ease;
+}
+
+.maker-steps ul {
+  padding: 0;
+  display: inline-block;
+}
+
+.maker-steps ul li {
+  display: inline-block;
+  padding: 0;
+  list-style-type: none;
+  border-radius: 50%;
+}
+
+.maker-steps ul li button {
+  border-radius: 50%;
+  width: 2em;
+  text-align: center;
+  padding: 0;
+}
+
+.maker-steps .button-holder {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.maker-steps.visible {
+  transform: translateY(0);
+}
+
+.maker-steps button {
+  background: #eee;
+  height: 2em;
+}
+
+.maker-steps button.active {
+  color: #eee;
+}
+
+.maker-steps button.active.casting {
+  background: #4885ed;
+}
+
+.maker-steps button[disabled] {
+  background: rgba(238, 238, 238, 0.3);
+  cursor: default;
+  color: #313131;
 }
 
 body {

@@ -111,6 +111,8 @@ function rankPornTitles() {
   });
 }
 
+var thisweek = moment().startOf('week').format('MMMM Do');
+$('#WeekOf').text(thisweek);
 
 
 $(document).ready(function() {

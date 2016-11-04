@@ -9,11 +9,18 @@ html(lang="en")
   head
     include partials/head.jade
   body
-    //include partials/aside.jade
-    
+  
+    include partials/header.jade
+  
     main.table-holder
-    
+      
+      // h3 Top selling pornography for the week of 
+        span.week-of#WeekOf
+          
       table.top-porn
+        caption
+          span Top selling pornography for the week of 
+          span.week-of#WeekOf
         thead
           tr
             th 
@@ -21,24 +28,8 @@ html(lang="en")
             th WEEKLY GROSS
             th RELEASE DATE
         tbody#PornTitles
-    
-    button.make-porn(data-opens="casting") Make a Porn
-    aside.porn-maker.casting(data-drawer="casting")
-      button.close(data-closes="casting") X
-      .inner
-        .cast-selection#CastSelection
-    aside.porn-maker.plot(data-drawer="plot")
-      button.close(data-closes="casting") X
-      .inner
-        .plot-selection#PlotSelection
-    aside.maker-steps
-      ul
-        li
-          button.casting(data-switch="casting") 1
-        li.plot
-          button.casting(data-switch="plot" disabled) 2
-      .button-holder
-        button#NextStep(data-switch="plot" disabled) Next Step
+        
+    //include partials/aside.jade
       
     
     include partials/javascripts.jade

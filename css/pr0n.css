@@ -261,6 +261,22 @@ ul li {
   }
 }
 
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 16rem;
+  z-index: 3;
+  background: #313131;
+  color: #eee;
+  padding: 1.5em;
+}
+
+header h3 {
+  text-align: center;
+  font-weight: 400;
+}
+
 button {
   font-family: "Rubik", sans-serif;
   border: none;
@@ -477,8 +493,7 @@ body {
 }
 
 .table-holder {
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding: 10vh 16rem 10vh 1rem;
 }
 
 table {
@@ -487,6 +502,13 @@ table {
   margin-right: auto;
   border-collapse: collapse;
   font-size: 14px;
+}
+
+table caption {
+  font-size: 1.52em;
+  text-align: center;
+  font-weight: 500;
+  padding-bottom: 0.5em;
 }
 
 table th, table td {
@@ -509,4 +531,5 @@ table td {
 table td:first-child {
   text-align: right;
   font-size: 0.8em;
+  vertical-align: middle;
 }

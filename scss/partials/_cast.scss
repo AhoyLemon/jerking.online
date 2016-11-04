@@ -1,8 +1,9 @@
 $color-casting: $blue;
 
 button { font-family:$font; border:none; font-size:1em; padding:0.25em 0.5em; cursor: pointer;
-  &.make-porn { @include position(fixed,null,null,0,0); background:$blue; color:$white; transition:transform 0.3s ease;
+  &.make-porn { @include position(fixed,null,null,0,0); background:$blue; color:$white; transition:transform 0.3s ease; 
     &.invisible { transform:translateY(105%); }
+    //display: none;
   }
 }
 

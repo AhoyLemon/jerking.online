@@ -127,9 +127,10 @@ function rankPornTitles() {
   });
 }
 
-var thisweek = moment().subtract(1, 'week').startOf('week').add(1, 'days').format('MMMM Do');
-$('#WeekOf').text(thisweek);
-
+//var thisweek = moment().subtract(1, 'week').startOf('week').add(1, 'days').format('MMMM Do');
+//$('#WeekOf').text(thisweek);
+var yesterday = moment().subtract(1, 'days').format('dddd, MMMM Do YYYY');
+$('#TheDay').text(yesterday);
 
 $(document).ready(function() {
   //lookForActors();

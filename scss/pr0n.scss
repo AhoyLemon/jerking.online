@@ -5,8 +5,10 @@
 @import "globals/_extends";
 @import "globals/_z-index";
 @import "globals/_defaults";
+//@import "globals/_sidebar";
 
 @import "partials/_header";
+// @import "partials/_sidebar";
 @import "partials/_cast";
 
 
@@ -22,12 +24,15 @@ body {
 
 
 table { max-width: 600px; margin-left: auto; margin-right: auto; border-collapse: collapse; font-size:14px;
-  caption { font-size:1.52em; text-align: center; font-weight: 500; padding-bottom: 0.5em; }
+  caption { font-size:2em; text-align: center; font-weight: 500; padding-bottom: 0.5em; }
   th, td { padding: 0.5rem 1rem;
     &:nth-child(3) { min-width: 7.2em; }
   }
   th { font-size: 0.7em; text-align: left; }
   td { border:1px solid #999;
     &:first-child { text-align: right; font-size:0.8em; vertical-align: middle; }
+    &.title { cursor: pointer;
+      &:hover { color:$blue; }
+    }
   }
 }

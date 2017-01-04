@@ -17,6 +17,21 @@ var actor = {
 var availableActors = [];
 
 
+$('header .logo').click(function() {
+  $(this).siblings('.sidebar').slideToggle(270);
+});
+
+
+$('.top-porn').on('click', 'td.title', function() {
+  var title = $(this).text();
+  var rank = $(this).siblings('.rank').text();
+  var intentText = encodeURI("Number "+rank+" Porn Last Week: "+title);
+  var intentURL = "https://twitter.com/intent/tweet?url=http%3A%2F%2Fjerking.online&via=AhoyLemon&text="+intentText;
+  window.open(intentURL, "popupWindow", "width=550,height=440");
+});
+
+//
+
 
 // Let's get the available actors
 
@@ -90,6 +105,7 @@ function lookForActors() {
 
 function rankPornTitles() {
   console.log('there are '+pornTitles.length+' titles');
+  $('#TitleCount').text(pornTitles.length);
   var i = 0;
   while (i < 20) {
     var r = Math.floor((Math.random() * pornTitles.length));
@@ -107,16 +123,16 @@ function rankPornTitles() {
     g = parseInt(g * p);
     s = Math.floor((Math.random() * 600) + 1);
     d = moment().subtract(s, 'days').format('l');
-    $('#PornTitles').append('<tr><td>'+(key+1)+'</td><td>'+value+'</td><td><span class="s">$</span>'+numberWithCommas(g)+'</td><td>'+d+'</td></tr>');
+    $('#PornTitles').append('<tr><td class="rank">'+(key+1)+'</td><td class="title">'+value+'</td><td><span class="s">$</span>'+numberWithCommas(g)+'</td><td>'+d+'</td></tr>');
   });
 }
 
-var thisweek = moment().startOf('week').format('MMMM Do');
+var thisweek = moment().subtract(1, 'week').startOf('week').add(1, 'days').format('MMMM Do');
 $('#WeekOf').text(thisweek);
 
 
 $(document).ready(function() {
-  lookForActors();
+  //lookForActors();
   rankPornTitles();
 });
 

@@ -263,18 +263,55 @@ ul li {
 
 header {
   position: fixed;
-  top: 0;
   right: 0;
-  width: 16rem;
+  bottom: 0;
+  width: 21.28rem;
   z-index: 3;
-  background: #313131;
-  color: #eee;
-  padding: 1.5em;
+  /* background:$black; color:$white; padding:1.5em; */
+}
+
+header .logo {
+  cursor: pointer;
 }
 
 header h3 {
   text-align: center;
   font-weight: 400;
+}
+
+header .sidebar {
+  background: #313131;
+  padding: 1em;
+  margin-left: 5.264rem;
+  margin-top: -1px;
+  display: none;
+}
+
+header ul {
+  color: #eee;
+  position: relative;
+  padding-left: 0;
+}
+
+header li {
+  list-style-type: none;
+  margin-bottom: 0.65em;
+}
+
+header span {
+  display: block;
+}
+
+header span.indent {
+  padding-left: 0.75em;
+}
+
+header .smaller {
+  font-size: 80%;
+}
+
+header a {
+  color: #E0CB4F;
 }
 
 button {
@@ -505,7 +542,7 @@ table {
 }
 
 table caption {
-  font-size: 1.52em;
+  font-size: 2em;
   text-align: center;
   font-weight: 500;
   padding-bottom: 0.5em;
@@ -532,4 +569,12 @@ table td:first-child {
   text-align: right;
   font-size: 0.8em;
   vertical-align: middle;
+}
+
+table td.title {
+  cursor: pointer;
+}
+
+table td.title:hover {
+  color: #4885ed;
 }

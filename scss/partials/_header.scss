@@ -1,3 +1,12 @@
-header { @include position(fixed,0,0); width:$sidebar; z-index: $z-sidebar; background:$black; color:$white; padding:1.5em;
+header { @include position(fixed,null,0,0); width:($sidebar * 1.33); z-index: $z-sidebar; /* background:$black; color:$white; padding:1.5em; */
+  .logo { cursor: pointer; }
   h3 { text-align: center; font-weight: $medium; }
+  .sidebar { background:$black; padding:1em; margin-left: ($sidebar * 0.329); margin-top:-1px; display: none; }
+  ul { color:$white; position: relative; padding-left: 0; }
+  li { list-style-type: none; margin-bottom: 0.65em; }
+  span {display: block;
+    &.indent { padding-left: 0.75em; }
+  }
+  .smaller { font-size:80%; }
+  a { color:$yellow; }
 }

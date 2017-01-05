@@ -1,8 +1,11 @@
+// jshint -W083
 // jshint -W117
 //@prepros-prepend partials/_functions.js
 //@prepros-prepend partials/_titles.js
 
 var topMovies = [];
+var todayArray = [];
+var allDays = {};
 
 function rankPornTitles(startDate) {
   console.log('there are '+pornTitles.length+' titles');
@@ -21,8 +24,6 @@ function rankPornTitles(startDate) {
   var d;
   var c;
   var change;
-  var todayArray = [];
-  var allDays = {};
   
   $.each(topMovies, function(key, value) {
     c = Math.floor((Math.random() * 3) + 1);
@@ -77,12 +78,12 @@ function rankPornTitles(startDate) {
       topMovies.push(todayArray[key].title);
     });
     i = 0;
-    var r = Math.floor((Math.random() * 10)) + 2;
-    while (i < 5) {
+    var r = Math.floor((Math.random() * 6)) + 4;
+    while (i < r) {
       r = Math.floor((Math.random() * pornTitles.length));
       if (topMovies.indexOf(pornTitles[r]) == -1) {
         var a = Math.floor((Math.random() * 19));
-        topMovies.splice(a,0,pornTitles[r])
+        topMovies.splice(a,0,pornTitles[r]);
         i++;
       }
     }
@@ -97,8 +98,8 @@ function rankPornTitles(startDate) {
 
     topMovies.length = 20;
 
-    console.log(yesterdayArray);
-    console.log(topMovies);
+    //console.log(yesterdayArray);
+    //console.log(topMovies);
 
     todayArray = [];
     var g = Math.floor(Math.random() * (60000 - 50000)) + 50000;
@@ -122,7 +123,7 @@ function rankPornTitles(startDate) {
       };
       todayArray.push(a);
     });
-    var dy = parseInt(startDate)+z;
+    var dy = moment(startDate).add(z,'days').format('YYYYMMDD');
     allDays[dy] = todayArray;
 
     $('#JSArray').append('  '+ dy+ ': [');
@@ -134,13 +135,11 @@ function rankPornTitles(startDate) {
     });
     $('#JSArray').append('], ');
     $('#JSArray').append('<br />');
-    z++
+    z++;
   }
   $('#JSArray').append('  };');
 }
 
 $(document).ready(function() {
-  $('main, header').remove();
-  $('pre').show();
-  rankPornTitles(20170101);
+  rankPornTitles("20170101");
 });

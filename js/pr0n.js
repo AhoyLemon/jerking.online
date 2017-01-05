@@ -1,16 +1,16 @@
 // jshint -W117
 //@prepros-prepend partials/_functions.js
-//@prepros-prepend partials/_titles.js
-//@prepros-prepend data/_january.js
-
-function numberWithCommas(x) {
-    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-}
-
-var topMovies = [];
+//@prepros-prepend partials/_titles.js 
+//@prepros-prepend data/_january.js 
 
 $('header .logo').click(function() {
-  $(this).parent().toggleClass('expanded');
+  $('header').toggleClass('expanded');
+});
+
+$('header .logo').hover(function() {
+  $('header .fist').addClass('shaking');
+}, function() {
+  $('header .fist').removeClass('shaking');
 });
 
 
@@ -31,7 +31,7 @@ function todaysPorn(date) {
   console.log('there are '+todaysData.length+' titles');
   $('#PornTitles').empty();
   $.each(todaysData, function(key, value) {
-    $('#PornTitles').append('<tr><td class="rank">'+(key+1)+'</td><td class="title">'+todaysData[key].title+'</td><td><span class="s">$</span>'+numberWithCommas(todaysData[key].take)+'</td><td class="change '+todaysData[key].change+'"> </td></tr>');
+    $('#PornTitles').append('<tr><td class="rank">'+(key+1)+'</td><td class="title">'+todaysData[key].title+'</td><td class="gross"><span class="s">$</span>'+numberWithCommas(todaysData[key].take)+'</td><td class="change '+todaysData[key].change+'"> </td></tr>');
   });
   $('#TheDay').text(currentDay.verbose);
 }

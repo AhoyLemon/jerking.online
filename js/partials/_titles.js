@@ -134,6 +134,8 @@ var pornTitles = [
   "American History XXX",
   "The Italian Blowjob",
   "Hairy Twatter",
+  "Blowing For Columbine",
+  "Star Whores: The Foreskin Awakens",
   
   // These are all TV shows....
   "Welcome Back, Frotteur",

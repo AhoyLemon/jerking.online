@@ -1,6 +1,997 @@
-function sendGA(e,t,a,n){n?console.log("CATEGORY: "+e+", ACTION:"+t+", LABEL:"+a+", VALUE:"+n):a?console.log("CATEGORY: "+e+", ACTION:"+t+", LABEL:"+a):console.log("CATEGORY: "+e+", ACTION:"+t)}function numberWithCommas(e){return e.toString().replace(/\B(?=(\d{3})+(?!\d))/g,",")}function shuffle(e){for(var t,a,n=e.length;0!==n;)a=Math.floor(Math.random()*n),n-=1,t=e[n],e[n]=e[a],e[a]=t;return e}
-;var pornTitles=["Trans Formers 2: Revenge of the Ballin'","Das Booty","Rogerin' Me","Big Trouble in Little Vagina","28 Cocks Later","50 Fist Dates","The Filth Element","Let the White One In","Fill Bill, vol 2","Me, Myself in Irene","Indiana Bones and the Temple of Poon","I Broke My Back Mounting","Rub, Lola! Rub!","Even Reverse Cowgirls Get the Blues","Raging Balls","Dog Dick Afternoon","Full Metal Dildo","The Stepfather, Part II","The African Drag Queen","One Flew Into The Poopoo's Nest","Dr. Strangelust, or: How I Learned To Stop Worrying And Love The Bum","The Maltese Fistin","The Pleasure of Sierra's Madre","Midnight Ladyboy","Rear Entry Widow","A Streetwalker Named Desire&eacute;","The Curious Case of Benjamin's Butthole","Group Sex on the Bounty","Guess Who Came On Dinner","Breasts In Shows","Six Days Seven Cocks","Mr. Smith Goes Down on Washington","Enslaving Private Ryan","Rebel Without a Cooze","The Lust of the Mohicans","To Shave and Shave Not","Hannah on Her Sisters","All That Jizz","Poonstruck","GoodFellatas","Veinspotting","The Princess Ride","No Cunt Free For Old Men","Public Enemas","On Her Majesty's Secret Cervix","Gunfight at the KY Corral","Pan's Labiarinth","Pearl Necklace Harbor","Bend Over, Like Beckham","Scatatouille","BALL-E","Fuck Everlasting","Wangs of New York","The Tight Stuff","Bang My Bum Slowly","Strangers on a Tranny","G*A*S*H","Wet Hot American Hummer","A Queer and Pleasant Stranger","Glazing Arizona","Motion Impossible","Fannie Hall","Fist Me Deadly","Bright Lights, Big Titties","The Color of a Money Shot","Lawrence of a Labia","Titty Titty Gang Bang","Saturday Night Beaver","Evil Head 2: Head By Dawn","Pee Wee's Big Member","The Fantastic Foursome","Play With Misty For Me","Dirty/Hairy","The Squirt Locker","Jiro Creams On Suki","Poonrise Kingdom","Django Chained","Moneyballin","Being Inside Elmo","Attack The Cock","How To Drain Your Dragon","The Mud Wrestler","Scott Pilgrim Vs Those Girls","Fantastic Fucks, Mister","Straight Into Conner","Mad Maxxx: Furious Loads","Stanford's Prisonsex Experiments","Cum and Cummer","Jiz and the Diaphragms","Big Hero 16 Inch","Tub Girl Time Machine","Steve's Tugjobs","Night At The Mapplethorpe Museum","The Boy Shorts","Fist Fist, Bang Bang","In Sid Anus","The Penis Movie","CitizenWhore","Atlas Chugged","Alexander and the Terrible, Horrible, No Good, Very Bad Handjob","Robocuck","Much Ado About Cumming","Monsters' Pink","12 Years A Slut","Despicable Pee","G.I. Joe: Masturbation","2 Fast 2 Furry Puss","Watersportsworld","XXX: State of the Union: XXX","Jerk/Off","Spurtigo","The Munchurian Candidass","Glen, Garry, Glenn, Ross, and Six Other Guys","One Blew Over The Cuckold's Nest","The Bicycle Queef","Boyz N The Clitoral Hood","Gosford Porking","The Dark Bros In: Fuck Soup","The Assventures of Fuckaroo Buttzai Across The Gape Dimension","Boobs! A Madea Porno","Suicide Squat","While You Were Peeping","There's Someone Inside Mary","The Nutting Professor","Space Jammin'","Whiskey, Tango, Facefuck","Nutbusters","Assassin's Cream","Fingering Dory","Alvin and the Fuckmunks 2: The Fuckuel","Blumpkinhead","American History XXX","The Italian Blowjob","Hairy Twatter","Welcome Back, Frotteur","A Bit of Fry in Laurie","Breaking Chad","The Gang Bang Theory","Boy Meat's World","Nathan For Everyone","Person of Incest","Charles In Charles","Better Ball Saul","Haters Whack Off!","Taint Must Be Shaven","Anything Grows","MILF Saigon","Diddler on the Roof","Man of La Muncha","Arse Nick and Yo Face","The Dong and I","Guys and Guys","Clamilton","Bring in 'da Boys, Bring in 'da Spunk","Scats"];
-var pornData={20170101:[{title:"Gunfight at the KY Corral",take:49930,change:"same"},{title:"How To Drain Your Dragon",take:46038,change:"down"},{title:"Watersportsworld",take:41529,change:"down"},{title:"The Lust of the Mohicans",take:36546,change:"down"},{title:"Pearl Necklace Harbor",take:32382,change:"same"},{title:"Titty Titty Gang Bang",take:31661,change:"up"},{title:"Rear Entry Widow",take:29774,change:"up"},{title:"Dog Dick Afternoon",take:26402,change:"same"},{title:"One Blew Over The Cuckold's Nest",take:24537,change:"up"},{title:"Steve's Tugjobs",take:23986,change:"up"},{title:"The Mud Wrestler",take:21750,change:"same"},{title:"Big Trouble in Little Vagina",take:21418,change:"down"},{title:"Bright Lights, Big Titties",take:20804,change:"same"},{title:"Welcome Back, Frotteur",take:19677,change:"same"},{title:"A Queer and Pleasant Stranger",take:18423,change:"same"},{title:"The Princess Ride",take:16747,change:"same"},{title:"One Flew Into The Poopoo's Nest",take:16371,change:"same"},{title:"There's Someone Inside Mary",take:15939,change:"up"},{title:"Better Ball Saul",take:14761,change:"up"},{title:"Hannah on Her Sisters",take:14280,change:"same"}],20170102:[{title:"The Lust of the Mohicans",take:51848,change:"up"},{title:"Watersportsworld",take:46211,change:"up"},{title:"Rear Entry Widow",take:41805,change:"up"},{title:"One Blew Over The Cuckold's Nest",take:37847,change:"up"},{title:"Pearl Necklace Harbor",take:35597,change:"same"},{title:"The Mud Wrestler",take:32101,change:"up"},{title:"Dog Dick Afternoon",take:30033,change:"up"},{title:"Big Trouble in Little Vagina",take:26998,change:"up"},{title:"Titty Titty Gang Bang",take:26552,change:"down"},{title:"Steve's Tugjobs",take:24492,change:"same"},{title:"How To Drain Your Dragon",take:23190,change:"down"},{title:"Bright Lights, Big Titties",take:22940,change:"up"},{title:"Welcome Back, Frotteur",take:21964,change:"up"},{title:"Dr. Strangelust, or: How I Learned To Stop Worrying And Love The Bum",take:21289,change:"new"},{title:"Nathan For Everyone",take:20117,change:"new"},{title:"The Nutting Professor",take:17805,change:"new"},{title:"One Flew Into The Poopoo's Nest",take:17378,change:"same"},{title:"Better Ball Saul",take:16824,change:"up"},{title:"Attack The Cock",take:15405,change:"new"},{title:"There's Someone Inside Mary",take:14840,change:"down"}],20170103:[{title:"Pearl Necklace Harbor",take:47843,change:"up"},{title:"Dog Dick Afternoon",take:43404,change:"up"},{title:"Hannah on Her Sisters",take:38995,change:"new"},{title:"Big Trouble in Little Vagina",take:37398,change:"up"},{title:"One Blew Over The Cuckold's Nest",take:33204,change:"down"},{title:"Rear Entry Widow",take:32119,change:"down"},{title:"The Mud Wrestler",take:31229,change:"down"},{title:"Titty Titty Gang Bang",take:29893,change:"up"},{title:"Steve's Tugjobs",take:29564,change:"up"},{title:"Bright Lights, Big Titties",take:26402,change:"up"},{title:"Welcome Back, Frotteur",take:24653,change:"up"},{title:"Bring in 'da Boys, Bring in 'da Spunk",take:23445,change:"new"},{title:"Moneyballin",take:20854,change:"new"},{title:"Dr. Strangelust, or: How I Learned To Stop Worrying And Love The Bum",take:18367,change:"same"},{title:"Nathan For Everyone",take:17118,change:"same"},{title:"The Nutting Professor",take:15084,change:"same"},{title:"Breaking Chad",take:13406,change:"new"},{title:"How To Drain Your Dragon",take:12824,change:"down"},{title:"One Flew Into The Poopoo's Nest",take:11791,change:"down"},{title:"Attack The Cock",take:10400,change:"down"}],20170104:[{title:"One Blew Over The Cuckold's Nest",take:51810,change:"up"},{title:"Hannah on Her Sisters",take:47685,change:"up"},{title:"The Mud Wrestler",take:42715,change:"up"},{title:"Dog Dick Afternoon",take:38795,change:"down"},{title:"Steve's Tugjobs",take:38113,change:"up"},{title:"Titty Titty Gang Bang",take:36885,change:"up"},{title:"Big Trouble in Little Vagina",take:35685,change:"down"},{title:"Welcome Back, Frotteur",take:32935,change:"up"},{title:"Pearl Necklace Harbor",take:30462,change:"down"},{title:"Being Inside Elmo",take:29093,change:"new"},{title:"Moneyballin",take:28620,change:"up"},{title:"Veinspotting",take:27763,change:"new"},{title:"Bring in 'da Boys, Bring in 'da Spunk",take:27287,change:"down"},{title:"Dr. Strangelust, or: How I Learned To Stop Worrying And Love The Bum",take:24579,change:"same"},{title:"Jerk/Off",take:22721,change:"new"},{title:"The Nutting Professor",take:22405,change:"same"},{title:"How To Drain Your Dragon",take:21864,change:"up"},{title:"Bright Lights, Big Titties",take:19569,change:"down"},{title:"Breaking Chad",take:18459,change:"down"},{title:"Nutbusters",take:16642,change:"new"}],20170105:[{title:"Steve's Tugjobs",take:49722,change:"up"},{title:"Django Chained",take:48208,change:"new"},{title:"Dog Dick Afternoon",take:46647,change:"up"},{title:"Whiskey, Tango, Handjobs",take:45080,change:"new"},{title:"The Mud Wrestler",take:41363,change:"down"},{title:"Titty Titty Gang Bang",take:39408,change:"same"},{title:"Pearl Necklace Harbor",take:35303,change:"up"},{title:"Big Trouble in Little Vagina",take:32799,change:"down"},{title:"Hannah on Her Sisters",take:30696,change:"down"},{title:"Moneyballin",take:28115,change:"up"},{title:"Assassin's Cream",take:25546,change:"new"},{title:"Welcome Back, Frotteur",take:24570,change:"down"},{title:"Being Inside Elmo",take:21954,change:"down"},{title:"Jerk/Off",take:21514,change:"up"},{title:"Dr. Strangelust, or: How I Learned To Stop Worrying And Love The Bum",take:20093,change:"down"},{title:"Fist Me Deadly",take:19170,change:"new"},{title:"How To Drain Your Dragon",take:18650,change:"same"},{title:"Bring in 'da Boys, Bring in 'da Spunk",take:17130,change:"down"},{title:"Breaking Chad",take:16911,change:"same"},{title:"The Nutting Professor",take:15476,change:"down"}],20170106:[{title:"Motion Impossible",take:52055,change:"new"},{title:"Dog Dick Afternoon",take:49704,change:"up"},{title:"One Flew Into The Poopoo's Nest",take:45673,change:"new"},{title:"Play With Misty For Me",take:44816,change:"new"},{title:"Big Trouble in Little Vagina",take:42997,change:"up"},{title:"Pearl Necklace Harbor",take:41133,change:"up"},{title:"Hannah on Her Sisters",take:37993,change:"up"},{title:"Whiskey, Tango, Handjobs",take:35076,change:"down"},{title:"Raging Balls",take:32517,change:"new"},{title:"Moneyballin",take:29248,change:"same"},{title:"Assassin's Cream",take:27669,change:"same"},{title:"Django Chained",take:26299,change:"down"},{title:"Titty Titty Gang Bang",take:24316,change:"down"},{title:"Jerk/Off",take:21488,change:"same"},{title:"Being Inside Elmo",take:21065,change:"down"},{title:"Saturday Night Beaver",take:20612,change:"new"},{title:"How To Drain Your Dragon",take:18949,change:"same"},{title:"Breaking Chad",take:18442,change:"up"},{title:"Dr. Strangelust, or: How I Learned To Stop Worrying And Love The Bum",take:17995,change:"down"},{title:"The Mud Wrestler",take:16531,change:"down"}],20170107:[{title:"Jiz and the Diaphragms",take:45794,change:"new"},{title:"Big Trouble in Little Vagina",take:41181,change:"up"},{title:"Play With Misty For Me",take:38514,change:"up"},{title:"Pearl Necklace Harbor",take:34028,change:"up"},{title:"Raging Balls",take:33014,change:"up"},{title:"Hannah on Her Sisters",take:32512,change:"up"},{title:"One Flew Into The Poopoo's Nest",take:29204,change:"down"},{title:"Whiskey, Tango, Handjobs",take:26732,change:"same"},{title:"Moneyballin",take:23792,change:"up"},{title:"Dog Dick Afternoon",take:21102,change:"down"},{title:"Titty Titty Gang Bang",take:20813,change:"up"},{title:"The Boy Shorts",take:19959,change:"new"},{title:"Bang My Bum Slowly",take:19505,change:"new"},{title:"Assassin's Cream",take:18028,change:"down"},{title:"MILF Saigon",take:16474,change:"new"},{title:"How To Drain Your Dragon",take:14551,change:"up"},{title:"Breaking Chad",take:13627,change:"up"},{title:"Fannie Hall",take:12757,change:"new"},{title:"Jerk/Off",take:12028,change:"down"},{title:"Being Inside Elmo",take:11645,change:"down"}],20170108:[{title:"Scatatouille",take:55937,change:"new"},{title:"Wangs of New York",take:49862,change:"new"},{title:"Raging Balls",take:48924,change:"up"},{title:"Hannah on Her Sisters",take:47063,change:"up"},{title:"One Flew Into The Poopoo's Nest",take:41732,change:"up"},{title:"Play With Misty For Me",take:37820,change:"down"},{title:"Dog Dick Afternoon",take:33986,change:"up"},{title:"Cum and Cummer",take:30820,change:"new"},{title:"Moneyballin",take:29818,change:"same"},{title:"Titty Titty Gang Bang",take:27863,change:"up"},{title:"Big Trouble in Little Vagina",take:26297,change:"down"},{title:"The Boy Shorts",take:25672,change:"same"},{title:"Robocuck",take:24745,change:"new"},{title:"Pearl Necklace Harbor",take:24395,change:"down"},{title:"How To Drain Your Dragon",take:21869,change:"up"},{title:"The Nutting Professor",take:21362,change:"new"},{title:"Assassin's Cream",take:19270,change:"down"},{title:"Bang My Bum Slowly",take:17401,change:"down"},{title:"Fannie Hall",take:15874,change:"down"},{title:"Whiskey, Tango, Handjobs",take:14626,change:"down"}],20170109:[{title:"Better Ball Saul",take:54437,change:"new"},{title:"Attack The Cock",take:51421,change:"new"},{title:"Play With Misty For Me",take:46337,change:"up"},{title:"Wangs of New York",take:42266,change:"down"},{title:"Nathan For Everyone",take:39854,change:"new"},{title:"Hannah on Her Sisters",take:35768,change:"down"},{title:"Cum and Cummer",take:35396,change:"up"},{title:"Nutbusters",take:31235,change:"new"},{title:"Dog Dick Afternoon",take:29445,change:"down"},{title:"The Boy Shorts",take:29136,change:"up"},{title:"Titty Titty Gang Bang",take:28667,change:"down"},{title:"Robocuck",take:28335,change:"up"},{title:"Clamilton",take:27025,change:"new"},{title:"Raging Balls",take:25093,change:"down"},{title:"Pearl Necklace Harbor",take:23605,change:"down"},{title:"Moneyballin",take:21364,change:"down"},{title:"One Flew Into The Poopoo's Nest",take:19706,change:"down"},{title:"The Nutting Professor",take:18455,change:"down"},{title:"Whiskey, Tango, Handjobs",take:17106,change:"up"},{title:"How To Drain Your Dragon",take:16694,change:"down"}],20170110:[{title:"Wangs of New York",take:55264,change:"up"},{title:"Hannah on Her Sisters",take:54461,change:"up"},{title:"Bring in 'da Boys, Bring in 'da Spunk",take:49692,change:"new"},{title:"Nathan For Everyone",take:48701,change:"up"},{title:"Play With Misty For Me",take:46719,change:"down"},{title:"Cum and Cummer",take:45838,change:"up"},{title:"Dog Dick Afternoon",take:43571,change:"up"},{title:"The Bicycle Queef",take:41462,change:"new"},{title:"The Boy Shorts",take:36794,change:"up"},{title:"Attack The Cock",take:36412,change:"down"},{title:"Clamilton",take:35453,change:"up"},{title:"Titty Titty Gang Bang",take:34255,change:"down"},{title:"Raging Balls",take:31711,change:"up"},{title:"Pearl Necklace Harbor",take:29918,change:"up"},{title:"Moneyballin",take:27284,change:"up"},{title:"Robocuck",take:25507,change:"down"},{title:"Nutbusters",take:23367,change:"down"},{title:"Fist Fist, Bang Bang",take:21556,change:"new"},{title:"While You Were Peeping",take:19485,change:"new"},{title:"One Flew Into The Poopoo's Nest",take:17324,change:"down"}],20170111:[{title:"Nathan For Everyone",take:54839,change:"up"},{title:"Hannah on Her Sisters",take:53582,change:"same"},{title:"Cum and Cummer",take:50719,change:"up"},{title:"Play With Misty For Me",take:45932,change:"up"},{title:"Dog Dick Afternoon",take:42839,change:"up"},{title:"Big Hero 16 Inch",take:42423,change:"new"},{title:"The Boy Shorts",take:37967,change:"up"},{title:"Clamilton",take:36322,change:"up"},{title:"Jiz and the Diaphragms",take:32795,change:"new"},{title:"Bend Over Like Beckham",take:29100,change:"new"},{title:"Raging Balls",take:27744,change:"up"},{title:"The Color of a Money Shot",take:26346,change:"new"},{title:"Full Metal Dildo",take:24990,change:"new"},{title:"Bring in 'da Boys, Bring in 'da Spunk",take:23528,change:"down"},{title:"Attack The Cock",take:21626,change:"down"},{title:"The Bicycle Queef",take:20038,change:"down"},{title:"Nutbusters",take:18792,change:"same"},{title:"While You Were Peeping",take:17854,change:"up"},{title:"Moneyballin",take:16169,change:"down"},{title:"One Flew Into The Poopoo's Nest",take:15305,change:"same"}],20170112:[{title:"Cum and Cummer",take:54148,change:"up"},{title:"Dog Dick Afternoon",take:50318,change:"up"},{title:"Hannah on Her Sisters",take:45573,change:"down"},{title:"Big Hero 16 Inch",take:42021,change:"up"},{title:"Clamilton",take:38375,change:"up"},{title:"Gunfight at the KY Corral",take:36663,change:"new"},{title:"Raging Balls",take:34174,change:"up"},{title:"The Boy Shorts",take:31217,change:"down"},{title:"Play With Misty For Me",take:30718,change:"down"},{title:"Jiz and the Diaphragms",take:28367,change:"down"},{title:"Bend Over Like Beckham",take:26407,change:"down"},{title:"Fuck Everlasting",take:25327,change:"new"},{title:"The Color of a Money Shot",take:23242,change:"down"},{title:"The Fantastic Foursome",take:21838,change:"new"},{title:"The Bicycle Queef",take:20154,change:"up"},{title:"Nathan For Everyone",take:17996,change:"down"},{title:"Bring in 'da Boys, Bring in 'da Spunk",take:17067,change:"down"},{title:"Dr. Strangelust, or: How I Learned To Stop Worrying And Love The Bum",take:16246,change:"new"},{title:"One Flew Into The Poopoo's Nest",take:15507,change:"up"},{title:"Moneyballin",take:15002,change:"down"}],20170113:[{title:"Big Hero 16 Inch",take:50523,change:"up"},{title:"Hannah on Her Sisters",take:48880,change:"up"},{title:"Clamilton",take:46328,change:"up"},{title:"Pee Wee's Big Member",take:42158,change:"new"},{title:"Dog Dick Afternoon",take:39090,change:"down"},{title:"The Boy Shorts",take:37392,change:"up"},{title:"Raging Balls",take:35933,change:"same"},{title:"Jiz and the Diaphragms",take:31737,change:"up"},{title:"The Dark Bros In: Fuck Soup",take:30350,change:"new"},{title:"Bend Over Like Beckham",take:28165,change:"up"},{title:"There's Someone Inside Mary",take:25252,change:"new"},{title:"Gunfight at the KY Corral",take:23070,change:"down"},{title:"Poonrise Kingdom",take:22559,change:"new"},{title:"Fuck Everlasting",take:20294,change:"down"},{title:"Nathan For Everyone",take:19581,change:"up"},{title:"The Color of a Money Shot",take:18262,change:"down"},{title:"Bring in 'da Boys, Bring in 'da Spunk",take:16154,change:"same"},{title:"The Bicycle Queef",take:15029,change:"down"},{title:"Moneyballin",take:14551,change:"up"},{title:"The Fantastic Foursome",take:12866,change:"down"}],20170114:[{title:"Evil Head 2: Head By Dawn",take:50873,change:"new"},{title:"Raging Balls",take:46229,change:"up"},{title:"Clamilton",take:43726,change:"same"},{title:"Jiz and the Diaphragms",take:40365,change:"up"},{title:"The Boy Shorts",take:36014,change:"up"},{title:"Dog Dick Afternoon",take:35012,change:"down"},{title:"Pee Wee's Big Member",take:34472,change:"down"},{title:"Hannah on Her Sisters",take:33581,change:"down"},{title:"There's Someone Inside Mary",take:29884,change:"up"},{title:"Gunfight at the KY Corral",take:27862,change:"up"},{title:"Fuck Everlasting",take:27078,change:"up"},{title:"Full Metal Dildo",take:26037,change:"new"},{title:"Bend Over Like Beckham",take:23511,change:"down"},{title:"The Color of a Money Shot",take:21205,change:"up"},{title:"Straight Into Conner",take:20007,change:"new"},{title:"Poonrise Kingdom",take:17970,change:"down"},{title:"Bring in 'da Boys, Bring in 'da Spunk",take:16338,change:"same"},{title:"Nathan For Everyone",take:16030,change:"down"},{title:"The Bicycle Queef",take:14165,change:"down"},{title:"The Fantastic Foursome",take:12853,change:"same"}],20170115:[{title:"The Lust of the Mohicans",take:56269,change:"new"},{title:"The Boy Shorts",take:52885,change:"up"},{title:"Jiz and the Diaphragms",take:47518,change:"up"},{title:"Django Chained",take:43094,change:"new"},{title:"Clamilton",take:40586,change:"down"},{title:"Dog Dick Afternoon",take:36477,change:"same"},{title:"Pee Wee's Big Member",take:32667,change:"same"},{title:"Titty Titty Gang Bang",take:30618,change:"new"},{title:"Gunfight at the KY Corral",take:27251,change:"up"},{title:"Hannah on Her Sisters",take:26447,change:"down"},{title:"Scatatouille",take:24613,change:"new"},{title:"There's Someone Inside Mary",take:21735,change:"down"},{title:"The Color of a Money Shot",take:20150,change:"up"},{title:"Straight Into Conner",take:18412,change:"up"},{title:"Poonrise Kingdom",take:16923,change:"up"},{title:"Fuck Everlasting",take:16571,change:"down"},{title:"Let the White One In",take:15492,change:"new"},{title:"Full Metal Dildo",take:13762,change:"down"},{title:"Bring in 'da Boys, Bring in 'da Spunk",take:13211,change:"down"},{title:"The Fantastic Foursome",take:11833,change:"same"}],20170116:[{title:"Django Chained",take:50476,change:"up"},{title:"Jiz and the Diaphragms",take:45956,change:"up"},{title:"Dog Dick Afternoon",take:41867,change:"up"},{title:"Clamilton",take:38593,change:"up"},{title:"Pee Wee's Big Member",take:34561,change:"up"},{title:"Titty Titty Gang Bang",take:34218,change:"up"},{title:"28 Cocks Later",take:32409,change:"new"},{title:"Charles In Charles",take:31849,change:"new"},{title:"Scatatouille",take:28305,change:"up"},{title:"The Dong and I",take:26743,change:"new"},{title:"Glen, Garry, Glenn, Ross, and Six Other Guys",take:25308,change:"new"},{title:"Hannah on Her Sisters",take:22510,change:"down"},{title:"Poonrise Kingdom",take:21784,change:"up"},{title:"Fuck Everlasting",take:19656,change:"up"},{title:"The Boy Shorts",take:19029,change:"down"},{title:"Gunfight at the KY Corral",take:17569,change:"down"},{title:"Person of Incest",take:16945,change:"new"},{title:"Let the White One In",take:15515,change:"down"},{title:"Straight Into Conner",take:14785,change:"down"},{title:"Full Metal Dildo",take:13061,change:"down"}],20170117:[{title:"Guys and Guys",take:49599,change:"new"},{title:"Jiz and the Diaphragms",take:45220,change:"same"},{title:"28 Cocks Later",take:41872,change:"up"},{title:"Dog Dick Afternoon",take:40803,change:"down"},{title:"Scats",take:37121,change:"new"},{title:"Scatatouille",take:33492,change:"up"},{title:"Pee Wee's Big Member",take:33057,change:"down"},{title:"Glen, Garry, Glenn, Ross, and Six Other Guys",take:32688,change:"up"},{title:"Titty Titty Gang Bang",take:30096,change:"down"},{title:"Clamilton",take:29055,change:"down"},{title:"Poonrise Kingdom",take:26709,change:"up"},{title:"Hannah on Her Sisters",take:25427,change:"same"},{title:"Gunfight at the KY Corral",take:24078,change:"up"},{title:"The Boy Shorts",take:23112,change:"up"},{title:"Person of Incest",take:22166,change:"up"},{title:"The Curious Case of Benjamin's Butthole",take:20833,change:"new"},{title:"Charles In Charles",take:18726,change:"down"},{title:"The Dong and I",take:18280,change:"down"},{title:"Let the White One In",take:17710,change:"down"},{title:"Full Metal Dildo",take:17022,change:"same"}],20170118:[{title:"Fist Fist, Bang Bang",take:55721,change:"new"},{title:"Jiz and the Diaphragms",take:49877,change:"same"},{title:"Pee Wee's Big Member",take:49369,change:"up"},{title:"28 Cocks Later",take:47133,change:"down"},{title:"12 Years A Slut",take:46051,change:"new"},{title:"Glen, Garry, Glenn, Ross, and Six Other Guys",take:43489,change:"up"},{title:"A Queer and Pleasant Stranger",take:39789,change:"new"},{title:"Titty Titty Gang Bang",take:38985,change:"up"},{title:"Poonrise Kingdom",take:35548,change:"up"},{title:"Dog Dick Afternoon",take:33839,change:"down"},{title:"Clamilton",take:31723,change:"down"},{title:"Gunfight at the KY Corral",take:28191,change:"up"},{title:"The Dark Bros In: Fuck Soup",take:27473,change:"new"},{title:"Hannah on Her Sisters",take:24875,change:"down"},{title:"How To Drain Your Dragon",take:24404,change:"new"},{title:"Person of Incest",take:22795,change:"down"},{title:"Scatatouille",take:20579,change:"down"},{title:"Let the White One In",take:18511,change:"up"},{title:"Full Metal Dildo",take:16652,change:"up"},{title:"Scats",take:15664,change:"down"}],20170119:[{title:"Pearl Necklace Harbor",take:54190,change:"new"},{title:"28 Cocks Later",take:48585,change:"up"},{title:"Glen, Garry, Glenn, Ross, and Six Other Guys",take:43882,change:"up"},{title:"A Queer and Pleasant Stranger",take:41702,change:"up"},{title:"12 Years A Slut",take:39979,change:"same"},{title:"Pee Wee's Big Member",take:38531,change:"down"},{title:"Jiz and the Diaphragms",take:36602,change:"down"},{title:"Dog Dick Afternoon",take:33557,change:"up"},{title:"Poonrise Kingdom",take:30846,change:"same"},{title:"The Dark Bros In: Fuck Soup",take:28709,change:"up"},{title:"Space Jammin'",take:26938,change:"new"},{title:"Clamilton",take:24749,change:"down"},{title:"The Assventures of Fuckaroo Buttzai Across The Gape Dimension",take:22791,change:"new"},{title:"Titty Titty Gang Bang",take:22218,change:"down"},{title:"Gunfight at the KY Corral",take:20911,change:"down"},{title:"Man of La Muncha",take:20229,change:"new"},{title:"Hannah on Her Sisters",take:18830,change:"down"},{title:"Full Metal Dildo",take:17649,change:"up"},{title:"Let the White One In",take:15743,change:"down"},{title:"Scats",take:14309,change:"same"}],20170120:[{title:"Pee Wee's Big Member",take:56805,change:"up"},{title:"12 Years A Slut",take:53549,change:"up"},{title:"Glen, Garry, Glenn, Ross, and Six Other Guys",take:48465,change:"same"},{title:"Dog Dick Afternoon",take:43588,change:"up"},{title:"Jiz and the Diaphragms",take:42561,change:"up"},{title:"A Queer and Pleasant Stranger",take:39595,change:"down"},{title:"Clamilton",take:36322,change:"up"},{title:"Poonrise Kingdom",take:34109,change:"up"},{title:"Space Jammin'",take:30214,change:"up"},{title:"Poonstruck",take:28163,change:"new"},{title:"The Dark Bros In: Fuck Soup",take:27795,change:"down"},{title:"Gunfight at the KY Corral",take:25669,change:"up"},{title:"28 Cocks Later",take:22900,change:"down"},{title:"Cum and Cummer",take:22198,change:"new"},{title:"Titty Titty Gang Bang",take:19867,change:"down"},{title:"Veinspotting",take:18549,change:"new"},{title:"The Assventures of Fuckaroo Buttzai Across The Gape Dimension",take:18096,change:"down"},{title:"Whiskey, Tango, Handjobs",take:17379,change:"new"},{title:"Man of La Muncha",take:16663,change:"down"},{title:"There's Someone Inside Mary",take:15641,change:"new"}],20170121:[{title:"Nutbusters",take:55921,change:"new"},{title:"Clamilton",take:54219,change:"up"},{title:"Glen, Garry, Glenn, Ross, and Six Other Guys",take:52358,change:"same"},{title:"Raging Balls",take:48189,change:"new"},{title:"Dog Dick Afternoon",take:45760,change:"down"},{title:"Poonstruck",take:41911,change:"up"},{title:"A Queer and Pleasant Stranger",take:38884,change:"down"},{title:"The Dark Bros In: Fuck Soup",take:35104,change:"up"},{title:"Jiz and the Diaphragms",take:32516,change:"down"},{title:"Gunfight at the KY Corral",take:30139,change:"up"},{title:"28 Cocks Later",take:29844,change:"up"},{title:"Space Jammin'",take:28330,change:"down"},{title:"Poonrise Kingdom",take:25004,change:"down"},{title:"The Boy Shorts",take:22731,change:"new"},{title:"Veinspotting",take:20124,change:"up"},{title:"Diddler on the Roof",take:17717,change:"new"},{title:"Cum and Cummer",take:15884,change:"down"},{title:"Titty Titty Gang Bang",take:15614,change:"down"},{title:"The Assventures of Fuckaroo Buttzai Across The Gape Dimension",take:14533,change:"down"},{title:"Man of La Muncha",take:14076,change:"down"}],20170122:[{title:"Clamilton",take:48943,change:"up"},{title:"Nutbusters",take:47989,change:"down"},{title:"Welcome Back, Frotteur",take:44729,change:"new"},{title:"A Queer and Pleasant Stranger",take:43657,change:"up"},{title:"Poonstruck",take:43159,change:"up"},{title:"Dog Dick Afternoon",take:41235,change:"down"},{title:"Better Ball Saul",take:37170,change:"new"},{title:"Gunfight at the KY Corral",take:32752,change:"up"},{title:"The Dark Bros In: Fuck Soup",take:31200,change:"down"},{title:"Glen, Garry, Glenn, Ross, and Six Other Guys",take:27721,change:"down"},{title:"MILF Saigon",take:25162,change:"new"},{title:"Jiz and the Diaphragms",take:22237,change:"down"},{title:"Raging Balls",take:21500,change:"down"},{title:"Space Jammin'",take:19761,change:"down"},{title:"Public Enemas",take:18346,change:"new"},{title:"Cum and Cummer",take:17722,change:"up"},{title:"Poonrise Kingdom",take:17359,change:"down"},{title:"28 Cocks Later",take:16574,change:"down"},{title:"Veinspotting",take:16126,change:"down"},{title:"Titty Titty Gang Bang",take:14686,change:"down"}],20170123:[{title:"Poonstruck",take:48727,change:"up"},{title:"Mr. Smith Goes Down on Washington",take:44301,change:"new"},{title:"Dog Dick Afternoon",take:41666,change:"up"},{title:"Gunfight at the KY Corral",take:40072,change:"up"},{title:"Better Ball Saul",take:35497,change:"up"},{title:"Rebel Without a Cooze",take:32061,change:"new"},{title:"The Dark Bros In: Fuck Soup",take:28839,change:"up"},{title:"Nutbusters",take:27188,change:"down"},{title:"No Cunt Free For Old Men",take:24165,change:"new"},{title:"Rear Entry Widow",take:22411,change:"new"},{title:"Raging Balls",take:20139,change:"up"},{title:"Space Jammin'",take:17724,change:"up"},{title:"MILF Saigon",take:17134,change:"down"},{title:"Jiz and the Diaphragms",take:16230,change:"down"},{title:"A Queer and Pleasant Stranger",take:15569,change:"down"},{title:"Glen, Garry, Glenn, Ross, and Six Other Guys",take:14391,change:"down"},{title:"Cum and Cummer",take:13642,change:"down"},{title:"28 Cocks Later",take:12071,change:"same"},{title:"Night At The Mapplethorpe Museum",take:11021,change:"new"},{title:"Titty Titty Gang Bang",take:9969,change:"same"}],20170124:[{title:"Gunfight at the KY Corral",take:49850,change:"up"},{title:"Wangs of New York",take:46724,change:"new"},{title:"Mr. Smith Goes Down on Washington",take:45329,change:"down"},{title:"Poonstruck",take:43849,change:"down"},{title:"Nutbusters",take:41305,change:"up"},{title:"Better Ball Saul",take:40314,change:"down"},{title:"Jiro Creams On Suki",take:38559,change:"new"},{title:"Let the White One In",take:36701,change:"new"},{title:"Rebel Without a Cooze",take:34721,change:"down"},{title:"Space Jammin'",take:32510,change:"up"},{title:"No Cunt Free For Old Men",take:29375,change:"down"},{title:"The Dark Bros In: Fuck Soup",take:28027,change:"down"},{title:"Dog Dick Afternoon",take:24707,change:"down"},{title:"Glen, Garry, Glenn, Ross, and Six Other Guys",take:23763,change:"up"},{title:"Scats",take:23333,change:"new"},{title:"Jiz and the Diaphragms",take:21016,change:"down"},{title:"A Queer and Pleasant Stranger",take:19104,change:"down"},{title:"Night At The Mapplethorpe Museum",take:18856,change:"up"},{title:"MILF Saigon",take:18523,change:"down"},{title:"Rear Entry Widow",take:18099,change:"down"}],20170125:[{title:"Better Ball Saul",take:47973,change:"up"},{title:"Motion Impossible",take:43028,change:"new"},{title:"Poonstruck",take:42205,change:"up"},{title:"Wangs of New York",take:39123,change:"down"},{title:"Let the White One In",take:37944,change:"up"},{title:"The Princess Ride",take:34437,change:"new"},{title:"Jiro Creams On Suki",take:31951,change:"same"},{title:"Rebel Without a Cooze",take:28838,change:"up"},{title:"Mr. Smith Goes Down on Washington",take:26920,change:"down"},{title:"Space Jammin'",take:26388,change:"same"},{title:"Nutbusters",take:25026,change:"down"},{title:"The Dark Bros In: Fuck Soup",take:23828,change:"same"},{title:"Glen, Garry, Glenn, Ross, and Six Other Guys",take:22353,change:"up"},{title:"The Curious Case of Benjamin's Butthole",take:20067,change:"new"},{title:"Pee Wee's Big Member",take:19142,change:"new"},{title:"Dog Dick Afternoon",take:18710,change:"down"},{title:"To Shave and Shave Not",take:17512,change:"new"},{title:"MILF Saigon",take:17287,change:"up"},{title:"No Cunt Free For Old Men",take:15503,change:"down"},{title:"A Queer and Pleasant Stranger",take:15353,change:"down"}],20170126:[{title:"Wangs of New York",take:47612,change:"up"},{title:"Motion Impossible",take:42149,change:"same"},{title:"The Princess Ride",take:41363,change:"up"},{title:"The Penis Movie",take:38480,change:"new"},{title:"Let the White One In",take:34941,change:"same"},{title:"Six Days Seven Cocks",take:30959,change:"new"},{title:"Poonstruck",take:30166,change:"down"},{title:"The Pleasure of Sierra's Madre",take:26960,change:"new"},{title:"Nutbusters",take:25859,change:"up"},{title:"Space Jammin'",take:24681,change:"same"},{title:"Rebel Without a Cooze",take:22693,change:"down"},{title:"Glen, Garry, Glenn, Ross, and Six Other Guys",take:22213,change:"up"},{title:"Jiz and the Diaphragms",take:21565,change:"new"},{title:"Pee Wee's Big Member",take:19959,change:"up"},{title:"Jiro Creams On Suki",take:18787,change:"down"},{title:"One Blew Over The Cuckold's Nest",take:18479,change:"new"},{title:"To Shave and Shave Not",take:17625,change:"same"},{title:"Dog Dick Afternoon",take:15526,change:"down"},{title:"The Dark Bros In: Fuck Soup",take:13963,change:"down"},{title:"Mr. Smith Goes Down on Washington",take:13192,change:"down"}],20170127:[{title:"Public Enemas",take:53565,change:"new"},{title:"Let the White One In",take:50648,change:"up"},{title:"The Princess Ride",take:49726,change:"same"},{title:"Motion Impossible",take:49075,change:"down"},{title:"Wangs of New York",take:44160,change:"down"},{title:"Six Days Seven Cocks",take:42159,change:"same"},{title:"The Pleasure of Sierra's Madre",take:40843,change:"up"},{title:"The Penis Movie",take:38156,change:"down"},{title:"Rebel Without a Cooze",take:35517,change:"up"},{title:"Robocuck",take:33070,change:"new"},{title:"Nutbusters",take:29762,change:"down"},{title:"Cum and Cummer",take:28332,change:"new"},{title:"Whiskey, Tango, Handjobs",take:27859,change:"new"},{title:"Space Jammin'",take:27280,change:"down"},{title:"One Blew Over The Cuckold's Nest",take:24557,change:"up"},{title:"Pee Wee's Big Member",take:23340,change:"down"},{title:"To Shave and Shave Not",take:20831,change:"same"},{title:"Jiz and the Diaphragms",take:20289,change:"down"},{title:"The Dark Bros In: Fuck Soup",take:18204,change:"same"},{title:"Poonstruck",take:17134,change:"down"}],20170128:[{title:"The Princess Ride",take:52743,change:"up"},{title:"Wangs of New York",take:49645,change:"up"},{title:"Motion Impossible",take:46841,change:"up"},{title:"The Pleasure of Sierra's Madre",take:43744,change:"up"},{title:"Public Enemas",take:38642,change:"down"},{title:"Guess Who Came On Dinner",take:34617,change:"new"},{title:"Gosford Porking",take:30679,change:"new"},{title:"Let the White One In",take:28731,change:"down"},{title:"Nutbusters",take:25293,change:"up"},{title:"Six Days Seven Cocks",take:24730,change:"down"},{title:"Rebel Without a Cooze",take:24100,change:"down"},{title:"The Penis Movie",take:23370,change:"down"},{title:"Whiskey, Tango, Handjobs",take:21624,change:"same"},{title:"Cum and Cummer",take:20639,change:"down"},{title:"No Cunt Free For Old Men",take:19774,change:"new"},{title:"One Blew Over The Cuckold's Nest",take:18578,change:"down"},{title:"Space Jammin'",take:17198,change:"down"},{title:"Pee Wee's Big Member",take:16411,change:"down"},{title:"The Dark Bros In: Fuck Soup",take:14958,change:"same"},{title:"Jiz and the Diaphragms",take:14320,change:"down"}],20170129:[{title:"Motion Impossible",take:52089,change:"up"},{title:"Public Enemas",take:49176,change:"up"},{title:"The Princess Ride",take:47793,change:"down"},{title:"Bang My Bum Slowly",take:42981,change:"new"},{title:"Let the White One In",take:41858,change:"up"},{title:"The Pleasure of Sierra's Madre",take:39563,change:"down"},{title:"Nutbusters",take:37781,change:"up"},{title:"Guess Who Came On Dinner",take:34745,change:"down"},{title:"Wangs of New York",take:32047,change:"down"},{title:"Bright Lights, Big Titties",take:29134,change:"new"},{title:"Six Days Seven Cocks",take:28321,change:"down"},{title:"Rebel Without a Cooze",take:27721,change:"down"
-},{title:"Cum and Cummer",take:25641,change:"up"},{title:"Gosford Porking",take:24619,change:"down"},{title:"No Cunt Free For Old Men",take:22214,change:"same"},{title:"Space Jammin'",take:20923,change:"up"},{title:"One Blew Over The Cuckold's Nest",take:20590,change:"down"},{title:"The Dark Bros In: Fuck Soup",take:19467,change:"up"},{title:"Attack The Cock",take:17307,change:"new"},{title:"Pee Wee's Big Member",take:15742,change:"down"}],20170130:[{title:"Let the White One In",take:55602,change:"up"},{title:"Charles In Charles",take:54448,change:"new"},{title:"The Pleasure of Sierra's Madre",take:51816,change:"up"},{title:"Arse Nick and Yo Face",take:49863,change:"new"},{title:"Bang My Bum Slowly",take:47383,change:"down"},{title:"Guess Who Came On Dinner",take:44655,change:"up"},{title:"The Princess Ride",take:43390,change:"down"},{title:"Wangs of New York",take:39669,change:"up"},{title:"Public Enemas",take:38669,change:"down"},{title:"Cum and Cummer",take:35517,change:"up"},{title:"Nutbusters",take:33969,change:"down"},{title:"Gosford Porking",take:31930,change:"up"},{title:"Rebel Without a Cooze",take:28563,change:"down"},{title:"Six Days Seven Cocks",take:26677,change:"down"},{title:"Bright Lights, Big Titties",take:23877,change:"down"},{title:"Atlas Chugged",take:23141,change:"new"},{title:"One Blew Over The Cuckold's Nest",take:21858,change:"same"},{title:"The Dark Bros In: Fuck Soup",take:20786,change:"same"},{title:"Attack The Cock",take:18365,change:"same"},{title:"Pee Wee's Big Member",take:17100,change:"same"}],20170131:[{title:"Arse Nick and Yo Face",take:50392,change:"up"},{title:"Bang My Bum Slowly",take:44808,change:"up"},{title:"Guess Who Came On Dinner",take:40918,change:"up"},{title:"The Lust of the Mohicans",take:38760,change:"new"},{title:"The Pleasure of Sierra's Madre",take:34515,change:"down"},{title:"Veinspotting",take:31679,change:"new"},{title:"Cum and Cummer",take:30784,change:"up"},{title:"The Princess Ride",take:30090,change:"down"},{title:"Wangs of New York",take:29393,change:"down"},{title:"The Gang Bang Theory",take:28967,change:"new"},{title:"Gosford Porking",take:28213,change:"up"},{title:"Big Hero 16 Inch",take:25812,change:"new"},{title:"Rebel Without a Cooze",take:23090,change:"same"},{title:"Six Days Seven Cocks",take:22568,change:"same"},{title:"Bright Lights, Big Titties",take:21999,change:"same"},{title:"Public Enemas",take:20169,change:"down"},{title:"Atlas Chugged",take:19079,change:"down"},{title:"One Blew Over The Cuckold's Nest",take:18509,change:"down"},{title:"Django Chained",take:17192,change:"new"},{title:"Nutbusters",take:16614,change:"down"}]};
-function numberWithCommas(e){return e.toString().replace(/\B(?=(\d{3})+(?!\d))/g,",")}function todaysPorn(e){$("#TitleCount").text(pornTitles.length),console.log(pornTitles);var t=pornData[e];console.log("there are "+t.length+" titles"),$("#PornTitles").empty(),$.each(t,function(e){$("#PornTitles").append('<tr><td class="rank">'+(e+1)+'</td><td class="title">'+t[e].title+'</td><td><span class="s">$</span>'+numberWithCommas(t[e].take)+'</td><td class="change '+t[e].change+'"> </td></tr>')}),$("#TheDay").text(currentDay.verbose)}function formatDay(e){currentDay.raw=moment(e),currentDay.verbose=moment(e).format("dddd, MMMM Do YYYY"),currentDay["short"]=moment(e).format("MMM D"),currentDay.utc=parseInt(moment(e).format("YYYYMMDD"))}function checkArrows(){var e=parseInt(moment(currentDay.raw).subtract(1,"days").format("YYYYMMDD"));pornData[e]?$(".prev-day").show():$(".prev-day").hide(),parseInt(currentDay.raw.format("YYYYMMDD"))<parseInt(moment().subtract(1,"days").format("YYYYMMDD"))?$(".next-day").show():$(".next-day").hide()}var topMovies=[];$("header .logo").click(function(){$(this).parent().toggleClass("expanded")}),$(".top-porn").on("click","td.title",function(){var e=$(this).text(),t=$(this).siblings(".rank").text(),a=encodeURI("Number "+t+" Porn for "+currentDay["short"]+": "+e),n="https://twitter.com/intent/tweet?url=http%3A%2F%2Fjerking.online&via=AhoyLemon&text="+a;window.open(n,"popupWindow","width=550,height=340")});var currentDay={raw:moment().subtract(1,"days"),verbose:"","short":"",utc:0},yesterday=moment().subtract(1,"days").format("dddd, MMMM Do YYYY"),tweetDay=moment().subtract(1,"days").format("MMM D"),utiDay=moment().subtract(1,"days").format("YYYYMMDD");formatDay(currentDay.raw),$(document).ready(function(){todaysPorn(utiDay),checkArrows()}),$(".prev-day").click(function(){formatDay(moment(currentDay.raw).subtract(1,"days")),todaysPorn(currentDay.utc),checkArrows()}),$(".next-day").click(function(){formatDay(moment(currentDay.raw).add(1,"days")),todaysPorn(currentDay.utc),checkArrows()}),$("button[data-opens]").click(function(){var e=$(this).attr("data-opens");$('[data-drawer="'+e+'"]').addClass("visible"),$('[data-open="'+e+'"]').addClass("invisible"),$('[data-closes="'+e+'"]').removeClass("invisible"),"casting"==e&&$(".maker-steps").addClass("visible")}),$("button[data-closes]").click(function(){var e=$(this).attr("data-closes");$('[data-drawer="'+e+'"]').removeClass("visible"),$('[data-closes="'+e+'"]').addClass("invisible"),$('[data-opens="'+e+'"]').removeClass("invisible"),"casting"==e&&$(".maker-steps").removeClass("visible")});
+function sendGA(c, a, l, v) {
+  if (v) {
+    //ga('send', 'event', { eventCategory: c, eventAction: a, eventLabel: l, eventValue:v });
+    console.log('CATEGORY: '+c+', ACTION:'+a+', LABEL:'+l+', VALUE:'+v);
+  } else if (l) {
+    //ga('send', 'event', { eventCategory: c, eventAction: a, eventLabel: l });
+    console.log('CATEGORY: '+c+', ACTION:'+a+', LABEL:'+l);
+  } else {
+    //ga('send', 'event', { eventCategory: c, eventAction: a });
+    console.log('CATEGORY: '+c+', ACTION:'+a);
+  }
+}
+
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+}
+;// jshint -W098
+var pornTitles = [
+  "Trans Formers 2: Revenge of the Ballin'",
+  "Das Booty",
+  "Rogerin' Me",
+  "Big Trouble in Little Vagina",
+  "28 Cocks Later",
+  "50 Fist Dates",
+  "The Filth Element",
+  "Let the White One In",
+  "Fill Bill, vol 2",
+  "Me, Myself in Irene",
+  "Indiana Bones and the Temple of Poon",
+  "I Broke My Back Mounting",
+  "Rub, Lola! Rub!",
+  "Even Reverse Cowgirls Get the Blues",
+  "Raging Balls",
+  "Dog Dick Afternoon",
+  "Full Metal Dildo",
+  "The Stepfather, Part II",
+  "The African Drag Queen",
+  "One Flew Into The Poopoo's Nest",
+  "Dr. Strangelust, or: How I Learned To Stop Worrying And Love The Bum",
+  "The Maltese Fistin",
+  "The Pleasure of Sierra's Madre",
+  "Midnight Ladyboy",
+  "Rear Entry Widow",
+  "A Streetwalker Named Desire&eacute;",
+  "The Curious Case of Benjamin's Butthole",
+  "Group Sex on the Bounty",
+  "Guess Who Came On Dinner",
+  "Breasts In Shows",
+  "Six Days Seven Cocks",
+  "Mr. Smith Goes Down on Washington",
+  "Enslaving Private Ryan",
+  "Rebel Without a Cooze",
+  "The Lust of the Mohicans",
+  "To Shave and Shave Not",
+  "Hannah on Her Sisters",
+  "All That Jizz",
+  "Poonstruck",
+  "GoodFellatas",
+  "Veinspotting",
+  "The Princess Ride",
+  "No Cunt Free For Old Men",
+  "Public Enemas",
+  "On Her Majesty's Secret Cervix",
+  "Gunfight at the KY Corral",
+  "Pan's Labiarinth",
+  "Pearl Necklace Harbor",
+  "Bend Over, Like Beckham",
+  "Scatatouille",
+  "BALL-E",
+  "Fuck Everlasting",
+  "Wangs of New York",
+  "The Tight Stuff",
+  "Bang My Bum Slowly",
+  "Strangers on a Tranny",
+  "G*A*S*H",
+  "Wet Hot American Hummer",
+  "A Queer and Pleasant Stranger",
+  "Glazing Arizona",
+  "Motion Impossible",
+  "Fannie Hall",
+  "Fist Me Deadly",
+  "Bright Lights, Big Titties",
+  "The Color of a Money Shot",
+  "Lawrence of a Labia",
+  "Titty Titty Gang Bang",
+  "Saturday Night Beaver",
+  "Evil Head 2: Head By Dawn",
+  "Pee Wee's Big Member",
+  "The Fantastic Foursome",
+  "Play With Misty For Me",
+  "Dirty/Hairy",
+  "The Squirt Locker",
+  "Jiro Creams On Suki",
+  "Poonrise Kingdom",
+  "Django Chained",
+  "Moneyballin",
+  "Being Inside Elmo",
+  "Attack The Cock",
+  "How To Drain Your Dragon",
+  "The Mud Wrestler",
+  "Scott Pilgrim Vs Those Girls",
+  "Fantastic Fucks, Mister",
+  "Straight Into Conner",
+  "Mad Maxxx: Furious Loads",
+  "Stanford's Prisonsex Experiments",
+  "Cum and Cummer",
+  "Jiz and the Diaphragms",
+  "Big Hero 16 Inch",
+  "Tub Girl Time Machine",
+  "Steve's Tugjobs",
+  "Night At The Mapplethorpe Museum",
+  "The Boy Shorts",
+  "Fist Fist, Bang Bang",
+  "In Sid Anus",
+  "The Penis Movie",
+  "CitizenWhore",
+  "Atlas Chugged",
+  "Alexander and the Terrible, Horrible, No Good, Very Bad Handjob",
+  "Robocuck",
+  "Much Ado About Cumming",
+  "Monsters' Pink",
+  "12 Years A Slut",
+  "Despicable Pee",
+  "G.I. Joe: Masturbation",
+  "2 Fast 2 Furry Puss",
+  "Watersportsworld",
+  "XXX: State of the Union: XXX",
+  "Jerk/Off",
+  "Spurtigo",
+  "The Munchurian Candidass",
+  "Glen, Garry, Glenn, Ross, and Six Other Guys",
+  "One Blew Over The Cuckold's Nest",
+  "The Bicycle Queef",
+  "Boyz N The Clitoral Hood",
+  "Gosford Porking",
+  "The Dark Bros In: Fuck Soup",
+  "The Assventures of Fuckaroo Buttzai Across The Gape Dimension",
+  "Boobs! A Madea Porno",
+  "Suicide Squat",
+  "While You Were Peeping",
+  "There's Someone Inside Mary",
+  "The Nutting Professor",
+  "Space Jammin'",
+  "Whiskey, Tango, Facefuck",
+  "Nutbusters",
+  "Assassin's Cream",
+  "Fingering Dory",
+  "Alvin and the Fuckmunks 2: The Fuckuel",
+  "Blumpkinhead",
+  "American History XXX",
+  "The Italian Blowjob",
+  "Hairy Twatter",
+  "Blowing For Columbine",
+  "Star Whores: The Foreskin Awakens",
+  
+  // These are all TV shows....
+  "Welcome Back, Frotteur",
+  "A Bit of Fry in Laurie",
+  "Breaking Chad",
+  "The Gang Bang Theory",
+  "Boy Meat's World",
+  "Nathan For Everyone",
+  "Person of Incest",
+  "Charles In Charles",
+  "Better Ball Saul",
+  "Haters Whack Off!",
+  
+  // Musicals...
+  "Taint Must Be Shaven",
+  "Anything Grows",
+  "MILF Saigon",
+  "Diddler on the Roof",
+  "Man of La Muncha",
+  "Arse Nick and Yo Face",
+  "The Dong and I",
+  "Guys and Guys",
+  "Clamilton",
+  "Bring in 'da Boys, Bring in 'da Spunk",
+  "Scats"
+];
+
+// jshint -W098
+var pornData = {
+  20170101: [
+    {title: "Person of Incest", take: 50694, change: "down" },
+    {title: "Rub, Lola! Rub!", take: 46002, change: "down" },
+    {title: "The Squirt Locker", take: 42951, change: "up" },
+    {title: "The Filth Element", take: 39754, change: "same" },
+    {title: "Being Inside Elmo", take: 38744, change: "down" },
+    {title: "Welcome Back, Frotteur", take: 35641, change: "down" },
+    {title: "Wangs of New York", take: 35269, change: "up" },
+    {title: "Rebel Without a Cooze", take: 33028, change: "up" },
+    {title: "Much Ado About Cumming", take: 32261, change: "same" },
+    {title: "Dog Dick Afternoon", take: 30909, change: "down" },
+    {title: "Fingering Dory", take: 28264, change: "same" },
+    {title: "Das Booty", take: 26139, change: "down" },
+    {title: "Boy Meat's World", take: 24468, change: "same" },
+    {title: "Attack The Cock", take: 22203, change: "same" },
+    {title: "The Mud Wrestler", take: 21890, change: "up" },
+    {title: "Pearl Necklace Harbor", take: 20995, change: "up" },
+    {title: "Let the White One In", take: 19943, change: "same" },
+    {title: "Scatatouille", take: 18367, change: "down" },
+    {title: "Bring in 'da Boys, Bring in 'da Spunk", take: 18163, change: "same" },
+    {title: "The Princess Ride", take: 17177, change: "same" }
+  ],
+  20170102: [
+    {title: "American History XXX", take: 46676, change: "new" },
+    {title: "Motion Impossible", take: 44122, change: "new" },
+    {title: "GoodFellatas", take: 42619, change: "new" },
+    {title: "Rub, Lola! Rub!", take: 40503, change: "down" },
+    {title: "Being Inside Elmo", take: 36550, change: "same" },
+    {title: "Robocuck", take: 33612, change: "new" },
+    {title: "Raging Balls", take: 33106, change: "new" },
+    {title: "The Filth Element", take: 32268, change: "down" },
+    {title: "Welcome Back, Frotteur", take: 31204, change: "down" },
+    {title: "Lawrence of a Labia", take: 30012, change: "new" },
+    {title: "Wangs of New York", take: 28271, change: "down" },
+    {title: "Dirty/Hairy", take: 27948, change: "new" },
+    {title: "Dog Dick Afternoon", take: 27041, change: "down" },
+    {title: "Fingering Dory", take: 24688, change: "down" },
+    {title: "Rebel Without a Cooze", take: 22641, change: "down" },
+    {title: "Das Booty", take: 21856, change: "down" },
+    {title: "The Squirt Locker", take: 21075, change: "down" },
+    {title: "Play With Misty For Me", take: 19450, change: "new" },
+    {title: "Much Ado About Cumming", take: 18469, change: "down" },
+    {title: "Attack The Cock", take: 18151, change: "down" }
+  ], 
+  20170103: [
+    {title: "Despicable Pee", take: 53402, change: "new" },
+    {title: "GoodFellatas", take: 50975, change: "up" },
+    {title: "Bring in 'da Boys, Bring in 'da Spunk", take: 48619, change: "new" },
+    {title: "Robocuck", take: 44307, change: "up" },
+    {title: "50 Fist Dates", take: 40144, change: "new" },
+    {title: "One Blew Over The Cuckold's Nest", take: 38223, change: "new" },
+    {title: "Breaking Chad", take: 37107, change: "new" },
+    {title: "Being Inside Elmo", take: 35397, change: "down" },
+    {title: "The Maltese Fistin", take: 32225, change: "new" },
+    {title: "Rub, Lola! Rub!", take: 31401, change: "down" },
+    {title: "Welcome Back, Frotteur", take: 29716, change: "down" },
+    {title: "Lawrence of a Labia", take: 28230, change: "down" },
+    {title: "Motion Impossible", take: 27444, change: "down" },
+    {title: "Dirty/Hairy", take: 24956, change: "down" },
+    {title: "Wangs of New York", take: 23245, change: "down" },
+    {title: "The Filth Element", take: 21166, change: "down" },
+    {title: "Dog Dick Afternoon", take: 19145, change: "down" },
+    {title: "Raging Balls", take: 16946, change: "down" },
+    {title: "The Tight Stuff", take: 15429, change: "new" },
+    {title: "Whiskey, Tango, Facefuck", take: 14160, change: "new" }
+  ], 
+  20170104: [
+    {title: "Poonrise Kingdom", take: 49538, change: "new" },
+    {title: "50 Fist Dates", take: 44387, change: "up" },
+    {title: "Fist Fist, Bang Bang", take: 42432, change: "new" },
+    {title: "Boyz N The Clitoral Hood", take: 39495, change: "new" },
+    {title: "Robocuck", take: 39080, change: "down" },
+    {title: "Being Inside Elmo", take: 35795, change: "up" },
+    {title: "Breaking Chad", take: 34250, change: "same" },
+    {title: "Scatatouille", take: 30507, change: "new" },
+    {title: "One Blew Over The Cuckold's Nest", take: 29474, change: "down" },
+    {title: "Rub, Lola! Rub!", take: 29057, change: "same" },
+    {title: "Bring in 'da Boys, Bring in 'da Spunk", take: 27690, change: "down" },
+    {title: "American History XXX", take: 25992, change: "new" },
+    {title: "Welcome Back, Frotteur", take: 24202, change: "down" },
+    {title: "GoodFellatas", take: 22473, change: "down" },
+    {title: "Alvin and the Fuckmunks 2: The Fuckuel", take: 19873, change: "new" },
+    {title: "Haters Whack Off!", take: 18495, change: "new" },
+    {title: "Dirty/Hairy", take: 16631, change: "down" },
+    {title: "Lawrence of a Labia", take: 14910, change: "down" },
+    {title: "Wangs of New York", take: 14100, change: "down" },
+    {title: "The Filth Element", take: 12681, change: "down" }
+  ], 
+  20170105: [
+    {title: "Bright Lights, Big Titties", take: 49024, change: "new" },
+    {title: "28 Cocks Later", take: 44500, change: "new" },
+    {title: "Gunfight at the KY Corral", take: 40247, change: "new" },
+    {title: "Arse Nick and Yo Face", take: 37427, change: "new" },
+    {title: "Fist Fist, Bang Bang", take: 33372, change: "down" },
+    {title: "The Penis Movie", take: 31864, change: "new" },
+    {title: "Robocuck", take: 28234, change: "down" },
+    {title: "No Cunt Free For Old Men", take: 25531, change: "new" },
+    {title: "Boyz N The Clitoral Hood", take: 23651, change: "down" },
+    {title: "Being Inside Elmo", take: 21320, change: "down" },
+    {title: "Breaking Chad", take: 19243, change: "down" },
+    {title: "Alexander and the Terrible, Horrible, No Good, Very Bad Handjob", take: 18432, change: "new" },
+    {title: "50 Fist Dates", take: 18244, change: "down" },
+    {title: "Das Booty", take: 16881, change: "new" },
+    {title: "The Lust of the Mohicans", take: 16232, change: "new" },
+    {title: "Poonrise Kingdom", take: 15015, change: "down" },
+    {title: "Evil Head 2: Head By Dawn", take: 14447, change: "new" },
+    {title: "Breasts In Shows", take: 13054, change: "new" },
+    {title: "Space Jammin'", take: 12435, change: "new" },
+    {title: "Rub, Lola! Rub!", take: 11075, change: "down" }
+  ], 
+  20170106: [
+    {title: "Gunfight at the KY Corral", take: 52703, change: "up" },
+    {title: "Arse Nick and Yo Face", take: 51269, change: "up" },
+    {title: "28 Cocks Later", take: 47174, change: "down" },
+    {title: "The Penis Movie", take: 42564, change: "up" },
+    {title: "Robocuck", take: 37854, change: "up" },
+    {title: "No Cunt Free For Old Men", take: 33747, change: "up" },
+    {title: "Strangers on a Tranny", take: 31381, change: "new" },
+    {title: "Boyz N The Clitoral Hood", take: 30904, change: "up" },
+    {title: "The Filth Element", take: 29644, change: "new" },
+    {title: "Tub Girl Time Machine", take: 28893, change: "new" },
+    {title: "Being Inside Elmo", take: 27194, change: "down" },
+    {title: "Saturday Night Beaver", take: 24490, change: "new" },
+    {title: "Spurtigo", take: 22032, change: "new" },
+    {title: "Fist Fist, Bang Bang", take: 21303, change: "down" },
+    {title: "Moneyballin", take: 20917, change: "new" },
+    {title: "Breaking Chad", take: 19530, change: "down" },
+    {title: "Poonrise Kingdom", take: 18778, change: "down" },
+    {title: "50 Fist Dates", take: 17747, change: "down" },
+    {title: "Haters Whack Off!", take: 17430, change: "new" },
+    {title: "Space Jammin'", take: 17129, change: "down" }
+  ], 
+  20170107: [
+    {title: "Six Days Seven Cocks", take: 50902, change: "new" },
+    {title: "Dirty/Hairy", take: 48342, change: "new" },
+    {title: "Rebel Without a Cooze", take: 44021, change: "new" },
+    {title: "There's Someone Inside Mary", take: 41144, change: "new" },
+    {title: "Gunfight at the KY Corral", take: 39556, change: "down" },
+    {title: "Wangs of New York", take: 36290, change: "new" },
+    {title: "Arse Nick and Yo Face", take: 34159, change: "down" },
+    {title: "Bang My Bum Slowly", take: 30386, change: "new" },
+    {title: "Fist Me Deadly", take: 27640, change: "new" },
+    {title: "Glazing Arizona", take: 26026, change: "new" },
+    {title: "Stanford's Prisonsex Experiments", take: 25285, change: "new" },
+    {title: "28 Cocks Later", take: 24393, change: "down" },
+    {title: "Rear Entry Widow", take: 23182, change: "new" },
+    {title: "Midnight Ladyboy", take: 22123, change: "new" },
+    {title: "Nathan For Everyone", take: 20159, change: "new" },
+    {title: "Assassin's Cream", take: 18114, change: "new" },
+    {title: "Charles In Charles", take: 16091, change: "new" },
+    {title: "The Pleasure of Sierra's Madre", take: 14557, change: "new" },
+    {title: "In Sid Anus", take: 13484, change: "new" },
+    {title: "The Color of a Money Shot", take: 12630, change: "new" }
+  ], 
+  20170108: [
+    {title: "There's Someone Inside Mary", take: 54391, change: "up" },
+    {title: "Gunfight at the KY Corral", take: 49377, change: "up" },
+    {title: "Arse Nick and Yo Face", take: 43827, change: "up" },
+    {title: "Wangs of New York", take: 43267, change: "up" },
+    {title: "Rebel Without a Cooze", take: 41558, change: "down" },
+    {title: "Bang My Bum Slowly", take: 38398, change: "up" },
+    {title: "Dirty/Hairy", take: 36798, change: "down" },
+    {title: "Big Hero 16 Inch", take: 33276, change: "new" },
+    {title: "Glazing Arizona", take: 30998, change: "up" },
+    {title: "Stanford's Prisonsex Experiments", take: 27798, change: "up" },
+    {title: "One Blew Over The Cuckold's Nest", take: 26438, change: "new" },
+    {title: "Clamilton", take: 23587, change: "new" },
+    {title: "Let the White One In", take: 21460, change: "new" },
+    {title: "28 Cocks Later", take: 20274, change: "down" },
+    {title: "Rear Entry Widow", take: 19378, change: "down" },
+    {title: "Dr. Strangelust, or: How I Learned To Stop Worrying And Love The Bum", take: 18403, change: "new" },
+    {title: "Fist Me Deadly", take: 16869, change: "down" },
+    {title: "Straight Into Conner", take: 15540, change: "new" },
+    {title: "Assassin's Cream", take: 14928, change: "down" },
+    {title: "Charles In Charles", take: 13216, change: "down" }
+  ], 
+  20170109: [
+    {title: "Wangs of New York", take: 49352, change: "up" },
+    {title: "Arse Nick and Yo Face", take: 47113, change: "up" },
+    {title: "Gunfight at the KY Corral", take: 42460, change: "down" },
+    {title: "Public Enemas", take: 41554, change: "new" },
+    {title: "Fist Fist, Bang Bang", take: 39701, change: "new" },
+    {title: "Rebel Without a Cooze", take: 39128, change: "down" },
+    {title: "Dirty/Hairy", take: 35438, change: "same" },
+    {title: "Midnight Ladyboy", take: 32961, change: "new" },
+    {title: "Pee Wee's Big Member", take: 32413, change: "new" },
+    {title: "Bang My Bum Slowly", take: 29643, change: "down" },
+    {title: "Hairy Twatter", take: 26325, change: "new" },
+    {title: "Glazing Arizona", take: 23676, change: "down" },
+    {title: "Pan's Labiarinth", take: 21094, change: "new" },
+    {title: "The Tight Stuff", take: 18731, change: "new" },
+    {title: "I Broke My Back Mounting", take: 17443, change: "new" },
+    {title: "Haters Whack Off!", take: 16223, change: "new" },
+    {title: "Big Hero 16 Inch", take: 15038, change: "down" },
+    {title: "A Queer and Pleasant Stranger", take: 14268, change: "new" },
+    {title: "A Bit of Fry in Laurie", take: 13511, change: "new" },
+    {title: "Nathan For Everyone", take: 12752, change: "new" }
+  ], 
+  20170110: [
+    {title: "The Pleasure of Sierra's Madre", take: 51681, change: "new" },
+    {title: "Spurtigo", take: 48304, change: "new" },
+    {title: "Welcome Back, Frotteur", take: 44265, change: "new" },
+    {title: "Steve's Tugjobs", take: 42549, change: "new" },
+    {title: "The Curious Case of Benjamin's Butthole", take: 38899, change: "new" },
+    {title: "Alvin and the Fuckmunks 2: The Fuckuel", take: 35067, change: "new" },
+    {title: "Gunfight at the KY Corral", take: 30865, change: "down" },
+    {title: "Scatatouille", take: 29070, change: "new" },
+    {title: "Arse Nick and Yo Face", take: 27773, change: "down" },
+    {title: "Rebel Without a Cooze", take: 26827, change: "down" },
+    {title: "Titty Titty Gang Bang", take: 24826, change: "new" },
+    {title: "In Sid Anus", take: 23385, change: "new" },
+    {title: "Wangs of New York", take: 21957, change: "down" },
+    {title: "Cum and Cummer", take: 20281, change: "new" },
+    {title: "Enslaving Private Ryan", take: 19383, change: "new" },
+    {title: "Public Enemas", take: 18359, change: "down" },
+    {title: "Fist Fist, Bang Bang", take: 17075, change: "down" },
+    {title: "How To Drain Your Dragon", take: 16754, change: "new" },
+    {title: "The Boy Shorts", take: 15881, change: "new" },
+    {title: "Atlas Chugged", take: 15179, change: "new" }
+  ], 
+  20170111: [
+    {title: "The Curious Case of Benjamin's Butthole", take: 51436, change: "up" },
+    {title: "Steve's Tugjobs", take: 50402, change: "up" },
+    {title: "Welcome Back, Frotteur", take: 49282, change: "same" },
+    {title: "Rebel Without a Cooze", take: 48208, change: "up" },
+    {title: "Titty Titty Gang Bang", take: 46202, change: "up" },
+    {title: "Alvin and the Fuckmunks 2: The Fuckuel", take: 45680, change: "same" },
+    {title: "Night At The Mapplethorpe Museum", take: 44313, change: "new" },
+    {title: "Spurtigo", take: 42500, change: "down" },
+    {title: "28 Cocks Later", take: 41966, change: "new" },
+    {title: "In Sid Anus", take: 38665, change: "up" },
+    {title: "Scatatouille", take: 34063, change: "down" },
+    {title: "Gunfight at the KY Corral", take: 30474, change: "down" },
+    {title: "Cum and Cummer", take: 28479, change: "up" },
+    {title: "Wangs of New York", take: 27287, change: "down" },
+    {title: "Being Inside Elmo", take: 25576, change: "new" },
+    {title: "Enslaving Private Ryan", take: 22806, change: "down" },
+    {title: "Fist Fist, Bang Bang", take: 21381, change: "same" },
+    {title: "Boobs! A Madea Porno", take: 19239, change: "new" },
+    {title: "Public Enemas", take: 18740, change: "down" },
+    {title: "The Boy Shorts", take: 18082, change: "down" }
+  ], 
+  20170112: [
+    {title: "Welcome Back, Frotteur", take: 51752, change: "up" },
+    {title: "Tub Girl Time Machine", take: 46763, change: "new" },
+    {title: "Steve's Tugjobs", take: 44277, change: "down" },
+    {title: "Rebel Without a Cooze", take: 42089, change: "same" },
+    {title: "The Curious Case of Benjamin's Butthole", take: 40261, change: "down" },
+    {title: "Titty Titty Gang Bang", take: 38142, change: "down" },
+    {title: "Alvin and the Fuckmunks 2: The Fuckuel", take: 36565, change: "down" },
+    {title: "Spurtigo", take: 33798, change: "same" },
+    {title: "I Broke My Back Mounting", take: 32182, change: "new" },
+    {title: "Midnight Ladyboy", take: 29997, change: "new" },
+    {title: "The African Drag Queen", take: 26637, change: "new" },
+    {title: "Let the White One In", take: 24600, change: "new" },
+    {title: "In Sid Anus", take: 22770, change: "down" },
+    {title: "Guess Who Came On Dinner", take: 21700, change: "new" },
+    {title: "The Princess Ride", take: 20064, change: "new" },
+    {title: "Night At The Mapplethorpe Museum", take: 18037, change: "down" },
+    {title: "XXX: State of the Union: XXX", take: 16942, change: "new" },
+    {title: "Gunfight at the KY Corral", take: 16448, change: "down" },
+    {title: "Cum and Cummer", take: 14643, change: "down" },
+    {title: "Scatatouille", take: 13057, change: "down" }
+  ], 
+  20170113: [
+    {title: "A Streetwalker Named Desireé", take: 52259, change: "new" },
+    {title: "Atlas Chugged", take: 46248, change: "new" },
+    {title: "Tub Girl Time Machine", take: 41718, change: "down" },
+    {title: "Welcome Back, Frotteur", take: 39604, change: "down" },
+    {title: "Fantastic Fucks, Mister", take: 39190, change: "new" },
+    {title: "Wangs of New York", take: 35306, change: "new" },
+    {title: "Man of La Muncha", take: 32233, change: "new" },
+    {title: "Scott Pilgrim Vs Those Girls", take: 30844, change: "new" },
+    {title: "Bend Over, Like Beckham", take: 27630, change: "new" },
+    {title: "Evil Head 2: Head By Dawn", take: 25694, change: "new" },
+    {title: "G.I. Joe: Masturbation", take: 24207, change: "new" },
+    {title: "The Italian Blowjob", take: 23525, change: "new" },
+    {title: "Steve's Tugjobs", take: 21475, change: "down" },
+    {title: "Stanford's Prisonsex Experiments", take: 20583, change: "new" },
+    {title: "Suicide Squat", take: 19211, change: "new" },
+    {title: "Anything Grows", take: 17367, change: "new" },
+    {title: "Dr. Strangelust, or: How I Learned To Stop Worrying And Love The Bum", take: 16309, change: "new" },
+    {title: "CitizenWhore", take: 14581, change: "new" },
+    {title: "Mr. Smith Goes Down on Washington", take: 14333, change: "new" },
+    {title: "The Pleasure of Sierra's Madre", take: 13651, change: "new" }
+  ], 
+  20170114: [
+    {title: "Atlas Chugged", take: 51764, change: "up" },
+    {title: "Spurtigo", take: 48977, change: "new" },
+    {title: "Bring in 'da Boys, Bring in 'da Spunk", take: 44707, change: "new" },
+    {title: "28 Cocks Later", take: 40480, change: "new" },
+    {title: "Tub Girl Time Machine", take: 36032, change: "down" },
+    {title: "Fantastic Fucks, Mister", take: 32646, change: "down" },
+    {title: "Wangs of New York", take: 30465, change: "down" },
+    {title: "A Streetwalker Named Desireé", take: 27667, change: "down" },
+    {title: "Blumpkinhead", take: 25245, change: "new" },
+    {title: "Hairy Twatter", take: 24008, change: "new" },
+    {title: "Guys and Guys", take: 21812, change: "new" },
+    {title: "Boy Meat's World", take: 20715, change: "new" },
+    {title: "The Mud Wrestler", take: 18871, change: "new" },
+    {title: "The Bicycle Queef", take: 18313, change: "new" },
+    {title: "G.I. Joe: Masturbation", take: 16186, change: "down" },
+    {title: "Scott Pilgrim Vs Those Girls", take: 15923, change: "down" },
+    {title: "In Sid Anus", take: 15229, change: "new" },
+    {title: "Bend Over, Like Beckham", take: 14363, change: "down" },
+    {title: "Steve's Tugjobs", take: 12784, change: "down" },
+    {title: "Man of La Muncha", take: 11660, change: "down" }
+  ], 
+  20170115: [
+    {title: "The Assventures of Fuckaroo Buttzai Across The Gape Dimension", take: 51633, change: "new" },
+    {title: "Better Ball Saul", take: 48619, change: "new" },
+    {title: "Person of Incest", take: 47508, change: "new" },
+    {title: "12 Years A Slut", take: 42716, change: "new" },
+    {title: "XXX: State of the Union: XXX", take: 40853, change: "new" },
+    {title: "Atlas Chugged", take: 36443, change: "down" },
+    {title: "Poonstruck", take: 35785, change: "new" },
+    {title: "Spurtigo", take: 33926, change: "down" },
+    {title: "Six Days Seven Cocks", take: 30609, change: "new" },
+    {title: "Gunfight at the KY Corral", take: 30024, change: "new" },
+    {title: "Bring in 'da Boys, Bring in 'da Spunk", take: 29022, change: "down" },
+    {title: "Moneyballin", take: 27274, change: "new" },
+    {title: "The Princess Ride", take: 24490, change: "new" },
+    {title: "Monsters' Pink", take: 22053, change: "new" },
+    {title: "Glazing Arizona", take: 20879, change: "new" },
+    {title: "Mr. Smith Goes Down on Washington", take: 19942, change: "new" },
+    {title: "Tub Girl Time Machine", take: 17606, change: "down" },
+    {title: "Breasts In Shows", take: 17367, change: "new" },
+    {title: "28 Cocks Later", take: 15913, change: "down" },
+    {title: "Whiskey, Tango, Facefuck", take: 15589, change: "new" }
+  ], 
+  20170116: [
+    {title: "XXX: State of the Union: XXX", take: 53357, change: "up" },
+    {title: "Person of Incest", take: 49593, change: "up" },
+    {title: "Taint Must Be Shaven", take: 45985, change: "new" },
+    {title: "Despicable Pee", take: 40906, change: "new" },
+    {title: "Guys and Guys", take: 37855, change: "new" },
+    {title: "12 Years A Slut", take: 36611, change: "down" },
+    {title: "Six Days Seven Cocks", take: 32635, change: "up" },
+    {title: "Gunfight at the KY Corral", take: 30565, change: "up" },
+    {title: "Atlas Chugged", take: 27386, change: "down" },
+    {title: "Better Ball Saul", take: 25240, change: "down" },
+    {title: "Moneyballin", take: 23409, change: "up" },
+    {title: "Spurtigo", take: 21988, change: "down" },
+    {title: "Play With Misty For Me", take: 20432, change: "new" },
+    {title: "Poonstruck", take: 18646, change: "down" },
+    {title: "Monsters' Pink", take: 17092, change: "down" },
+    {title: "Glazing Arizona", take: 15755, change: "down" },
+    {title: "Breasts In Shows", take: 14701, change: "up" },
+    {title: "The Princess Ride", take: 14032, change: "down" },
+    {title: "Whiskey, Tango, Facefuck", take: 12768, change: "up" },
+    {title: "The Assventures of Fuckaroo Buttzai Across The Gape Dimension", take: 12138, change: "down" }
+  ], 
+  20170117: [
+    {title: "Despicable Pee", take: 53702, change: "up" },
+    {title: "Rub, Lola! Rub!", take: 49788, change: "new" },
+    {title: "Trans Formers 2: Revenge of the Ballin'", take: 49163, change: "new" },
+    {title: "Scatatouille", take: 44146, change: "new" },
+    {title: "Taint Must Be Shaven", take: 41253, change: "down" },
+    {title: "Scott Pilgrim Vs Those Girls", take: 36508, change: "new" },
+    {title: "Titty Titty Gang Bang", take: 32610, change: "new" },
+    {title: "12 Years A Slut", take: 29692, change: "down" },
+    {title: "Six Days Seven Cocks", take: 28329, change: "down" },
+    {title: "Boyz N The Clitoral Hood", take: 27957, change: "new" },
+    {title: "Gunfight at the KY Corral", take: 27273, change: "down" },
+    {title: "Person of Incest", take: 24910, change: "down" },
+    {title: "Better Ball Saul", take: 23511, change: "down" },
+    {title: "Atlas Chugged", take: 21535, change: "down" },
+    {title: "Public Enemas", take: 20941, change: "new" },
+    {title: "Nutbusters", take: 19625, change: "new" },
+    {title: "Moneyballin", take: 17504, change: "down" },
+    {title: "Play With Misty For Me", take: 15601, change: "down" },
+    {title: "Poonstruck", take: 15325, change: "down" },
+    {title: "Spurtigo", take: 14577, change: "down" }
+  ], 
+  20170118: [
+    {title: "Scatatouille", take: 52900, change: "up" },
+    {title: "Scott Pilgrim Vs Those Girls", take: 50605, change: "up" },
+    {title: "Taint Must Be Shaven", take: 47440, change: "up" },
+    {title: "Trans Formers 2: Revenge of the Ballin'", take: 44963, change: "down" },
+    {title: "Rub, Lola! Rub!", take: 44258, change: "down" },
+    {title: "Anything Grows", take: 41420, change: "new" },
+    {title: "Pan's Labiarinth", take: 38235, change: "new" },
+    {title: "Titty Titty Gang Bang", take: 36152, change: "down" },
+    {title: "Rear Entry Widow", take: 34920, change: "new" },
+    {title: "Boobs! A Madea Porno", take: 33814, change: "new" },
+    {title: "12 Years A Slut", take: 33467, change: "down" },
+    {title: "Boyz N The Clitoral Hood", take: 31324, change: "down" },
+    {title: "Person of Incest", take: 29403, change: "down" },
+    {title: "Gunfight at the KY Corral", take: 28772, change: "down" },
+    {title: "Glen, Garry, Glenn, Ross, and Six Other Guys", take: 26102, change: "new" },
+    {title: "Big Hero 16 Inch", take: 23107, change: "new" },
+    {title: "Jerk/Off", take: 20747, change: "new" },
+    {title: "Atlas Chugged", take: 20055, change: "down" },
+    {title: "Six Days Seven Cocks", take: 18477, change: "down" },
+    {title: "Better Ball Saul", take: 17640, change: "down" }
+  ], 
+  20170119: [
+    {title: "Trans Formers 2: Revenge of the Ballin'", take: 48059, change: "up" },
+    {title: "Bring in 'da Boys, Bring in 'da Spunk", take: 44651, change: "new" },
+    {title: "Guess Who Came On Dinner", take: 41020, change: "new" },
+    {title: "Blumpkinhead", take: 38383, change: "new" },
+    {title: "Taint Must Be Shaven", take: 35503, change: "down" },
+    {title: "Rub, Lola! Rub!", take: 33127, change: "down" },
+    {title: "I Broke My Back Mounting", take: 29775, change: "new" },
+    {title: "American History XXX", take: 26675, change: "new" },
+    {title: "Arse Nick and Yo Face", take: 25465, change: "new" },
+    {title: "Anything Grows", take: 22455, change: "down" },
+    {title: "Scats", take: 20833, change: "new" },
+    {title: "Indiana Bones and the Temple of Poon", take: 19480, change: "new" },
+    {title: "Titty Titty Gang Bang", take: 18992, change: "down" },
+    {title: "Poonstruck", take: 16765, change: "new" },
+    {title: "Rear Entry Widow", take: 15884, change: "down" },
+    {title: "Scott Pilgrim Vs Those Girls", take: 14691, change: "down" },
+    {title: "Django Chained", take: 14278, change: "new" },
+    {title: "The Dark Bros In: Fuck Soup", take: 12749, change: "new" },
+    {title: "Saturday Night Beaver", take: 11877, change: "new" },
+    {title: "Boobs! A Madea Porno", take: 10707, change: "down" }
+  ], 
+  20170120: [
+    {title: "28 Cocks Later", take: 52231, change: "new" },
+    {title: "Trans Formers 2: Revenge of the Ballin'", take: 48044, change: "down" },
+    {title: "Fill Bill, vol 2", take: 47407, change: "new" },
+    {title: "A Queer and Pleasant Stranger", take: 44404, change: "new" },
+    {title: "Bring in 'da Boys, Bring in 'da Spunk", take: 42633, change: "down" },
+    {title: "While You Were Peeping", take: 37969, change: "new" },
+    {title: "Haters Whack Off!", take: 37087, change: "new" },
+    {title: "Moneyballin", take: 35046, change: "new" },
+    {title: "The Lust of the Mohicans", take: 32886, change: "new" },
+    {title: "Attack The Cock", take: 32096, change: "new" },
+    {title: "Gunfight at the KY Corral", take: 29605, change: "new" },
+    {title: "Guess Who Came On Dinner", take: 28889, change: "down" },
+    {title: "Blumpkinhead", take: 28323, change: "down" },
+    {title: "Nutbusters", take: 25425, change: "new" },
+    {title: "Breaking Chad", take: 25163, change: "new" },
+    {title: "Rub, Lola! Rub!", take: 22479, change: "down" },
+    {title: "Gosford Porking", take: 21250, change: "new" },
+    {title: "I Broke My Back Mounting", take: 19969, change: "down" },
+    {title: "The Squirt Locker", take: 19112, change: "new" },
+    {title: "Taint Must Be Shaven", take: 16991, change: "down" }
+  ], 
+  20170121: [
+    {title: "The Maltese Fistin", take: 55844, change: "new" },
+    {title: "The Boy Shorts", take: 53837, change: "new" },
+    {title: "28 Cocks Later", take: 53271, change: "down" },
+    {title: "Watersportsworld", take: 51166, change: "new" },
+    {title: "Being Inside Elmo", take: 50471, change: "new" },
+    {title: "Boobs! A Madea Porno", take: 47410, change: "new" },
+    {title: "Fingering Dory", take: 42596, change: "new" },
+    {title: "Fill Bill, vol 2", take: 38570, change: "down" },
+    {title: "The Mud Wrestler", take: 35661, change: "new" },
+    {title: "On Her Majesty's Secret Cervix", take: 33470, change: "new" },
+    {title: "A Queer and Pleasant Stranger", take: 29860, change: "down" },
+    {title: "Play With Misty For Me", take: 28725, change: "new" },
+    {title: "Dirty/Hairy", take: 26426, change: "new" },
+    {title: "While You Were Peeping", take: 25593, change: "down" },
+    {title: "Haters Whack Off!", take: 23954, change: "down" },
+    {title: "Bring in 'da Boys, Bring in 'da Spunk", take: 22603, change: "down" },
+    {title: "Trans Formers 2: Revenge of the Ballin'", take: 20138, change: "down" },
+    {title: "Django Chained", take: 19171, change: "new" },
+    {title: "Fantastic Fucks, Mister", take: 17842, change: "new" },
+    {title: "Nathan For Everyone", take: 17408, change: "new" }
+  ], 
+  20170122: [
+    {title: "Stanford's Prisonsex Experiments", take: 52280, change: "new" },
+    {title: "One Flew Into The Poopoo's Nest", take: 46510, change: "new" },
+    {title: "Moneyballin", take: 43376, change: "new" },
+    {title: "Veinspotting", take: 40335, change: "new" },
+    {title: "The Maltese Fistin", take: 37477, change: "down" },
+    {title: "Boobs! A Madea Porno", take: 35503, change: "same" },
+    {title: "The Boy Shorts", take: 32868, change: "down" },
+    {title: "Full Metal Dildo", take: 30021, change: "new" },
+    {title: "Fingering Dory", take: 29347, change: "down" },
+    {title: "The Mud Wrestler", take: 26562, change: "down" },
+    {title: "Fill Bill, vol 2", take: 25283, change: "down" },
+    {title: "On Her Majesty's Secret Cervix", take: 23824, change: "down" },
+    {title: "Six Days Seven Cocks", take: 21465, change: "new" },
+    {title: "A Queer and Pleasant Stranger", take: 20071, change: "down" },
+    {title: "Indiana Bones and the Temple of Poon", take: 19094, change: "new" },
+    {title: "While You Were Peeping", take: 16812, change: "down" },
+    {title: "Play With Misty For Me", take: 16399, change: "down" },
+    {title: "Dirty/Hairy", take: 15115, change: "down" },
+    {title: "28 Cocks Later", take: 14828, change: "down" },
+    {title: "Haters Whack Off!", take: 13360, change: "down" }
+  ], 
+  20170123: [
+    {title: "One Flew Into The Poopoo's Nest", take: 49961, change: "up" },
+    {title: "Das Booty", take: 48163, change: "new" },
+    {title: "Full Metal Dildo", take: 46568, change: "up" },
+    {title: "The Boy Shorts", take: 41956, change: "up" },
+    {title: "Straight Into Conner", take: 38487, change: "new" },
+    {title: "The Maltese Fistin", take: 34256, change: "down" },
+    {title: "Fill Bill, vol 2", take: 32874, change: "up" },
+    {title: "Veinspotting", take: 30477, change: "down" },
+    {title: "Moneyballin", take: 28758, change: "down" },
+    {title: "On Her Majesty's Secret Cervix", take: 27973, change: "up" },
+    {title: "The Mud Wrestler", take: 25170, change: "down" },
+    {title: "CitizenWhore", take: 24843, change: "new" },
+    {title: "Boobs! A Madea Porno", take: 23986, change: "down" },
+    {title: "Suicide Squat", take: 22648, change: "new" },
+    {title: "Bang My Bum Slowly", take: 21756, change: "new" },
+    {title: "Indiana Bones and the Temple of Poon", take: 20778, change: "down" },
+    {title: "While You Were Peeping", take: 19175, change: "down" },
+    {title: "Cum and Cummer", take: 18395, change: "new" },
+    {title: "Dirty/Hairy", take: 16838, change: "down" },
+    {title: "28 Cocks Later", take: 15318, change: "down" }
+  ], 
+  20170124: [
+    {title: "The Boy Shorts", take: 54668, change: "up" },
+    {title: "Hairy Twatter", take: 49592, change: "new" },
+    {title: "Full Metal Dildo", take: 46180, change: "same" },
+    {title: "Group Sex on the Bounty", take: 43508, change: "new" },
+    {title: "Das Booty", take: 39040, change: "down" },
+    {title: "Nathan For Everyone", take: 36554, change: "new" },
+    {title: "Poonstruck", take: 32354, change: "new" },
+    {title: "Veinspotting", take: 29995, change: "same" },
+    {title: "One Flew Into The Poopoo's Nest", take: 28979, change: "down" },
+    {title: "Fill Bill, vol 2", take: 28246, change: "down" },
+    {title: "The Fantastic Foursome", take: 26410, change: "new" },
+    {title: "Scats", take: 25784, change: "new" },
+    {title: "Bright Lights, Big Titties", take: 25170, change: "new" },
+    {title: "The Mud Wrestler", take: 22357, change: "down" },
+    {title: "The Maltese Fistin", take: 21090, change: "down" },
+    {title: "On Her Majesty's Secret Cervix", take: 20285, change: "down" },
+    {title: "Straight Into Conner", take: 19958, change: "down" },
+    {title: "Guys and Guys", take: 17601, change: "new" },
+    {title: "Moneyballin", take: 16498, change: "down" },
+    {title: "Suicide Squat", take: 15378, change: "down" }
+  ], 
+  20170125: [
+    {title: "Fist Fist, Bang Bang", take: 53190, change: "new" },
+    {title: "Fist Me Deadly", take: 48807, change: "new" },
+    {title: "The Munchurian Candidass", take: 45699, change: "new" },
+    {title: "Full Metal Dildo", take: 44056, change: "down" },
+    {title: "Hairy Twatter", take: 43416, change: "down" },
+    {title: "Robocuck", take: 39323, change: "new" },
+    {title: "Jerk/Off", take: 37698, change: "new" },
+    {title: "A Bit of Fry in Laurie", take: 36861, change: "new" },
+    {title: "Welcome Back, Frotteur", take: 33537, change: "new" },
+    {title: "The Boy Shorts", take: 32892, change: "down" },
+    {title: "Dog Dick Afternoon", take: 30263, change: "new" },
+    {title: "Rear Entry Widow", take: 28326, change: "new" },
+    {title: "Pearl Necklace Harbor", take: 25336, change: "new" },
+    {title: "Alvin and the Fuckmunks 2: The Fuckuel", take: 24323, change: "new" },
+    {title: "Das Booty", take: 21434, change: "down" },
+    {title: "Night At The Mapplethorpe Museum", take: 20620, change: "new" },
+    {title: "Anything Grows", take: 18535, change: "new" },
+    {title: "A Queer and Pleasant Stranger", take: 16571, change: "new" },
+    {title: "Guess Who Came On Dinner", take: 14813, change: "new" },
+    {title: "Group Sex on the Bounty", take: 14231, change: "down" }
+  ], 
+  20170126: [
+    {title: "GoodFellatas", take: 47022, change: "new" },
+    {title: "Monsters' Pink", take: 42874, change: "new" },
+    {title: "Scatatouille", take: 41091, change: "new" },
+    {title: "Assassin's Cream", take: 37825, change: "new" },
+    {title: "Boobs! A Madea Porno", take: 35150, change: "new" },
+    {title: "CitizenWhore", take: 31353, change: "new" },
+    {title: "While You Were Peeping", take: 28751, change: "new" },
+    {title: "Fist Me Deadly", take: 25934, change: "down" },
+    {title: "Fist Fist, Bang Bang", take: 24360, change: "down" },
+    {title: "Wet Hot American Hummer", take: 23241, change: "new" },
+    {title: "The Squirt Locker", take: 21586, change: "new" },
+    {title: "Full Metal Dildo", take: 19090, change: "down" },
+    {title: "Django Chained", take: 17537, change: "new" },
+    {title: "The Munchurian Candidass", take: 16687, change: "down" },
+    {title: "Poonrise Kingdom", take: 14923, change: "new" },
+    {title: "Hairy Twatter", take: 14617, change: "down" },
+    {title: "Midnight Ladyboy", take: 13153, change: "new" },
+    {title: "Fantastic Fucks, Mister", take: 12724, change: "new" },
+    {title: "Jerk/Off", take: 11741, change: "down" },
+    {title: "Better Ball Saul", take: 11120, change: "new" }
+  ], 
+  20170127: [
+    {title: "GoodFellatas", take: 57612, change: "same" },
+    {title: "Assassin's Cream", take: 56380, change: "up" },
+    {title: "Scatatouille", take: 51178, change: "same" },
+    {title: "Boobs! A Madea Porno", take: 46334, change: "up" },
+    {title: "Poonstruck", take: 43327, change: "new" },
+    {title: "Pan's Labiarinth", take: 40927, change: "new" },
+    {title: "G.I. Joe: Masturbation", take: 39964, change: "new" },
+    {title: "Big Hero 16 Inch", take: 35762, change: "new" },
+    {title: "The Filth Element", take: 32786, change: "new" },
+    {title: "Monsters' Pink", take: 29733, change: "down" },
+    {title: "CitizenWhore", take: 28369, change: "down" },
+    {title: "Person of Incest", take: 26344, change: "new" },
+    {title: "While You Were Peeping", take: 24684, change: "down" },
+    {title: "Fist Fist, Bang Bang", take: 22953, change: "down" },
+    {title: "Full Metal Dildo", take: 22157, change: "down" },
+    {title: "Fist Me Deadly", take: 21427, change: "down" },
+    {title: "Bright Lights, Big Titties", take: 19061, change: "new" },
+    {title: "Wet Hot American Hummer", take: 17882, change: "down" },
+    {title: "Wangs of New York", take: 17115, change: "new" },
+    {title: "The Squirt Locker", take: 15485, change: "down" }
+  ], 
+  20170128: [
+    {title: "The Lust of the Mohicans", take: 49047, change: "new" },
+    {title: "Das Booty", take: 44882, change: "new" },
+    {title: "Diddler on the Roof", take: 43711, change: "new" },
+    {title: "GoodFellatas", take: 41279, change: "down" },
+    {title: "Assassin's Cream", take: 36412, change: "down" },
+    {title: "Man of La Muncha", take: 32199, change: "new" },
+    {title: "Breasts In Shows", take: 29605, change: "new" },
+    {title: "The Fantastic Foursome", take: 28931, change: "new" },
+    {title: "I Broke My Back Mounting", take: 26254, change: "new" },
+    {title: "BALL-E", take: 25122, change: "new" },
+    {title: "Boobs! A Madea Porno", take: 22508, change: "down" },
+    {title: "Space Jammin'", take: 20870, change: "new" },
+    {title: "The Princess Ride", take: 19285, change: "new" },
+    {title: "Alvin and the Fuckmunks 2: The Fuckuel", take: 18219, change: "new" },
+    {title: "Pan's Labiarinth", take: 16851, change: "down" },
+    {title: "Dirty/Hairy", take: 15903, change: "new" },
+    {title: "Scatatouille", take: 15210, change: "down" },
+    {title: "Stanford's Prisonsex Experiments", take: 14474, change: "new" },
+    {title: "G.I. Joe: Masturbation", take: 12789, change: "down" },
+    {title: "A Queer and Pleasant Stranger", take: 12014, change: "new" }
+  ], 
+  20170129: [
+    {title: "Jiz and the Diaphragms", take: 47229, change: "new" },
+    {title: "Assassin's Cream", take: 46389, change: "up" },
+    {title: "GoodFellatas", take: 40822, change: "up" },
+    {title: "Man of La Muncha", take: 39791, change: "up" },
+    {title: "Fill Bill, vol 2", take: 35627, change: "new" },
+    {title: "I Broke My Back Mounting", take: 33300, change: "up" },
+    {title: "BALL-E", take: 31564, change: "up" },
+    {title: "Boobs! A Madea Porno", take: 30285, change: "up" },
+    {title: "Trans Formers 2: Revenge of the Ballin'", take: 26715, change: "new" },
+    {title: "The Fantastic Foursome", take: 23951, change: "down" },
+    {title: "12 Years A Slut", take: 22606, change: "new" },
+    {title: "Hannah on Her Sisters", take: 20740, change: "new" },
+    {title: "Diddler on the Roof", take: 18467, change: "down" },
+    {title: "Pan's Labiarinth", take: 16679, change: "up" },
+    {title: "The Princess Ride", take: 16254, change: "down" },
+    {title: "Das Booty", take: 15845, change: "down" },
+    {title: "Breasts In Shows", take: 14724, change: "down" },
+    {title: "Alvin and the Fuckmunks 2: The Fuckuel", take: 14422, change: "down" },
+    {title: "Scatatouille", take: 12707, change: "down" },
+    {title: "Space Jammin'", take: 11945, change: "down" }
+  ], 
+  20170130: [
+    {title: "GoodFellatas", take: 53616, change: "up" },
+    {title: "MILF Saigon", take: 48103, change: "new" },
+    {title: "Assassin's Cream", take: 43663, change: "down" },
+    {title: "50 Fist Dates", take: 40500, change: "new" },
+    {title: "Man of La Muncha", take: 36344, change: "down" },
+    {title: "Gunfight at the KY Corral", take: 34882, change: "new" },
+    {title: "Bright Lights, Big Titties", take: 31278, change: "new" },
+    {title: "Boobs! A Madea Porno", take: 30362, change: "same" },
+    {title: "Trans Formers 2: Revenge of the Ballin'", take: 28626, change: "same" },
+    {title: "Bring in 'da Boys, Bring in 'da Spunk", take: 25670, change: "new" },
+    {title: "I Broke My Back Mounting", take: 24299, change: "down" },
+    {title: "All That Jizz", take: 23024, change: "new" },
+    {title: "Fill Bill, vol 2", take: 22649, change: "down" },
+    {title: "The African Drag Queen", take: 20625, change: "new" },
+    {title: "Hannah on Her Sisters", take: 19201, change: "down" },
+    {title: "Diddler on the Roof", take: 17849, change: "down" },
+    {title: "The Munchurian Candidass", take: 15920, change: "new" },
+    {title: "BALL-E", take: 15152, change: "down" },
+    {title: "The Fantastic Foursome", take: 14261, change: "down" },
+    {title: "Das Booty", take: 13163, change: "down" }
+  ], 
+  20170131: [
+    {title: "Suicide Squat", take: 48979, change: "new" },
+    {title: "MILF Saigon", take: 46184, change: "same" },
+    {title: "2 Fast 2 Furry Puss", take: 44385, change: "new" },
+    {title: "Group Sex on the Bounty", take: 43007, change: "new" },
+    {title: "Bend Over, Like Beckham", take: 39990, change: "new" },
+    {title: "Glen, Garry, Glenn, Ross, and Six Other Guys", take: 37971, change: "new" },
+    {title: "Assassin's Cream", take: 37031, change: "down" },
+    {title: "Rear Entry Widow", take: 35607, change: "new" },
+    {title: "There's Someone Inside Mary", take: 33812, change: "new" },
+    {title: "50 Fist Dates", take: 31220, change: "down" },
+    {title: "GoodFellatas", take: 28731, change: "down" },
+    {title: "Gunfight at the KY Corral", take: 27970, change: "down" },
+    {title: "XXX: State of the Union: XXX", take: 25894, change: "new" },
+    {title: "Bright Lights, Big Titties", take: 25302, change: "down" },
+    {title: "While You Were Peeping", take: 23964, change: "new" },
+    {title: "Boobs! A Madea Porno", take: 22549, change: "down" },
+    {title: "The Maltese Fistin", take: 22330, change: "new" },
+    {title: "Person of Incest", take: 21465, change: "new" },
+    {title: "Atlas Chugged", take: 21210, change: "new" },
+    {title: "Dr. Strangelust, or: How I Learned To Stop Worrying And Love The Bum", take: 19324, change: "new" }
+  ]
+};
+// jshint -W117
+//@prepros-prepend partials/_functions.js
+//@prepros-prepend partials/_titles.js 
+//@prepros-prepend data/_january.js 
+
+$('header .logo').click(function() {
+  $('header').toggleClass('expanded');
+});
+
+$('header .logo').hover(function() {
+  $('header .fist').addClass('shaking');
+}, function() {
+  $('header .fist').removeClass('shaking');
+});
+
+
+$('.top-porn').on('click', 'td.title', function() {
+  var title = $(this).text();
+  var rank = $(this).siblings('.rank').text();
+  var intentText = encodeURI("Number "+rank+" Porn for "+currentDay.short+": "+title);
+  var intentURL = "https://twitter.com/intent/tweet?url=http%3A%2F%2Fjerking.online&via=AhoyLemon&text="+intentText;
+  window.open(intentURL, "popupWindow", "width=550,height=340");
+});
+
+//
+
+function todaysPorn(date) {
+  $('#TitleCount').text(pornTitles.length);
+  console.log(pornTitles);
+  var todaysData = pornData[date];
+  console.log('there are '+todaysData.length+' titles');
+  $('#PornTitles').empty();
+  $.each(todaysData, function(key, value) {
+    $('#PornTitles').append('<tr><td class="rank">'+(key+1)+'</td><td class="title">'+todaysData[key].title+'</td><td class="gross"><span class="s">$</span>'+numberWithCommas(todaysData[key].take)+'</td><td class="change '+todaysData[key].change+'"> </td></tr>');
+  });
+  $('#TheDay').text(currentDay.verbose);
+}
+
+var currentDay = {
+  raw: moment().subtract(1, 'days'),
+  verbose: "",
+  short: "",
+  utc: 0
+};
+
+function formatDay(d) {
+  currentDay.raw = moment(d);
+  currentDay.verbose = moment(d).format('dddd, MMMM Do YYYY');
+  currentDay.short = moment(d).format('MMM D');
+  currentDay.utc = parseInt(moment(d).format('YYYYMMDD'));
+}
+
+var yesterday = moment().subtract(1, 'days').format('dddd, MMMM Do YYYY');
+var tweetDay = moment().subtract(1, 'days').format('MMM D');
+var utiDay = moment().subtract(1, 'days').format('YYYYMMDD');
+formatDay(currentDay.raw);
+
+
+$(document).ready(function() {
+  todaysPorn(utiDay);
+  checkArrows();
+});
+
+function checkArrows() {
+  var n = parseInt(moment(currentDay.raw).subtract(1,'days').format('YYYYMMDD'));
+  if (pornData[n]) {
+    $('.prev-day').show();
+  } else {
+    $('.prev-day').hide();
+  }
+  
+  if (parseInt(currentDay.raw.format('YYYYMMDD')) < parseInt(moment().subtract(1,'days').format('YYYYMMDD'))) {
+    $('.next-day').show();
+  } else {
+    $('.next-day').hide();
+  }
+}
+
+$('.prev-day').click(function() {
+  formatDay(moment(currentDay.raw).subtract(1, 'days'));
+  todaysPorn(currentDay.utc);
+  checkArrows();
+});
+
+
+$('.next-day').click(function() {
+  formatDay(moment(currentDay.raw).add(1, 'days'));
+  todaysPorn(currentDay.utc);
+  checkArrows();
+});
+
+
+$('button[data-opens]').click(function() {
+  var d = $(this).attr('data-opens');
+  $('[data-drawer="'+d+'"]').addClass('visible');
+  $('[data-open="'+d+'"]').addClass('invisible');
+  $('[data-closes="'+d+'"]').removeClass('invisible');
+  if (d == "casting") {
+    $('.maker-steps').addClass('visible');
+  }
+});
+
+$('button[data-closes]').click(function() {
+  var d = $(this).attr('data-closes');
+  $('[data-drawer="'+d+'"]').removeClass('visible');
+  $('[data-closes="'+d+'"]').addClass('invisible');
+  $('[data-opens="'+d+'"]').removeClass('invisible');
+  if (d == "casting") {
+    $('.maker-steps').removeClass('visible');
+  }
+});
 //# sourceMappingURL=pr0n.js.map

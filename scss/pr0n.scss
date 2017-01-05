@@ -9,41 +9,5 @@
 
 @import "partials/_header";
 // @import "partials/_sidebar";
-@import "partials/_cast";
-
-
-
-body {
-  font-family: 'Rubik', sans-serif;
-}
-
-main { padding:10vh $sidebar 10vh 1rem; }
-.table-holder { position: relative;
-  .switch-day { display: block; height:3rem; width: 3rem; @include position(absolute,50%); cursor: pointer;
-    svg { width:100%; height: 100%; fill:currentColor; }
-    &:hover { color:$blue;  }
-  }
-  .prev-day { left:50%; margin-left: -370px; }
-  .next-day { right:50%; margin-right: -370px; }
-}
-
-table { width: 600px; max-width: 100%; margin-left: auto; margin-right: auto; border-collapse: collapse; font-size:14px;
-  caption { font-size:2em; text-align: center; font-weight: 500; padding-bottom: 0.5em; }
-  th, td { padding: 0.5rem 1rem;
-    &:nth-child(3) { min-width: 7.2em; }
-  }
-  th { font-size: 0.7em; text-align: left;
-    &.change { text-align: right; padding-left: 0; padding-right: 0; }
-  }
-  td { border:1px solid #999;
-    &:first-child { text-align: right; font-size:0.8em; vertical-align: middle; width:1em; }
-    &.title { cursor: pointer;
-      &:hover { color:$blue; }
-    }
-    &.change { background-repeat: no-repeat; background-size: 0.8em 0.8em; background-position:center; width:3em; }
-    &.new { background-image:url(../svg/new.svg);}
-    &.up { background-image:url(../svg/up.svg);}
-    &.down { background-image:url(../svg/down.svg);}
-    &.same { background-image:url(../svg/same.svg);}
-  }
-}
+//@import "partials/_cast";
+@import "partials/_table";

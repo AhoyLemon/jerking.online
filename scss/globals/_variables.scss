@@ -29,8 +29,11 @@ $orange:#c85c0d;
   $color-facebook: #3B5998;
 
 // FONTS
-$rubik: 'Rubik', sans-serif;
-$font: $rubik;
+//$rubik: 'Rubik', sans-serif;
+//$font: $rubik;
+
+$font: 'Volkhov', serif;
+
 $font-size: 18px;
 $light:300;
 $medium:400;
@@ -42,8 +45,8 @@ $bold:500;
 // MEASUREMENTS //////////////////////////////////////////////////////////////////////
 $mobile-top:56px;
 $radius:6px;
-$mobile-max: 767px;
-$desktop-min: 768px;
+$mobile-max: 1023px;
+$desktop-min: 1024px;
 $header-height:3.5rem;
 $max-width:600px;
 $sidebar:16rem;

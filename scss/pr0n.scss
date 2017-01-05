@@ -37,6 +37,7 @@ table { max-width: 600px; margin-left: auto; margin-right: auto; border-collapse
       &:hover { color:$blue; }
     }
     &.change { background-repeat: no-repeat; background-size: 0.8em 0.8em; background-position:center; width:3em; }
+    &.new { background-image:url(../svg/new.svg);}
     &.up { background-image:url(../svg/up.svg);}
     &.down { background-image:url(../svg/down.svg);}
     &.same { background-image:url(../svg/same.svg);}

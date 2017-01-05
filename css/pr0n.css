@@ -605,6 +605,10 @@ table td.change {
   width: 3em;
 }
 
+table td.new {
+  background-image: url(../svg/new.svg);
+}
+
 table td.up {
   background-image: url(../svg/up.svg);
 }

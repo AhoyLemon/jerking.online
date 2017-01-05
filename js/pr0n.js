@@ -2,6 +2,7 @@
 //@prepros-prepend partials/_functions.js
 //@prepros-prepend partials/_titles.js
 //@prepros-prepend partials/_actors.js
+//@prepros-prepend data/_january.js
 
 function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -25,9 +26,9 @@ $('header .logo').click(function() {
 $('.top-porn').on('click', 'td.title', function() {
   var title = $(this).text();
   var rank = $(this).siblings('.rank').text();
-  var intentText = encodeURI("Number "+rank+" Porn Last Week: "+title);
+  var intentText = encodeURI("Number "+rank+" Porn for "+tweetDay+": "+title);
   var intentURL = "https://twitter.com/intent/tweet?url=http%3A%2F%2Fjerking.online&via=AhoyLemon&text="+intentText;
-  window.open(intentURL, "popupWindow", "width=550,height=440");
+  window.open(intentURL, "popupWindow", "width=550,height=340");
 });
 
 //
@@ -99,79 +100,28 @@ function lookForActors() {
     $('#CastSelection').append(d);
   });
   
-  
-  
 }
 
-function rankPornTitles() {
-  console.log('there are '+pornTitles.length+' titles');
-  $('#TitleCount').text(pornTitles.length);
-  var i = 0;
-  while (i < 20) {
-    var r = Math.floor((Math.random() * pornTitles.length));
-    if (topMovies.indexOf(pornTitles[r]) == -1) {
-      topMovies.push(pornTitles[r]);
-      i++;
-    }
-  }
-  var g = Math.floor(Math.random() * (60000 - 50000)) + 50000;
-  var p;
-  var s;
-  var d;
-  var c;
-  var change;
-  var titleArray = [];
-  
-  $.each(topMovies, function(key, value) {
-    
-    c = Math.floor((Math.random() * 3) + 1);
-    if (c == 1) {
-      change = "up";
-    } else if (c == 2) {
-      change = "down";
-    } else if (c == 3) {
-      change = "same";
-    }
-    
-    p = ((Math.random() * (99.999 - 88.8888)) + 88) / 100;
-    g = parseInt(g * p);
-    s = Math.floor((Math.random() * 600) + 1);
-    d = moment().subtract(s, 'days').format('l');
-    //$('#PornTitles').append('<tr><td class="rank">'+(key+1)+'</td><td class="title">'+value+'</td><td><span class="s">$</span>'+numberWithCommas(g)+'</td><td>'+d+'</td></tr>');
-    $('#PornTitles').append('<tr><td class="rank">'+(key+1)+'</td><td class="title">'+value+'</td><td><span class="s">$</span>'+numberWithCommas(g)+'</td><td class="change '+change+'"> </td></tr>');
-    var a = {
-      title: value,
-      take: g,
-      change: change
-    };
-    titleArray.push(a);
+
+function todaysPorn(date) {
+  console.log(pornTitles);
+  var todaysData = pornData[date];
+  console.log('there are '+todaysData.length+' titles');
+  $.each(todaysData, function(key, value) {
+    $('#PornTitles').append('<tr><td class="rank">'+(key+1)+'</td><td class="title">'+todaysData[key].title+'</td><td><span class="s">$</span>'+numberWithCommas(todaysData[key].take)+'</td><td class="change '+todaysData[key].change+'"> </td></tr>');
   });
-  
-  //$('#JSArray').html(titleArray);
-  console.log(titleArray);
-  $('#JSArray').append('var pornTitles = [');
-  $('#JSArray').append('<br />');
-  
-  
-  $.each(titleArray, function(key, value) {
-    $('#JSArray').append('  {title: "'+titleArray[key].title+'", take: '+titleArray[key].take+', change: "'+titleArray[key].change+'" }');
-    if (key < 19) { $('#JSArray').append(','); }
-    $('#JSArray').append('<br />');
-  });
-  
-  $('#JSArray').append('];');
-  
 }
 
 //var thisweek = moment().subtract(1, 'week').startOf('week').add(1, 'days').format('MMMM Do');
 //$('#WeekOf').text(thisweek);
 var yesterday = moment().subtract(1, 'days').format('dddd, MMMM Do YYYY');
-//alert(moment().format('YYYYMMDD'));
+var tweetDay = moment().subtract(1, 'days').format('MMM D');
+var utiDay = moment().subtract(1, 'days').format('YYYYMMDD');
 $('#TheDay').text(yesterday);
 
 $(document).ready(function() {
   //lookForActors();
-  rankPornTitles();
+  todaysPorn(utiDay);
 });
 
 function findMismatches() {

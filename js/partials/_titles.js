@@ -48,7 +48,7 @@ var pornTitles = [
   "Gunfight at the KY Corral",
   "Pan's Labiarinth",
   "Pearl Necklace Harbor",
-  "Bend Over Like Beckham",
+  "Bend Over, Like Beckham",
   "Scatatouille",
   "BALL-E",
   "Fuck Everlasting",
@@ -125,10 +125,15 @@ var pornTitles = [
   "There's Someone Inside Mary",
   "The Nutting Professor",
   "Space Jammin'",
-  "Whiskey, Tango, Handjobs",
+  "Whiskey, Tango, Facefuck",
   "Nutbusters",
   "Assassin's Cream",
   "Fingering Dory",
+  "Alvin and the Fuckmunks 2: The Fuckuel",
+  "Blumpkinhead",
+  "American History XXX",
+  "The Italian Blowjob",
+  "Hairy Twatter",
   
   // These are all TV shows....
   "Welcome Back, Frotteur",
@@ -140,6 +145,7 @@ var pornTitles = [
   "Person of Incest",
   "Charles In Charles",
   "Better Ball Saul",
+  "Haters Whack Off!",
   
   // Musicals...
   "Taint Must Be Shaven",

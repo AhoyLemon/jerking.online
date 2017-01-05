@@ -12,7 +12,7 @@ var pornTitles = [
   "Me, Myself in Irene",
   "Indiana Bones and the Temple of Poon",
   "I Broke My Back Mounting",
-  "Rub, Lola, Rub",
+  "Rub, Lola! Rub!",
   "Even Reverse Cowgirls Get the Blues",
   "Raging Balls",
   "Dog Dick Afternoon",
@@ -125,6 +125,10 @@ var pornTitles = [
   "There's Someone Inside Mary",
   "The Nutting Professor",
   "Space Jammin'",
+  "Whiskey, Tango, Handjobs",
+  "Nutbusters",
+  "Assassin's Cream",
+  "Fingering Dory",
   
   // These are all TV shows....
   "Welcome Back, Frotteur",
@@ -135,6 +139,7 @@ var pornTitles = [
   "Nathan For Everyone",
   "Person of Incest",
   "Charles In Charles",
+  "Better Ball Saul",
   
   // Musicals...
   "Taint Must Be Shaven",

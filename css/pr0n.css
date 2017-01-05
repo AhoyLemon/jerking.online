@@ -268,10 +268,15 @@ header {
   width: 21.28rem;
   z-index: 3;
   /* background:$black; color:$white; padding:1.5em; */
+  transform: translateY(100%);
+  transition: all 0.3s ease-in;
 }
 
 header .logo {
   cursor: pointer;
+  position: absolute;
+  top: -9.6rem;
+  right: 0;
 }
 
 header h3 {
@@ -282,9 +287,8 @@ header h3 {
 header .sidebar {
   background: #313131;
   padding: 1em;
-  margin-left: 5.264rem;
+  margin-left: 5.248rem;
   margin-top: -1px;
-  display: none;
 }
 
 header ul {
@@ -312,6 +316,15 @@ header .smaller {
 
 header a {
   color: #E0CB4F;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+header.expanded {
+  transform: translateY(0);
 }
 
 button {
@@ -561,6 +574,12 @@ table th {
   text-align: left;
 }
 
+table th.change {
+  text-align: right;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 table td {
   border: 1px solid #999;
 }
@@ -577,4 +596,23 @@ table td.title {
 
 table td.title:hover {
   color: #4885ed;
+}
+
+table td.change {
+  background-repeat: no-repeat;
+  background-size: 0.8em 0.8em;
+  background-position: center;
+  width: 3em;
+}
+
+table td.up {
+  background-image: url(../svg/up.svg);
+}
+
+table td.down {
+  background-image: url(../svg/down.svg);
+}
+
+table td.same {
+  background-image: url(../svg/same.svg);
 }

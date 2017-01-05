@@ -28,11 +28,17 @@ table { max-width: 600px; margin-left: auto; margin-right: auto; border-collapse
   th, td { padding: 0.5rem 1rem;
     &:nth-child(3) { min-width: 7.2em; }
   }
-  th { font-size: 0.7em; text-align: left; }
+  th { font-size: 0.7em; text-align: left;
+    &.change { text-align: right; padding-left: 0; padding-right: 0; }
+  }
   td { border:1px solid #999;
     &:first-child { text-align: right; font-size:0.8em; vertical-align: middle; }
     &.title { cursor: pointer;
       &:hover { color:$blue; }
     }
+    &.change { background-repeat: no-repeat; background-size: 0.8em 0.8em; background-position:center; width:3em; }
+    &.up { background-image:url(../svg/up.svg);}
+    &.down { background-image:url(../svg/down.svg);}
+    &.same { background-image:url(../svg/same.svg);}
   }
 }

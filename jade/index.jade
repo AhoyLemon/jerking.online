@@ -13,7 +13,7 @@ html(lang="en")
     include partials/header.jade
     //- include partials/sidebar.jade
   
-    main.table-holder
+    main.table-holder(style="display:none")
           
       table.top-porn
         caption
@@ -23,11 +23,12 @@ html(lang="en")
           tr
             th 
             th TITLE
-            th WEEKLY GROSS
-            th RELEASE DATE
+            th GROSS
+            th.change
         tbody#PornTitles
         
     //include partials/aside.jade
-      
+    
+    pre#JSArray
     
     include partials/javascripts.jade

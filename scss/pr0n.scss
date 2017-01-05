@@ -27,7 +27,7 @@ main { padding:10vh $sidebar 10vh 1rem; }
   .next-day { right:50%; margin-right: -370px; }
 }
 
-table { max-width: 600px; margin-left: auto; margin-right: auto; border-collapse: collapse; font-size:14px;
+table { width: 600px; max-width: 100%; margin-left: auto; margin-right: auto; border-collapse: collapse; font-size:14px;
   caption { font-size:2em; text-align: center; font-weight: 500; padding-bottom: 0.5em; }
   th, td { padding: 0.5rem 1rem;
     &:nth-child(3) { min-width: 7.2em; }
@@ -36,7 +36,7 @@ table { max-width: 600px; margin-left: auto; margin-right: auto; border-collapse
     &.change { text-align: right; padding-left: 0; padding-right: 0; }
   }
   td { border:1px solid #999;
-    &:first-child { text-align: right; font-size:0.8em; vertical-align: middle; }
+    &:first-child { text-align: right; font-size:0.8em; vertical-align: middle; width:1em; }
     &.title { cursor: pointer;
       &:hover { color:$blue; }
     }

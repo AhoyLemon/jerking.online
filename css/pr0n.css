@@ -580,7 +580,8 @@ main {
 }
 
 table {
-  max-width: 600px;
+  width: 600px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   border-collapse: collapse;
@@ -621,6 +622,7 @@ table td:first-child {
   text-align: right;
   font-size: 0.8em;
   vertical-align: middle;
+  width: 1em;
 }
 
 table td.title {

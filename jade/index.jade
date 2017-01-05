@@ -1,5 +1,5 @@
 - var siteTitle = "jerking.online"
-- var siteURL = "http://localhost:8008"
+- var siteURL = "http://localhost:8004"
 - var description = ""
 - var d = new Date()
 - var lastUpdated = d.getFullYear() + '-' + (d.getMonth()<10?'0':'') + d.getMonth() + '-' + (d.getDate()<10?'0':'') + d.getDate() + '@' + (d.getHours()<10?'0':'') + d.getHours() + ':' + (d.getMinutes()<10?'0':'') + d.getMinutes() + ':' + (d.getSeconds()<10?'0':'') + d.getSeconds()
@@ -13,19 +13,25 @@ html(lang="en")
     include partials/header.jade
     //- include partials/sidebar.jade
   
-    main.table-holder
-          
-      table.top-porn
-        caption
-          span Top selling pornographic films for 
-          span.week-of#TheDay
-        thead
-          tr
-            th 
-            th TITLE
-            th GROSS
-            th.change
-        tbody#PornTitles
+    main
+      .table-holder
+        a.switch-day.go-back.prev-day
+          svg(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100")
+            path(d="M51.2 2.4L4.1 48.8v.2l47.1 46.4 7.7-7.8-33.7-33.2h70.7v-11H25.2l33.7-33.2z")
+        a.switch-day.go-forward.next-day
+          svg(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100")
+            path(d="M48.8 95.4L95.9 49v-.2L48.8 2.4l-7.7 7.8 33.7 33.2H4.1v11h70.7L41.1 87.6z")
+        table.top-porn
+          caption
+            span Top selling pornographic films for 
+            span.week-of#TheDay
+          thead
+            tr
+              th 
+              th TITLE
+              th GROSS
+              th.change
+          tbody#PornTitles
         
     //include partials/aside.jade
     

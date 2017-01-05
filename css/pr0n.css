@@ -542,8 +542,41 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 
-.table-holder {
+main {
   padding: 10vh 16rem 10vh 1rem;
+}
+
+.table-holder {
+  position: relative;
+}
+
+.table-holder .switch-day {
+  display: block;
+  height: 3rem;
+  width: 3rem;
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+}
+
+.table-holder .switch-day svg {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+}
+
+.table-holder .switch-day:hover {
+  color: #4885ed;
+}
+
+.table-holder .prev-day {
+  left: 50%;
+  margin-left: -370px;
+}
+
+.table-holder .next-day {
+  right: 50%;
+  margin-right: -370px;
 }
 
 table {

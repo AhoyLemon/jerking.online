@@ -17,11 +17,15 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 
-//body { padding-top: 10vh; padding-bottom: 10vh; }
-.table-holder { padding:10vh $sidebar 10vh 1rem;
-  
+main { padding:10vh $sidebar 10vh 1rem; }
+.table-holder { position: relative;
+  .switch-day { display: block; height:3rem; width: 3rem; @include position(absolute,50%); cursor: pointer;
+    svg { width:100%; height: 100%; fill:currentColor; }
+    &:hover { color:$blue;  }
+  }
+  .prev-day { left:50%; margin-left: -370px; }
+  .next-day { right:50%; margin-right: -370px; }
 }
-
 
 table { max-width: 600px; margin-left: auto; margin-right: auto; border-collapse: collapse; font-size:14px;
   caption { font-size:2em; text-align: center; font-weight: 500; padding-bottom: 0.5em; }

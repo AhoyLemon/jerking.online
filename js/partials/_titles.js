@@ -133,9 +133,17 @@ var pornTitles = [
   "Blumpkinhead",
   "American History XXX",
   "The Italian Blowjob",
-  "Hairy Twatter",
   "Blowing For Columbine",
   "Star Whores: The Foreskin Awakens",
+  
+  // The Harry Potter Series
+  "Hairy Twatter and the Pornographer's Bone",
+  "Hairy Twatter and the Chamber of Secretions",
+  "Hairy Twatter and the Prisoner of Ass Cabin",
+  "Hairy Twatter and the Gobblin' of Your Spire",
+  "Hairy Twatter and the Order of the Three Dicks",
+  "Hairy Twatter and the Half Chub Prince",
+  "Hairy Twatter and the Depth He Swallows",
   
   // These are all TV shows....
   "Welcome Back, Frotteur",

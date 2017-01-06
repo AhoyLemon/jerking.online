@@ -1,4 +1,5 @@
-function sendGA(c, a, l, v) {
+// jshint -W117
+function sendEvent(c, a, l, v) {
   if (v) {
     //ga('send', 'event', { eventCategory: c, eventAction: a, eventLabel: l, eventValue:v });
     console.log('CATEGORY: '+c+', ACTION:'+a+', LABEL:'+l+', VALUE:'+v);
@@ -9,6 +10,7 @@ function sendGA(c, a, l, v) {
     //ga('send', 'event', { eventCategory: c, eventAction: a });
     console.log('CATEGORY: '+c+', ACTION:'+a);
   }
+  return false;
 }
 
 function numberWithCommas(x) {

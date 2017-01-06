@@ -127,7 +127,7 @@ var pornTitles = [
   "Jiz and the Diaphragms",
   "Big Hero 16 Inch",
   "Tub Girl Time Machine",
-  "Steve's Tugjobs",
+  "Steve's Jobs",
   "Night At The Mapplethorpe Museum",
   "The Boy Shorts",
   "Fist Fist, Bang Bang",

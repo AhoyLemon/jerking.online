@@ -426,6 +426,7 @@ body {
   width: 3rem;
   cursor: pointer;
   z-index: 3;
+  display: none;
 }
 
 .table-holder .switch-day svg {

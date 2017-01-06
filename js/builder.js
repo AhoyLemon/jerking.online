@@ -91,7 +91,7 @@ function rankPornTitles(startDate) {
     }
     $.each(topMovies, function(key, value) {
       var txt = topMovies[key];
-      r = Math.floor((Math.random() * 6)) - 6;
+      r = Math.floor((Math.random() * 12)) - 6;
       var m = key + r;
       if (m < 0) { m = 0; }
       topMovies.splice(key,1);

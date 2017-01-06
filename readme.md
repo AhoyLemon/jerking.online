@@ -11,9 +11,9 @@ I mean, because it's funny? I had the list of these titles just sitting in a tex
 [Lemon](http://ahoylemon.xyz) made this. [Boots](https://thefpl.us/meet/boots-raingear) helped.
 
 ## Oooh, I have some more names for you!
-Alright. You can [tweet](https://twitter.com/AhoyLemon) or [email](mailto:lemon@thefpl.us)
+Alright. You can [tweet](https://twitter.com/AhoyLemon) or [email](mailto:lemon@thefpl.us) them to me.
 
-## Aren't you the guy who made damn.dog?
+## Aren't you the guy who made [damn.dog](http://damn.dog)?
 Yeah.
 
 ## You take pull requests?

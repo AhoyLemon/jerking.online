@@ -26,6 +26,7 @@ function rankPornTitles(startDate) {
   var change;
   
   $.each(topMovies, function(key, value) {
+    /*
     c = Math.floor((Math.random() * 3) + 1);
     if (c == 1) {
       change = "up";
@@ -34,16 +35,17 @@ function rankPornTitles(startDate) {
     } else if (c == 3) {
       change = "same";
     }
+    */
     
     p = ((Math.random() * (99.999 - 88.8888)) + 88) / 100;
     g = parseInt(g * p);
     s = Math.floor((Math.random() * 600) + 1);
     d = moment().subtract(s, 'days').format('l');
-    $('#PornTitles').append('<tr><td class="rank">'+(key+1)+'</td><td class="title">'+value+'</td><td><span class="s">$</span>'+numberWithCommas(g)+'</td><td class="change '+change+'"> </td></tr>');
+    //$('#PornTitles').append('<tr><td class="rank">'+(key+1)+'</td><td class="title">'+value+'</td><td><span class="s">$</span>'+numberWithCommas(g)+'</td><td class="change new"> </td></tr>');
     var a = {
       title: value,
       take: g,
-      change: change
+      change: "new"
     };
     todayArray.push(a);
   });

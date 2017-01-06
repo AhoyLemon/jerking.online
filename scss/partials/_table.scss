@@ -53,6 +53,7 @@ table { width: 600px; max-width: 100%; margin-left: auto; margin-right: auto; bo
 
 @media (max-width:560px) {
   table {
+    caption { font-size:5.1vw; }
     th, td { padding: 0.25rem; }
   } 
 }

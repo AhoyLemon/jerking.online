@@ -560,6 +560,9 @@ table td.same {
 }
 
 @media (max-width: 560px) {
+  table caption {
+    font-size: 5.1vw;
+  }
   table th, table td {
     padding: 0.25rem;
   }

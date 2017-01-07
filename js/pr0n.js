@@ -1,7 +1,7 @@
 // jshint -W117
 //@prepros-prepend partials/_functions.js
 //@prepros-prepend partials/_titles.js 
-//@prepros-prepend data/_january.js 
+//@prepros-prepend data/_january.js
 
 $('header .logo').click(function() {
   $('header').toggleClass('expanded');

@@ -171,6 +171,14 @@ var pornTitles = [
   "The Italian Blowjob",
   "Blowing For Columbine",
   "Star Whores: The Foreskin Awakens",
+  "Mr. Chode's Wild Ride",
+  "Like Water For Cockolate",
+  "The Gropes of Wrath",
+  "Twatman vs Booberman: Dawn of Just Tits",
+  "Slutter Island",
+  "The Cocksucker Proxy",
+  "Throbbin' Hood: Princess of Queefs",
+  "Frotting Hill",
   
   // The Harry Potter Series
   "Hairy Twatter and the Pornographer's Bone",
@@ -204,7 +212,9 @@ var pornTitles = [
   "Guys and Guys",
   "Clamilton",
   "Bring in 'da Boys, Bring in 'da Spunk",
-  "Scats"
+  "Scats",
+  "Annie Fuck Your Bum",
+  "Moulan Spooge"
 ];
 
 var pornData = {
@@ -894,7 +904,7 @@ var pornData = {
 // jshint -W117
 //@prepros-prepend partials/_functions.js
 //@prepros-prepend partials/_titles.js 
-//@prepros-prepend data/_january.js 
+//@prepros-prepend data/_january.js
 
 $('header .logo').click(function() {
   $('header').toggleClass('expanded');

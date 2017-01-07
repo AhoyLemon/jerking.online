@@ -921,7 +921,7 @@ $('.top-porn').on('click', 'td.title', function() {
   var title = $(this).text();
   var rank = $(this).siblings('.rank').text();
   var intentText = encodeURI("Number "+rank+" Porn for "+currentDay.short+": "+title);
-  var intentURL = "https://twitter.com/intent/tweet?url=http%3A%2F%2Fjerking.online&via=AhoyLemon&text="+intentText;
+  var intentURL = "https://twitter.com/intent/tweet?text="+intentText+'%0ahttp://jerking.online';
   sendEvent('share title', 'Twitter', title);
   window.open(intentURL, "popupWindow", "width=550,height=340");
 });

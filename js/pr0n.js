@@ -70,7 +70,7 @@ function checkArrows() {
     $('.prev-day').hide();
   }
   
-  if (1 == 1) {
+  if (parseInt(currentDay.raw.format('YYYYMMDD')) < parseInt(moment().subtract(1,'days').format('YYYYMMDD'))) {
     $('.next-day').show();
   } else {
     $('.next-day').hide();

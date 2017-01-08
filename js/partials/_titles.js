@@ -42,7 +42,6 @@ var pornTitles = [
   "GoodFellatas",
   "Veinspotting",
   "The Princess Ride",
-  "No Cunt Free For Old Men",
   "Public Enemas",
   "On Her Majesty's Secret Cervix",
   "Gunfight at the KY Corral",
@@ -59,7 +58,6 @@ var pornTitles = [
   "G*A*S*H",
   "Wet Hot American Hummer",
   "A Queer and Pleasant Stranger",
-  "Glazing Arizona",
   "Motion Impossible",
   "Fannie Hall",
   "Fist Me Deadly",
@@ -139,7 +137,6 @@ var pornTitles = [
   "The Gropes of Wrath",
   "Twatman vs Booberman: Dawn of Just Tits",
   "Slutter Island",
-  "The Cocksucker Proxy",
   "Throbbin' Hood: Princess of Queefs",
   "Frotting Hill",
   "A Clockwork Orgy",
@@ -155,6 +152,28 @@ var pornTitles = [
   "Bareback To The Future",
   "Titzcarraldo",
   "The Scissorhood of the Traveling Underpants",
+  "Birdman (or The Unexpected Pleasure of Dominance)",
+  "My Big Fat Freak, Wetting",
+  "Jack Reacharound",
+  "Crotch-22",
+  
+  // Jack Lemmon
+  "Some Like A Twat",
+  "Humpy Old Men",
+  "Under The Cum Cum Tree",
+  
+  // Coen Brothers
+  "Glazing Arizona",
+  "The Ladydrillers",
+  "No Cunt Free For Old Men",
+  "Actually Inside Llewyn Davis",
+  "The Cocksucker Proxy",
+  "Nail Caesar!",
+  
+  // Lord of the Rings series
+  "Lord of the Cockrings: The Fellowship of the Cockring",
+  "Lord of the Cockrings: The Return of the Kink",
+  "Lord of the Cockrings: The Two Showers",
   
   // The Harry Potter Series
   "Hairy Twatter and the Pornographer's Bone",
@@ -176,6 +195,7 @@ var pornTitles = [
   "Charles In Charles",
   "Better Ball Saul",
   "Haters Whack Off!",
+  "Eastbound And Going Down",
   
   // Musicals...
   "Taint Must Be Shaven",
@@ -190,5 +210,5 @@ var pornTitles = [
   "Bring in 'da Boys, Bring in 'da Spunk",
   "Scats",
   "Annie Fuck Your Bum",
-  "Moulan Spooge"
+  "Moulan Spooge",
 ];

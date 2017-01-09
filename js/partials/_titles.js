@@ -156,6 +156,9 @@ var pornTitles = [
   "My Big Fat Freak, Wetting",
   "Jack Reacharound",
   "Crotch-22",
+  "Lube\u00B2: Hyperlube",
+  "Clitty Lickers 2: The Legend of Curly Pubes",
+  "3 Men And A Jar Of Lube",
   
   // Jack Lemmon
   "Some Like A Twat",

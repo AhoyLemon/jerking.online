@@ -160,6 +160,11 @@ var pornTitles = [
   "Clitty Lickers 2: The Legend of Curly Pubes",
   "3 Men And A Jar Of Lube",
   "In Glory Hole Basterds",
+  "Pacific Rimjob",
+  "Wank You For Smoking",
+  "Fuck-It Ralph",
+  "The Wolf of Ball Street",
+  "An American Warewolf In Laura",
   
   // Jack Lemmon
   "Some Like A Twat",

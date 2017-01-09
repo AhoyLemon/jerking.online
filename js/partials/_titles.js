@@ -159,6 +159,7 @@ var pornTitles = [
   "Lube\u00B2: Hyperlube",
   "Clitty Lickers 2: The Legend of Curly Pubes",
   "3 Men And A Jar Of Lube",
+  "In Glory Hole Basterds",
   
   // Jack Lemmon
   "Some Like A Twat",

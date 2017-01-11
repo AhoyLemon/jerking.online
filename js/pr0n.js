@@ -31,7 +31,7 @@ function todaysPorn(date) {
   var todaysData = pornData[date];
   console.log('there are '+todaysData.length+' titles');
   $('#PornTitles').empty();
-  $.each(todaysData, function(key, value) {
+  $.each(todaysData, function(key) {
     $('#PornTitles').append('<tr><td class="rank">'+(key+1)+'</td><td class="title">'+todaysData[key].title+'</td><td class="gross"><span class="s">$</span>'+numberWithCommas(todaysData[key].take)+'</td><td class="change '+todaysData[key].change+'"> </td></tr>');
   });
   $('#TheDay').text(currentDay.verbose);
@@ -51,14 +51,10 @@ function formatDay(d) {
   currentDay.utc = parseInt(moment(d).format('YYYYMMDD'));
 }
 
-var yesterday = moment().subtract(1, 'days').format('dddd, MMMM Do YYYY');
-var tweetDay = moment().subtract(1, 'days').format('MMM D');
-var utiDay = moment().subtract(1, 'days').format('YYYYMMDD');
 formatDay(currentDay.raw);
 
-
 $(document).ready(function() {
-  todaysPorn(utiDay);
+  todaysPorn(currentDay.utc);
   checkArrows();
 });
 

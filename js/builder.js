@@ -102,7 +102,7 @@ function rankPornTitles(startDate) {
       topMovies.push(todayArray[key].title);
     });
     var i = 0;
-    var r = Math.floor((Math.random() * 6)) + 4;
+    var r = Math.floor((Math.random() * 6)) + 6;
     while (i < r) {
       var r = Math.floor((Math.random() * pornTitles.length));
       if (topMovies.indexOf(pornTitles[r]) == -1 && avoidList.indexOf(pornTitles[r]) == -1) {
@@ -166,6 +166,6 @@ function rankPornTitles(startDate) {
 }
 
 $(document).ready(function() {
-  rankPornTitles("20170108");
+  rankPornTitles("20170111");
   console.log(avoidList);
 });

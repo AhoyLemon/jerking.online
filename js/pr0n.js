@@ -57,8 +57,8 @@ $(document).ready(function() {
 });
 
 function checkArrows() {
-  var n = parseInt(moment(currentDay.raw).subtract(1,'days').format('YYYYMMDD'));
-  if (pornData[n]) {
+  
+  if (pornData[currentDay.utc] && moment().subtract(1, 'days').diff(moment(currentDay.raw), 'days') < 7) {
     $('.prev-day').show();
   } else {
     $('.prev-day').hide();
@@ -74,6 +74,9 @@ function checkArrows() {
 $('.prev-day').click(function() {
   formatDay(moment(currentDay.raw).subtract(1, 'days'));
   todaysPorn(currentDay.utc);
+  //var a = moment(currentDay.raw);
+  //var b = moment().subtract(1, 'days');
+  //alert(moment().subtract(1, 'days').diff(moment(currentDay.raw), 'days'));   // =1
   checkArrows();
 });
 

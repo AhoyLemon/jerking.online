@@ -177,6 +177,9 @@ var pornTitles = [
   "The Ho Men",
   "Invasion of the Bawdy Snatches",
   "Night of the Giving Head",
+  "Reservoir Dongs",
+  "Glazed and Confused",
+  "Thighs Wide Shut",
   
   // Jack Lemmon
   "Some Like A Twat",

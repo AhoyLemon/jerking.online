@@ -165,6 +165,18 @@ var pornTitles = [
   "Fuck-It Ralph",
   "The Wolf of Ball Street",
   "An American Warewolf In Laura",
+  "The Last Starfucker",
+  "Kneel And Deliver",
+  "The Black Swanzstucker",
+  "Slop Shot",
+  "Million Dollar Booby",
+  "Brian's Schlong",
+  "Twins Peaking",
+  "Trick 'r Skeet",
+  "Sore Jaws",
+  "The Ho Men",
+  "Invasion of the Bawdy Snatches",
+  "Night of the Giving Head",
   
   // Jack Lemmon
   "Some Like A Twat",

@@ -23,8 +23,6 @@ $('.top-porn').on('click', 'td.title', function() {
   window.open(intentURL, "popupWindow", "width=550,height=340");
 });
 
-//
-
 function todaysPorn(date) {
   $('#TitleCount').text(pornTitles.length);
   console.log(pornTitles);

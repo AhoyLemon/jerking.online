@@ -180,6 +180,14 @@ var pornTitles = [
   "Reservoir Dongs",
   "Glazed and Confused",
   "Thighs Wide Shut",
+  "Stay Hard 2: Stay Harder",
+  "21 Pumps, SKEET!",
+  "9″ to 5″",
+  "Twerking Girl",
+  "How To Get Some Head In Advertising",
+  "Bite Club",
+  "I Heart Cuckin' Bees",
+  "GladHeAteHer",
   
   // Jack Lemmon
   "Some Like A Twat",
@@ -193,6 +201,7 @@ var pornTitles = [
   "Actually Inside Llewyn Davis",
   "The Cocksucker Proxy",
   "Nail Caesar!",
+  "Burn After Peeing",
   
   // Lord of the Rings series
   "Lord of the Cockrings: The Fellowship of the Cockring",
@@ -207,6 +216,9 @@ var pornTitles = [
   "Hairy Twatter and the Order of the Three Dicks",
   "Hairy Twatter and the Half Chub Prince",
   "Hairy Twatter and the Depth He Swallows",
+  
+  // Star Trek series...
+  "Slut Trek II: The Wrath of Cum",
   
   // These are all TV shows....
   "Welcome Back, Frotteur",

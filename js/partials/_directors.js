@@ -108,3 +108,9 @@ var pornDirectors = [
     description: "he indie world's most beloved of directors spent years making films about the heartache of obsessive pencil collectors, the beauty of women who are ugly, and the personal lives of two people who interrupt each other. Then Hollywood called him, and had him make a movie about Marines on the Moon. This began a series of events that led to porn being Pablo's only creative outlet. A Pablo Impeccable picture is layered with subtext, innovative camera work and gorgeous saturated lighting. Which is great, for the people who would care about this."
   }
 ];
+
+
+var directors = [
+  "David Stench",
+  
+]

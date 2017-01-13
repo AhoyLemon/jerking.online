@@ -186,8 +186,8 @@ var pornTitles = [
   "Twerking Girl",
   "How To Get Some Head In Advertising",
   "Bite Club",
-  "I Heart Cuckin' Bees",
   "GladHeAteHer",
+  "Before The Devil Knows You're Dicked",
   
   // Jack Lemmon
   "Some Like A Twat",
@@ -202,6 +202,7 @@ var pornTitles = [
   "The Cocksucker Proxy",
   "Nail Caesar!",
   "Burn After Peeing",
+  "The Big Lebow Chicka Wow Wow Ski",
   
   // Lord of the Rings series
   "Lord of the Cockrings: The Fellowship of the Cockring",
@@ -245,6 +246,5 @@ var pornTitles = [
   "Clamilton",
   "Bring in 'da Boys, Bring in 'da Spunk",
   "Scats",
-  "Annie Fuck Your Bum",
   "Moulan Spooge"
 ];

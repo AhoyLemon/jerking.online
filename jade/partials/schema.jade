@@ -6,13 +6,16 @@ script(type="application/ld+json").
     "url": "#{siteURL}",
     "sameAs": "#{fplusURL}",
     "discussionUrl": "#{fplusURL}",
-    "image": "#{siteURL}/img/og-image.png",
+    "image": [
+      "#{siteURL}/img/og-image.png",
+      "#{siteURL}/img/screenshot.png",
+      "#{siteURL}/svg/jerking.svg"
+    ],
     "description": "#{description}",
     "inLanguage": "English",
     "typicalAgeRange": "18+",
     "isAccessibleForFree": true,
     "dateCreated": "#{launchDate}",
-    "logo": "#{siteURL}/svg/jerking.svg",
     "creator": {
       "@type": "Person",
       "name": "Lemon",

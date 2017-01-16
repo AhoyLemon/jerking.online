@@ -1,28 +1,6 @@
 // jshint -W098
 // jshint -W117
 
-var possibleKinks = [
-  { name: "anal", odds: 40 },
-  { name: "bdsm", odds: 25 },
-  { name: "peeing", odds: 12 },
-  { name: "foot stuff", odds: 12 },
-  { name: "stuffed animals", odds: 3 },
-  { name: "aspyxiation", odds: 7 },
-  { name: "pie sitting", odds: 11 }
-];
-
-var possibleTags = [
-  { name: "glasses", odds: 26 },
-  { name: "hairy", odds: 16 },
-  { name: "goth", odds: 16 },
-  { name: "bald", odds: 16 },
-  { name: "huge penis", odds:23, gender:"male" },
-  { name: "tiny breasts", odds:16, gender:"female" },
-  { name: "squirts", odds: 11, gender:"female" },
-  { name: "many piercings", odds: 9 },
-  { name: "excessive tattoos", odds: 11 }
-];
-
 var names = {
   female: [
     "Tilda Sweatin",

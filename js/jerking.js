@@ -13,7 +13,6 @@ $('header .logo').hover(function() {
   $('header .fist').removeClass('shaking');
 });
 
-
 $('.top-porn').on('click', 'td.title', function() {
   var title = $(this).text();
   var rank = $(this).siblings('.rank').text();
@@ -74,9 +73,6 @@ function checkArrows() {
 $('.prev-day').click(function() {
   formatDay(moment(currentDay.raw).subtract(1, 'days'));
   todaysPorn(currentDay.utc);
-  //var a = moment(currentDay.raw);
-  //var b = moment().subtract(1, 'days');
-  //alert(moment().subtract(1, 'days').diff(moment(currentDay.raw), 'days'));   // =1
   checkArrows();
 });
 

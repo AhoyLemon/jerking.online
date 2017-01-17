@@ -188,6 +188,16 @@ var pornTitles = [
   "Bite Club",
   "GladHeAteHer",
   "Before The Devil Knows You're Dicked",
+  "Fantastic Breasts And Where To Fuck Them",
+  "Koyaanistwatsi",
+  "Five Years In To Beth",
+  "Four Weddings, A Funeral, And Then A Gangbang",
+  "Never Been Kissed... There",
+  "The Constant Groper",
+  "Banging John Malkovich",
+  "Lapdancer In The Dark",
+  "Who Rogered That Rabbit?",
+  "Urethral Weapon",
   
   // Jack Lemmon
   "Some Like A Twat",
@@ -218,6 +228,12 @@ var pornTitles = [
   "Hairy Twatter and the Half Chub Prince",
   "Hairy Twatter and the Depth He Swallows",
   
+  // James Bond
+  "Dr. O Yes",
+  "From Gushing WIth Love",
+  "On Her Majesty's Secret Cervix",
+  "Octopussy, Novempussy, Decapussy... Whatapussy!",
+  
   // Star Trek series...
   "Slut Trek II: The Wrath of Cum",
   
@@ -233,6 +249,7 @@ var pornTitles = [
   "Better Ball Saul",
   "Haters Whack Off!",
   "Eastbound And Going Down",
+  "Married... With An Understanding",
   
   // Musicals...
   "Taint Must Be Shaven",

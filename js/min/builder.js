@@ -239,6 +239,7 @@ var pornTitles = [
   "Shaun The Creep Movie",
   "Tim, Fuck Two",
   "Sex Machina",
+  "Peggy Guggenheim: Fart Addict",
   
   // Jack Lemmon
   "Some Like A Twat",

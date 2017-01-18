@@ -198,6 +198,10 @@ var pornTitles = [
   "Lapdancer In The Dark",
   "Who Rogered That Rabbit?",
   "Urethral Weapon",
+  "Kubo and the G Strings",
+  "Shaun The Creep Movie",
+  "Tim, Fuck Two",
+  "Sex Machina",
   
   // Jack Lemmon
   "Some Like A Twat",
@@ -228,9 +232,15 @@ var pornTitles = [
   "Hairy Twatter and the Half Chub Prince",
   "Hairy Twatter and the Depth He Swallows",
   
+  // The Hunger Games
+  "The Hung Games",
+  "The Hung Games: Flashing Firecrotch",
+  "The Hung Games: Crotch On Fire",
+  "The Hung Games: Mocking J/O [Part 1]",
+  
   // James Bond
   "Dr. O Yes",
-  "From Gushing WIth Love",
+  "From Gushing With Love",
   "On Her Majesty's Secret Cervix",
   "Octopussy, Novempussy, Decapussy... Whatapussy!",
   
@@ -249,6 +259,8 @@ var pornTitles = [
   "Better Ball Saul",
   "Haters Whack Off!",
   "Eastbound And Going Down",
+  "Who's The Bottom?",
+  "Perfect Strange",
   "Married... With An Understanding",
   
   // Musicals...

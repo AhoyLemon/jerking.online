@@ -36,7 +36,8 @@ var names = {
     "Anne Bangcroft",
     "Anne Hathawang",
     "SigHorny Weaver",
-    "Anna Packed In"
+    "Anna Packed In",
+    "Julia Knobberts"
   ],
   male: [
     "Keith Gayvid",
@@ -56,6 +57,13 @@ var names = {
     "Jack Lemmon Party",
     "Power O'Toole",
     "Phillip SeeMore BuffMen",
-    "Gregory Pecker"
+    "Gregory Pecker",
+    "Russell Blowe",
+    'Dwayne "The Cock" Johnson',
+    "Seann William Slutt",
+    "Tom Diddleson",
+    "Blowin' Atkinson",
+    "Robert Splattinson",
+    "Idris Elbowdeep"
   ]
 };

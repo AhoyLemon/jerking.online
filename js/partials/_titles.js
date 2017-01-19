@@ -203,6 +203,14 @@ var pornTitles = [
   "Tim, Fuck Two",
   "Sex Machina",
   "Peggy Guggenheim: Fart Addict",
+  "You've Got Male",
+  "The Magnificent Semen",
+  "SLC Spunk",
+  "The Boner Collector",
+  "The Hump For Red October",
+  "Nightballer",
+  "Queen of the Dental Dam",
+  "Astroglide Boy",
   
   // Jack Lemmon
   "Some Like A Twat",
@@ -276,5 +284,6 @@ var pornTitles = [
   "Clamilton",
   "Bring in 'da Boys, Bring in 'da Spunk",
   "Scats",
-  "Moulan Spooge"
+  "Moulan Spooge",
+  "Annie Got That Cum"
 ];

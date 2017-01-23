@@ -211,6 +211,11 @@ var pornTitles = [
   "Nightballer",
   "Queen of the Dental Dam",
   "Astroglide Boy",
+  "'bating For Godot",
+  "Tetsuo: The Erect Man",
+  "The Lust Boys",
+  "Homo Alone 2: Lust In New York",
+  "Harold & Kumar Fuck In A White Castle Bathroom",
   
   // Jack Lemmon
   "Some Like A Twat",
@@ -285,5 +290,7 @@ var pornTitles = [
   "Bring in 'da Boys, Bring in 'da Spunk",
   "Scats",
   "Moulan Spooge",
-  "Annie Got That Cum"
+  "Annie Got That Cum",
+  "Spermalot",
+  "My Fair Labia"
 ];

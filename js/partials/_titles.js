@@ -216,6 +216,7 @@ var pornTitles = [
   "The Lust Boys",
   "Homo Alone 2: Lust In New York",
   "Harold & Kumar Fuck In A White Castle Bathroom",
+  "Ferris Bueller Jerks Off",
   
   // Jack Lemmon
   "Some Like A Twat",

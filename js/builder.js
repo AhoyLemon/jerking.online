@@ -3,7 +3,7 @@
 // jshint -W004
 //@prepros-prepend partials/_functions.js
 //@prepros-prepend partials/_titles.js
-//@prepros-prepend data/_january.js
+//@prepros-prepend data/_data.js
 
 var topMovies = [];
 var todayArray = [];
@@ -15,7 +15,7 @@ var avoidList = [];
 
 
 function parseHistoricalData(startDate) {
-  for (z = 8; z > 0; z--) { 
+  for (z = 10; z > 0; z--) { 
     var thisDaysData = pornData[moment(startDate).subtract(z,'days').format('YYYYMMDD')];
     $.each(thisDaysData, function(key, value) {
       if (avoidList.indexOf(thisDaysData[key].title) == -1) {
@@ -42,7 +42,7 @@ function rankPornTitles(startDate) {
   
   // Begin of newDay loop
   var z = 0;
-  while (z < 13) {
+  while (z < 18) {
     var yesterdayArray = topMovies;
     topMovies = [];
     $.each(todayArray, function(key, value) {
@@ -113,6 +113,6 @@ function rankPornTitles(startDate) {
 }
 
 $(document).ready(function() {
-  rankPornTitles("20170123");
+  rankPornTitles("20170202");
   console.log(avoidList);
 });

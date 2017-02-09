@@ -227,6 +227,14 @@ var pornTitles = [
   "Moanal",
   "My Sex Life With A Zucchini",
   "Morning Gloryhole",
+  "Ender's Gay",
+  "I'm In Her, With Andre",
+  "Penetrating Howard's End",
+  "Gays of Thunder",
+  "Training Gay",
+  "Driving Into Ms Daisy",
+  "The Bear Up There",
+  "FUX 1138",
   
   // Jack Lemmon
   "Some Like A Twat",

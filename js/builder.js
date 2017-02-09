@@ -113,6 +113,6 @@ function rankPornTitles(startDate) {
 }
 
 $(document).ready(function() {
-  rankPornTitles("20170202");
+  rankPornTitles("20170209");
   console.log(avoidList);
 });

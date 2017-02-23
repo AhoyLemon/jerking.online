@@ -235,6 +235,11 @@ var pornTitles = [
   "Driving Into Ms Daisy",
   "The Bear Up There",
   "FUX 1138",
+  "A Dogging's Purpose",
+  "Vulva! Lez Vegas",
+  "The Lust Unicorn",
+  "Replicunt",
+  "The Licker Man",
   
   // Jack Lemmon
   "Some Like A Twat",
@@ -273,9 +278,12 @@ var pornTitles = [
   
   // James Bond
   "Dr. O Yes",
-  "From Gushing With Love",
+  "Fuck Russians With Love",
   "On Her Majesty's Secret Cervix",
   "Octopussy, Novempussy, Decapussy... Whatapussy!",
+  "Goldfingering",
+  "Try Another Gay",
+  "The Man With The Golden Cunt",
   
   // Star Trek series...
   "Slut Trek II: The Wrath of Cum",

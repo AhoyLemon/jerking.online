@@ -287,6 +287,14 @@ var pornTitles = [
   
   // Star Trek series...
   "Slut Trek II: The Wrath of Cum",
+  "Slut Trek III: The Search For Cock",
+  "Slut Trek IV: The Voyeur's Moan",
+  "Slut Trek V: The Final Cunt's Here",
+  "Slut Trek VI: The Undiscovered Entry",
+  //--- generations?
+  "Slut Trek: Fist Contact",
+  
+  
   
   // These are all TV shows....
   "Welcome Back, Frotteur",

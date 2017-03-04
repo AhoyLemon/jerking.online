@@ -338,10 +338,8 @@ var pornTitles = [
   "Slut Trek IV: The Voyeur's Moan",
   "Slut Trek V: The Final Cunt's Here",
   "Slut Trek VI: The Undiscovered Entry",
-  //--- generations?
+  "Slut Trek: Penetrations",
   "Slut Trek: Fist Contact",
-  
-  
   
   // These are all TV shows....
   "Welcome Back, Frotteur",

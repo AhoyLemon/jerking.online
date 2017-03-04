@@ -112,7 +112,9 @@ function rankPornTitles(startDate) {
   $('#JSArray').append('  };');
 }
 
+var today = moment().format('YYYYMMDD');
+
 $(document).ready(function() {
-  rankPornTitles("20170227");
+  rankPornTitles();
   console.log(avoidList);
 });

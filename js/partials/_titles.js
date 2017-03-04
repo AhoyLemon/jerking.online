@@ -250,6 +250,8 @@ var pornTitles = [
   "Rosencrantz and Guildenstern Are Giving Head",
   "Poonlight",
   "Erin Cock-A-Bitch",
+  "Puppet Masturbator",
+  "Pissmaster",
   
   // Jack Lemmon
   "Some Like A Twat",

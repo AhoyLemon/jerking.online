@@ -240,6 +240,16 @@ var pornTitles = [
   "The Lust Unicorn",
   "Replicunt",
   "The Licker Man",
+  "Ender's Gay",
+  "Penetrating Howard's End",
+  "A Tail And Two Titties",
+  "Gays of Thunder",
+  "Driving Into Ms Daisy",
+  "The Bear Up There",
+  "FUX 1138",
+  "Rosencrantz and Guildenstern Are Giving Head",
+  "Poonlight",
+  "Erin Cock-A-Bitch",
   
   // Jack Lemmon
   "Some Like A Twat",

@@ -252,6 +252,8 @@ var pornTitles = [
   "Erin Cock-A-Bitch",
   "Puppet Masturbator",
   "Pissmaster",
+  "Fast Times In Bridgette's Thighs",
+  "In The Cumpanties of Men",
   
   // Jack Lemmon
   "Some Like A Twat",
@@ -290,6 +292,7 @@ var pornTitles = [
   
   // James Bond
   "Dr. O Yes",
+  "Thunderballs",
   "Fuck Russians With Love",
   "On Her Majesty's Secret Cervix",
   "Octopussy, Novempussy, Decapussy... Whatapussy!",

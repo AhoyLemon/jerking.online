@@ -8,7 +8,6 @@ var pornTitles = [
   "50 Fist Dates",
   "The Filth Element",
   "Let the White One In",
-  "Fill Bill, vol 2",
   "Me, Myself in Irene",
   "Indiana Bones and the Temple of Poon",
   "I Broke My Back Mounting",
@@ -74,7 +73,6 @@ var pornTitles = [
   "The Squirt Locker",
   "Jiro Creams On Suki",
   "Poonrise Kingdom",
-  "Django Chained",
   "Moneyballin",
   "Being Inside Elmo",
   "Attack The Cock",
@@ -159,7 +157,6 @@ var pornTitles = [
   "Lube\u00B2: Hyperlube",
   "Clitty Lickers 2: The Legend of Curly Pubes",
   "3 Men And A Jar Of Lube",
-  "In Glory Hole Basterds",
   "Pacific Rimjob",
   "Wank You For Smoking",
   "Fuck-It Ralph",
@@ -177,7 +174,6 @@ var pornTitles = [
   "The Ho Men",
   "Invasion of the Bawdy Snatches",
   "Night of the Giving Head",
-  "Reservoir Dongs",
   "Glazed and Confused",
   "Thighs Wide Shut",
   "Stay Hard 2: Stay Harder",
@@ -254,6 +250,8 @@ var pornTitles = [
   "Pissmaster",
   "Fast Times In Bridgette's Thighs",
   "In The Cumpanties of Men",
+  "Natural Porn Killers",
+  "Wyatt Slurp",
   
   // Jack Lemmon
   "Some Like A Twat",
@@ -268,7 +266,18 @@ var pornTitles = [
   "The Cocksucker Proxy",
   "Nail Caesar!",
   "Burn After Peeing",
+  "The Man Who Was In There",
+  "True Clit",
   "The Big Lebow Chicka Wow Wow Ski",
+  "Pud Simple",
+  "Filler's Crossing",
+  
+  // Quentin Tarantino
+  "In Glory Hole Basterds",
+  "Django Chained",
+  "Fill Bill, vol 2",
+  "Reservoir Dongs",
+  "Jack Me Brown",
   
   // Lord of the Rings series
   "Lord of the Cockrings: The Fellowship of the Cockring",

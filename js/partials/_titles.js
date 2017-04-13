@@ -254,6 +254,8 @@ var pornTitles = [
   "Anne of Groin Gobbles",
   "The Fabulous Bukkake Boys",
   "Depth of a Salesman",
+  "The Usual Cuck Sex",
+  "Ghost In Michelle",
   
   // Jack Lemmon
   "Some Like A Twat",

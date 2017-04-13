@@ -37,12 +37,12 @@ function rankPornTitles(startDate) {
   
   parseHistoricalData(startDate);
   
-  console.log(avoidList);
-  console.log(topMovies);
+  //console.log(avoidList);
+  //console.log(topMovies);
   
   // Begin of newDay loop
   var z = 0;
-  while (z < 18) {
+  while (z < 22) {
     var yesterdayArray = topMovies;
     topMovies = [];
     $.each(todayArray, function(key, value) {
@@ -60,7 +60,7 @@ function rankPornTitles(startDate) {
     }
     $.each(topMovies, function(key, value) {
       var txt = topMovies[key];
-      r = Math.floor((Math.random() * 14)) - 6;
+      r = Math.floor((Math.random() * 12)) - 5;
       var m = key + r;
       if (m < 0) { m = 0; }
       topMovies.splice(key,1);
@@ -116,5 +116,6 @@ var today = moment().format('YYYYMMDD');
 
 $(document).ready(function() {
   rankPornTitles();
-  console.log(avoidList);
+  console.log('I processed '+avoidList.length+' titles.');
+  //console.log(avoidList);
 });

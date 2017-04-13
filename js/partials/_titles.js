@@ -360,7 +360,7 @@ var pornTitles = [
   "The Drag King And I",
   "Grease'd",
   "Stepmomenschanz",
-  "Seven Brides For A Brotha",
+  "Seven Brides For A Brother",
   "Fishnet Stockings",
   "Gentlemen Prefer Bald",
   "Bye Bye Virginity",

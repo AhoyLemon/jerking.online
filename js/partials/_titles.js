@@ -257,6 +257,9 @@ var pornTitles = [
   "The Usual Cuck Sex",
   "Ghost In Michelle",
   "Pies Like Us",
+  "Risky Jizness",
+  "Shaving Mr. Banks",
+  "Dong: Skullfuck Island",
   
   // Jack Lemmon
   "Some Like A Twat",

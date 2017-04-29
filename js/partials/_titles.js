@@ -261,6 +261,7 @@ var pornTitles = [
   "Shaving Mr. Banks",
   "Dong: Skullfuck Island",
   
+  
   // Jack Lemmon
   "Some Like A Twat",
   "Humpy Old Men",
@@ -279,6 +280,7 @@ var pornTitles = [
   "The Big Lebow Chicka Wow Wow Ski",
   "Pud Simple",
   "Filler's Crossing",
+  "The Ladyboys From Brazil",
   
   // Quentin Tarantino
   "In Glory Hole Basterds",
@@ -343,6 +345,7 @@ var pornTitles = [
   "Married... With An Understanding",
   "Slut Trek: Deep Throat 9",
   "Spoo Detective",
+  "Joanie Loves Crotchie",
   
   // Musicals...
   "Taint Must Be Shaven",

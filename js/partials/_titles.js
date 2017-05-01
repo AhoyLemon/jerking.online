@@ -261,6 +261,7 @@ var pornTitles = [
   "Shaving Mr. Banks",
   "Dong: Skullfuck Island",
   "Supersize Meat",
+  "The Grinch Whose Hole Fits Fists",
   
   // Jack Lemmon
   "Some Like A Twat",

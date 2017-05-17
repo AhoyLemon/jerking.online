@@ -263,6 +263,8 @@ var pornTitles = [
   "Supersize Meat",
   "The Grinch Whose Hole Fits Fists",
   "Wet Dreams May Come",
+  "Hello, Real Dolly!",
+  "Drilling Zoe",
   
   // Jack Lemmon
   "Some Like A Twat",

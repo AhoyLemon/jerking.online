@@ -267,6 +267,9 @@ var pornTitles = [
   "Drilling Zoe",
   "The Unbearable Tightness of Ian",
   "Judge Headd",
+  "Sinning In The Rain",
+  "Le Voyage Sans La Lube",
+  "Poonlight",
   
   // Jack Lemmon
   "Some Like A Twat",

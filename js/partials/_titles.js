@@ -383,5 +383,8 @@ var pornTitles = [
   "No Literally I Mean It, ANYTHING Goes",
   "Cornholeval",
   "How To Give Her The Business Without Really Trying",
-  "My Fair Labia"
+  "My Fair Labia",
+  
+  // PODCASTS
+  "My Brother, My Brother In Me"
 ];

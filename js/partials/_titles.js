@@ -270,6 +270,9 @@ var pornTitles = [
   "Sinning In The Rain",
   "Le Voyage Sans La Lube",
   "Poonlight",
+  "Stroke Dracula, Bram",
+  "Cumhog Millionaire",
+  "Cum With Dick and Jane",
   
   // Jack Lemmon
   "Some Like A Twat",

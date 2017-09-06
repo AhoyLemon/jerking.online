@@ -274,7 +274,7 @@ var pornTitles = [
   "Cumhog Millionaire",
   "Cum With Dick and Jane",
   "The Big Stick",
-  "Logan Fucky Sucky",
+  "Logan Lucky Fucky Sucky",
   "The Just Ass League",
   "The Eggplant Emoji Movie",
   

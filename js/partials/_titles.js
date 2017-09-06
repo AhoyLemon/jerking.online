@@ -273,6 +273,13 @@ var pornTitles = [
   "Stroke Dracula, Bram",
   "Cumhog Millionaire",
   "Cum With Dick and Jane",
+  "The Big Stick",
+  "Logan Fucky Sucky",
+  "The Just Ass League",
+  "The Eggplant Emoji Movie",
+  
+  // Documentaries
+  "An Incontinent Truth",
   
   // Jack Lemmon
   "Some Like A Twat",

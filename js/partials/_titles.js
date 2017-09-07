@@ -277,6 +277,12 @@ var pornTitles = [
   "Logan Lucky Fucky Sucky",
   "The Just Ass League",
   "The Eggplant Emoji Movie",
+  "The Englishman Who Went Up A Hill And Came On My Mountains",
+  "Who'd We Do In The Shadows",
+  "A Boy And His Dong",
+  "Black Booty",
+  "Mega Low Dong",
+  "The Incredible Mr. Limpdick",
   
   // Documentaries
   "An Incontinent Truth",

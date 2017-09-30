@@ -284,6 +284,9 @@ var pornTitles = [
   "Mega Low Dong",
   "The Incredible Mr. Limpdick",
   "Humpin' Jack Flash",
+  "Stephen King's Tit",
+  "Mother!Fucker!",
+  "Stop! Or My Mom Will Squirt",
   
   // Documentaries
   "An Incontinent Truth",
@@ -372,6 +375,8 @@ var pornTitles = [
   "Slut Trek: Deep Throat 9",
   "Spoo Detective",
   "Joanie Loves Crotchie",
+  "The John From Cincinnati",
+  "Pokémoan",
   
   // Musicals...
   "Taint Must Be Shaven",
@@ -401,6 +406,9 @@ var pornTitles = [
   "Cornholeval",
   "How To Give Her The Business Without Really Trying",
   "My Fair Labia",
+  
+  // Plays
+  "On Speed And Plowin",
   
   // PODCASTS
   "My Brother, My Brother In Me"

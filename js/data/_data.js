@@ -6451,8 +6451,6 @@ var pornData = {
     {title: "Tetsuo: The Erect Man", take: 19748, change: "down" },
     {title: "Bio-Domme", take: 17822, change: "down" }
   ],
-
-
   "20171021": [
     {title: "Arse Nick and Yo Face", take: 47343, change: "new" },
     {title: "“Manos”: The Handjobs of Fate", take: 41831, change: "down" },
@@ -6518,7 +6516,7 @@ var pornData = {
     {title: "The Constant Groper", take: 14076, change: "down" },
     {title: "Robocuck", take: 12784, change: "down" },
     {title: "The Princess Ride", take: 11294, change: "down" }
-  ], 
+  ],
   "20171024": [
     {title: "“Manos”: The Handjobs of Fate", take: 52894, change: "up" },
     {title: "Hairy Twatter and the Gobblin' of Your Spire", take: 51848, change: "up" },

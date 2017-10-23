@@ -15,23 +15,28 @@ html(lang="en")
     include partials/_header.pug
   
     main
-      .table-holder
-        a.switch-day.go-back.prev-day
+      .table-holder#app
+        a.switch-day.prev-day(v-on:click="prevDay()")
           svg(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100")
             path(d="M51.2 2.4L4.1 48.8v.2l47.1 46.4 7.7-7.8-33.7-33.2h70.7v-11H25.2l33.7-33.2z")
-        a.switch-day.go-forward.next-day
+        a.switch-day.next-day(v-on:click="nextDay()" v-if="showNextDay")
           svg(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100")
             path(d="M48.8 95.4L95.9 49v-.2L48.8 2.4l-7.7 7.8 33.7 33.2H4.1v11h70.7L41.1 87.6z")
         table.top-porn
           caption
             span Top selling pornographic films for 
-            span.week-of#TheDay
+            span {{displayDatePretty}}
           thead
             tr
               th 
               th TITLE
               th GROSS
               th.change
+            tr(v-for="(movie, index) in list")
+              td.rank {{index + 1}}
+              td.title {{movie.title}}
+              td.gross {{dollars(movie.take)}}
+              td.change(v-bind:class="movie.change")
           tbody#PornTitles
     
     include partials/_javascripts.pug

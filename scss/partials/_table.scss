@@ -4,7 +4,7 @@ body {
 
 main { }
 .table-holder { position: relative;
-  .switch-day { display: block; height:3rem; width: 3rem; cursor: pointer; z-index:$z-day-navigation; display: none;
+  .switch-day { display: block; height:3rem; width: 3rem; cursor: pointer; z-index:$z-day-navigation; // display: none;
     svg { width:100%; height: 100%; fill:currentColor; }
     &:hover { color:$blue;  }
   }
@@ -22,9 +22,11 @@ table { width: 600px; max-width: 100%; margin-left: auto; margin-right: auto; bo
   }
   td { border:1px solid #999; font-weight: 400;
     &:first-child { text-align: right; font-size:0.8em; vertical-align: middle; width:1em; }
+    /*
     &.title { cursor: pointer;
       &:hover { color:$blue; }
     }
+    */
     &.change { background-repeat: no-repeat; background-size: 0.8em 0.8em; background-position:center; width:3em; }
     &.new { background-image:url(../svg/new.svg);}
     &.up { background-image:url(../svg/up.svg);}

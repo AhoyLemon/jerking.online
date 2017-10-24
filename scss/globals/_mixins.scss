@@ -15,7 +15,7 @@
   filter: $filter-type+unquote('(#{$filter-amount})');
 }
 
-@mixin flex-container($direction:row, $wrap:wrap, $align:strech) {
+@mixin flex-container($direction:row, $wrap:wrap, $align:stretch) {
   display: -webkit-box; display: -webkit-flex; display: -moz-flex;display: -ms-flexbox; display: flex;
   flex-direction: $direction;
   -webkit-flex-wrap:$wrap; -moz-flex-wrap:$wrap; 

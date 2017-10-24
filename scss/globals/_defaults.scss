@@ -14,7 +14,7 @@ p { margin-bottom: 1em; }
 ul { padding-left: 1.5em; 
   li { list-style-type: disc; }
 }
-
+[v-cloak] { display: none !important; }
 @media (min-width: $desktop-min) {
   .mobile-only { display: none; }
 }

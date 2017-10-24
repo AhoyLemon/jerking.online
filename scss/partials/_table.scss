@@ -22,11 +22,9 @@ table { width: 600px; max-width: 100%; margin-left: auto; margin-right: auto; bo
   }
   td { border:1px solid #999; font-weight: 400;
     &:first-child { text-align: right; font-size:0.8em; vertical-align: middle; width:1em; }
-    /*
-    &.title { cursor: pointer;
+    a { cursor: pointer; 
       &:hover { color:$blue; }
     }
-    */
     &.change { background-repeat: no-repeat; background-size: 0.8em 0.8em; background-position:center; width:3em; }
     &.new { background-image:url(../svg/new.svg);}
     &.up { background-image:url(../svg/up.svg);}

@@ -85,10 +85,10 @@ var app = new Vue({
       var t;
       if (m == "Twitter") {
         w = 520;
-        h = 260;
+        h = 270;
         l = (window.screen.width / 2) - ((w / 2) + 10);
         t = (window.screen.height / 2) - ((h / 2) + 50);
-        window.open('https://twitter.com/intent/tweet?text='+share.msg+'&url='+share.url, m, 'width='+w+', height='+h+', left='+l+',top='+t);
+        window.open('https://twitter.com/intent/tweet?text='+share.msg+share.url, m, 'width='+w+', height='+h+', left='+l+',top='+t);
       } else if (m == "Facebook") {
         w = 650;
         h = 520;

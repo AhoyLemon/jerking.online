@@ -1,0 +1,38 @@
+.share-outer { @include position(fixed,0,0,0,0); background:transparent; transition:background 1s ease; pointer-events: none;
+  &.visible { background:rgba($body,0.65); pointer-events: all; }
+}
+.cover { @include position(fixed,0,0,0,0); z-index:$z-sharebox; display: flex; align-items: center; justify-content: center; padding: 32px; transform: translateY(160vh); transition:all 1s ease;
+  .sharebox { background-color:$copy; color:$white; padding: 16px 0 6px 1.1em; width:100%; max-width: 580px; }
+  h4 { margin-bottom: 16px; font-weight: $medium; }
+  .share-options { @include flex-container();
+    svg { transform: scale(1); }
+    svg, span { display: block; }
+    a { @include flex-item(56px); margin-bottom: 1em; cursor: pointer;
+      svg { margin-bottom: 6px; width:52px; height: 52px; transform-origin: center; }
+      span { font-size:10px; }
+    }
+    .icon { fill:$black; }
+    .box { fill:currentColor; }
+    a.twitter { color:$color-twitter; }
+    a.facebook { color:#6688c5; }
+    a.livejournal { color:$color-livejournal;
+      span { font-size:9px; padding-top: 1px; }
+    }
+    a.reddit { color:$color-reddit; }
+    a.googleplus { color:$color-googleplus; }
+    a.tumblr { color:$color-tumblr; }
+    a.email { color:$color-email; }
+    //a.close .icon { fill:$white; }
+    
+    a:hover { 
+      svg { transform: scale(1.15); }
+    }
+    a:active { 
+      svg { transform: scale(0.9); }
+    }
+  }
+  
+  
+  &.visible { transform: translateY(0); }
+  
+}

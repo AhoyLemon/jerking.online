@@ -412,6 +412,10 @@ var pornTitles = [
   // Plays
   "On Speed And Plowin",
   
+  // Novels
+  "A Wrinkle In Tom",
+  "Journey To The Center With His Girth",
+  
   // PODCASTS
   "My Brother, My Brother In Me"
 ];

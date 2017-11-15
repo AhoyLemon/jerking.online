@@ -115,7 +115,7 @@ function rankPornTitles(startDate) {
 var today = moment().format('YYYYMMDD');
 
 $(document).ready(function() {
-  rankPornTitles('20171021');
+  rankPornTitles('20171112');
   console.log('I processed '+avoidList.length+' titles.');
   //console.log(avoidList);
 });

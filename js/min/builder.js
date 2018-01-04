@@ -458,7 +458,7 @@ var pornTitles = [
 ];
 // jshint -W098
 var pornData = {
-  "20170101": [
+  "0101": [
     {title: "Boobs! A Madea Porno", take: 48985, change: "new" },
     {title: "Alvin and the Fuckmunks 2: The Fuckuel", take: 46709, change: "new" },
     {title: "Bright Lights, Big Titties", take: 45912, change: "new" },
@@ -480,7 +480,7 @@ var pornData = {
     {title: "Public Enemas", take: 14513, change: "new" },
     {title: "28 Cocks Later", take: 14300, change: "new" }
   ],
-  "20170102": [
+  "0102": [
     {title: "Pan's Labiarinth", take: 46525, change: "new" },
     {title: "Boobs! A Madea Porno", take: 45981, change: "down" },
     {title: "G*A*S*H", take: 44596, change: "new" },
@@ -502,7 +502,7 @@ var pornData = {
     {title: "Robocuck", take: 11426, change: "new" },
     {title: "All That Jizz", take: 10493, change: "down" }
   ], 
-  "20170103": [
+  "0103": [
     {title: "Pan's Labiarinth", take: 54010, change: "same" },
     {title: "Das Booty", take: 49726, change: "new" },
     {title: "Boobs! A Madea Porno", take: 48768, change: "down" },
@@ -524,7 +524,7 @@ var pornData = {
     {title: "The Munchurian Candidass", take: 21660, change: "down" },
     {title: "Taint Must Be Shaven", take: 20733, change: "down" }
   ], 
-  "20170104": [
+  "0104": [
     {title: "Even Reverse Cowgirls Get the Blues", take: 46039, change: "up" },
     {title: "Pan's Labiarinth", take: 45050, change: "down" },
     {title: "Mad Maxxx: Furious Loads", take: 43274, change: "up" },
@@ -546,7 +546,7 @@ var pornData = {
     {title: "Fannie Hall", take: 19663, change: "down" },
     {title: "Big Trouble in Little Vagina", take: 18454, change: "new" }
   ], 
-  "20170105": [
+  "0105": [
     {title: "Pan's Labiarinth", take: 53379, change: "up" },
     {title: "Saturday Night Beaver", take: 48170, change: "new" },
     {title: "Dr. Strangelust, or: How I Learned To Stop Worrying And Love The Bum", take: 43368, change: "new" },
@@ -568,7 +568,7 @@ var pornData = {
     {title: "Hairy Twatter and the Order of the Three Dicks", take: 18218, change: "down" },
     {title: "Raging Balls", take: 17505, change: "new" }
   ], 
-  "20170106": [
+  "0106": [
     {title: "Saturday Night Beaver", take: 50768, change: "up" },
     {title: "Welcome Back, Frotteur", take: 48096, change: "new" },
     {title: "Even Reverse Cowgirls Get the Blues", take: 45462, change: "up" },
@@ -590,7 +590,7 @@ var pornData = {
     {title: "Pee Wee's Big Member", take: 16149, change: "new" },
     {title: "No Cunt Free For Old Men", take: 15374, change: "new" }
   ], 
-  "20170107": [
+  "0107": [
     {title: "The Fantastic Foursome", take: 53588, change: "new" },
     {title: "Enslaving Private Ryan", take: 50341, change: "new" },
     {title: "Saturday Night Beaver", take: 46774, change: "down" },
@@ -612,7 +612,7 @@ var pornData = {
     {title: "Lawrence of a Labia", take: 13911, change: "new" },
     {title: "Being Inside Elmo", take: 13082, change: "down" }
   ], 
-  "20170108": [
+  "0108": [
     {title: "Actually Inside Llewyn Davis", take: 48423, change: "new" },
     {title: "Suicide Squat", take: 45418, change: "new" },
     {title: "Saturday Night Beaver", take: 41367, change: "same" },
@@ -634,7 +634,7 @@ var pornData = {
     {title: "Glazing Arizona", take: 10493, change: "down" },
     {title: "Indiana Bones and the Temple of Poon", take: 9877, change: "down" }
   ], 
-  "20170109": [
+  "0109": [
     {title: "The Tight Stuff", take: 57070, change: "new" },
     {title: "Big Hero 16 Inch", take: 52687, change: "new" },
     {title: "One Blew Over The Cuckold's Nest", take: 51321, change: "new" },
@@ -656,7 +656,7 @@ var pornData = {
     {title: "The Ladydrillers", take: 21116, change: "down" },
     {title: "Poonstruck", take: 20474, change: "new" }
   ], 
-  "20170110": [
+  "0110": [
     {title: "Fist Me Deadly", take: 52722, change: "up" },
     {title: "Cool Handjob, Luke", take: 47725, change: "new" },
     {title: "Big Hero 16 Inch", take: 45836, change: "down" },
@@ -678,7 +678,7 @@ var pornData = {
     {title: "Fingering Dory", take: 13590, change: "down" },
     {title: "Birdman (or The Unexpected Pleasure of Dominance)", take: 12633, change: "down" }
   ], 
-  "20170111": [
+  "0111": [
     {title: "Rebel Without a Cooze", take: 49970, change: "new" },
     {title: "Titzcarraldo", take: 47804, change: "new" },
     {title: "Me, Myself in Irene", take: 42344, change: "new" },
@@ -700,7 +700,7 @@ var pornData = {
     {title: "Spurtigo", take: 13214, change: "down" },
     {title: "Twatman vs Booberman: Dawn of Just Tits", take: 12456, change: "down" }
   ], 
-  "20170112": [
+  "0112": [
     {title: "Me, Myself in Irene", take: 53222, change: "up" },
     {title: "Slop Shot", take: 50699, change: "new" },
     {title: "2 Fast 2 Furry Puss", take: 48592, change: "new" },
@@ -722,7 +722,7 @@ var pornData = {
     {title: "Jiro Creams On Suki", take: 16248, change: "down" },
     {title: "Play With Misty For Me", take: 15279, change: "down" }
   ], 
-  "20170113": [
+  "0113": [
     {title: "Me, Myself in Irene", take: 49038, change: "same" },
     {title: "Big Trouble in Little Vagina", take: 47990, change: "new" },
     {title: "Slop Shot", take: 43967, change: "down" },
@@ -744,7 +744,7 @@ var pornData = {
     {title: "A Streetwalker Named Desireé", take: 18037, change: "down" },
     {title: "The Black Swanzstucker", take: 17373, change: "down" }
   ], 
-  "20170114": [
+  "0114": [
     {title: "A Bit of Fry in Laurie", take: 53068, change: "new" },
     {title: "Me, Myself in Irene", take: 52506, change: "down" },
     {title: "Gosford Porking", take: 46849, change: "up" },
@@ -766,7 +766,7 @@ var pornData = {
     {title: "Tub Girl Time Machine", take: 16584, change: "down" },
     {title: "50 Fist Dates", take: 15423, change: "down" }
   ], 
-  "20170115": [
+  "0115": [
     {title: "Throbbin' Hood: Princess of Queefs", take: 50019, change: "new" },
     {title: "Boyz N The Clitoral Hood", take: 46619, change: "new" },
     {title: "Fantastic Fucks, Mister", take: 42137, change: "new" },
@@ -788,7 +788,7 @@ var pornData = {
     {title: "2 Fast 2 Furry Puss", take: 13880, change: "down" },
     {title: "Bite Club", take: 13530, change: "new" }
   ], 
-  "20170116": [
+  "0116": [
     {title: "Annie Got That Cum", take: 53409, change: "new" },
     {title: "Throbbin' Hood: Princess of Queefs", take: 48888, change: "down" },
     {title: "Fantastic Fucks, Mister", take: 46918, change: "same" },
@@ -810,7 +810,7 @@ var pornData = {
     {title: "To Shave and Shave Not", take: 15043, change: "down" },
     {title: "Bareback To The Future", take: 13613, change: "new" }
   ], 
-  "20170117": [
+  "0117": [
     {title: "The Filth Element", take: 50869, change: "new" },
     {title: "In Glory Hole Basterds", take: 48294, change: "new" },
     {title: "Annie Got That Cum", take: 45607, change: "down" },
@@ -832,7 +832,7 @@ var pornData = {
     {title: "Invasion of the Bawdy Snatches", take: 17503, change: "down" },
     {title: "Monsters' Pink", take: 15870, change: "down" }
   ], 
-  "20170118": [
+  "0118": [
     {title: "The Hung Games: Crotch On Fire", take: 51016, change: "new" },
     {title: "In Glory Hole Basterds", take: 48682, change: "same" },
     {title: "Fantastic Fucks, Mister", take: 43291, change: "up" },
@@ -854,7 +854,7 @@ var pornData = {
     {title: "The Legend of Gagger Vance", take: 15184, change: "new" },
     {title: "The Ho Men", take: 14521, change: "down" }
   ], 
-  "20170119": [
+  "0119": [
     {title: "Before The Devil Knows You're Dicked", take: 56091, change: "new" },
     {title: "My Big Fat Freak, Wetting", take: 53943, change: "new" },
     {title: "Throbbin' Hood: Princess of Queefs", take: 51740, change: "up" },
@@ -876,7 +876,7 @@ var pornData = {
     {title: "The Hung Games", take: 17467, change: "new" },
     {title: "Gosford Porking", take: 15507, change: "down" }
   ], 
-  "20170120": [
+  "0120": [
     {title: "Before The Devil Knows You're Dicked", take: 52000, change: "same" },
     {title: "Django Chained", take: 49879, change: "new" },
     {title: "Blowing For Columbine", take: 45175, change: "new" },
@@ -898,7 +898,7 @@ var pornData = {
     {title: "Public Enemas", take: 17206, change: "down" },
     {title: "Rub, Lola! Rub!", take: 16160, change: "new" }
   ], 
-  "20170121": [
+  "0121": [
     {title: "Group Sex on the Bounty", take: 52589, change: "new" },
     {title: "Blowing For Columbine", take: 46911, change: "up" },
     {title: "Moneyballin", take: 44101, change: "new" },
@@ -920,7 +920,7 @@ var pornData = {
     {title: "Actually Inside Llewyn Davis", take: 16662, change: "new" },
     {title: "The Curious Case of Benjamin's Butthole", take: 15873, change: "down" }
   ], 
-  "20170122": [
+  "0122": [
     {title: "Haters Whack Off!", take: 56207, change: "up" },
     {title: "Anything Grows", take: 54161, change: "new" },
     {title: "Blowing For Columbine", take: 52149, change: "down" },
@@ -942,7 +942,7 @@ var pornData = {
     {title: "My Big Fat Freak, Wetting", take: 16705, change: "down" },
     {title: "GoodFellatas", take: 15955, change: "down" }
   ], 
-  "20170123": [
+  "0123": [
     {title: "SLC Spunk", take: 54135, change: "new" },
     {title: "Good Night And Good Fuck", take: 49930, change: "new" },
     {title: "Atlas Chugged", take: 44727, change: "new" },
@@ -964,7 +964,7 @@ var pornData = {
     {title: "One Flew Into The Poopoo's Nest", take: 11937, change: "new" },
     {title: "Lawrence of a Labia", take: 10607, change: "new" }
   ], 
-  "20170124": [
+  "0124": [
     {title: "The Lust Boys", take: 48207, change: "new" },
     {title: "Taint Must Be Shaven", take: 46461, change: "new" },
     {title: "Koyaanistwatsi", take: 40895, change: "new" },
@@ -986,7 +986,7 @@ var pornData = {
     {title: "Twatman vs Booberman: Dawn of Just Tits", take: 14016, change: "new" },
     {title: "Pacific Rimjob", take: 13380, change: "new" }
   ], 
-  "20170125": [
+  "0125": [
     {title: "Under The Cum Cum Tree", take: 52023, change: "up" },
     {title: "Sore Jaws", take: 50917, change: "up" },
     {title: "The Lust Boys", take: 49524, change: "down" },
@@ -1008,7 +1008,7 @@ var pornData = {
     {title: "Twatman vs Booberman: Dawn of Just Tits", take: 17084, change: "same" },
     {title: "Scatatouille", take: 15835, change: "new" }
   ], 
-  "20170126": [
+  "0126": [
     {title: "Cum and Cummer", take: 48863, change: "new" },
     {title: "Sore Jaws", take: 43820, change: "same" },
     {title: "The Lust Boys", take: 40421, change: "same" },
@@ -1030,7 +1030,7 @@ var pornData = {
     {title: "The Hump For Red October", take: 15281, change: "down" },
     {title: "G*A*S*H", take: 14890, change: "down" }
   ], 
-  "20170127": [
+  "0127": [
     {title: "Scats", take: 56778, change: "new" },
     {title: "Cum and Cummer", take: 51677, change: "down" },
     {title: "The Boner Collector", take: 48363, change: "new" },
@@ -1052,7 +1052,7 @@ var pornData = {
     {title: "Koyaanistwatsi", take: 17290, change: "down" },
     {title: "Perfect Strange", take: 16659, change: "new" }
   ], 
-  "20170128": [
+  "0128": [
     {title: "50 Fist Dates", take: 45999, change: "new" },
     {title: "Scats", take: 44677, change: "down" },
     {title: "Cum and Cummer", take: 42238, change: "down" },
@@ -1074,7 +1074,7 @@ var pornData = {
     {title: "Tub Girl Time Machine", take: 12963, change: "down" },
     {title: "The Hung Games: Mocking J/O [Part 1]", take: 11817, change: "new" }
   ], 
-  "20170129": [
+  "0129": [
     {title: "Cum and Cummer", take: 50526, change: "up" },
     {title: "Scats", take: 46086, change: "same" },
     {title: "50 Fist Dates", take: 44104, change: "down" },
@@ -1096,7 +1096,7 @@ var pornData = {
     {title: "Glazed and Confused", take: 14958, change: "new" },
     {title: "The Dong and I", take: 14058, change: "down" }
   ], 
-  "20170130": [
+  "0130": [
     {title: "Cum and Cummer", take: 46216, change: "same" },
     {title: "Scats", take: 45773, change: "same" },
     {title: "Hairy Twatter and the Chamber of Secretions", take: 43392, change: "new" },
@@ -1118,7 +1118,7 @@ var pornData = {
     {title: "Brian's Schlong", take: 12149, change: "down" },
     {title: "The Dong and I", take: 11169, change: "same" }
   ], 
-  "20170131": [
+  "0131": [
     {title: "The Fantastic Foursome", take: 56934, change: "new" },
     {title: "Scats", take: 50977, change: "same" },
     {title: "Harold & Kumar Fuck In A White Castle Bathroom", take: 48835, change: "new" },
@@ -1145,7 +1145,7 @@ var pornData = {
   // FEBRUARY
   ////////////////////////////////////////////////////////////////////////
 
-  "20170201": [
+  "0201": [
     {title: "In Sid Anus", take: 47893, change: "new" },
     {title: "The Fantastic Foursome", take: 45797, change: "down" },
     {title: "Dr. O Yes", take: 41214, change: "new" },
@@ -1167,7 +1167,7 @@ var pornData = {
     {title: "The Ladydrillers", take: 12026, change: "new" },
     {title: "Cum and Cummer", take: 10756, change: "down" }
   ], 
-  "20170202": [
+  "0202": [
     {title: "Astroglide Boy", take: 45897, change: "new" },
     {title: "The Hung Games", take: 43356, change: "new" },
     {title: "In Sid Anus", take: 41756, change: "down" },
@@ -1189,7 +1189,7 @@ var pornData = {
     {title: "Guys and Guys", take: 11436, change: "down" },
     {title: "Much Ado About Cumming", take: 10282, change: "new" }
   ], 
-  "20170203": [
+  "0203": [
     {title: "Astroglide Boy", take: 51450, change: "same" },
     {title: "In Sid Anus", take: 47087, change: "up" },
     {title: "GladHeAteHer", take: 41766, change: "up" },
@@ -1211,7 +1211,7 @@ var pornData = {
     {title: "Nookie of the Year", take: 12813, change: "down" },
     {title: "Guys and Guys", take: 11945, change: "down" }
   ], 
-  "20170204": [
+  "0204": [
     {title: "A Queer and Pleasant Stranger", take: 52550, change: "new" },
     {title: "In Sid Anus", take: 46771, change: "same" },
     {title: "Astroglide Boy", take: 45386, change: "down" },
@@ -1233,7 +1233,7 @@ var pornData = {
     {title: "Nutbusters", take: 17146, change: "down" },
     {title: "Night of the Giving Head", take: 15617, change: "new" }
   ], 
-  "20170205": [
+  "0205": [
     {title: "Who Rogered That Rabbit?", take: 49687, change: "new" },
     {title: "Wet Hot American Hummer", take: 49051, change: "new" },
     {title: "In Sid Anus", take: 44521, change: "down" },
@@ -1255,7 +1255,7 @@ var pornData = {
     {title: "2 Fast 2 Furry Puss", take: 14853, change: "new" },
     {title: "Shaun The Creep Movie", take: 13340, change: "new" }
   ], 
-  "20170206": [
+  "0206": [
     {title: "Who Rogered That Rabbit?", take: 48821, change: "same" },
     {title: "The Gang Bang Theory", take: 45291, change: "new" },
     {title: "Pee Wee's Big Member", take: 43755, change: "new" },
@@ -1277,7 +1277,7 @@ var pornData = {
     {title: "The Black Swanzstucker", take: 18802, change: "down" },
     {title: "Enemy of the Prostate", take: 17942, change: "down" }
   ], 
-  "20170207": [
+  "0207": [
     {title: "GoodFellatas", take: 51966, change: "new" },
     {title: "Burn After Peeing", take: 46458, change: "up" },
     {title: "Who Rogered That Rabbit?", take: 41713, change: "down" },
@@ -1299,7 +1299,7 @@ var pornData = {
     {title: "Person of Incest", take: 16655, change: "down" },
     {title: "Trans Formers 2: Revenge of the Ballin'", take: 15042, change: "down" }
   ], 
-  "20170208": [
+  "0208": [
     {title: "GoodFellatas", take: 55028, change: "same" },
     {title: "The Boy Shorts", take: 54355, change: "up" },
     {title: "BALL-E", take: 49179, change: "new" },
@@ -1321,7 +1321,7 @@ var pornData = {
     {title: "XXX: State of the Union: XXX", take: 17345, change: "new" },
     {title: "No Cunt Free For Old Men", take: 16927, change: "down" }
   ], 
-  "20170209": [
+  "0209": [
     {title: "GoodFellatas", take: 56359, change: "same" },
     {title: "Moneyballin", take: 52505, change: "new" },
     {title: "The Boy Shorts", take: 46796, change: "down" },
@@ -1343,7 +1343,7 @@ var pornData = {
     {title: "Saturday Night Beaver", take: 14747, change: "down" },
     {title: "The Gang Bang Theory", take: 13064, change: "down" }
   ], 
-  "20170210": [
+  "0210": [
     {title: "The Cocksucker Proxy", take: 52892, change: "new" },
     {title: "Six Days Seven Cocks", take: 50320, change: "new" },
     {title: "GoodFellatas", take: 47832, change: "down" },
@@ -1365,7 +1365,7 @@ var pornData = {
     {title: "A Streetwalker Named Desireé", take: 16989, change: "new" },
     {title: "Scatatouille", take: 15695, change: "new" }
   ], 
-  "20170211": [
+  "0211": [
     {title: "Clamilton", take: 55354, change: "new" },
     {title: "Ender's Gay", take: 49878, change: "new" },
     {title: "The Cocksucker Proxy", take: 48892, change: "down" },
@@ -1387,7 +1387,7 @@ var pornData = {
     {title: "Haters Whack Off!", take: 20053, change: "new" },
     {title: "Poonrise Kingdom", take: 17841, change: "down" }
   ], 
-  "20170212": [
+  "0212": [
     {title: "Clamilton", take: 52857, change: "same" },
     {title: "American History XXX", take: 51316, change: "new" },
     {title: "The Wolf of Ball Street", take: 45426, change: "new" },
@@ -1409,7 +1409,7 @@ var pornData = {
     {title: "Fist Me Deadly", take: 17057, change: "new" },
     {title: "Six Days Seven Cocks", take: 16456, change: "down" }
   ], 
-  "20170213": [
+  "0213": [
     {title: "Eastbound And Going Down", take: 48359, change: "up" },
     {title: "The Filth Element", take: 44479, change: "up" },
     {title: "Training Gay", take: 40340, change: "up" },
@@ -1431,7 +1431,7 @@ var pornData = {
     {title: "Some Like A Twat", take: 10627, change: "new" },
     {title: "The Cocksucker Proxy", take: 10387, change: "down" }
   ], 
-  "20170214": [
+  "0214": [
     {title: "Five Years In To Beth", take: 45153, change: "new" },
     {title: "Charles In Charles", take: 44121, change: "new" },
     {title: "The Filth Element", take: 39828, change: "down" },
@@ -1453,7 +1453,7 @@ var pornData = {
     {title: "Training Gay", take: 16674, change: "down" },
     {title: "Boyz N The Clitoral Hood", take: 15542, change: "new" }
   ], 
-  "20170215": [
+  "0215": [
     {title: "Five Years In To Beth", take: 44941, change: "same" },
     {title: "Charles In Charles", take: 41065, change: "same" },
     {title: "To Shave and Shave Not", take: 37538, change: "new" },
@@ -1475,7 +1475,7 @@ var pornData = {
     {title: "Good Night And Good Fuck", take: 11404, change: "down" },
     {title: "Hairy Twatter and the Depth He Swallows", take: 11285, change: "new" }
   ], 
-  "20170216": [
+  "0216": [
     {title: "Five Years In To Beth", take: 48877, change: "same" },
     {title: "Star Whores: The Foreskin Awakens", take: 47526, change: "new" },
     {title: "Who's The Bottom?", take: 47040, change: "new" },
@@ -1497,7 +1497,7 @@ var pornData = {
     {title: "Morning Gloryhole", take: 16596, change: "new" },
     {title: "Penetrating Howard's End", take: 14906, change: "new" }
   ], 
-  "20170217": [
+  "0217": [
     {title: "Five Years In To Beth", take: 48302, change: "same" },
     {title: "Twatman vs Booberman: Dawn of Just Tits", take: 45346, change: "up" },
     {title: "Who's The Bottom?", take: 41825, change: "same" },
@@ -1519,7 +1519,7 @@ var pornData = {
     {title: "Diddler on the Roof", take: 11805, change: "down" },
     {title: "A Clockwork Orgy", take: 11582, change: "down" }
   ], 
-  "20170218": [
+  "0218": [
     {title: "The Squirt Locker", take: 51812, change: "new" },
     {title: "Five Years In To Beth", take: 45791, change: "down" },
     {title: "Twatman vs Booberman: Dawn of Just Tits", take: 44295, change: "down" },
@@ -1541,7 +1541,7 @@ var pornData = {
     {title: "Anything Grows", take: 15280, change: "down" },
     {title: "Play With Misty For Me", take: 14281, change: "down" }
   ], 
-  "20170219": [
+  "0219": [
     {title: "Five Years In To Beth", take: 54309, change: "up" },
     {title: "The Squirt Locker", take: 48569, change: "down" },
     {title: "One Blew Over The Cuckold's Nest", take: 46273, change: "new" },
@@ -1563,7 +1563,7 @@ var pornData = {
     {title: "Gosford Porking", take: 13090, change: "new" },
     {title: "Big Hero 16 Inch", take: 11590, change: "new" }
   ], 
-  "20170220": [
+  "0220": [
     {title: "Midnight Ladyboy", take: 52785, change: "new" },
     {title: "The Squirt Locker", take: 52124, change: "same" },
     {title: "Sore Jaws", take: 51621, change: "new" },
@@ -1585,7 +1585,7 @@ var pornData = {
     {title: "The Ho Men", take: 18105, change: "down" },
     {title: "Group Sex on the Bounty", take: 16686, change: "down" }
   ], 
-  "20170221": [
+  "0221": [
     {title: "Gays of Thunder", take: 49061, change: "new" },
     {title: "Midnight Ladyboy", take: 46871, change: "down" },
     {title: "Urethral Weapon", take: 42637, change: "new" },
@@ -1607,7 +1607,7 @@ var pornData = {
     {title: "Glen, Garry, Glenn, Ross, and Six Other Guys", take: 11821, change: "down" },
     {title: "Gunfight at the KY Corral", take: 10695, change: "new" }
   ], 
-  "20170222": [
+  "0222": [
     {title: "Kneel And Deliver", take: 52836, change: "up" },
     {title: "The Squirt Locker", take: 52127, change: "up" },
     {title: "Midnight Ladyboy", take: 46519, change: "down" },
@@ -1629,7 +1629,7 @@ var pornData = {
     {title: "Dog Dick Afternoon", take: 14871, change: "down" },
     {title: "The Bear Up There", take: 13095, change: "new" }
   ], 
-  "20170223": [
+  "0223": [
     {title: "SLC Spunk", take: 56306, change: "up" },
     {title: "The Squirt Locker", take: 53634, change: "same" },
     {title: "Midnight Ladyboy", take: 53104, change: "same" },
@@ -1651,7 +1651,7 @@ var pornData = {
     {title: "There's Someone Inside Mary", take: 21180, change: "down" },
     {title: "Motion Impossible", take: 18721, change: "down" }
   ], 
-  "20170224": [
+  "0224": [
     {title: "Spurtigo", take: 54518, change: "new" },
     {title: "The Hung Games: Flashing Firecrotch", take: 52883, change: "new" },
     {title: "Moneyballin", take: 52368, change: "new" },
@@ -1673,7 +1673,7 @@ var pornData = {
     {title: "Bright Lights, Big Titties", take: 21708, change: "new" },
     {title: "Boy Meat's World", take: 19204, change: "new" }
   ], 
-  "20170225": [
+  "0225": [
     {title: "2 Fast 2 Furry Puss", take: 53265, change: "new" },
     {title: "Public Enemas", take: 51255, change: "new" },
     {title: "Nightballer", take: 47572, change: "new" },
@@ -1695,7 +1695,7 @@ var pornData = {
     {title: "Spurtigo", take: 11610, change: "down" },
     {title: "A Queer and Pleasant Stranger", take: 11085, change: "new" }
   ], 
-  "20170226": [
+  "0226": [
     {title: "2 Fast 2 Furry Puss", take: 46796, change: "same" },
     {title: "The Hung Games: Flashing Firecrotch", take: 45009, change: "up" },
     {title: "Nightballer", take: 39661, change: "same" },
@@ -1717,7 +1717,7 @@ var pornData = {
     {title: "Evil Head 2: Head By Dawn", take: 16331, change: "new" },
     {title: "Fill Bill, vol 2", take: 15969, change: "down" }
   ], 
-  "20170227": [
+  "0227": [
     {title: "Scott Pilgrim Vs Those Girls", take: 51472, change: "new" },
     {title: "Nightballer", take: 47656, change: "up" },
     {title: "Slut Trek VI: The Undiscovered Entry", take: 46122, change: "new" },
@@ -1739,7 +1739,7 @@ var pornData = {
     {title: "Man of La Muncha", take: 14755, change: "new" },
     {title: "Replicunt", take: 13603, change: "down" }
   ], 
-  "20170228": [
+  "0228": [
     {title: "Nightballer", take: 46768, change: "up" },
     {title: "Slut Trek VI: The Undiscovered Entry", take: 46003, change: "up" },
     {title: "Scott Pilgrim Vs Those Girls", take: 40877, change: "down" },
@@ -1761,7 +1761,7 @@ var pornData = {
     {title: "Fist Me Deadly", take: 15860, change: "down" },
     {title: "Trans Formers 2: Revenge of the Ballin'", take: 15333, change: "new" }
   ], 
-  "20170301": [
+  "0301": [
     {title: "Enslaving Private Ryan", take: 56235, change: "new" },
     {title: "Scott Pilgrim Vs Those Girls", take: 52151, change: "up" },
     {title: "The Black Swanzstucker", take: 50828, change: "up" },
@@ -1783,7 +1783,7 @@ var pornData = {
     {title: "Indiana Bones and the Temple of Poon", take: 16149, change: "new" },
     {title: "Man of La Muncha", take: 14291, change: "down" }
   ], 
-  "20170302": [
+  "0302": [
     {title: "Slut Trek VI: The Undiscovered Entry", take: 52119, change: "up" },
     {title: "Enemy of the Prostate", take: 49775, change: "new" },
     {title: "Face/Fuck", take: 48987, change: "new" },
@@ -1805,7 +1805,7 @@ var pornData = {
     {title: "Slut Trek IV: The Voyeur's Moan", take: 16039, change: "down" },
     {title: "The Hung Games: Flashing Firecrotch", take: 14371, change: "down" }
   ], 
-  "20170303": [
+  "0303": [
     {title: "Nookie of the Year", take: 49008, change: "new" },
     {title: "Hairy Twatter and the Depth He Swallows", take: 46945, change: "new" },
     {title: "An Officer With A Gentleman", take: 42034, change: "new" },
@@ -1827,7 +1827,7 @@ var pornData = {
     {title: "Suicide Squat", take: 12787, change: "new" },
     {title: "Some Like A Twat", take: 11426, change: "new" }
   ], 
-  "20170304": [
+  "0304": [
     {title: "The Big Lebow Chicka Wow Wow Ski", take: 53264, change: "new" },
     {title: "The Color of a Money Shot", take: 47085, change: "new" },
     {title: "Star Whores: The Foreskin Awakens", take: 44993, change: "new" },
@@ -1849,7 +1849,7 @@ var pornData = {
     {title: "Despicable Pee", take: 16375, change: "new" },
     {title: "Reservoir Dongs", take: 15218, change: "new" }
   ], 
-  "20170305": [
+  "0305": [
     {title: "Married... With An Understanding", take: 50840, change: "new" },
     {title: "The Color of a Money Shot", take: 45786, change: "same" },
     {title: "The Ho Men", take: 40686, change: "new" },
@@ -1871,7 +1871,7 @@ var pornData = {
     {title: "Star Whores: The Foreskin Awakens", take: 10165, change: "down" },
     {title: "All That Jizz", take: 9566, change: "new" }
   ], 
-  "20170306": [
+  "0306": [
     {title: "The Color of a Money Shot", take: 53458, change: "up" },
     {title: "Queen of the Dental Dam", take: 47487, change: "new" },
     {title: "Married... With An Understanding", take: 42497, change: "down" },
@@ -1893,7 +1893,7 @@ var pornData = {
     {title: "A Bit of Fry in Laurie", take: 13024, change: "new" },
     {title: "CitizenWhore", take: 11888, change: "new" }
   ], 
-  "20170307": [
+  "0307": [
     {title: "Twins Peaking", take: 51787, change: "new" },
     {title: "The Mud Wrestler", take: 47367, change: "new" },
     {title: "A Streetwalker Named Desireé", take: 45065, change: "new" },
@@ -1915,7 +1915,7 @@ var pornData = {
     {title: "Hairy Twatter and the Pornographer's Bone", take: 16705, change: "new" },
     {title: "Boyz N The Clitoral Hood", take: 16139, change: "new" }
   ], 
-  "20170308": [
+  "0308": [
     {title: "The Lust Boys", take: 45400, change: "new" },
     {title: "The Mud Wrestler", take: 44416, change: "same" },
     {title: "Hairy Twatter and the Half Chub Prince", take: 41945, change: "up" },
@@ -1937,7 +1937,7 @@ var pornData = {
     {title: "Big Hero 16 Inch", take: 12758, change: "down" },
     {title: "Haters Whack Off!", take: 12162, change: "down" }
   ], 
-  "20170309": [
+  "0309": [
     {title: "Perfect Strange", take: 46011, change: "new" },
     {title: "Person of Incest", take: 40819, change: "new" },
     {title: "The Mud Wrestler", take: 36037, change: "down" },
@@ -1959,7 +1959,7 @@ var pornData = {
     {title: "50 Fist Dates", take: 13715, change: "new" },
     {title: "Lord of the Cockrings: The Fellowship of the Cockring", take: 13217, change: "new" }
   ], 
-  "20170310": [
+  "0310": [
     {title: "Hairy Twatter and the Half Chub Prince", take: 49482, change: "up" },
     {title: "Perfect Strange", take: 43632, change: "down" },
     {title: "The Mud Wrestler", take: 39899, change: "same" },
@@ -1981,7 +1981,7 @@ var pornData = {
     {title: "XXX: State of the Union: XXX", take: 12007, change: "new" },
     {title: "Glazing Arizona", take: 11104, change: "new" }
   ], 
-  "20170311": [
+  "0311": [
     {title: "Hairy Twatter and the Half Chub Prince", take: 49330, change: "same" },
     {title: "The Scissorhood of the Traveling Underpants", take: 45311, change: "new" },
     {title: "Morning Gloryhole", take: 41824, change: "new" },
@@ -2003,7 +2003,7 @@ var pornData = {
     {title: "To Shave and Shave Not", take: 15119, change: "new" },
     {title: "The Curious Case of Benjamin's Butthole", take: 14032, change: "down" }
   ], 
-  "20170312": [
+  "0312": [
     {title: "Anything Grows", take: 48511, change: "up" },
     {title: "The Scissorhood of the Traveling Underpants", take: 47365, change: "same" },
     {title: "The Bicycle Queef", take: 44177, change: "new" },
@@ -2025,7 +2025,7 @@ var pornData = {
     {title: "What In The World Are You Spraying (An Alex Jones Documentary)", take: 14477, change: "down" },
     {title: "Rogerin' Me", take: 13332, change: "new" }
   ], 
-  "20170313": [
+  "0313": [
     {title: "The Scissorhood of the Traveling Underpants", take: 53427, change: "up" },
     {title: "28 Cocks Later", take: 51536, change: "new" },
     {title: "Anything Grows", take: 49960, change: "down" },
@@ -2047,7 +2047,7 @@ var pornData = {
     {title: "Moulan Spooge", take: 22046, change: "new" },
     {title: "The Mud Wrestler", take: 19650, change: "down" }
   ], 
-  "20170314": [
+  "0314": [
     {title: "Anything Grows", take: 46954, change: "up" },
     {title: "28 Cocks Later", take: 41342, change: "same" },
     {title: "The Scissorhood of the Traveling Underpants", take: 36481, change: "down" },
@@ -2069,7 +2069,7 @@ var pornData = {
     {title: "The Hung Games", take: 10372, change: "new" },
     {title: "Steve's Jobs", take: 10226, change: "new" }
   ], 
-  "20170315": [
+  "0315": [
     {title: "The Scissorhood of the Traveling Underpants", take: 50104, change: "up" },
     {title: "Whiskey, Tango, Facefuck", take: 46113, change: "new" },
     {title: "28 Cocks Later", take: 43028, change: "down" },
@@ -2091,7 +2091,7 @@ var pornData = {
     {title: "Tim, Fuck Two", take: 15009, change: "new" },
     {title: "Arse Nick and Yo Face", take: 14853, change: "new" }
   ], 
-  "20170316": [
+  "0316": [
     {title: "Whiskey, Tango, Facefuck", take: 54812, change: "up" },
     {title: "Million Dollar Booby", take: 50866, change: "new" },
     {title: "Dr. Strangelust, or: How I Learned To Stop Worrying And Love The Bum", take: 48430, change: "up" },
@@ -2113,7 +2113,7 @@ var pornData = {
     {title: "Slut Trek: Deep Throat 9″", take: 15909, change: "down" },
     {title: "Spermalot", take: 15631, change: "down" }
   ], 
-  "20170317": [
+  "0317": [
     {title: "Space Jammin'", take: 49839, change: "new" },
     {title: "Million Dollar Booby", take: 48030, change: "same" },
     {title: "Boy Meat's World", take: 45226, change: "new" },
@@ -2135,7 +2135,7 @@ var pornData = {
     {title: "Wank You For Smoking", take: 12224, change: "new" },
     {title: "Jiro Creams On Suki", take: 11563, change: "new" }
   ], 
-  "20170318": [
+  "0318": [
     {title: "Boy Meat's World", take: 52039, change: "up" },
     {title: "Nightballer", take: 46273, change: "new" },
     {title: "Whiskey, Tango, Facefuck", take: 41746, change: "up" },
@@ -2157,7 +2157,7 @@ var pornData = {
     {title: "Wangs of New York", take: 15018, change: "new" },
     {title: "The Dong and I", take: 13303, change: "new" }
   ], 
-  "20170319": [
+  "0319": [
     {title: "Boy Meat's World", take: 52532, change: "same" },
     {title: "Nightballer", take: 47531, change: "same" },
     {title: "White Men Can't Hump", take: 42802, change: "new" },
@@ -2179,7 +2179,7 @@ var pornData = {
     {title: "The Bear Up There", take: 15745, change: "down" },
     {title: "Guys and Guys", take: 14011, change: "down" }
   ], 
-  "20170320": [
+  "0320": [
     {title: "White Men Can't Hump", take: 49795, change: "up" },
     {title: "Moneyballin", take: 48415, change: "new" },
     {title: "Space Jammin'", take: 43379, change: "up" },
@@ -2201,7 +2201,7 @@ var pornData = {
     {title: "3 Men And A Jar Of Lube", take: 12450, change: "down" },
     {title: "Breaking Chad", take: 11461, change: "down" }
   ], 
-  "20170321": [
+  "0321": [
     {title: "Erin Cock-A-Bitch", take: 55411, change: "new" },
     {title: "White Men Can't Hump", take: 54777, change: "down" },
     {title: "Gash of the Titans", take: 51324, change: "new" },
@@ -2223,7 +2223,7 @@ var pornData = {
     {title: "Better Ball Saul", take: 19576, change: "new" },
     {title: "The Hung Games: Flashing Firecrotch", take: 19146, change: "new" }
   ], 
-  "20170322": [
+  "0322": [
     {title: "Gash of the Titans", take: 53675, change: "up" },
     {title: "White Men Can't Hump", take: 51991, change: "same" },
     {title: "Hairy Twatter and the Gobblin' of Your Spire", take: 48607, change: "new" },
@@ -2245,7 +2245,7 @@ var pornData = {
     {title: "One Flew Into The Poopoo's Nest", take: 18296, change: "down" },
     {title: "Assassin's Cream", take: 16402, change: "new" }
   ], 
-  "20170323": [
+  "0323": [
     {title: "The Filth Element", take: 49195, change: "up" },
     {title: "Gash of the Titans", take: 43992, change: "down" },
     {title: "The Lust of the Mohicans", take: 40341, change: "new" },
@@ -2267,7 +2267,7 @@ var pornData = {
     {title: "The Last Starfucker", take: 16134, change: "down" },
     {title: "Breasts In Shows", take: 15546, change: "new" }
   ], 
-  "20170324": [
+  "0324": [
     {title: "The Lust of the Mohicans", take: 50020, change: "up" },
     {title: "Cum and Cummer", take: 46174, change: "new" },
     {title: "Octopussy, Novempussy, Decapussy... Whatapussy!", take: 45210, change: "new" },
@@ -2289,7 +2289,7 @@ var pornData = {
     {title: "Hairy Twatter and the Gobblin' of Your Spire", take: 14498, change: "down" },
     {title: "How To Get Some Head In Advertising", take: 13120, change: "new" }
   ], 
-  "20170325": [
+  "0325": [
     {title: "The Lust of the Mohicans", take: 55318, change: "same" },
     {title: "Cum and Cummer", take: 52523, change: "same" },
     {title: "Bang My Bum Slowly", take: 47002, change: "new" },
@@ -2311,7 +2311,7 @@ var pornData = {
     {title: "Lawrence of a Labia", take: 14116, change: "new" },
     {title: "The Gropes of Wrath", take: 12618, change: "down" }
   ], 
-  "20170326": [
+  "0326": [
     {title: "Suicide Squat", take: 46763, change: "up" },
     {title: "Bang My Bum Slowly", take: 45880, change: "up" },
     {title: "Goldfingering", take: 44848, change: "new" },
@@ -2333,7 +2333,7 @@ var pornData = {
     {title: "9″ to 5″", take: 14434, change: "down" },
     {title: "Balls of Furry", take: 13964, change: "down" }
   ], 
-  "20170327": [
+  "0327": [
     {title: "The Lust of the Mohicans", take: 48527, change: "up" },
     {title: "FUX 1138", take: 46473, change: "new" },
     {title: "Some Like A Twat", take: 42846, change: "up" },
@@ -2355,7 +2355,7 @@ var pornData = {
     {title: "Shaun The Creep Movie", take: 14129, change: "down" },
     {title: "Gash of the Titans", take: 13325, change: "down" }
   ], 
-  "20170328": [
+  "0328": [
     {title: "Kneel And Deliver", take: 55434, change: "new" },
     {title: "Play With Misty For Me", take: 51413, change: "new" },
     {title: "Trick 'r Skeet", take: 50207, change: "new" },
@@ -2377,7 +2377,7 @@ var pornData = {
     {title: "Me, Myself in Irene", take: 15900, change: "down" },
     {title: "Goldfingering", take: 15246, change: "down" }
   ], 
-  "20170329": [
+  "0329": [
     {title: "Hairy Twatter and the Prisoner of Ass Cabin", take: 47859, change: "up" },
     {title: "How To Drain Your Dragon", take: 45387, change: "new" },
     {title: "Kneel And Deliver", take: 41191, change: "down" },
@@ -2399,7 +2399,7 @@ var pornData = {
     {title: "Me, Myself in Irene", take: 17630, change: "same" },
     {title: "My Sex Life With A Zucchini", take: 16762, change: "down" }
   ], 
-  "20170330": [
+  "0330": [
     {title: "Kneel And Deliver", take: 48294, change: "up" },
     {title: "Hairy Twatter and the Prisoner of Ass Cabin", take: 47378, change: "down" },
     {title: "How To Drain Your Dragon", take: 41936, change: "down" },
@@ -2421,7 +2421,7 @@ var pornData = {
     {title: "Poonstruck", take: 16336, change: "down" },
     {title: "Motion Impossible", take: 14855, change: "down" }
   ], 
-  "20170331": [
+  "0331": [
     {title: "Moanal", take: 54373, change: "up" },
     {title: "How To Drain Your Dragon", take: 50954, change: "up" },
     {title: "GoodFellatas", take: 48477, change: "new" },
@@ -2443,7 +2443,7 @@ var pornData = {
     {title: "Scott Pilgrim Vs Those Girls", take: 19134, change: "down" },
     {title: "Motion Impossible", take: 17118, change: "same" }
   ], 
-  "20170401": [
+  "0401": [
     {title: "Moanal", take: 49778, change: "same" },
     {title: "Dirty/Hairy", take: 48706, change: "new" },
     {title: "How To Drain Your Dragon", take: 47388, change: "down" },
@@ -2465,7 +2465,7 @@ var pornData = {
     {title: "Sex Machina", take: 14411, change: "down" },
     {title: "Das Booty", take: 13063, change: "down" }
   ],
-  "20170402": [
+  "0402": [
     {title: "Fantastic Breasts And Where To Fuck Them", take: 52920, change: "new" },
     {title: "Mr. Smith Goes Down on Washington", take: 47649, change: "new" },
     {title: "Straight Into Conner", take: 42845, change: "new" },
@@ -2487,7 +2487,7 @@ var pornData = {
     {title: "Hairy Twatter and the Prisoner of Ass Cabin", take: 13377, change: "down" },
     {title: "Indiana Bones and the Temple of Poon", take: 13198, change: "down" }
   ], 
-  "20170403": [
+  "0403": [
     {title: "Star Whores: The Foreskin Awakens", take: 53186, change: "new" },
     {title: "The Constant Groper", take: 50775, change: "new" },
     {title: "Birdman (or The Unexpected Pleasure of Dominance)", take: 49424, change: "new" },
@@ -2509,7 +2509,7 @@ var pornData = {
     {title: "Straight Into Conner", take: 18730, change: "down" },
     {title: "Dirty/Hairy", take: 17083, change: "down" }
   ], 
-  "20170404": [
+  "0404": [
     {title: "One Flew Into The Poopoo's Nest", take: 47413, change: "new" },
     {title: "The Gang Bang Theory", take: 44943, change: "new" },
     {title: "My Fair Labia", take: 43882, change: "new" },
@@ -2531,7 +2531,7 @@ var pornData = {
     {title: "Under The Cum Cum Tree", take: 14442, change: "new" },
     {title: "The Wolf of Ball Street", take: 12848, change: "down" }
   ], 
-  "20170405": [
+  "0405": [
     {title: "The Curious Case of Benjamin's Butthole", take: 57275, change: "new" },
     {title: "Atlas Chugged", take: 56392, change: "new" },
     {title: "Glen, Garry, Glenn, Ross, and Six Other Guys", take: 50287, change: "new" },
@@ -2553,7 +2553,7 @@ var pornData = {
     {title: "The Lust Boys", take: 16329, change: "new" },
     {title: "Hairy Twatter and the Order of the Three Dicks", take: 16002, change: "new" }
   ], 
-  "20170406": [
+  "0406": [
     {title: "Urethral Weapon", take: 46639, change: "new" },
     {title: "The Boy Shorts", take: 41884, change: "new" },
     {title: "Lord of the Cockrings: The Fellowship of the Cockring", take: 37779, change: "new" },
@@ -2575,7 +2575,7 @@ var pornData = {
     {title: "Slop Shot", take: 10648, change: "new" },
     {title: "The Magnificent Semen", take: 9517, change: "new" }
   ], 
-  "20170407": [
+  "0407": [
     {title: "The Boy Shorts", take: 48034, change: "up" },
     {title: "Urethral Weapon", take: 45258, change: "down" },
     {title: "Lord of the Cockrings: The Fellowship of the Cockring", take: 40463, change: "same" },
@@ -2597,7 +2597,7 @@ var pornData = {
     {title: "The Hung Games", take: 16145, change: "down" },
     {title: "Moneyballin", take: 14756, change: "down" }
   ], 
-  "20170408": [
+  "0408": [
     {title: "On Her Majesty's Secret Cervix", take: 55633, change: "up" },
     {title: "Arse Nick and Yo Face", take: 53495, change: "new" },
     {title: "Lord of the Cockrings: The Fellowship of the Cockring", take: 50590, change: "same" },
@@ -2619,7 +2619,7 @@ var pornData = {
     {title: "Banging John Malkovich", take: 18354, change: "down" },
     {title: "Night of the Giving Head", take: 16919, change: "down" }
   ], 
-  "20170409": [
+  "0409": [
     {title: "Lord of the Cockrings: The Fellowship of the Cockring", take: 47839, change: "up" },
     {title: "Fist Fist, Bang Bang", take: 45059, change: "new" },
     {title: "Blowing For Columbine", take: 43766, change: "new" },
@@ -2641,7 +2641,7 @@ var pornData = {
     {title: "Hannah on Her Sisters", take: 18068, change: "new" },
     {title: "Thunderballs", take: 16132, change: "new" }
   ], 
-  "20170410": [
+  "0410": [
     {title: "Fist Fist, Bang Bang", take: 49037, change: "up" },
     {title: "Lord of the Cockrings: The Fellowship of the Cockring", take: 47644, change: "down" },
     {title: "Twerking Girl", take: 44584, change: "new" },
@@ -2663,7 +2663,7 @@ var pornData = {
     {title: "Glazing Arizona", take: 16079, change: "new" },
     {title: "Try Another Gay", take: 14529, change: "down" }
   ], 
-  "20170411": [
+  "0411": [
     {title: "Hairy Twatter and the Half Chub Prince", take: 54727, change: "up" },
     {title: "Brian's Schlong", take: 53996, change: "up" },
     {title: "Lord of the Cockrings: The Fellowship of the Cockring", take: 48269, change: "down" },
@@ -2685,7 +2685,7 @@ var pornData = {
     {title: "The Munchurian Candidass", take: 19861, change: "down" },
     {title: "Urethral Weapon", take: 18266, change: "down" }
   ], 
-  "20170412": [
+  "0412": [
     {title: "Motion Impossible", take: 45796, change: "new" },
     {title: "The Hung Games: Mocking J/O [Part 1]", take: 45367, change: "new" },
     {title: "Slut Trek VI: The Undiscovered Entry", take: 42698, change: "new" },
@@ -2707,7 +2707,7 @@ var pornData = {
     {title: "Twerking Girl", take: 15120, change: "down" },
     {title: "Scatatouille", take: 13722, change: "new" }
   ], 
-  "20170413": [
+  "0413": [
     {title: "Bend Over, Like Beckham", take: 45973, change: "new" },
     {title: "Motion Impossible", take: 44333, change: "down" },
     {title: "Whiskey, Tango, Facefuck", take: 42448, change: "new" },
@@ -2729,7 +2729,7 @@ var pornData = {
     {title: "MILF Saigon", take: 13572, change: "new" },
     {title: "Lawrence of a Labia", take: 13412, change: "new" }
   ], 
-  "20170414": [
+  "0414": [
     {title: "Motion Impossible", take: 52786, change: "up" },
     {title: "Bend Over, Like Beckham", take: 49277, change: "down" },
     {title: "Play With Misty For Me", take: 45799, change: "up" },
@@ -2751,7 +2751,7 @@ var pornData = {
     {title: "I Broke My Back Mounting", take: 16057, change: "new" },
     {title: "Clitty Lickers 2: The Legend of Curly Pubes", take: 14702, change: "new" }
   ], 
-  "20170415": [
+  "0415": [
     {title: "Humpy Old Men", take: 52685, change: "new" },
     {title: "Das Booty", take: 48941, change: "new" },
     {title: "Bend Over, Like Beckham", take: 45742, change: "down" },
@@ -2773,7 +2773,7 @@ var pornData = {
     {title: "The Fabulous Bukkake Boys", take: 14718, change: "new" },
     {title: "Thighs Wide Shut", take: 13666, change: "down" }
   ], 
-  "20170416": [
+  "0416": [
     {title: "The Man Who Was In There", take: 49836, change: "new" },
     {title: "Humpy Old Men", take: 44062, change: "down" },
     {title: "Das Booty", take: 40991, change: "down" },
@@ -2795,7 +2795,7 @@ var pornData = {
     {title: "A Streetwalker Named Desireé", take: 18042, change: "new" },
     {title: "Pearl Necklace Harbor", take: 17125, change: "new" }
   ], 
-  "20170417": [
+  "0417": [
     {title: "Wangs of New York", take: 51910, change: "new" },
     {title: "Enemy of the Prostate", take: 48731, change: "new" },
     {title: "Good Night And Good Fuck", take: 47403, change: "new" },
@@ -2817,7 +2817,7 @@ var pornData = {
     {title: "Wyatt Slurp", take: 17574, change: "down" },
     {title: "Cum and Cummer", take: 16040, change: "new" }
   ], 
-  "20170418": [
+  "0418": [
     {title: "Monsters' Pink", take: 54506, change: "new" },
     {title: "Enemy of the Prostate", take: 48240, change: "same" },
     {title: "The Hump For Red October", take: 46259, change: "new" },
@@ -2839,7 +2839,7 @@ var pornData = {
     {title: "Veinspotting", take: 15271, change: "down" },
     {title: "Spoo Detective", take: 14386, change: "down" }
   ], 
-  "20170419": [
+  "0419": [
     {title: "There's Someone Inside Mary", take: 49099, change: "new" },
     {title: "Gentlemen Prefer Bald", take: 45425, change: "new" },
     {title: "The Ladydrillers", take: 44442, change: "new" },
@@ -2861,7 +2861,7 @@ var pornData = {
     {title: "12 Years A Slut", take: 13196, change: "down" },
     {title: "A Bit of Fry in Laurie", take: 12109, change: "down" }
   ], 
-  "20170420": [
+  "0420": [
     {title: "Five Years In To Beth", take: 54075, change: "new" },
     {title: "Gentlemen Prefer Bald", take: 51375, change: "same" },
     {title: "Fuck Everlasting", take: 50451, change: "up" },
@@ -2883,7 +2883,7 @@ var pornData = {
     {title: "Straight Into Conner", take: 23542, change: "down" },
     {title: "The Usual Cuck Sex", take: 21206, change: "new" }
   ], 
-  "20170421": [
+  "0421": [
     {title: "'bating For Godot", take: 51839, change: "new" },
     {title: "Shaving Mr. Banks", take: 48096, change: "new" },
     {title: "What In The World Are You Spraying (An Alex Jones Documentary)", take: 45318, change: "new" },
@@ -2905,7 +2905,7 @@ var pornData = {
     {title: "There's Someone Inside Mary", take: 13411, change: "down" },
     {title: "Slop Shot", take: 12039, change: "down" }
   ], 
-  "20170422": [
+  "0422": [
     {title: "'bating For Godot", take: 46691, change: "same" },
     {title: "In The Cumpanties of Men", take: 45865, change: "new" },
     {title: "Blumpkinhead", take: 44206, change: "new" },
@@ -2927,7 +2927,7 @@ var pornData = {
     {title: "Scats", take: 13768, change: "new" },
     {title: "Pud Simple", take: 12204, change: "down" }
   ], 
-  "20170423": [
+  "0423": [
     {title: "The Stepfather, Part II", take: 49846, change: "new" },
     {title: "Spurtigo", take: 47344, change: "new" },
     {title: "Jiz and the Diaphragms", take: 43671, change: "new" },
@@ -2949,7 +2949,7 @@ var pornData = {
     {title: "Slut Trek: Penetrations", take: 15154, change: "down" },
     {title: "Replicunt", take: 13542, change: "down" }
   ], 
-  "20170424": [
+  "0424": [
     {title: "Jiz and the Diaphragms", take: 53999, change: "up" },
     {title: "American History XXX", take: 48596, change: "new" },
     {title: "Spurtigo", take: 45380, change: "down" },
@@ -2971,7 +2971,7 @@ var pornData = {
     {title: "I Am Clam", take: 18514, change: "down" },
     {title: "Moanal", take: 17121, change: "down" }
   ], 
-  "20170425": [
+  "0425": [
     {title: "Spurtigo", take: 58280, change: "up" },
     {title: "One Blew Over The Cuckold's Nest", take: 55825, change: "up" },
     {title: "Bang My Bum Slowly", take: 49570, change: "new" },
@@ -2993,7 +2993,7 @@ var pornData = {
     {title: "What In The World Are You Spraying (An Alex Jones Documentary)", take: 15809, change: "down" },
     {title: "Dirty/Hairy", take: 14998, change: "new" }
   ], 
-  "20170426": [
+  "0426": [
     {title: "Sore Jaws", take: 55924, change: "new" },
     {title: "Spurtigo", take: 51765, change: "down" },
     {title: "Bang My Bum Slowly", take: 45928, change: "same" },
@@ -3015,7 +3015,7 @@ var pornData = {
     {title: "The Man With The Golden Cunt", take: 15109, change: "new" },
     {title: "Jiz and the Diaphragms", take: 13686, change: "down" }
   ], 
-  "20170427": [
+  "0427": [
     {title: "Jack Me Brown", take: 49910, change: "new" },
     {title: "Dr. O Yes", take: 48491, change: "new" },
     {title: "Gunfight at the KY Corral", take: 46136, change: "up" },
@@ -3037,7 +3037,7 @@ var pornData = {
     {title: "3 Men And A Jar Of Lube", take: 17267, change: "down" },
     {title: "Sex Machina", take: 16069, change: "new" }
   ], 
-  "20170428": [
+  "0428": [
     {title: "Alexander and the Terrible, Horrible, No Good, Very Bad Handjob", take: 53736, change: "new" },
     {title: "Hairy Twatter and the Order of the Three Dicks", take: 50456, change: "new" },
     {title: "The Gropes of Wrath", take: 49382, change: "new" },
@@ -3059,7 +3059,7 @@ var pornData = {
     {title: "Atlas Chugged", take: 18118, change: "new" },
     {title: "The Boy Shorts", take: 16011, change: "new" }
   ], 
-  "20170429": [
+  "0429": [
     {title: "Reservoir Dongs", take: 53395, change: "new" },
     {title: "50 Fist Dates", take: 48741, change: "new" },
     {title: "Hairy Twatter and the Order of the Three Dicks", take: 43905, change: "down" },
@@ -3081,7 +3081,7 @@ var pornData = {
     {title: "The Cocksucker Proxy", take: 12598, change: "new" },
     {title: "Big Hero 16 Inch", take: 11946, change: "new" }
   ], 
-  "20170430": [
+  "0430": [
     {title: "Reservoir Dongs", take: 54024, change: "same" },
     {title: "Clamilton", take: 47607, change: "up" },
     {title: "The Lust Unicorn", take: 43751, change: "new" },
@@ -3103,7 +3103,7 @@ var pornData = {
     {title: "All That Jizz", take: 11185, change: "new" },
     {title: "“Manos”: The Handjobs of Fate", take: 10833, change: "down" }
   ], 
-  "20170501": [
+  "0501": [
     {title: "The Lust Unicorn", take: 46607, change: "up" },
     {title: "Peggy Guggenheim: Fart Addict", take: 43899, change: "new" },
     {title: "Reservoir Dongs", take: 39745, change: "down" },
@@ -3125,7 +3125,7 @@ var pornData = {
     {title: "Driving Into Ms Daisy", take: 14152, change: "new" },
     {title: "Bio-Domme", take: 13471, change: "down" }
   ], 
-  "20170502": [
+  "0502": [
     {title: "The Pleasure of Sierra's Madre", take: 55128, change: "new" },
     {title: "Robocuck", take: 50101, change: "new" },
     {title: "Alvin and the Fuckmunks 2: The Fuckuel", take: 49173, change: "new" },
@@ -3147,7 +3147,7 @@ var pornData = {
     {title: "The Lust Boys", take: 16700, change: "new" },
     {title: "Whiskey, Tango, Facefuck", take: 15755, change: "new" }
   ], 
-  "20170503": [
+  "0503": [
     {title: "Boy Meat's World", take: 53120, change: "new" },
     {title: "Robocuck", take: 48533, change: "same" },
     {title: "The Pleasure of Sierra's Madre", take: 47967, change: "down" },
@@ -3169,7 +3169,7 @@ var pornData = {
     {title: "Wank You For Smoking", take: 16286, change: "new" },
     {title: "Fist Fist, Bang Bang", take: 14587, change: "down" }
   ], 
-  "20170504": [
+  "0504": [
     {title: "Boy Meat's World", take: 52339, change: "same" },
     {title: "The Pleasure of Sierra's Madre", take: 50669, change: "up" },
     {title: "Robocuck", take: 48315, change: "down" },
@@ -3191,7 +3191,7 @@ var pornData = {
     {title: "Burn After Peeing", take: 16203, change: "down" },
     {title: "Annie Got That Cum", take: 14259, change: "down" }
   ], 
-  "20170505": [
+  "0505": [
     {title: "Natural Porn Killers", take: 51534, change: "new" },
     {title: "Dr. Strangelust, or: How I Learned To Stop Worrying And Love The Bum", take: 45920, change: "new" },
     {title: "Boy Meat's World", take: 43135, change: "down" },
@@ -3213,7 +3213,7 @@ var pornData = {
     {title: "Das Booty", take: 12679, change: "down" },
     {title: "21 Pumps, SKEET!", take: 12070, change: "new" }
   ], 
-  "20170506": [
+  "0506": [
     {title: "Natural Porn Killers", take: 55284, change: "same" },
     {title: "Jiro Creams On Suki", take: 54336, change: "new" },
     {title: "Indiana Bones and the Temple of Poon", take: 50091, change: "new" },
@@ -3235,7 +3235,7 @@ var pornData = {
     {title: "The Pleasure of Sierra's Madre", take: 16830, change: "down" },
     {title: "A Queer and Pleasant Stranger", take: 16534, change: "down" }
   ], 
-  "20170507": [
+  "0507": [
     {title: "The Last Starfucker", take: 56200, change: "new" },
     {title: "Natural Porn Killers", take: 55157, change: "down" },
     {title: "Jiro Creams On Suki", take: 49602, change: "down" },
@@ -3257,7 +3257,7 @@ var pornData = {
     {title: "Bye Bye Virginity", take: 19885, change: "down" },
     {title: "A Queer and Pleasant Stranger", take: 18165, change: "same" }
   ], 
-  "20170508": [
+  "0508": [
     {title: "Better Ball Saul", take: 48801, change: "up" },
     {title: "Dr. Strangelust, or: How I Learned To Stop Worrying And Love The Bum", take: 45998, change: "up" },
     {title: "Kubo and the G Strings", take: 45201, change: "up" },
@@ -3279,7 +3279,7 @@ var pornData = {
     {title: "A Queer and Pleasant Stranger", take: 15507, change: "up" },
     {title: "Bye Bye Virginity", take: 15067, change: "down" }
   ], 
-  "20170509": [
+  "0509": [
     {title: "Slut Trek VI: The Undiscovered Entry", take: 56519, change: "up" },
     {title: "Big Trouble in Little Vagina", take: 53258, change: "new" },
     {title: "Kubo and the G Strings", take: 46873, change: "same" },
@@ -3301,7 +3301,7 @@ var pornData = {
     {title: "G*A*S*H", take: 18116, change: "down" },
     {title: "Night of the Giving Head", take: 16336, change: "down" }
   ], 
-  "20170510": [
+  "0510": [
     {title: "Slutter Island", take: 45434, change: "new" },
     {title: "Grease'd", take: 40297, change: "new" },
     {title: "Kubo and the G Strings", take: 37782, change: "same" },
@@ -3323,7 +3323,7 @@ var pornData = {
     {title: "GoodFellatas", take: 14471, change: "new" },
     {title: "Indiana Bones and the Temple of Poon", take: 13861, change: "down" }
   ], 
-  "20170511": [
+  "0511": [
     {title: "Grease'd", take: 50170, change: "up" },
     {title: "Lube²: Hyperlube", take: 44380, change: "new" },
     {title: "Training Gay", take: 42794, change: "new" },
@@ -3345,7 +3345,7 @@ var pornData = {
     {title: "Depth of a Salesman", take: 11329, change: "down" },
     {title: "Eastbound And Going Down", take: 10780, change: "down" }
   ], 
-  "20170512": [
+  "0512": [
     {title: "Lord of the Cockrings: The Two Showers", take: 56085, change: "new" },
     {title: "Fist Me Deadly", take: 50521, change: "new" },
     {title: "Lube²: Hyperlube", take: 45676, change: "down" },
@@ -3367,7 +3367,7 @@ var pornData = {
     {title: "The Boner Collector", take: 16438, change: "down" },
     {title: "Slut Trek: Deep Throat 9", take: 15873, change: "new" }
   ], 
-  "20170513": [
+  "0513": [
     {title: "Fist Me Deadly", take: 55353, change: "up" },
     {title: "Trick 'r Skeet", take: 49366, change: "new" },
     {title: "One Flew Into The Poopoo's Nest", take: 46247, change: "new" },
@@ -3389,7 +3389,7 @@ var pornData = {
     {title: "The Munchurian Candidass", take: 16630, change: "new" },
     {title: "The Color of a Money Shot", take: 16032, change: "down" }
   ], 
-  "20170514": [
+  "0514": [
     {title: "Fist Me Deadly", take: 55773, change: "same" },
     {title: "Bright Lights, Big Titties", take: 52673, change: "up" },
     {title: "Fist Me, Kate", take: 47800, change: "up" },
@@ -3411,7 +3411,7 @@ var pornData = {
     {title: "Kneel And Deliver", take: 15601, change: "down" },
     {title: "Hairy Twatter and the Prisoner of Ass Cabin", take: 14420, change: "down" }
   ], 
-  "20170515": [
+  "0515": [
     {title: "Bright Lights, Big Titties", take: 46751, change: "up" },
     {title: "Anything Grows", take: 45384, change: "new" },
     {title: "Whiskey, Tango, Facefuck", take: 44047, change: "new" },
@@ -3433,7 +3433,7 @@ var pornData = {
     {title: "Full Metal Dildo", take: 16039, change: "down" },
     {title: "Lube²: Hyperlube", take: 15189, change: "down" }
   ], 
-  "20170516": [
+  "0516": [
     {title: "Gunfight at the KY Corral", take: 45771, change: "new" },
     {title: "Pud Simple", take: 43507, change: "new" },
     {title: "All That Jizz", take: 41460, change: "new" },
@@ -3455,7 +3455,7 @@ var pornData = {
     {title: "Fist Me, Kate", take: 13899, change: "down" },
     {title: "The Usual Cuck Sex", take: 12439, change: "new" }
   ], 
-  "20170517": [
+  "0517": [
     {title: "The Italian Blowjob", take: 50459, change: "new" },
     {title: "Mr. Chode's Wild Ride", take: 49749, change: "new" },
     {title: "Morning Gloryhole", take: 47461, change: "new" },
@@ -3477,7 +3477,7 @@ var pornData = {
     {title: "Peggy Guggenheim: Fart Addict", take: 12455, change: "new" },
     {title: "Anything Grows", take: 11574, change: "down" }
   ], 
-  "20170518": [
+  "0518": [
     {title: "Sore Jaws", take: 55743, change: "new" },
     {title: "Spurtigo", take: 55048, change: "new" },
     {title: "The Italian Blowjob", take: 51657, change: "down" },
@@ -3499,7 +3499,7 @@ var pornData = {
     {title: "Slut Trek V: The Final Cunt's Here", take: 16322, change: "new" },
     {title: "Rear Entry Widow", take: 15476, change: "new" }
   ], 
-  "20170519": [
+  "0519": [
     {title: "Bang My Bum Slowly", take: 51605, change: "new" },
     {title: "Married... With An Understanding", take: 47923, change: "new" },
     {title: "Diddler on the Roof", take: 45437, change: "new" },
@@ -3521,7 +3521,7 @@ var pornData = {
     {title: "The Man Who Was In There", take: 16059, change: "down" },
     {title: "The Stepfather, Part II", take: 15441, change: "new" }
   ], 
-  "20170520": [
+  "0520": [
     {title: "Bang My Bum Slowly", take: 51793, change: "same" },
     {title: "Married... With An Understanding", take: 46672, change: "same" },
     {title: "Saturday Night Beaver", take: 42381, change: "new" },
@@ -3543,7 +3543,7 @@ var pornData = {
     {title: "Invasion of the Bawdy Snatches", take: 16775, change: "down" },
     {title: "Breaking Chad", take: 15423, change: "new" }
   ], 
-  "20170521": [
+  "0521": [
     {title: "Married... With An Understanding", take: 52229, change: "up" },
     {title: "Bang My Bum Slowly", take: 46663, change: "down" },
     {title: "Midnight Ladyboy", take: 43102, change: "new" },
@@ -3565,7 +3565,7 @@ var pornData = {
     {title: "Fuck-It Ralph", take: 17764, change: "new" },
     {title: "Clamilton", take: 15982, change: "new" }
   ], 
-  "20170522": [
+  "0522": [
     {title: "Star Whores: The Foreskin Awakens", take: 51029, change: "new" },
     {title: "Midnight Ladyboy", take: 47095, change: "up" },
     {title: "Married... With An Understanding", take: 41550, change: "down" },
@@ -3587,7 +3587,7 @@ var pornData = {
     {title: "Titzcarraldo", take: 13107, change: "down" },
     {title: "How To Give Her The Business Without Really Trying", take: 12760, change: "new" }
   ], 
-  "20170523": [
+  "0523": [
     {title: "No Cunt Free For Old Men", take: 48951, change: "new" },
     {title: "Midnight Ladyboy", take: 43644, change: "same" },
     {title: "Star Whores: The Foreskin Awakens", take: 42941, change: "down" },
@@ -3609,7 +3609,7 @@ var pornData = {
     {title: "12 Years A Slut", take: 18200, change: "new" },
     {title: "Stepmomenschanz", take: 17005, change: "new" }
   ], 
-  "20170524": [
+  "0524": [
     {title: "Midnight Ladyboy", take: 48952, change: "up" },
     {title: "No Cunt Free For Old Men", take: 46620, change: "down" },
     {title: "Welcome Back, Frotteur", take: 45697, change: "new" },
@@ -3631,7 +3631,7 @@ var pornData = {
     {title: "The Lust Unicorn", take: 14764, change: "new" },
     {title: "My Big Fat Freak, Wetting", take: 13478, change: "down" }
   ], 
-  "20170525": [
+  "0525": [
     {title: "Cornholeval", take: 47077, change: "new" },
     {title: "Fantastic Fucks, Mister", take: 44202, change: "new" },
     {title: "Poonlight", take: 39938, change: "new" },
@@ -3653,7 +3653,7 @@ var pornData = {
     {title: "21 Pumps, SKEET!", take: 15090, change: "new" },
     {title: "Bring in 'da Boys, Bring in 'da Spunk", take: 14776, change: "down" }
   ], 
-  "20170526": [
+  "0526": [
     {title: "Pacific Rimjob", take: 51528, change: "new" },
     {title: "Poonlight", take: 46594, change: "up" },
     {title: "3 Men And A Jar Of Lube", take: 45391, change: "new" },
@@ -3675,7 +3675,7 @@ var pornData = {
     {title: "Fast Times In Bridgette's Thighs", take: 14153, change: "new" },
     {title: "The African Drag Queen", take: 13593, change: "down" }
   ], 
-  "20170527": [
+  "0527": [
     {title: "Poonlight", take: 54483, change: "up" },
     {title: "Night At The Mapplethorpe Museum", take: 51586, change: "new" },
     {title: "3 Men And A Jar Of Lube", take: 49412, change: "same" },
@@ -3697,7 +3697,7 @@ var pornData = {
     {title: "Midnight Ladyboy", take: 16570, change: "down" },
     {title: "Bareback To The Future", take: 15919, change: "down" }
   ], 
-  "20170528": [
+  "0528": [
     {title: "Poonlight", take: 45801, change: "same" },
     {title: "Night At The Mapplethorpe Museum", take: 42833, change: "same" },
     {title: "Penetrating Howard's End", take: 42164, change: "new" },
@@ -3719,7 +3719,7 @@ var pornData = {
     {title: "Ghost In Michelle", take: 15376, change: "new" },
     {title: "The Nutting Professor", take: 14407, change: "new" }
   ], 
-  "20170529": [
+  "0529": [
     {title: "While You Were Peeping", take: 52323, change: "up" },
     {title: "Night At The Mapplethorpe Museum", take: 48102, change: "same" },
     {title: "Poonlight", take: 43878, change: "down" },
@@ -3741,7 +3741,7 @@ var pornData = {
     {title: "Arse Nick and Yo Face", take: 12934, change: "new" },
     {title: "The Bear Up There", take: 12703, change: "down" }
   ], 
-  "20170530": [
+  "0530": [
     {title: "The Maltese Fistin", take: 53954, change: "new" },
     {title: "Poonlight", take: 51358, change: "up" },
     {title: "Night At The Mapplethorpe Museum", take: 47327, change: "down" },
@@ -3763,7 +3763,7 @@ var pornData = {
     {title: "Boyz N The Clitoral Hood", take: 16482, change: "new" },
     {title: "Dong: Skullfuck Island", take: 15005, change: "new" }
   ], 
-  "20170531": [
+  "0531": [
     {title: "Glen, Garry, Glenn, Ross, and Six Other Guys", take: 46711, change: "up" },
     {title: "Poonlight", take: 42876, change: "same" },
     {title: "Bite Club", take: 38758, change: "up" },
@@ -3785,7 +3785,7 @@ var pornData = {
     {title: "Annie Got That Cum", take: 14446, change: "down" },
     {title: "Dong: Skullfuck Island", take: 14003, change: "same" }
   ], 
-  "20170601": [
+  "0601": [
     {title: "Night At The Mapplethorpe Museum", take: 52430, change: "up" },
     {title: "Poonlight", take: 49259, change: "same" },
     {title: "While You Were Peeping", take: 46223, change: "up" },
@@ -3807,7 +3807,7 @@ var pornData = {
     {title: "The Hung Games: Flashing Firecrotch", take: 15049, change: "down" },
     {title: "Charles In Charles", take: 13465, change: "down" }
   ], 
-  "20170602": [
+  "0602": [
     {title: "Glen, Garry, Glenn, Ross, and Six Other Guys", take: 50129, change: "up" },
     {title: "Actually Inside Llewyn Davis", take: 46617, change: "new" },
     {title: "Gays of Thunder", take: 41938, change: "up" },
@@ -3829,7 +3829,7 @@ var pornData = {
     {title: "Harold & Kumar Fuck In A White Castle Bathroom", take: 14108, change: "new" },
     {title: "I Broke My Back Mounting", take: 12999, change: "down" }
   ], 
-  "20170603": [
+  "0603": [
     {title: "Glazing Arizona", take: 52922, change: "new" },
     {title: "Mr. Smith Goes Down on Washington", take: 50617, change: "new" },
     {title: "Glen, Garry, Glenn, Ross, and Six Other Guys", take: 46557, change: "down" },
@@ -3851,7 +3851,7 @@ var pornData = {
     {title: "Puppet Masturbator", take: 13148, change: "new" },
     {title: "Good Night And Good Fuck", take: 12187, change: "new" }
   ], 
-  "20170604": [
+  "0604": [
     {title: "Actually Inside Llewyn Davis", take: 53771, change: "up" },
     {title: "Glazing Arizona", take: 51969, change: "down" },
     {title: "Gays of Thunder", take: 46734, change: "up" },
@@ -3873,7 +3873,7 @@ var pornData = {
     {title: "The Ho Men", take: 15411, change: "new" },
     {title: "Puppet Masturbator", take: 13612, change: "down" }
   ], 
-  "20170605": [
+  "0605": [
     {title: "Glen, Garry, Glenn, Ross, and Six Other Guys", take: 54268, change: "up" },
     {title: "Actually Inside Llewyn Davis", take: 50658, change: "down" },
     {title: "Mr. Smith Goes Down on Washington", take: 49882, change: "up" },
@@ -3895,7 +3895,7 @@ var pornData = {
     {title: "Wangs of New York", take: 16550, change: "down" },
     {title: "Puppet Masturbator", take: 15699, change: "same" }
   ], 
-  "20170606": [
+  "0606": [
     {title: "Fill Bill, vol 2", take: 49213, change: "new" },
     {title: "Glen, Garry, Glenn, Ross, and Six Other Guys", take: 44205, change: "down" },
     {title: "Actually Inside Llewyn Davis", take: 43152, change: "down" },
@@ -3917,7 +3917,7 @@ var pornData = {
     {title: "Joanie Loves Crotchie", take: 13405, change: "down" },
     {title: "One Blew Over The Cuckold's Nest", take: 11824, change: "down" }
   ], 
-  "20170607": [
+  "0607": [
     {title: "Actually Inside Llewyn Davis", take: 53882, change: "up" },
     {title: "Glen, Garry, Glenn, Ross, and Six Other Guys", take: 51631, change: "same" },
     {title: "Fantastic Breasts And Where To Fuck Them", take: 49672, change: "new" },
@@ -3939,7 +3939,7 @@ var pornData = {
     {title: "Before The Devil Knows You're Dicked", take: 13324, change: "new" },
     {title: "Drilling Zoe", take: 12104, change: "new" }
   ],
-  "20170608": [
+  "0608": [
     {title: "Actually Inside Llewyn Davis", take: 49481, change: "same" },
     {title: "Fist Me, Kate", take: 45950, change: "new" },
     {title: "Glen, Garry, Glenn, Ross, and Six Other Guys", take: 41515, change: "down" },
@@ -3961,7 +3961,7 @@ var pornData = {
     {title: "Balls of Furry", take: 16185, change: "new" },
     {title: "Public Enemas", take: 15475, change: "down" }
   ], 
-  "20170609": [
+  "0609": [
     {title: "The Lust Unicorn", take: 49728, change: "new" },
     {title: "Poonrise Kingdom", take: 44475, change: "new" },
     {title: "Pud Simple", take: 42490, change: "new" },
@@ -3983,7 +3983,7 @@ var pornData = {
     {title: "Attack The Cock", take: 17025, change: "new" },
     {title: "G*A*S*H", take: 15150, change: "new" }
   ], 
-  "20170610": [
+  "0610": [
     {title: "Pud Simple", take: 53503, change: "up" },
     {title: "Natural Porn Killers", take: 48151, change: "up" },
     {title: "Poonrise Kingdom", take: 45756, change: "down" },
@@ -4005,7 +4005,7 @@ var pornData = {
     {title: "Dr. Strangelust, or: How I Learned To Stop Worrying And Love The Bum", take: 23784, change: "new" },
     {title: "Tim, Fuck Two", take: 22559, change: "new" }
   ], 
-  "20170611": [
+  "0611": [
     {title: "Pee Wee's Big Member", take: 57468, change: "new" },
     {title: "Natural Porn Killers", take: 51887, change: "same" },
     {title: "Pud Simple", take: 50327, change: "down" },
@@ -4027,7 +4027,7 @@ var pornData = {
     {title: "Six Days Seven Cocks", take: 16908, change: "new" },
     {title: "Hairy Twatter and the Prisoner of Ass Cabin", take: 15294, change: "new" }
   ], 
-  "20170612": [
+  "0612": [
     {title: "Goldfingering", take: 47241, change: "new" },
     {title: "Fuck Russians With Love", take: 43505, change: "new" },
     {title: "Pan's Labiarinth", take: 41019, change: "new" },
@@ -4049,7 +4049,7 @@ var pornData = {
     {title: "Who's The Bottom?", take: 14293, change: "new" },
     {title: "Some Like A Twat", take: 14012, change: "down" }
   ], 
-  "20170613": [
+  "0613": [
     {title: "The Lust of the Mohicans", take: 49617, change: "new" },
     {title: "Pan's Labiarinth", take: 49083, change: "up" },
     {title: "12 Years A Slut", take: 44337, change: "up" },
@@ -4071,7 +4071,7 @@ var pornData = {
     {title: "Clamilton", take: 16408, change: "new" },
     {title: "Bring in 'da Boys, Bring in 'da Spunk", take: 14486, change: "new" }
   ], 
-  "20170614": [
+  "0614": [
     {title: "The Lust of the Mohicans", take: 50363, change: "same" },
     {title: "Face/Fuck", take: 47067, change: "up" },
     {title: "Strangers on a Tranny", take: 41794, change: "new" },
@@ -4093,7 +4093,7 @@ var pornData = {
     {title: "Star Whores: The Foreskin Awakens", take: 12392, change: "down" },
     {title: "The Stepfather, Part II", take: 12280, change: "down" }
   ], 
-  "20170615": [
+  "0615": [
     {title: "Face/Fuck", take: 51418, change: "up" },
     {title: "Reservoir Dongs", take: 50791, change: "new" },
     {title: "The Lust of the Mohicans", take: 45987, change: "down" },
@@ -4115,7 +4115,7 @@ var pornData = {
     {title: "Ender's Gay", take: 14931, change: "new" },
     {title: "The Bicycle Queef", take: 14136, change: "new" }
   ], 
-  "20170616": [
+  "0616": [
     {title: "The Lust of the Mohicans", take: 55093, change: "up" },
     {title: "The Squirt Locker", take: 54320, change: "new" },
     {title: "My Big Fat Freak, Wetting", take: 52193, change: "up" },
@@ -4137,7 +4137,7 @@ var pornData = {
     {title: "Twatman vs Booberman: Dawn of Just Tits", take: 14448, change: "new" },
     {title: "A Dogging's Purpose", take: 13821, change: "new" }
   ], 
-  "20170617": [
+  "0617": [
     {title: "Fantastic Fucks, Mister", take: 48895, change: "new" },
     {title: "Gunfight at the KY Corral", take: 47685, change: "new" },
     {title: "The Lust of the Mohicans", take: 42507, change: "down" },
@@ -4159,7 +4159,7 @@ var pornData = {
     {title: "Lord of the Cockrings: The Two Showers", take: 12048, change: "down" },
     {title: "The Boy Shorts", take: 11810, change: "down" }
   ], 
-  "20170618": [
+  "0618": [
     {title: "Humpy Old Men", take: 58859, change: "new" },
     {title: "Steve's Jobs", take: 54507, change: "new" },
     {title: "Fantastic Fucks, Mister", take: 51495, change: "down" },
@@ -4181,7 +4181,7 @@ var pornData = {
     {title: "Gosford Porking", take: 14980, change: "new" },
     {title: "A Queer and Pleasant Stranger", take: 13514, change: "new" }
   ], 
-  "20170619": [
+  "0619": [
     {title: "Bright Lights, Big Titties", take: 53804, change: "new" },
     {title: "Steve's Jobs", take: 48429, change: "same" },
     {title: "Married... With An Understanding", take: 45074, change: "new" },
@@ -4203,7 +4203,7 @@ var pornData = {
     {title: "Jiro Creams On Suki", take: 15462, change: "new" },
     {title: "Anne of Groin Gobbles", take: 13940, change: "down" }
   ], 
-  "20170620": [
+  "0620": [
     {title: "Bright Lights, Big Titties", take: 55242, change: "same" },
     {title: "Guess Who Came On Dinner", take: 52824, change: "new" },
     {title: "Koyaanistwatsi", take: 48905, change: "new" },
@@ -4225,7 +4225,7 @@ var pornData = {
     {title: "Sex Machina", take: 19143, change: "down" },
     {title: "The Grinch Whose Hole Fits Fists", take: 18029, change: "down" }
   ], 
-  "20170621": [
+  "0621": [
     {title: "As You Lick It", take: 54950, change: "new" },
     {title: "Humpy Old Men", take: 49575, change: "up" },
     {title: "Guess Who Came On Dinner", take: 46259, change: "down" },
@@ -4247,7 +4247,7 @@ var pornData = {
     {title: "In The Cumpanties of Men", take: 13239, change: "new" },
     {title: "Saturday Night Beaver", take: 11833, change: "new" }
   ], 
-  "20170622": [
+  "0622": [
     {title: "BALL-E", take: 46291, change: "up" },
     {title: "The Pleasure of Sierra's Madre", take: 42534, change: "up" },
     {title: "Guess Who Came On Dinner", take: 40144, change: "same" },
@@ -4269,7 +4269,7 @@ var pornData = {
     {title: "Married... With An Understanding", take: 10290, change: "down" },
     {title: "Whiskey, Tango, Facefuck", take: 10129, change: "down" }
   ], 
-  "20170623": [
+  "0623": [
     {title: "BALL-E", take: 55092, change: "same" },
     {title: "Rub, Lola! Rub!", take: 53251, change: "new" },
     {title: "The Pleasure of Sierra's Madre", take: 46867, change: "down" },
@@ -4291,7 +4291,7 @@ var pornData = {
     {title: "Hello, Real Dolly!", take: 18080, change: "down" },
     {title: "One Flew Into The Poopoo's Nest", take: 17789, change: "down" }
   ], 
-  "20170624": [
+  "0624": [
     {title: "How To Drain Your Dragon", take: 58736, change: "new" },
     {title: "Rub, Lola! Rub!", take: 54745, change: "same" },
     {title: "Koyaanistwatsi", take: 49177, change: "up" },
@@ -4313,7 +4313,7 @@ var pornData = {
     {title: "Whiskey, Tango, Facefuck", take: 21321, change: "down" },
     {title: "Das Booty", take: 19948, change: "down" }
   ], 
-  "20170625": [
+  "0625": [
     {title: "Slut Trek III: The Search For Cock", take: 48262, change: "new" },
     {title: "BALL-E", take: 45800, change: "up" },
     {title: "Humpy Old Men", take: 41788, change: "up" },
@@ -4335,7 +4335,7 @@ var pornData = {
     {title: "Jack Me Brown", take: 14729, change: "new" },
     {title: "The Pleasure of Sierra's Madre", take: 13147, change: "down" }
   ], 
-  "20170626": [
+  "0626": [
     {title: "Slut Trek III: The Search For Cock", take: 45836, change: "same" },
     {title: "Humpy Old Men", take: 43655, change: "up" },
     {title: "BALL-E", take: 40278, change: "down" },
@@ -4357,7 +4357,7 @@ var pornData = {
     {title: "Slop Shot", take: 12839, change: "down" },
     {title: "Stepmomenschanz", take: 12199, change: "down" }
   ], 
-  "20170627": [
+  "0627": [
     {title: "Erin Cock-A-Bitch", take: 57297, change: "new" },
     {title: "Slut Trek V: The Final Cunt's Here", take: 56631, change: "new" },
     {title: "Cornholeval", take: 51270, change: "new" },
@@ -4379,7 +4379,7 @@ var pornData = {
     {title: "Spurtigo", take: 15532, change: "new" },
     {title: "Kubo and the G Strings", take: 14399, change: "down" }
   ], 
-  "20170628": [
+  "0628": [
     {title: "Slut Trek V: The Final Cunt's Here", take: 52579, change: "up" },
     {title: "Five Years In To Beth", take: 51998, change: "new" },
     {title: "The Black Swanzstucker", take: 50572, change: "up" },
@@ -4401,7 +4401,7 @@ var pornData = {
     {title: "Rebel Without a Cooze", take: 17217, change: "new" },
     {title: "The Licker Man", take: 16659, change: "down" }
   ], 
-  "20170629": [
+  "0629": [
     {title: "On Her Majesty's Secret Cervix", take: 52760, change: "new" },
     {title: "Full Metal Dildo", take: 47184, change: "new" },
     {title: "Slut Trek V: The Final Cunt's Here", take: 41859, change: "down" },
@@ -4423,7 +4423,7 @@ var pornData = {
     {title: "Lord of the Cockrings: The Return of the Kink", take: 16420, change: "new" },
     {title: "Titzcarraldo", take: 14907, change: "new" }
   ], 
-  "20170630": [
+  "0630": [
     {title: "Penetrating Howard's End", take: 51221, change: "new" },
     {title: "Birdman (or The Unexpected Pleasure of Dominance)", take: 45207, change: "new" },
     {title: "Slut Trek V: The Final Cunt's Here", take: 40702, change: "same" },
@@ -4445,7 +4445,7 @@ var pornData = {
     {title: "Rear Entry Widow", take: 12475, change: "new" },
     {title: "Thunderballs", take: 11877, change: "down" }
   ], 
-  "20170701": [
+  "0701": [
     {title: "Birdman (or The Unexpected Pleasure of Dominance)", take: 51030, change: "up" },
     {title: "50 Fist Dates", take: 46855, change: "up" },
     {title: "On Her Majesty's Secret Cervix", take: 43345, change: "up" },
@@ -4467,7 +4467,7 @@ var pornData = {
     {title: "The Munchurian Candidass", take: 13222, change: "down" },
     {title: "FUX 1138", take: 12796, change: "down" }
   ], 
-  "20170702": [
+  "0702": [
     {title: "Birdman (or The Unexpected Pleasure of Dominance)", take: 53874, change: "same" },
     {title: "A Tail And Two Titties", take: 49842, change: "new" },
     {title: "Octopussy, Novempussy, Decapussy... Whatapussy!", take: 44438, change: "new" },
@@ -4489,7 +4489,7 @@ var pornData = {
     {title: "Full Metal Dildo", take: 14424, change: "down" },
     {title: "Assassin's Cream", take: 13609, change: "down" }
   ], 
-  "20170703": [
+  "0703": [
     {title: "Spoo Detective", take: 51863, change: "new" },
     {title: "Birdman (or The Unexpected Pleasure of Dominance)", take: 49491, change: "down" },
     {title: "Joanie Loves Crotchie", take: 47471, change: "new" },
@@ -4511,7 +4511,7 @@ var pornData = {
     {title: "Fist Fist, Bang Bang", take: 15879, change: "down" },
     {title: "Penetrating Howard's End", take: 14942, change: "down" }
   ], 
-  "20170704": [
+  "0704": [
     {title: "2 Fast 2 Furry Puss", take: 49429, change: "new" },
     {title: "Spoo Detective", take: 45121, change: "down" },
     {title: "The Usual Cuck Sex", take: 44449, change: "new" },
@@ -4533,7 +4533,7 @@ var pornData = {
     {title: "Harold & Kumar Fuck In A White Castle Bathroom", take: 14985, change: "down" },
     {title: "Pud Simple", take: 13794, change: "new" }
   ], 
-  "20170705": [
+  "0705": [
     {title: "While You Were Peeping", take: 50992, change: "new" },
     {title: "Fist Me Deadly", take: 45823, change: "new" },
     {title: "Lawrence of a Labia", take: 42697, change: "new" },
@@ -4555,7 +4555,7 @@ var pornData = {
     {title: "One Blew Over The Cuckold's Nest", take: 12912, change: "new" },
     {title: "Le Voyage Sans La Lube", take: 12497, change: "new" }
   ], 
-  "20170706": [
+  "0706": [
     {title: "Moneyballin", take: 49478, change: "new" },
     {title: "The Ladydrillers", take: 45775, change: "new" },
     {title: "Mad Maxxx: Furious Loads", take: 43527, change: "new" },
@@ -4577,7 +4577,7 @@ var pornData = {
     {title: "Spoo Detective", take: 15780, change: "down" },
     {title: "Dr. Strangelust, or: How I Learned To Stop Worrying And Love The Bum", take: 14187, change: "new" }
   ], 
-  "20170707": [
+  "0707": [
     {title: "Dr. O Yes", take: 54599, change: "new" },
     {title: "The Mud Wrestler", take: 52132, change: "new" },
     {title: "9″ to 5″", take: 47675, change: "new" },
@@ -4599,7 +4599,7 @@ var pornData = {
     {title: "My Fair Labia", take: 14642, change: "new" },
     {title: "Fist Me Deadly", take: 13942, change: "down" }
   ], 
-  "20170708": [
+  "0708": [
     {title: "Tinker, Tailor, Soldier, Spycam", take: 51660, change: "new" },
     {title: "9″ to 5″", take: 49730, change: "up" },
     {title: "Das Booty", take: 49053, change: "new" },
@@ -4621,7 +4621,7 @@ var pornData = {
     {title: "While You Were Peeping", take: 16710, change: "down" },
     {title: "Midnight Ladyboy", take: 14953, change: "new" }
   ], 
-  "20170709": [
+  "0709": [
     {title: "Tinker, Tailor, Soldier, Spycam", take: 55242, change: "same" },
     {title: "Evil Head 2: Head By Dawn", take: 53093, change: "new" },
     {title: "Watersportsworld", take: 47700, change: "new" },
@@ -4643,7 +4643,7 @@ var pornData = {
     {title: "Dirty/Hairy", take: 23567, change: "new" },
     {title: "GladHeAteHer", take: 23242, change: "down" }
   ], 
-  "20170710": [
+  "0710": [
     {title: "Lord of the Cockrings: The Two Showers", take: 50967, change: "new" },
     {title: "The Color of a Money Shot", take: 47946, change: "new" },
     {title: "Stay Hard 2: Stay Harder", take: 46245, change: "up" },
@@ -4665,7 +4665,7 @@ var pornData = {
     {title: "Hairy Twatter and the Order of the Three Dicks", take: 13961, change: "down" },
     {title: "Fuck Russians With Love", take: 13747, change: "down" }
   ], 
-  "20170711": [
+  "0711": [
     {title: "The Boy Shorts", take: 47481, change: "new" },
     {title: "Jiro Creams On Suki", take: 45521, change: "new" },
     {title: "Watersportsworld", take: 42633, change: "up" },
@@ -4687,7 +4687,7 @@ var pornData = {
     {title: "Scott Pilgrim Vs Those Girls", take: 20875, change: "new" },
     {title: "SLC Spunk", take: 18814, change: "new" }
   ], 
-  "20170712": [
+  "0712": [
     {title: "Vulva! Lez Vegas", take: 52870, change: "new" },
     {title: "Pies Like Us", take: 48814, change: "new" },
     {title: "Watersportsworld", take: 47598, change: "same" },
@@ -4709,7 +4709,7 @@ var pornData = {
     {title: "21 Pumps, SKEET!", take: 18918, change: "down" },
     {title: "Scott Pilgrim Vs Those Girls", take: 17676, change: "down" }
   ], 
-  "20170713": [
+  "0713": [
     {title: "Boy Meat's World", take: 53523, change: "new" },
     {title: "Vulva! Lez Vegas", take: 47388, change: "down" },
     {title: "Pies Like Us", take: 43681, change: "down" },
@@ -4731,7 +4731,7 @@ var pornData = {
     {title: "Attack The Cock", take: 15297, change: "new" },
     {title: "Titty Titty Gang Bang", take: 13812, change: "new" }
   ], 
-  "20170714": [
+  "0714": [
     {title: "Slut Trek: Deep Throat 9", take: 47947, change: "up" },
     {title: "Alexander and the Terrible, Horrible, No Good, Very Bad Handjob", take: 46532, change: "new" },
     {title: "Lapdancer In The Dark", take: 43148, change: "new" },
@@ -4753,7 +4753,7 @@ var pornData = {
     {title: "Watersportsworld", take: 17943, change: "down" },
     {title: "Slut Trek: Fist Contact", take: 16453, change: "down" }
   ], 
-  "20170715": [
+  "0715": [
     {title: "Wangs of New York", take: 44742, change: "new" },
     {title: "Slut Trek: Deep Throat 9", take: 41696, change: "down" },
     {title: "Spermalot", take: 39818, change: "new" },
@@ -4775,7 +4775,7 @@ var pornData = {
     {title: "Guess Who Came On Dinner", take: 10467, change: "new" },
     {title: "The Last Starfucker", take: 10367, change: "down" }
   ], 
-  "20170716": [
+  "0716": [
     {title: "Wangs of New York", take: 49944, change: "same" },
     {title: "Seven Brides For A Brother", take: 46649, change: "new" },
     {title: "Kneel And Deliver", take: 44153, change: "new" },
@@ -4797,7 +4797,7 @@ var pornData = {
     {title: "Spermalot", take: 16509, change: "down" },
     {title: "The Curious Case of Benjamin's Butthole", take: 15932, change: "down" }
   ], 
-  "20170717": [
+  "0717": [
     {title: "Homo Alone 2: Lust In New York", take: 48925, change: "new" },
     {title: "Hairy Twatter and the Gobblin' of Your Spire", take: 44858, change: "new" },
     {title: "Seven Brides For A Brother", take: 43171, change: "down" },
@@ -4819,7 +4819,7 @@ var pornData = {
     {title: "Bareback To The Future", take: 15121, change: "new" },
     {title: "Glazed and Confused", take: 14887, change: "down" }
   ], 
-  "20170718": [
+  "0718": [
     {title: "Seven Brides For A Brother", take: 50557, change: "up" },
     {title: "Hairy Twatter and the Gobblin' of Your Spire", take: 48750, change: "same" },
     {title: "Homo Alone 2: Lust In New York", take: 43943, change: "down" },
@@ -4841,7 +4841,7 @@ var pornData = {
     {title: "Gays of Thunder", take: 15792, change: "down" },
     {title: "Twerking Girl", take: 14225, change: "down" }
   ], 
-  "20170719": [
+  "0719": [
     {title: "Hairy Twatter and the Gobblin' of Your Spire", take: 53906, change: "up" },
     {title: "Dog Dick Afternoon", take: 52917, change: "new" },
     {title: "Seven Brides For A Brother", take: 51435, change: "down" },
@@ -4863,7 +4863,7 @@ var pornData = {
     {title: "Bite Club", take: 17705, change: "new" },
     {title: "Person of Incest", take: 17064, change: "down" }
   ], 
-  "20170720": [
+  "0720": [
     {title: "Supersize Meat", take: 59045, change: "new" },
     {title: "Dog Dick Afternoon", take: 57102, change: "same" },
     {title: "Haters Whack Off!", take: 54568, change: "new" },
@@ -4885,7 +4885,7 @@ var pornData = {
     {title: "Slut Trek VI: The Undiscovered Entry", take: 19465, change: "new" },
     {title: "The Filth Element", take: 18088, change: "down" }
   ], 
-  "20170721": [
+  "0721": [
     {title: "The Stepfather, Part II", take: 54508, change: "new" },
     {title: "Million Dollar Booby", take: 53460, change: "new" },
     {title: "Crotch-22", take: 52523, change: "new" },
@@ -4907,7 +4907,7 @@ var pornData = {
     {title: "The Man Who Was In There", take: 18209, change: "new" },
     {title: "Cum and Cummer", take: 17376, change: "new" }
   ], 
-  "20170722": [
+  "0722": [
     {title: "The Stepfather, Part II", take: 49893, change: "same" },
     {title: "Sore Jaws", take: 48469, change: "new" },
     {title: "The Hung Games: Flashing Firecrotch", take: 46413, change: "new" },
@@ -4929,7 +4929,7 @@ var pornData = {
     {title: "Straight Into Conner", take: 13953, change: "new" },
     {title: "Fuck-It Ralph", take: 12701, change: "new" }
   ], 
-  "20170723": [
+  "0723": [
     {title: "The Stepfather, Part II", take: 49476, change: "same" },
     {title: "Sore Jaws", take: 46739, change: "same" },
     {title: "Poonrise Kingdom", take: 43225, change: "new" },
@@ -4951,7 +4951,7 @@ var pornData = {
     {title: "Indiana Bones and the Temple of Poon", take: 12251, change: "down" },
     {title: "Goldfingering", take: 10839, change: "down" }
   ], 
-  "20170724": [
+  "0724": [
     {title: "Sore Jaws", take: 53889, change: "up" },
     {title: "Grease'd", take: 48715, change: "new" },
     {title: "Nightballer", take: 44018, change: "up" },
@@ -4973,7 +4973,7 @@ var pornData = {
     {title: "Six Days Seven Cocks", take: 13838, change: "down" },
     {title: "Indiana Bones and the Temple of Poon", take: 13361, change: "down" }
   ], 
-  "20170725": [
+  "0725": [
     {title: "The Usual Cuck Sex", take: 49748, change: "new" },
     {title: "Whiskey, Tango, Facefuck", take: 46900, change: "new" },
     {title: "Sore Jaws", take: 42178, change: "down" },
@@ -4995,7 +4995,7 @@ var pornData = {
     {title: "A Queer and Pleasant Stranger", take: 11612, change: "new" },
     {title: "Crotch-22", take: 10238, change: "down" }
   ], 
-  "20170726": [
+  "0726": [
     {title: "Sore Jaws", take: 46485, change: "up" },
     {title: "Boy Meat's World", take: 44651, change: "new" },
     {title: "Scats", take: 40551, change: "new" },
@@ -5017,7 +5017,7 @@ var pornData = {
     {title: "Django Chained", take: 12564, change: "down" },
     {title: "Charles In Charles", take: 11201, change: "new" }
   ], 
-  "20170727": [
+  "0727": [
     {title: "Slut Trek III: The Search For Cock", take: 49199, change: "new" },
     {title: "No Cunt Free For Old Men", take: 45176, change: "new" },
     {title: "I Am Clam", take: 40381, change: "new" },
@@ -5039,7 +5039,7 @@ var pornData = {
     {title: "GoodFellatas", take: 16343, change: "down" },
     {title: "The Usual Cuck Sex", take: 15232, change: "down" }
   ], 
-  "20170728": [
+  "0728": [
     {title: "Slut Trek III: The Search For Cock", take: 48224, change: "same" },
     {title: "Rear Entry Widow", take: 43017, change: "new" },
     {title: "No Cunt Free For Old Men", take: 41357, change: "down" },
@@ -5061,7 +5061,7 @@ var pornData = {
     {title: "Whiskey, Tango, Facefuck", take: 18287, change: "down" },
     {title: "Slut Trek IV: The Voyeur's Moan", take: 16560, change: "new" }
   ], 
-  "20170729": [
+  "0729": [
     {title: "No Cunt Free For Old Men", take: 54109, change: "up" },
     {title: "Rear Entry Widow", take: 52696, change: "same" },
     {title: "Slut Trek III: The Search For Cock", take: 47497, change: "down" },
@@ -5083,7 +5083,7 @@ var pornData = {
     {title: "Boy Meat's World", take: 19440, change: "down" },
     {title: "How To Get Some Head In Advertising", take: 19107, change: "down" }
   ], 
-  "20170730": [
+  "0730": [
     {title: "Rear Entry Widow", take: 48796, change: "up" },
     {title: "The Man With The Golden Cunt", take: 43483, change: "new" },
     {title: "Filler's Crossing", take: 39427, change: "new" },
@@ -5105,7 +5105,7 @@ var pornData = {
     {title: "Jack Reacharound", take: 15510, change: "new" },
     {title: "Octopussy, Novempussy, Decapussy... Whatapussy!", take: 14882, change: "new" }
   ], 
-  "20170731": [
+  "0731": [
     {title: "Face/Fuck", take: 45292, change: "up" },
     {title: "The Man With The Golden Cunt", take: 41790, change: "same" },
     {title: "Guys and Blow Up Dolls", take: 40062, change: "new" },
@@ -5127,7 +5127,7 @@ var pornData = {
     {title: "The Black Swanzstucker", take: 18637, change: "down" },
     {title: "Risky Jizness", take: 17333, change: "new" }
   ], 
-  "20170801": [
+  "0801": [
     {title: "Jiz and the Diaphragms", take: 57597, change: "new" },
     {title: "Face/Fuck", take: 53214, change: "down" },
     {title: "Breaking Chad", take: 50041, change: "new" },
@@ -5149,7 +5149,7 @@ var pornData = {
     {title: "Bio-Domme", take: 18704, change: "down" },
     {title: "Filler's Crossing", take: 16850, change: "down" }
   ], 
-  "20170802": [
+  "0802": [
     {title: "Me, Myself in Irene", take: 53298, change: "new" },
     {title: "Jiz and the Diaphragms", take: 51108, change: "down" },
     {title: "Diddler on the Roof", take: 47607, change: "new" },
@@ -5171,7 +5171,7 @@ var pornData = {
     {title: "28 Cocks Later", take: 18902, change: "down" },
     {title: "G.I. Joe: Masturbation", take: 18157, change: "new" }
   ], 
-  "20170803": [
+  "0803": [
     {title: "Jiz and the Diaphragms", take: 58472, change: "up" },
     {title: "Sinning In The Rain", take: 51660, change: "up" },
     {title: "Me, Myself in Irene", take: 49526, change: "down" },
@@ -5193,7 +5193,7 @@ var pornData = {
     {title: "Fill Bill, vol 2", take: 14634, change: "new" },
     {title: "Big Hero 16 Inch", take: 14038, change: "down" }
   ], 
-  "20170804": [
+  "0804": [
     {title: "The Big Lebow Chicka Wow Wow Ski", take: 45711, change: "new" },
     {title: "Evil Head 2: Head By Dawn", take: 42568, change: "new" },
     {title: "Sinning In The Rain", take: 41310, change: "down" },
@@ -5215,7 +5215,7 @@ var pornData = {
     {title: "On Her Majesty's Secret Cervix", take: 13569, change: "new" },
     {title: "Motion Impossible", take: 12630, change: "down" }
   ], 
-  "20170805": [
+  "0805": [
     {title: "Evil Head 2: Head By Dawn", take: 47410, change: "up" },
     {title: "Before The Devil Knows You're Dicked", take: 46549, change: "new" },
     {title: "Birdman (or The Unexpected Pleasure of Dominance)", take: 44875, change: "new" },
@@ -5237,7 +5237,7 @@ var pornData = {
     {title: "Me, Myself in Irene", take: 14385, change: "down" },
     {title: "Shaun The Creep Movie", take: 12774, change: "new" }
   ], 
-  "20170806": [
+  "0806": [
     {title: "Trans Formers 2: Revenge of the Ballin'", take: 54449, change: "new" },
     {title: "Evil Head 2: Head By Dawn", take: 48600, change: "down" },
     {title: "The Unbearable Tightness of Ian", take: 43210, change: "up" },
@@ -5259,7 +5259,7 @@ var pornData = {
     {title: "Under The Cum Cum Tree", take: 15948, change: "down" },
     {title: "Jack Me Brown", take: 15324, change: "new" }
   ], 
-  "20170807": [
+  "0807": [
     {title: "The Unbearable Tightness of Ian", take: 55092, change: "up" },
     {title: "Evil Head 2: Head By Dawn", take: 48491, change: "same" },
     {title: "Trans Formers 2: Revenge of the Ballin'", take: 43239, change: "down" },
@@ -5281,7 +5281,7 @@ var pornData = {
     {title: "The Legend of Gagger Vance", take: 18331, change: "down" },
     {title: "Good Night And Good Fuck", take: 17389, change: "new" }
   ], 
-  "20170808": [
+  "0808": [
     {title: "The Unbearable Tightness of Ian", take: 52530, change: "same" },
     {title: "Trans Formers 2: Revenge of the Ballin'", take: 49733, change: "up" },
     {title: "Morning Gloryhole", take: 47203, change: "up" },
@@ -5303,7 +5303,7 @@ var pornData = {
     {title: "Scott Pilgrim Vs Those Girls", take: 15634, change: "new" },
     {title: "Perfect Strange", take: 14916, change: "new" }
   ], 
-  "20170809": [
+  "0809": [
     {title: "Trans Formers 2: Revenge of the Ballin'", take: 49040, change: "up" },
     {title: "The Unbearable Tightness of Ian", take: 44660, change: "down" },
     {title: "Alvin and the Fuckmunks 2: The Fuckuel", take: 39751, change: "new" },
@@ -5325,7 +5325,7 @@ var pornData = {
     {title: "Jiz and the Diaphragms", take: 13950, change: "down" },
     {title: "Anne of Groin Gobbles", take: 13460, change: "new" }
   ], 
-  "20170810": [
+  "0810": [
     {title: "Alvin and the Fuckmunks 2: The Fuckuel", take: 47474, change: "up" },
     {title: "Bright Lights, Big Titties", take: 44662, change: "up" },
     {title: "True Clit", take: 40214, change: "new" },
@@ -5347,7 +5347,7 @@ var pornData = {
     {title: "Jiro Creams On Suki", take: 13931, change: "down" },
     {title: "Dong: Skullfuck Island", take: 12527, change: "down" }
   ], 
-  "20170811": [
+  "0811": [
     {title: "Rebel Without a Cooze", take: 52419, change: "new" },
     {title: "Bright Lights, Big Titties", take: 48515, change: "same" },
     {title: "The Cocksucker Proxy", take: 44090, change: "up" },
@@ -5369,7 +5369,7 @@ var pornData = {
     {title: "Evil Head 2: Head By Dawn", take: 21280, change: "down" },
     {title: "Dong: Skullfuck Island", take: 20330, change: "same" }
   ], 
-  "20170812": [
+  "0812": [
     {title: "Wet Dreams May Come", take: 51143, change: "new" },
     {title: "True Clit", take: 48377, change: "up" },
     {title: "Rebel Without a Cooze", take: 45967, change: "down" },
@@ -5391,7 +5391,7 @@ var pornData = {
     {title: "How To Drain Your Dragon", take: 18748, change: "new" },
     {title: "Full Metal Dildo", take: 17917, change: "down" }
   ], 
-  "20170813": [
+  "0813": [
     {title: "Let the White One In", take: 55941, change: "new" },
     {title: "Rebel Without a Cooze", take: 53878, change: "up" },
     {title: "Wet Dreams May Come", take: 48079, change: "down" },
@@ -5413,7 +5413,7 @@ var pornData = {
     {title: "Lawrence of a Labia", take: 16973, change: "down" },
     {title: "Breasts In Shows", take: 16393, change: "down" }
   ], 
-  "20170814": [
+  "0814": [
     {title: "Wet Dreams May Come", take: 48025, change: "up" },
     {title: "Rogerin' Me", take: 45749, change: "new" },
     {title: "Public Enemas", take: 44570, change: "new" },
@@ -5435,7 +5435,7 @@ var pornData = {
     {title: "The Licker Man", take: 18203, change: "down" },
     {title: "Gunfight at the KY Corral", take: 16195, change: "down" }
   ], 
-  "20170815": [
+  "0815": [
     {title: "Gosford Porking", take: 46144, change: "up" },
     {title: "Public Enemas", take: 43308, change: "up" },
     {title: "Wet Dreams May Come", take: 42370, change: "down" },
@@ -5457,7 +5457,7 @@ var pornData = {
     {title: "Veinspotting", take: 12488, change: "new" },
     {title: "Titzcarraldo", take: 11436, change: "new" }
   ], 
-  "20170816": [
+  "0816": [
     {title: "Wet Dreams May Come", take: 54547, change: "up" },
     {title: "Public Enemas", take: 50783, change: "same" },
     {title: "Blowing For Columbine", take: 50266, change: "new" },
@@ -5479,7 +5479,7 @@ var pornData = {
     {title: "Blumpkinhead", take: 21019, change: "new" },
     {title: "Person of Incest", take: 19058, change: "new" }
   ], 
-  "20170817": [
+  "0817": [
     {title: "Vulva! Lez Vegas", take: 50483, change: "new" },
     {title: "Hairy Twatter and the Half Chub Prince", take: 46061, change: "new" },
     {title: "Rub, Lola! Rub!", take: 42029, change: "new" },
@@ -5501,7 +5501,7 @@ var pornData = {
     {title: "Rosencrantz and Guildenstern Are Giving Head", take: 15267, change: "new" },
     {title: "Poonlight", take: 15080, change: "new" }
   ], 
-  "20170818": [
+  "0818": [
     {title: "Hairy Twatter and the Pornographer's Bone", take: 51066, change: "new" },
     {title: "Anything Grows", take: 45355, change: "new" },
     {title: "The Maltese Fistin", take: 41044, change: "new" },
@@ -5523,7 +5523,7 @@ var pornData = {
     {title: "Who's The Bottom?", take: 11735, change: "new" },
     {title: "Nightballer", take: 10413, change: "down" }
   ], 
-  "20170819": [
+  "0819": [
     {title: "Twatman vs Booberman: Dawn of Just Tits", take: 48609, change: "new" },
     {title: "Indiana Bones and the Temple of Poon", take: 45700, change: "new" },
     {title: "Spermalot", take: 44635, change: "new" },
@@ -5545,7 +5545,7 @@ var pornData = {
     {title: "Hairy Twatter and the Chamber of Secretions", take: 19273, change: "down" },
     {title: "Even Reverse Cowgirls Get the Blues", take: 17560, change: "down" }
   ], 
-  "20170820": [
+  "0820": [
     {title: "Some Like A Twat", take: 50766, change: "new" },
     {title: "Hairy Twatter and the Half Chub Prince", take: 45288, change: "up" },
     {title: "Indiana Bones and the Temple of Poon", take: 43168, change: "down" },
@@ -5567,7 +5567,7 @@ var pornData = {
     {title: "The Hump For Red October", take: 11450, change: "down" },
     {title: "Fantastic Fucks, Mister", take: 10309, change: "new" }
   ], 
-  "20170821": [
+  "0821": [
     {title: "The Grinch Whose Hole Fits Fists", take: 55644, change: "new" },
     {title: "Mr. Smith Goes Down on Washington", take: 50810, change: "new" },
     {title: "Fist Me, Kate", take: 48573, change: "new" },
@@ -5589,7 +5589,7 @@ var pornData = {
     {title: "Big Trouble in Little Vagina", take: 13520, change: "down" },
     {title: "Vulva! Lez Vegas", take: 12955, change: "down" }
   ], 
-  "20170822": [
+  "0822": [
     {title: "The Grinch Whose Hole Fits Fists", take: 50890, change: "same" },
     {title: "Depth of a Salesman", take: 49954, change: "new" },
     {title: "Four Weddings, A Funeral, And Then A Gangbang", take: 44932, change: "new" },
@@ -5611,7 +5611,7 @@ var pornData = {
     {title: "On Her Majesty's Secret Cervix", take: 16958, change: "down" },
     {title: "To Shave and Shave Not", take: 16529, change: "new" }
   ], 
-  "20170823": [
+  "0823": [
     {title: "Night of the Giving Head", take: 51551, change: "up" },
     {title: "Four Weddings, A Funeral, And Then A Gangbang", take: 48794, change: "up" },
     {title: "The Scissorhood of the Traveling Underpants", take: 46128, change: "up" },
@@ -5633,7 +5633,7 @@ var pornData = {
     {title: "Raging Balls", take: 15614, change: "down" },
     {title: "Clitty Lickers 2: The Legend of Curly Pubes", take: 14735, change: "new" }
   ], 
-  "20170824": [
+  "0824": [
     {title: "Twins Peaking", take: 50020, change: "up" },
     {title: "The Grinch Whose Hole Fits Fists", take: 47267, change: "up" },
     {title: "The Scissorhood of the Traveling Underpants", take: 46136, change: "same" },
@@ -5655,7 +5655,7 @@ var pornData = {
     {title: "Raging Balls", take: 13535, change: "same" },
     {title: "Clitty Lickers 2: The Legend of Curly Pubes", take: 12582, change: "same" }
   ], 
-  "20170825": [
+  "0825": [
     {title: "The Bear Up There", take: 50825, change: "new" },
     {title: "Slut Trek V: The Final Cunt's Here", take: 46701, change: "new" },
     {title: "Twins Peaking", take: 45768, change: "down" },
@@ -5677,7 +5677,7 @@ var pornData = {
     {title: "Haters Whack Off!", take: 17042, change: "new" },
     {title: "Stanford's Prisonsex Experiments", take: 15805, change: "new" }
   ], 
-  "20170826": [
+  "0826": [
     {title: "Grease'd", take: 46419, change: "new" },
     {title: "Twins Peaking", take: 45382, change: "up" },
     {title: "Sex Machina", take: 42581, change: "new" },
@@ -5699,7 +5699,7 @@ var pornData = {
     {title: "Much Ado About Cumming", take: 14753, change: "new" },
     {title: "Taint Must Be Shaven", take: 13554, change: "down" }
   ], 
-  "20170827": [
+  "0827": [
     {title: "Sex Machina", take: 53721, change: "up" },
     {title: "Grease'd", take: 48478, change: "down" },
     {title: "The Squirt Locker", take: 44014, change: "new" },
@@ -5721,7 +5721,7 @@ var pornData = {
     {title: "Suicide Squat", take: 13465, change: "new" },
     {title: "Kneel And Deliver", take: 12554, change: "new" }
   ], 
-  "20170828": [
+  "0828": [
     {title: "The Boy Shorts", take: 47807, change: "new" },
     {title: "Crotch-22", take: 46181, change: "new" },
     {title: "Grease'd", take: 44224, change: "down" },
@@ -5743,7 +5743,7 @@ var pornData = {
     {title: "Enemy of the Prostate", take: 15190, change: "down" },
     {title: "Whiskey, Tango, Facefuck", take: 14230, change: "new" }
   ], 
-  "20170829": [
+  "0829": [
     {title: "The Boy Shorts", take: 54418, change: "same" },
     {title: "Grease'd", take: 50234, change: "up" },
     {title: "Sex Machina", take: 49495, change: "up" },
@@ -5765,7 +5765,7 @@ var pornData = {
     {title: "Reservoir Dongs", take: 18523, change: "down" },
     {title: "Twerking Girl", take: 17914, change: "down" }
   ], 
-  "20170830": [
+  "0830": [
     {title: "Grease'd", take: 57605, change: "up" },
     {title: "Brian's Schlong", take: 54315, change: "new" },
     {title: "Sex Machina", take: 47799, change: "same" },
@@ -5787,7 +5787,7 @@ var pornData = {
     {title: "Group Sex on the Bounty", take: 25118, change: "down" },
     {title: "Twins Peaking", take: 24017, change: "down" }
   ], 
-  "20170831": [
+  "0831": [
     {title: "Grease'd", take: 47132, change: "same" },
     {title: "Nookie of the Year", take: 42623, change: "new" },
     {title: "Hannah on Her Sisters", take: 41115, change: "up" },
@@ -5809,7 +5809,7 @@ var pornData = {
     {title: "The Last Starfucker", take: 14251, change: "new" },
     {title: "The Squirt Locker", take: 12624, change: "down" }
   ], 
-  "20170901": [
+  "0901": [
     {title: "Grease'd", take: 55906, change: "same" },
     {title: "The Man Who Was In There", take: 51362, change: "new" },
     {title: "Hannah on Her Sisters", take: 46824, change: "same" },
@@ -5831,7 +5831,7 @@ var pornData = {
     {title: "Gentlemen Prefer Bald", take: 13149, change: "new" },
     {title: "The African Drag Queen", take: 11790, change: "down" }
   ], 
-  "20170902": [
+  "0902": [
     {title: "The Man Who Was In There", take: 52931, change: "up" },
     {title: "Saturday Night Beaver", take: 52189, change: "new" },
     {title: "Fist Me Deadly", take: 50543, change: "up" },
@@ -5853,7 +5853,7 @@ var pornData = {
     {title: "Kubo and the G Strings", take: 16875, change: "down" },
     {title: "Ghost In Michelle", take: 15860, change: "down" }
   ], 
-  "20170903": [
+  "0903": [
     {title: "Nutbusters", take: 56276, change: "up" },
     {title: "Saturday Night Beaver", take: 53957, change: "same" },
     {title: "My Big Fat Freak, Wetting", take: 52473, change: "new" },
@@ -5875,7 +5875,7 @@ var pornData = {
     {title: "Kubo and the G Strings", take: 13917, change: "same" },
     {title: "Slut Trek: Fist Contact", take: 12798, change: "down" }
   ], 
-  "20170904": [
+  "0904": [
     {title: "Moulan Spooge", take: 48711, change: "new" },
     {title: "Five Years In To Beth", take: 44913, change: "new" },
     {title: "Django Chained", take: 41663, change: "new" },
@@ -5897,7 +5897,7 @@ var pornData = {
     {title: "No Cunt Free For Old Men", take: 12348, change: "down" },
     {title: "Hannah on Her Sisters", take: 11192, change: "down" }
   ], 
-  "20170905": [
+  "0905": [
     {title: "Poonlight", take: 50959, change: "new" },
     {title: "The Fantastic Foursome", take: 48279, change: "new" },
     {title: "Moulan Spooge", take: 46151, change: "down" },
@@ -5919,7 +5919,7 @@ var pornData = {
     {title: "Blowing For Columbine", take: 13579, change: "new" },
     {title: "Tub Girl Time Machine", take: 12442, change: "down" }
   ], 
-  "20170906": [
+  "0906": [
     {title: "Das Booty", take: 51921, change: "new" },
     {title: "The Fantastic Foursome", take: 45818, change: "same" },
     {title: "Poonlight", take: 42670, change: "down" },
@@ -5941,7 +5941,7 @@ var pornData = {
     {title: "Pearl Necklace Harbor", take: 13384, change: "down" },
     {title: "My Big Fat Freak, Wetting", take: 13180, change: "down" }
   ], 
-  "20170907": [
+  "0907": [
     {title: "Bite Club", take: 51557, change: "new" },
     {title: "Before The Devil Knows You're Dicked", take: 45759, change: "new" },
     {title: "Lord of the Cockrings: The Fellowship of the Cockring", take: 40769, change: "new" },
@@ -5963,7 +5963,7 @@ var pornData = {
     {title: "Five Years In To Beth", take: 14623, change: "down" },
     {title: "Pee Wee's Big Member", take: 13044, change: "new" }
   ], 
-  "20170908": [
+  "0908": [
     {title: "Trans Formers 2: Revenge of the Ballin'", take: 48546, change: "new" },
     {title: "Bite Club", take: 45416, change: "down" },
     {title: "Lord of the Cockrings: The Fellowship of the Cockring", take: 41544, change: "same" },
@@ -5985,7 +5985,7 @@ var pornData = {
     {title: "The Licker Man", take: 12977, change: "new" },
     {title: "What In The World Are You Spraying (An Alex Jones Documentary)", take: 12434, change: "down" }
   ], 
-  "20170909": [
+  "0909": [
     {title: "Bite Club", take: 51098, change: "up" },
     {title: "Trans Formers 2: Revenge of the Ballin'", take: 46187, change: "down" },
     {title: "Lord of the Cockrings: The Fellowship of the Cockring", take: 42788, change: "same" },
@@ -6007,7 +6007,7 @@ var pornData = {
     {title: "In Glory Hole Basterds", take: 17782, change: "new" },
     {title: "Ender's Gay", take: 16031, change: "new" }
   ], 
-  "20170910": [
+  "0910": [
     {title: "The Maltese Fistin", take: 50472, change: "new" },
     {title: "Boyz N The Clitoral Hood", take: 49802, change: "new" },
     {title: "The Drag King And I", take: 43861, change: "new" },
@@ -6029,7 +6029,7 @@ var pornData = {
     {title: "2 Fast 2 Furry Puss", take: 13210, change: "new" },
     {title: "In Sid Anus", take: 12502, change: "new" }
   ], 
-  "20170911": [
+  "0911": [
     {title: "The Italian Blowjob", take: 54760, change: "new" },
     {title: "Spermalot", take: 51773, change: "new" },
     {title: "The Drag King And I", take: 49592, change: "same" },
@@ -6051,7 +6051,7 @@ var pornData = {
     {title: "Slut Trek VI: The Undiscovered Entry", take: 12903, change: "down" },
     {title: "Poonrise Kingdom", take: 11747, change: "down" }
   ], 
-  "20170912": [
+  "0912": [
     {title: "Morning Gloryhole", take: 55395, change: "new" },
     {title: "The Man With The Golden Cunt", take: 50234, change: "new" },
     {title: "Ferris Bueller Jerks Off", take: 44352, change: "new" },
@@ -6073,7 +6073,7 @@ var pornData = {
     {title: "Training Gay", take: 16745, change: "new" },
     {title: "The Dark Bros In: Fuck Soup", take: 16563, change: "new" }
   ], 
-  "20170913": [
+  "0913": [
     {title: "Morning Gloryhole", take: 50908, change: "same" },
     {title: "The Man With The Golden Cunt", take: 49779, change: "same" },
     {title: "Ferris Bueller Jerks Off", take: 49229, change: "same" },
@@ -6095,7 +6095,7 @@ var pornData = {
     {title: "Person of Incest", take: 17766, change: "new" },
     {title: "Man of La Muncha", take: 16866, change: "new" }
   ], 
-  "20170914": [
+  "0914": [
     {title: "The Wolf of Ball Street", take: 45254, change: "new" },
     {title: "Slut Trek: Deep Throat 9", take: 40780, change: "new" },
     {title: "Four Weddings, A Funeral, And Then A Gangbang", take: 37765, change: "new" },
@@ -6117,7 +6117,7 @@ var pornData = {
     {title: "White Men Can't Hump", take: 13355, change: "down" },
     {title: "Bring in 'da Boys, Bring in 'da Spunk", take: 12710, change: "new" }
   ], 
-  "20170915": [
+  "0915": [
     {title: "The Wolf of Ball Street", take: 57575, change: "same" },
     {title: "Hairy Twatter and the Prisoner of Ass Cabin", take: 52831, change: "new" },
     {title: "Fuck-It Ralph", take: 49386, change: "new" },
@@ -6139,7 +6139,7 @@ var pornData = {
     {title: "The Stepfather, Part II", take: 20129, change: "down" },
     {title: "While You Were Peeping", take: 19562, change: "new" }
   ], 
-  "20170916": [
+  "0916": [
     {title: "Cumhog Millionaire", take: 54055, change: "up" },
     {title: "Hairy Twatter and the Prisoner of Ass Cabin", take: 52192, change: "same" },
     {title: "The Wolf of Ball Street", take: 50026, change: "down" },
@@ -6161,7 +6161,7 @@ var pornData = {
     {title: "Clitty Lickers 2: The Legend of Curly Pubes", take: 20362, change: "down" },
     {title: "The Stepfather, Part II", take: 19965, change: "down" }
   ], 
-  "20170917": [
+  "0917": [
     {title: "Cumhog Millionaire", take: 49512, change: "same" },
     {title: "Dog Dick Afternoon", take: 49065, change: "new" },
     {title: "Hairy Twatter and the Prisoner of Ass Cabin", take: 43698, change: "down" },
@@ -6183,7 +6183,7 @@ var pornData = {
     {title: "How To Give Her The Business Without Really Trying", take: 16279, change: "new" },
     {title: "Much Ado About Cumming", take: 15753, change: "new" }
   ], 
-  "20170918": [
+  "0918": [
     {title: "Like Water For Cockolate", take: 52339, change: "new" },
     {title: "Hairy Twatter and the Prisoner of Ass Cabin", take: 46403, change: "up" },
     {title: "Birdman (or The Unexpected Pleasure of Dominance)", take: 42760, change: "new" },
@@ -6205,7 +6205,7 @@ var pornData = {
     {title: "Shaving Mr. Banks", take: 15544, change: "down" },
     {title: "The Ladyboys From Brazil", take: 14218, change: "new" }
   ], 
-  "20170919": [
+  "0919": [
     {title: "Birdman (or The Unexpected Pleasure of Dominance)", take: 52397, change: "up" },
     {title: "Hairy Twatter and the Prisoner of Ass Cabin", take: 48879, change: "same" },
     {title: "GladHeAteHer", take: 47964, change: "up" },
@@ -6227,7 +6227,7 @@ var pornData = {
     {title: "Cumhog Millionaire", take: 16927, change: "down" },
     {title: "Spurtigo", take: 15591, change: "down" }
   ], 
-  "20170920": [
+  "0920": [
     {title: "Birdman (or The Unexpected Pleasure of Dominance)", take: 52369, change: "same" },
     {title: "Eastbound And Going Down", take: 47778, change: "new" },
     {title: "Hairy Twatter and the Prisoner of Ass Cabin", take: 45265, change: "down" },
@@ -6249,7 +6249,7 @@ var pornData = {
     {title: "Fantastic Breasts And Where To Fuck Them", take: 15432, change: "down" },
     {title: "Spurtigo", take: 13586, change: "same" }
   ], 
-  "20170921": [
+  "0921": [
     {title: "Hairy Twatter and the Prisoner of Ass Cabin", take: 52421, change: "up" },
     {title: "GladHeAteHer", take: 49528, change: "up" },
     {title: "Eastbound And Going Down", take: 44949, change: "down" },
@@ -6271,7 +6271,7 @@ var pornData = {
     {title: "Wank You For Smoking", take: 13325, change: "down" },
     {title: "Like Water For Cockolate", take: 12890, change: "down" }
   ], 
-  "20170922": [
+  "0922": [
     {title: "The Ho Men", take: 50229, change: "new" },
     {title: "Hairy Twatter and the Prisoner of Ass Cabin", take: 48839, change: "down" },
     {title: "Try Another Gay", take: 45609, change: "new" },
@@ -6293,7 +6293,7 @@ var pornData = {
     {title: "Six Days Seven Cocks", take: 11622, change: "down" },
     {title: "I'm In Her, With Andre", take: 10753, change: "down" }
   ], 
-  "20170923": [
+  "0923": [
     {title: "Slut Trek II: The Wrath of Cum", take: 52407, change: "up" },
     {title: "The Ho Men", take: 51565, change: "down" },
     {title: "The Munchurian Candidass", take: 49665, change: "new" },
@@ -6315,7 +6315,7 @@ var pornData = {
     {title: "Monsters' Pink", take: 18746, change: "down" },
     {title: "Birdman (or The Unexpected Pleasure of Dominance)", take: 17688, change: "down" }
   ], 
-  "20170924": [
+  "0924": [
     {title: "Natural Porn Killers", take: 52560, change: "new" },
     {title: "Slut Trek II: The Wrath of Cum", take: 48971, change: "down" },
     {title: "9″ to 5″", take: 45526, change: "new" },
@@ -6337,7 +6337,7 @@ var pornData = {
     {title: "The Munchurian Candidass", take: 16286, change: "down" },
     {title: "Burn After Peeing", take: 15352, change: "new" }
   ], 
-  "20170925": [
+  "0925": [
     {title: "Poonstruck", take: 53024, change: "new" },
     {title: "Jiro Creams On Suki", take: 52044, change: "new" },
     {title: "Hairy Twatter and the Half Chub Prince", take: 46337, change: "new" },
@@ -6359,7 +6359,7 @@ var pornData = {
     {title: "XXX: State of the Union: XXX", take: 14705, change: "new" },
     {title: "Actually Inside Llewyn Davis", take: 13614, change: "down" }
   ], 
-  "20170926": [
+  "0926": [
     {title: "Balls of Furry", take: 49759, change: "new" },
     {title: "Jiro Creams On Suki", take: 46354, change: "same" },
     {title: "Erin Cock-A-Bitch", take: 43338, change: "new" },
@@ -6381,7 +6381,7 @@ var pornData = {
     {title: "Star Whores: The Foreskin Awakens", take: 18947, change: "down" },
     {title: "12 Years A Slut", take: 17307, change: "new" }
   ], 
-  "20170927": [
+  "0927": [
     {title: "Balls of Furry", take: 46668, change: "same" },
     {title: "Nail Caesar!", take: 44107, change: "up" },
     {title: "Erin Cock-A-Bitch", take: 41206, change: "same" },
@@ -6403,7 +6403,7 @@ var pornData = {
     {title: "The Hung Games", take: 12958, change: "down" },
     {title: "FUX 1138", take: 11480, change: "down" }
   ], 
-  "20170928": [
+  "0928": [
     {title: "Hairy Twatter and the Half Chub Prince", take: 53781, change: "up" },
     {title: "Erin Cock-A-Bitch", take: 50034, change: "up" },
     {title: "Poonstruck", take: 44771, change: "up" },
@@ -6425,7 +6425,7 @@ var pornData = {
     {title: "9″ to 5″", take: 16711, change: "down" },
     {title: "The Hung Games: Flashing Firecrotch", take: 15332, change: "new" }
   ],
-  "20170929": [
+  "0929": [
     {title: "Poonlight", take: 51153, change: "new" },
     {title: "Wet Dreams May Come", take: 46841, change: "new" },
     {title: "Bye Bye Virginity", take: 41845, change: "new" },
@@ -6447,7 +6447,7 @@ var pornData = {
     {title: "The Grinch Whose Hole Fits Fists", take: 15759, change: "new" },
     {title: "White Men Can't Hump", take: 14775, change: "new" }
   ], 
-  "20170930": [
+  "0930": [
     {title: "Wet Dreams May Come", take: 57267, change: "up" },
     {title: "Poonlight", take: 54374, change: "down" },
     {title: "Full Metal Dildo", take: 52371, change: "new" },
@@ -6469,7 +6469,7 @@ var pornData = {
     {title: "The Bear Up There", take: 15652, change: "down" },
     {title: "Star Whores: The Foreskin Awakens", take: 15446, change: "new" }
   ], 
-  "20171001": [
+  "1001": [
     {title: "Wet Dreams May Come", take: 58097, change: "same" },
     {title: "The Color of a Money Shot", take: 55557, change: "new" },
     {title: "Let the White One In", take: 52467, change: "new" },
@@ -6491,7 +6491,7 @@ var pornData = {
     {title: "Rogerin' Me", take: 19088, change: "new" },
     {title: "Attack The Cock", take: 16904, change: "down" }
   ], 
-  "20171002": [
+  "1002": [
     {title: "The Big Lebow Chicka Wow Wow Ski", take: 51495, change: "new" },
     {title: "Slut Trek VI: The Undiscovered Entry", take: 48198, change: "new" },
     {title: "Filler's Crossing", take: 45333, change: "new" },
@@ -6513,7 +6513,7 @@ var pornData = {
     {title: "Bye Bye Virginity", take: 15109, change: "down" },
     {title: "Miserable Lezzies", take: 13442, change: "down" }
   ], 
-  "20171003": [
+  "1003": [
     {title: "The Big Lebow Chicka Wow Wow Ski", take: 51159, change: "same" },
     {title: "Slut Trek VI: The Undiscovered Entry", take: 49920, change: "same" },
     {title: "Titty Titty Gang Bang", take: 45785, change: "new" },
@@ -6535,7 +6535,7 @@ var pornData = {
     {title: "'bating For Godot", take: 18331, change: "down" },
     {title: "Cornholeval", take: 16835, change: "down" }
   ], 
-  "20171004": [
+  "1004": [
     {title: "Indiana Bones and the Temple of Poon", take: 52355, change: "new" },
     {title: "The Ho Men", take: 47781, change: "new" },
     {title: "The Big Lebow Chicka Wow Wow Ski", take: 43005, change: "down" },
@@ -6557,7 +6557,7 @@ var pornData = {
     {title: "Filler's Crossing", take: 14734, change: "down" },
     {title: "The Maltese Fistin", take: 14445, change: "new" }
   ], 
-  "20171005": [
+  "1005": [
     {title: "The Tight Stuff", take: 45736, change: "new" },
     {title: "The Ho Men", take: 43541, change: "same" },
     {title: "Stepmomenschanz", take: 40935, change: "new" },
@@ -6579,7 +6579,7 @@ var pornData = {
     {title: "Anything Grows", take: 15285, change: "new" },
     {title: "Pee Wee's Big Member", take: 13876, change: "new" }
   ], 
-  "20171006": [
+  "1006": [
     {title: "Stepmomenschanz", take: 54344, change: "up" },
     {title: "Titzcarraldo", take: 50428, change: "new" },
     {title: "Birdman (or The Unexpected Pleasure of Dominance)", take: 48171, change: "new" },
@@ -6601,7 +6601,7 @@ var pornData = {
     {title: "9″ to 5″", take: 21366, change: "down" },
     {title: "Fantastic Breasts And Where To Fuck Them", take: 20562, change: "down" }
   ], 
-  "20171007": [
+  "1007": [
     {title: "Pies Like Us", take: 47397, change: "new" },
     {title: "Stepmomenschanz", take: 45591, change: "down" },
     {title: "Fantastic Fucks, Mister", take: 42574, change: "new" },
@@ -6623,7 +6623,7 @@ var pornData = {
     {title: "Poonrise Kingdom", take: 17467, change: "new" },
     {title: "The Gropes of Wrath", take: 15933, change: "new" }
   ], 
-  "20171008": [
+  "1008": [
     {title: "Breasts In Shows", take: 48031, change: "new" },
     {title: "Pies Like Us", take: 43220, change: "down" },
     {title: "Stepmomenschanz", take: 39471, change: "down" },
@@ -6645,7 +6645,7 @@ var pornData = {
     {title: "A Queer and Pleasant Stranger", take: 14864, change: "new" },
     {title: "BALL-E", take: 14166, change: "new" }
   ], 
-  "20171009": [
+  "1009": [
     {title: "Breasts In Shows", take: 48489, change: "same" },
     {title: "Monsters' Pink", take: 43498, change: "new" },
     {title: "Guess Who Came On Dinner", take: 39282, change: "new" },
@@ -6667,7 +6667,7 @@ var pornData = {
     {title: "The Hung Games", take: 12769, change: "new" },
     {title: "Training Gay", take: 12147, change: "new" }
   ], 
-  "20171010": [
+  "1010": [
     {title: "Hairy Twatter and the Order of the Three Dicks", take: 47852, change: "new" },
     {title: "Urethral Weapon", take: 42285, change: "new" },
     {title: "Monsters' Pink", take: 40170, change: "down" },
@@ -6689,7 +6689,7 @@ var pornData = {
     {title: "Harold & Kumar Fuck In A White Castle Bathroom", take: 13782, change: "new" },
     {title: "The Eggplant Emoji Movie", take: 13079, change: "new" }
   ], 
-  "20171011": [
+  "1011": [
     {title: "Kubo and the G Strings", take: 48305, change: "up" },
     {title: "Hairy Twatter and the Order of the Three Dicks", take: 47155, change: "down" },
     {title: "Monsters' Pink", take: 43701, change: "same" },
@@ -6711,7 +6711,7 @@ var pornData = {
     {title: "Even Reverse Cowgirls Get the Blues", take: 16565, change: "down" },
     {title: "Trick 'r Skeet", take: 15091, change: "down" }
   ], 
-  "20171012": [
+  "1012": [
     {title: "Fast Times In Bridgette's Thighs", take: 55883, change: "new" },
     {title: "Nutbusters", take: 49717, change: "new" },
     {title: "Ghost In Michelle", take: 49110, change: "new" },
@@ -6733,7 +6733,7 @@ var pornData = {
     {title: "Haters Whack Off!", take: 19645, change: "down" },
     {title: "Wangs of New York", take: 17336, change: "new" }
   ], 
-  "20171013": [
+  "1013": [
     {title: "Pud Simple", take: 58279, change: "new" },
     {title: "Fast Times In Bridgette's Thighs", take: 53411, change: "down" },
     {title: "Night At The Mapplethorpe Museum", take: 52493, change: "new" },
@@ -6755,7 +6755,7 @@ var pornData = {
     {title: "No Literally I Mean It, ANYTHING Goes", take: 16358, change: "new" },
     {title: "In Glory Hole Basterds", take: 15516, change: "new" }
   ], 
-  "20171014": [
+  "1014": [
     {title: "Nightballer", take: 52310, change: "new" },
     {title: "True Clit", take: 50531, change: "new" },
     {title: "Night At The Mapplethorpe Museum", take: 47445, change: "same" },
@@ -6777,7 +6777,7 @@ var pornData = {
     {title: "An Incontinent Truth", take: 15989, change: "down" },
     {title: "Morning Gloryhole", take: 15444, change: "down" }
   ], 
-  "20171015": [
+  "1015": [
     {title: "Boy Meat's World", take: 51650, change: "new" },
     {title: "How To Give Her The Business Without Really Trying", take: 46657, change: "new" },
     {title: "FUX 1138", take: 42146, change: "up" },
@@ -6799,7 +6799,7 @@ var pornData = {
     {title: "Who Rogered That Rabbit?", take: 14062, change: "down" },
     {title: "Blowing For Columbine", take: 12892, change: "down" }
   ], 
-  "20171016": [
+  "1016": [
     {title: "How To Give Her The Business Without Really Trying", take: 54587, change: "up" },
     {title: "Nightballer", take: 52885, change: "up" },
     {title: "The Last Starfucker", take: 47207, change: "up" },
@@ -6821,7 +6821,7 @@ var pornData = {
     {title: "Enslaving Private Ryan", take: 16492, change: "down" },
     {title: "Gunfight at the KY Corral", take: 14950, change: "new" }
   ], 
-  "20171017": [
+  "1017": [
     {title: "Pan's Labiarinth", take: 47746, change: "new" },
     {title: "Frotting Hill", take: 44254, change: "new" },
     {title: "The Hung Games: Mocking J/O [Part 1]", take: 40786, change: "new" },
@@ -6843,7 +6843,7 @@ var pornData = {
     {title: "The Just Ass League", take: 16738, change: "down" },
     {title: "Jack Me Brown", take: 16237, change: "new" }
   ], 
-  "20171018": [
+  "1018": [
     {title: "Frotting Hill", take: 46242, change: "up" },
     {title: "The Constant Groper", take: 45681, change: "new" },
     {title: "The Hung Games: Mocking J/O [Part 1]", take: 43813, change: "same" },
@@ -6865,7 +6865,7 @@ var pornData = {
     {title: "Nathan For Everyone", take: 12372, change: "new" },
     {title: "The Last Starfucker", take: 11027, change: "down" }
   ], 
-  "20171019": [
+  "1019": [
     {title: "The Hung Games: Mocking J/O [Part 1]", take: 56772, change: "up" },
     {title: "The Constant Groper", take: 52218, change: "same" },
     {title: "Group Sex on the Bounty", take: 50749, change: "up" },
@@ -6887,7 +6887,7 @@ var pornData = {
     {title: "The Boy Shorts", take: 15811, change: "new" },
     {title: "In The Cumpanties of Men", take: 15442, change: "down" }
   ], 
-  "20171020": [
+  "1020": [
     {title: "“Manos”: The Handjobs of Fate", take: 54694, change: "new" },
     {title: "I Am Clam", take: 52323, change: "new" },
     {title: "The Constant Groper", take: 47350, change: "down" },
@@ -6909,7 +6909,7 @@ var pornData = {
     {title: "Tetsuo: The Erect Man", take: 19748, change: "down" },
     {title: "Bio-Domme", take: 17822, change: "down" }
   ],
-  "20171021": [
+  "1021": [
     {title: "Arse Nick and Yo Face", take: 47343, change: "new" },
     {title: "“Manos”: The Handjobs of Fate", take: 41831, change: "down" },
     {title: "I Am Clam", take: 39458, change: "down" },
@@ -6931,7 +6931,7 @@ var pornData = {
     {title: "Pan's Labiarinth", take: 14824, change: "down" },
     {title: "Raging Balls", take: 13173, change: "down" }
   ], 
-  "20171022": [
+  "1022": [
     {title: "“Manos”: The Handjobs of Fate", take: 49241, change: "up" },
     {title: "Big Trouble in Little Vagina", take: 44573, change: "up" },
     {title: "Indiana Bones and the Temple of Poon", take: 41355, change: "new" },
@@ -6953,7 +6953,7 @@ var pornData = {
     {title: "A Tail And Two Titties", take: 14579, change: "down" },
     {title: "Frotting Hill", take: 13724, change: "down" }
   ], 
-  "20171023": [
+  "1023": [
     {title: "Indiana Bones and the Temple of Poon", take: 50481, change: "up" },
     {title: "“Manos”: The Handjobs of Fate", take: 47949, change: "down" },
     {title: "Big Trouble in Little Vagina", take: 43097, change: "down" },
@@ -6975,7 +6975,7 @@ var pornData = {
     {title: "Robocuck", take: 12784, change: "down" },
     {title: "The Princess Ride", take: 11294, change: "down" }
   ],
-  "20171024": [
+  "1024": [
     {title: "“Manos”: The Handjobs of Fate", take: 52894, change: "up" },
     {title: "Hairy Twatter and the Gobblin' of Your Spire", take: 51848, change: "up" },
     {title: "The Man Who Was In There", take: 48463, change: "up" },
@@ -6997,7 +6997,7 @@ var pornData = {
     {title: "Robocuck", take: 17897, change: "same" },
     {title: "The Constant Groper", take: 17097, change: "down" }
   ], 
-  "20171025": [
+  "1025": [
     {title: "Assassin's Cream", take: 47999, change: "new" },
     {title: "“Manos”: The Handjobs of Fate", take: 46937, change: "down" },
     {title: "The Man Who Was In There", take: 45012, change: "same" },
@@ -7019,7 +7019,7 @@ var pornData = {
     {title: "The Bicycle Queef", take: 14927, change: "new" },
     {title: "XXX: State of the Union: XXX", take: 13258, change: "down" }
   ], 
-  "20171026": [
+  "1026": [
     {title: "Homo Alone 2: Lust In New York", take: 55333, change: "new" },
     {title: "A Clockwork Orgy", take: 49391, change: "new" },
     {title: "Evil Head 2: Head By Dawn", take: 48009, change: "new" },
@@ -7041,7 +7041,7 @@ var pornData = {
     {title: "3 Men And A Jar Of Lube", take: 13875, change: "new" },
     {title: "Replicunt", take: 13473, change: "down" }
   ], 
-  "20171027": [
+  "1027": [
     {title: "Evil Head 2: Head By Dawn", take: 49556, change: "up" },
     {title: "A Clockwork Orgy", take: 47192, change: "same" },
     {title: "Trans Formers 2: Revenge of the Ballin'", take: 45364, change: "new" },
@@ -7063,7 +7063,7 @@ var pornData = {
     {title: "Natural Porn Killers", take: 15255, change: "down" },
     {title: "The Bear Up There", take: 13497, change: "down" }
   ], 
-  "20171028": [
+  "1028": [
     {title: "Evil Head 2: Head By Dawn", take: 46312, change: "same" },
     {title: "Better Ball Saul", take: 42543, change: "up" },
     {title: "Rub, Lola! Rub!", take: 40638, change: "new" },
@@ -7085,7 +7085,7 @@ var pornData = {
     {title: "Man of La Muncha", take: 13317, change: "down" },
     {title: "9″ to 5″", take: 12550, change: "new" }
   ], 
-  "20171029": [
+  "1029": [
     {title: "The Boner Collector", take: 50161, change: "new" },
     {title: "Evil Head 2: Head By Dawn", take: 48828, change: "down" },
     {title: "Veinspotting", take: 45287, change: "new" },
@@ -7107,7 +7107,7 @@ var pornData = {
     {title: "Million Dollar Booby", take: 14398, change: "down" },
     {title: "Driving Into Ms Daisy", take: 12978, change: "new" }
   ], 
-  "20171030": [
+  "1030": [
     {title: "The Hung Games: Flashing Firecrotch", take: 58319, change: "new" },
     {title: "Stepmomenschanz", take: 53367, change: "new" },
     {title: "The Boner Collector", take: 48911, change: "down" },
@@ -7129,7 +7129,7 @@ var pornData = {
     {title: "The Magnificent Semen", take: 20872, change: "new" },
     {title: "Breaking Chad", take: 20053, change: "down" }
   ], 
-  "20171031": [
+  "1031": [
     {title: "The Boner Collector", take: 53993, change: "up" },
     {title: "Evil Head 2: Head By Dawn", take: 53324, change: "up" },
     {title: "The Hung Games: Flashing Firecrotch", take: 47590, change: "down" },
@@ -7151,7 +7151,7 @@ var pornData = {
     {title: "The Magnificent Semen", take: 16514, change: "same" },
     {title: "Welcome Back, Frotteur", take: 15681, change: "down" }
   ], 
-  "20171101": [
+  "1101": [
     {title: "Watersportsworld", take: 48357, change: "new" },
     {title: "Lawrence of a Labia", take: 43091, change: "new" },
     {title: "The Squirt Locker", take: 38303, change: "new" },
@@ -7173,7 +7173,7 @@ var pornData = {
     {title: "Slut Trek: Deep Throat 9", take: 15998, change: "new" },
     {title: "Who's The Bottom?", take: 14551, change: "new" }
   ], 
-  "20171102": [
+  "1102": [
     {title: "Mr. Smith Goes Down on Washington", take: 51800, change: "new" },
     {title: "Anything Grows", take: 49549, change: "up" },
     {title: "White Men Can't Hump", take: 47641, change: "new" },
@@ -7195,7 +7195,7 @@ var pornData = {
     {title: "Bang My Bum Slowly", take: 12802, change: "down" },
     {title: "Fist Me Deadly", take: 12601, change: "down" }
   ], 
-  "20171103": [
+  "1103": [
     {title: "White Men Can't Hump", take: 57407, change: "up" },
     {title: "Anything Grows", take: 52814, change: "same" },
     {title: "The Squirt Locker", take: 50377, change: "up" },
@@ -7217,7 +7217,7 @@ var pornData = {
     {title: "The Licker Man", take: 18560, change: "down" },
     {title: "Grease'd", take: 17913, change: "new" }
   ], 
-  "20171104": [
+  "1104": [
     {title: "The Squirt Locker", take: 47552, change: "up" },
     {title: "Pacific Rimjob", take: 43659, change: "up" },
     {title: "Mr. Smith Goes Down on Washington", take: 38704, change: "up" },
@@ -7239,7 +7239,7 @@ var pornData = {
     {title: "Moneyballin", take: 12930, change: "down" },
     {title: "Watersportsworld", take: 12175, change: "down" }
   ], 
-  "20171105": [
+  "1105": [
     {title: "Pacific Rimjob", take: 50644, change: "up" },
     {title: "The Squirt Locker", take: 45396, change: "down" },
     {title: "Alexander and the Terrible, Horrible, No Good, Very Bad Handjob", take: 40697, change: "new" },
@@ -7261,7 +7261,7 @@ var pornData = {
     {title: "Annie Got That Cum", take: 13916, change: "down" },
     {title: "The Munchurian Candidass", take: 12754, change: "new" }
   ], 
-  "20171106": [
+  "1106": [
     {title: "Titty Titty Gang Bang", take: 53288, change: "new" },
     {title: "Under The Cum Cum Tree", take: 47091, change: "new" },
     {title: "Poonstruck", take: 43257, change: "new" },
@@ -7283,7 +7283,7 @@ var pornData = {
     {title: "GladHeAteHer", take: 16190, change: "new" },
     {title: "Like Water For Cockolate", take: 14469, change: "down" }
   ], 
-  "20171107": [
+  "1107": [
     {title: "Rosencrantz and Guildenstern Are Giving Head", take: 51595, change: "new" },
     {title: "Titty Titty Gang Bang", take: 50672, change: "down" },
     {title: "Tim, Fuck Two", take: 48810, change: "up" },
@@ -7305,7 +7305,7 @@ var pornData = {
     {title: "Anything Grows", take: 21375, change: "down" },
     {title: "The Ladydrillers", take: 20877, change: "down" }
   ], 
-  "20171108": [
+  "1108": [
     {title: "Invasion of the Bawdy Snatches", take: 51642, change: "new" },
     {title: "The Pleasure of Sierra's Madre", take: 47845, change: "new" },
     {title: "21 Pumps, SKEET!", take: 45578, change: "new" },
@@ -7327,7 +7327,7 @@ var pornData = {
     {title: "On Speed And Plowin", take: 12879, change: "down" },
     {title: "Filler's Crossing", take: 12168, change: "new" }
   ], 
-  "20171109": [
+  "1109": [
     {title: "Midnight Ladyboy", take: 51812, change: "new" },
     {title: "The Pleasure of Sierra's Madre", take: 49329, change: "same" },
     {title: "Invasion of the Bawdy Snatches", take: 44114, change: "down" },
@@ -7349,7 +7349,7 @@ var pornData = {
     {title: "The Wolf of Ball Street", take: 11427, change: "new" },
     {title: "The Hump For Red October", take: 10912, change: "new" }
   ], 
-  "20171110": [
+  "1110": [
     {title: "Invasion of the Bawdy Snatches", take: 47550, change: "up" },
     {title: "Star Whores: The Foreskin Awakens", take: 46159, change: "up" },
     {title: "Midnight Ladyboy", take: 41574, change: "down" },
@@ -7371,7 +7371,7 @@ var pornData = {
     {title: "'bating For Godot", take: 16196, change: "new" },
     {title: "Shaving Mr. Banks", take: 15254, change: "down" }
   ], 
-  "20171111": [
+  "1111": [
     {title: "Midnight Ladyboy", take: 53374, change: "up" },
     {title: "Sex Machina", take: 52586, change: "new" },
     {title: "Public Enemas", take: 46892, change: "new" },
@@ -7395,7 +7395,7 @@ var pornData = {
   ],
 
 
-  "20171112": [
+  "1112": [
     {title: "Midnight Ladyboy", take: 52889, change: "same" },
     {title: "Jack Reacharound", take: 51265, change: "new" },
     {title: "Sex Machina", take: 45890, change: "down" },
@@ -7417,7 +7417,7 @@ var pornData = {
     {title: "21 Pumps, SKEET!", take: 15761, change: "down" },
     {title: "The Tight Stuff", take: 14376, change: "down" }
   ], 
-  "20171113": [
+  "1113": [
     {title: "Midnight Ladyboy", take: 49671, change: "same" },
     {title: "Jack Reacharound", take: 45061, change: "same" },
     {title: "You've Got Male", take: 43413, change: "new" },
@@ -7439,7 +7439,7 @@ var pornData = {
     {title: "A Bit of Fry in Laurie", take: 15665, change: "down" },
     {title: "The Lust of the Mohicans", take: 15249, change: "new" }
   ], 
-  "20171114": [
+  "1114": [
     {title: "Midnight Ladyboy", take: 49630, change: "same" },
     {title: "The Just Ass League", take: 45990, change: "new" },
     {title: "The Scissorhood of the Traveling Underpants", take: 42520, change: "new" },
@@ -7461,7 +7461,7 @@ var pornData = {
     {title: "Sinning In The Rain", take: 15133, change: "new" },
     {title: "Enslaving Private Ryan", take: 14166, change: "down" }
   ], 
-  "20171115": [
+  "1115": [
     {title: "Twerking Girl", take: 49045, change: "new" },
     {title: "The Just Ass League", take: 46646, change: "same" },
     {title: "Ghost In Michelle", take: 44213, change: "new" },
@@ -7483,7 +7483,7 @@ var pornData = {
     {title: "Fantastic Fucks, Mister", take: 13138, change: "new" },
     {title: "Lord of the Cockrings: The Fellowship of the Cockring", take: 11720, change: "new" }
   ], 
-  "20171116": [
+  "1116": [
     {title: "The Just Ass League", take: 52693, change: "up" },
     {title: "Ghost In Michelle", take: 49798, change: "up" },
     {title: "Twerking Girl", take: 46386, change: "down" },
@@ -7505,7 +7505,7 @@ var pornData = {
     {title: "Slut Trek VI: The Undiscovered Entry", take: 17057, change: "down" },
     {title: "Hannah on Her Sisters", take: 16512, change: "down" }
   ], 
-  "20171117": [
+  "1117": [
     {title: "Monsters' Pink", take: 50333, change: "new" },
     {title: "Ghost In Michelle", take: 47389, change: "same" },
     {title: "Risky Jizness", take: 45441, change: "up" },
@@ -7527,7 +7527,7 @@ var pornData = {
     {title: "Depth of a Salesman", take: 14055, change: "down" },
     {title: "Slut Trek IV: The Voyeur's Moan", take: 13460, change: "down" }
   ], 
-  "20171118": [
+  "1118": [
     {title: "What In The World Are You Spraying (An Alex Jones Documentary)", take: 51900, change: "new" },
     {title: "Glazed and Confused", take: 48973, change: "new" },
     {title: "Steve's Jobs", take: 46047, change: "new" },
@@ -7549,7 +7549,7 @@ var pornData = {
     {title: "Balls of Furry", take: 15578, change: "down" },
     {title: "Boobs! A Madea Porno", take: 13941, change: "new" }
   ], 
-  "20171119": [
+  "1119": [
     {title: "Glazed and Confused", take: 46440, change: "up" },
     {title: "What In The World Are You Spraying (An Alex Jones Documentary)", take: 42625, change: "down" },
     {title: "Me, Myself in Irene", take: 40974, change: "up" },
@@ -7571,7 +7571,7 @@ var pornData = {
     {title: "G.I. Joe: Masturbation", take: 11893, change: "down" },
     {title: "Boobs! A Madea Porno", take: 10785, change: "same" }
   ], 
-  "20171120": [
+  "1120": [
     {title: "The Hung Games: Mocking J/O [Part 1]", take: 54462, change: "new" },
     {title: "Frotting Hill", take: 53246, change: "new" },
     {title: "As You Lick It", take: 48323, change: "new" },
@@ -7593,7 +7593,7 @@ var pornData = {
     {title: "Thighs Wide Shut", take: 21714, change: "new" },
     {title: "Steve's Jobs", take: 20126, change: "down" }
   ], 
-  "20171121": [
+  "1121": [
     {title: "Who Rogered That Rabbit?", take: 48536, change: "new" },
     {title: "Octopussy, Novempussy, Decapussy... Whatapussy!", take: 43213, change: "up" },
     {title: "Trick 'r Skeet", take: 38251, change: "new" },
@@ -7615,7 +7615,7 @@ var pornData = {
     {title: "Birdman (or The Unexpected Pleasure of Dominance)", take: 13464, change: "new" },
     {title: "A Queer and Pleasant Stranger", take: 12968, change: "new" }
   ], 
-  "20171122": [
+  "1122": [
     {title: "Trick 'r Skeet", take: 55623, change: "up" },
     {title: "A Boy And His Dong", take: 52572, change: "new" },
     {title: "Who Rogered That Rabbit?", take: 51616, change: "down" },
@@ -7637,7 +7637,7 @@ var pornData = {
     {title: "Whiskey, Tango, Facefuck", take: 15758, change: "new" },
     {title: "Stepmomenschanz", take: 15392, change: "down" }
   ], 
-  "20171123": [
+  "1123": [
     {title: "Trick 'r Skeet", take: 49278, change: "same" },
     {title: "A Boy And His Dong", take: 44066, change: "same" },
     {title: "Nightballer", take: 40986, change: "new" },
@@ -7659,7 +7659,7 @@ var pornData = {
     {title: "Even Reverse Cowgirls Get the Blues", take: 13952, change: "new" },
     {title: "Ender's Gay", take: 12328, change: "down" }
   ], 
-  "20171124": [
+  "1124": [
     {title: "A Boy And His Dong", take: 54395, change: "up" },
     {title: "Trick 'r Skeet", take: 49284, change: "down" },
     {title: "Fist Me, Kate", take: 45162, change: "up" },
@@ -7681,7 +7681,7 @@ var pornData = {
     {title: "The Gang Bang Theory", take: 16264, change: "new" },
     {title: "Actually Inside Llewyn Davis", take: 15481, change: "down" }
   ], 
-  "20171125": [
+  "1125": [
     {title: "Indiana Bones and the Temple of Poon", take: 52851, change: "up" },
     {title: "Fast Times In Bridgette's Thighs", take: 49315, change: "new" },
     {title: "Trick 'r Skeet", take: 44630, change: "down" },
@@ -7703,7 +7703,7 @@ var pornData = {
     {title: "Mad Maxxx: Furious Loads", take: 17068, change: "down" },
     {title: "CitizenWhore", take: 15599, change: "down" }
   ], 
-  "20171126": [
+  "1126": [
     {title: "The Bicycle Queef", take: 51196, change: "new" },
     {title: "Indiana Bones and the Temple of Poon", take: 45776, change: "down" },
     {title: "Abbot and Costello Fuck The Mummy", take: 44539, change: "new" },
@@ -7725,7 +7725,7 @@ var pornData = {
     {title: "Cum and Cummer", take: 14962, change: "new" },
     {title: "No Literally I Mean It, ANYTHING Goes", take: 14337, change: "down" }
   ], 
-  "20171127": [
+  "1127": [
     {title: "The Bicycle Queef", take: 50404, change: "same" },
     {title: "GoodFellatas", take: 49890, change: "new" },
     {title: "Bareback To The Future", take: 45970, change: "new" },
@@ -7747,7 +7747,7 @@ var pornData = {
     {title: "Welcome Back, Frotteur", take: 12180, change: "new" },
     {title: "Some Like A Twat", take: 11592, change: "new" }
   ], 
-  "20171128": [
+  "1128": [
     {title: "The Bicycle Queef", take: 51053, change: "same" },
     {title: "Gunfight at the KY Corral", take: 49426, change: "new" },
     {title: "BALL-E", take: 48643, change: "new" },
@@ -7769,7 +7769,7 @@ var pornData = {
     {title: "Crotch-22", take: 19124, change: "down" },
     {title: "Scott Pilgrim Vs Those Girls", take: 18714, change: "new" }
   ], 
-  "20171129": [
+  "1129": [
     {title: "Gunfight at the KY Corral", take: 50193, change: "up" },
     {title: "The Bicycle Queef", take: 45416, change: "down" },
     {title: "Better Ball Saul", take: 43519, change: "new" },
@@ -7791,7 +7791,7 @@ var pornData = {
     {title: "Breasts In Shows", take: 15579, change: "new" },
     {title: "Clamilton", take: 14672, change: "down" }
   ], 
-  "20171130": [
+  "1130": [
     {title: "The Magnificent Semen", take: 53745, change: "new" },
     {title: "Bend Over, Like Beckham", take: 48823, change: "new" },
     {title: "Jack Me Brown", take: 46025, change: "new" },
@@ -7813,7 +7813,7 @@ var pornData = {
     {title: "In Glory Hole Basterds", take: 12680, change: "new" },
     {title: "Blowing For Columbine", take: 12488, change: "new" }
   ], 
-  "20171201": [
+  "1201": [
     {title: "Saturday Night Beaver", take: 54360, change: "new" },
     {title: "Bend Over, Like Beckham", take: 49969, change: "same" },
     {title: "Stay Hard 2: Stay Harder", take: 45100, change: "up" },
@@ -7835,7 +7835,7 @@ var pornData = {
     {title: "Blowing For Columbine", take: 14720, change: "up" },
     {title: "Million Dollar Booby", take: 14567, change: "down" }
   ], 
-  "20171202": [
+  "1202": [
     {title: "Stay Hard 2: Stay Harder", take: 50234, change: "up" },
     {title: "Gosford Porking", take: 46492, change: "new" },
     {title: "Jiz and the Diaphragms", take: 45387, change: "new" },
@@ -7857,7 +7857,7 @@ var pornData = {
     {title: "Vulva! Lez Vegas", take: 17732, change: "new" },
     {title: "12 Years A Slut", take: 15608, change: "down" }
   ], 
-  "20171203": [
+  "1203": [
     {title: "Ferris Bueller Jerks Off", take: 54628, change: "new" },
     {title: "Stay Hard 2: Stay Harder", take: 51508, change: "down" },
     {title: "Gosford Porking", take: 45406, change: "down" },
@@ -7881,7 +7881,7 @@ var pornData = {
   ],
 
 
-  "20171204": [
+  "1204": [
     {title: "Anything Grows", take: 47609, change: "new" },
     {title: "SLC Spunk", take: 44536, change: "new" },
     {title: "Ferris Bueller Jerks Off", take: 42183, change: "down" },
@@ -7903,7 +7903,7 @@ var pornData = {
     {title: "Stop! Or My Mom Will Squirt", take: 10497, change: "new" },
     {title: "Scats", take: 10268, change: "down" }
   ], 
-  "20171205": [
+  "1205": [
     {title: "SLC Spunk", take: 44572, change: "up" },
     {title: "What In The World Are You Spraying (An Alex Jones Documentary)", take: 40781, change: "up" },
     {title: "Twerking Girl", take: 37356, change: "new" },
@@ -7925,7 +7925,7 @@ var pornData = {
     {title: "Stop! Or My Mom Will Squirt", take: 13911, change: "same" },
     {title: "Dr. Strangelust, or: How I Learned To Stop Worrying And Love The Bum", take: 12740, change: "new" }
   ], 
-  "20171206": [
+  "1206": [
     {title: "Midnight Ladyboy", take: 49891, change: "up" },
     {title: "Erin Cock-A-Bitch", take: 47417, change: "new" },
     {title: "SLC Spunk", take: 41746, change: "down" },
@@ -7947,7 +7947,7 @@ var pornData = {
     {title: "Frotting Hill", take: 16343, change: "new" },
     {title: "Guess Who Came On Dinner", take: 14680, change: "new" }
   ], 
-  "20171207": [
+  "1207": [
     {title: "Fantastic Fucks, Mister", take: 52480, change: "new" },
     {title: "The Just Ass League", take: 48807, change: "new" },
     {title: "How To Drain Your Dragon", take: 44747, change: "new" },
@@ -7969,7 +7969,7 @@ var pornData = {
     {title: "Who'd We Do In The Shadows", take: 13744, change: "down" },
     {title: "The Hung Games: Flashing Firecrotch", take: 12910, change: "new" }
   ], 
-  "20171208": [
+  "1208": [
     {title: "The Just Ass League", take: 57468, change: "up" },
     {title: "The Man Who Was In There", take: 51775, change: "new" },
     {title: "Fantastic Fucks, Mister", take: 48356, change: "down" },
@@ -7991,7 +7991,7 @@ var pornData = {
     {title: "Hairy Twatter and the Order of the Three Dicks", take: 14061, change: "down" },
     {title: "Slut Trek IV: The Voyeur's Moan", take: 13541, change: "new" }
   ], 
-  "20171209": [
+  "1209": [
     {title: "Play With Misty For Me", take: 47751, change: "new" },
     {title: "Person of Incest", take: 46529, change: "new" },
     {title: "Burn After Peeing", take: 42950, change: "new" },
@@ -8013,7 +8013,7 @@ var pornData = {
     {title: "Evil Head 2: Head By Dawn", take: 14147, change: "new" },
     {title: "The Wolf of Ball Street", take: 12627, change: "new" }
   ], 
-  "20171210": [
+  "1210": [
     {title: "Play With Misty For Me", take: 50225, change: "same" },
     {title: "Burn After Peeing", take: 46306, change: "up" },
     {title: "Joanie Loves Crotchie", take: 44016, change: "new" },
@@ -8035,7 +8035,7 @@ var pornData = {
     {title: "Alvin and the Fuckmunks 2: The Fuckuel", take: 15447, change: "down" },
     {title: "Much Ado About Cumming", take: 14960, change: "down" }
   ], 
-  "20171211": [
+  "1211": [
     {title: "Burn After Peeing", take: 51243, change: "up" },
     {title: "Play With Misty For Me", take: 50137, change: "down" },
     {title: "Fuck Everlasting", take: 44596, change: "new" },
@@ -8057,7 +8057,7 @@ var pornData = {
     {title: "The Nutting Professor", take: 18934, change: "down" },
     {title: "A Wrinkle In Tom", take: 17199, change: "down" }
   ], 
-  "20171212": [
+  "1212": [
     {title: "Fuck Everlasting", take: 48534, change: "up" },
     {title: "Slop Shot", take: 43874, change: "new" },
     {title: "The Fabulous Bukkake Boys", take: 38669, change: "up" },
@@ -8079,7 +8079,7 @@ var pornData = {
     {title: "One Flew Into The Poopoo's Nest", take: 15282, change: "new" },
     {title: "Pissmaster", take: 13844, change: "down" }
   ], 
-  "20171213": [
+  "1213": [
     {title: "Fuck Everlasting", take: 53950, change: "same" },
     {title: "Stepmomenschanz", take: 48938, change: "new" },
     {title: "Driving Into Ms Daisy", take: 44737, change: "new" },
@@ -8101,7 +8101,7 @@ var pornData = {
     {title: "Let the White One In", take: 14037, change: "down" },
     {title: "The Curious Case of Benjamin's Butthole", take: 12470, change: "new" }
   ], 
-  "20171214": [
+  "1214": [
     {title: "Rub, Lola! Rub!", take: 51709, change: "new" },
     {title: "Public Enemas", take: 50901, change: "new" },
     {title: "Stepmomenschanz", take: 44936, change: "down" },
@@ -8123,7 +8123,7 @@ var pornData = {
     {title: "Slop Shot", take: 16914, change: "down" },
     {title: "The Ladydrillers", take: 15762, change: "new" }
   ], 
-  "20171215": [
+  "1215": [
     {title: "A Tail And Two Titties", take: 55367, change: "up" },
     {title: "Rub, Lola! Rub!", take: 53629, change: "down" },
     {title: "Public Enemas", take: 49876, change: "down" },
@@ -8145,7 +8145,7 @@ var pornData = {
     {title: "Slutter Island", take: 18708, change: "down" },
     {title: "Harold & Kumar Fuck In A White Castle Bathroom", take: 16817, change: "down" }
   ], 
-  "20171216": [
+  "1216": [
     {title: "The Fantastic Foursome", take: 49962, change: "new" },
     {title: "A Tail And Two Titties", take: 44863, change: "down" },
     {title: "Public Enemas", take: 40937, change: "same" },
@@ -8167,7 +8167,7 @@ var pornData = {
     {title: "Fuck Everlasting", take: 13756, change: "down" },
     {title: "Cornholeval", take: 12580, change: "down" }
   ], 
-  "20171217": [
+  "1217": [
     {title: "Public Enemas", take: 50774, change: "up" },
     {title: "A Tail And Two Titties", take: 48183, change: "same" },
     {title: "The Fantastic Foursome", take: 42865, change: "down" },
@@ -8189,7 +8189,7 @@ var pornData = {
     {title: "Slut Trek: Penetrations", take: 15424, change: "down" },
     {title: "G*A*S*H", take: 13828, change: "new" }
   ], 
-  "20171218": [
+  "1218": [
     {title: "Birdman (or The Unexpected Pleasure of Dominance)", take: 50255, change: "new" },
     {title: "My Fair Labia", take: 46910, change: "up" },
     {title: "Public Enemas", take: 45034, change: "down" },
@@ -8211,7 +8211,7 @@ var pornData = {
     {title: "The Hung Games", take: 16005, change: "down" },
     {title: "Motion Impossible", take: 15747, change: "down" }
   ], 
-  "20171219": [
+  "1219": [
     {title: "Public Enemas", take: 47658, change: "up" },
     {title: "The Boy Shorts", take: 43869, change: "new" },
     {title: "GladHeAteHer", take: 39535, change: "up" },
@@ -8233,7 +8233,7 @@ var pornData = {
     {title: "In The Cumpanties of Men", take: 15569, change: "down" },
     {title: "21 Pumps, SKEET!", take: 14518, change: "down" }
   ], 
-  "20171220": [
+  "1220": [
     {title: "To Shave and Shave Not", take: 48332, change: "new" },
     {title: "Hairy Twatter and the Chamber of Secretions", take: 44881, change: "new" },
     {title: "Public Enemas", take: 40030, change: "down" },
@@ -8255,7 +8255,7 @@ var pornData = {
     {title: "A Queer and Pleasant Stranger", take: 13538, change: "new" },
     {title: "A Tail And Two Titties", take: 13324, change: "down" }
   ], 
-  "20171221": [
+  "1221": [
     {title: "Breaking Chad", take: 53023, change: "new" },
     {title: "Public Enemas", take: 48430, change: "up" },
     {title: "Tetsuo: The Erect Man", take: 46591, change: "up" },
@@ -8277,7 +8277,7 @@ var pornData = {
     {title: "Black Booty", take: 14548, change: "new" },
     {title: "Birdman (or The Unexpected Pleasure of Dominance)", take: 13344, change: "down" }
   ], 
-  "20171222": [
+  "1222": [
     {title: "Tetsuo: The Erect Man", take: 52716, change: "up" },
     {title: "Breaking Chad", take: 50262, change: "down" },
     {title: "Public Enemas", take: 45512, change: "down" },
@@ -8299,7 +8299,7 @@ var pornData = {
     {title: "Taint Must Be Shaven", take: 14231, change: "down" },
     {title: "The Drag King And I", take: 12745, change: "new" }
   ], 
-  "20171223": [
+  "1223": [
     {title: "XXX: State of the Union: XXX", take: 51744, change: "new" },
     {title: "Supersize Meat", take: 48665, change: "new" },
     {title: "Sore Jaws", take: 47587, change: "new" },
@@ -8321,7 +8321,7 @@ var pornData = {
     {title: "Das Booty", take: 18609, change: "down" },
     {title: "Titty Titty Gang Bang", take: 17036, change: "new" }
   ], 
-  "20171224": [
+  "1224": [
     {title: "Supersize Meat", take: 50425, change: "up" },
     {title: "XXX: State of the Union: XXX", take: 45816, change: "down" },
     {title: "Sore Jaws", take: 41889, change: "same" },
@@ -8343,7 +8343,7 @@ var pornData = {
     {title: "Titty Titty Gang Bang", take: 12208, change: "up" },
     {title: "Das Booty", take: 11731, change: "down" }
   ], 
-  "20171225": [
+  "1225": [
     {title: "Seven Brides For A Brother", take: 52225, change: "new" },
     {title: "Alexander and the Terrible, Horrible, No Good, Very Bad Handjob", take: 51400, change: "up" },
     {title: "Supersize Meat", take: 45803, change: "down" },
@@ -8365,7 +8365,7 @@ var pornData = {
     {title: "Public Enemas", take: 19071, change: "down" },
     {title: "Tim, Fuck Two", take: 18654, change: "new" }
   ],
-  "20171226": [
+  "1226": [
     {title: "Trans Formers 2: Revenge of the Ballin'", take: 53701, change: "new" },
     {title: "Alexander and the Terrible, Horrible, No Good, Very Bad Handjob", take: 50414, change: "same" },
     {title: "Banging John Malkovich", take: 45905, change: "new" },
@@ -8387,7 +8387,7 @@ var pornData = {
     {title: "XXX: State of the Union: XXX", take: 10938, change: "down" },
     {title: "Glazed and Confused", take: 10180, change: "down" }
   ], 
-  "20171227": [
+  "1227": [
     {title: "Banging John Malkovich", take: 46850, change: "up" },
     {title: "Breasts In Shows", take: 46345, change: "new" },
     {title: "Alexander and the Terrible, Horrible, No Good, Very Bad Handjob", take: 42014, change: "down" },
@@ -8409,7 +8409,7 @@ var pornData = {
     {title: "The Lust Unicorn", take: 16004, change: "new" },
     {title: "Dog Dick Afternoon", take: 15702, change: "new" }
   ], 
-  "20171228": [
+  "1228": [
     {title: "Annie Got That Cum", take: 51231, change: "new" },
     {title: "Banging John Malkovich", take: 47454, change: "down" },
     {title: "Dr. Strangelust, or: How I Learned To Stop Worrying And Love The Bum", take: 46465, change: "new" },
@@ -8431,7 +8431,7 @@ var pornData = {
     {title: "Slut Trek III: The Search For Cock", take: 18829, change: "new" },
     {title: "Face/Fuck", take: 17242, change: "new" }
   ], 
-  "20171229": [
+  "1229": [
     {title: "Saturday Night Beaver", take: 57042, change: "new" },
     {title: "Banging John Malkovich", take: 54401, change: "same" },
     {title: "Wank You For Smoking", take: 48255, change: "up" },
@@ -8453,7 +8453,7 @@ var pornData = {
     {title: "Slut Trek III: The Search For Cock", take: 15753, change: "same" },
     {title: "Stop! Or My Mom Will Squirt", take: 15557, change: "down" }
   ], 
-  "20171230": [
+  "1230": [
     {title: "Banging John Malkovich", take: 52632, change: "up" },
     {title: "On Her Majesty's Secret Cervix", take: 47411, change: "new" },
     {title: "Pan's Labiarinth", take: 45927, change: "new" },
@@ -8475,7 +8475,7 @@ var pornData = {
     {title: "The Curious Case of Benjamin's Butthole", take: 17227, change: "down" },
     {title: "Me, Myself in Irene", take: 15613, change: "new" }
   ], 
-  "20171231": [
+  "1231": [
     {title: "Lawrence of a Labia", take: 46958, change: "new" },
     {title: "Bang My Bum Slowly", take: 43136, change: "new" },
     {title: "SLC Spunk", take: 39567, change: "new" },

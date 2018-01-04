@@ -28,14 +28,11 @@ var app = new Vue({
   computed: {
     showNextDay: function() {
       var self = this;
-      return true;
-      /*
-      if ( (moment().format('YYYYMMDD') <= moment(self.displayDate).format('YYYYMMDD')) || (moment().format(self.lastDay) <= moment(self.displayDate).format('YYYYMMDD')) ) {
+      if ( (moment().format('YYYYMMDD') <= moment(self.displayDate).format('YYYYMMDD')) ) {
         return false;
       } else {
         return true;
       }
-      */
     },
     showPrevDay: function() {
       var self = this;
@@ -79,7 +76,7 @@ var app = new Vue({
       var self = this;
       self.share.date = moment(self.displayDate).format('MMM Do');
       self.share.msg = encodeURIComponent('The #'+n+' porno title for '+self.share.date+': '+t+'\n');
-      self.share.url = encodeURIComponent('http://jerking.online');
+      self.share.url = encodeURIComponent('https://ahoylemon.github.io/jerking.online');
       self.share.title = encodeURIComponent(t);
       self.share.visible = true;
     },

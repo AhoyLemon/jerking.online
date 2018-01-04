@@ -4,14 +4,14 @@ body {
 
 main { }
 .table-holder { position: relative;
-  .switch-day { display: block; height:3rem; width: 3rem; cursor: pointer; z-index:$z-day-navigation;
+  .switch-day { display: block; height:3rem; width: 3rem; cursor: pointer; z-index:$z-day-navigation; // display: none;
     svg { width:100%; height: 100%; fill:currentColor; }
     &:hover { color:$blue;  }
   }
 }
 
 table { width: 600px; max-width: 100%; margin-left: auto; margin-right: auto; border-collapse: collapse; font-size:14px;
-  caption { font-size:2em; text-align: center; font-weight: 600; padding-bottom: 0.5em;
+  caption { font-size:2.2em; text-align: center; font-weight: 600; padding-bottom: 0.5em;
     span { display: block; }
   }
   th, td { padding: 0.5rem 1rem;
@@ -22,7 +22,7 @@ table { width: 600px; max-width: 100%; margin-left: auto; margin-right: auto; bo
   }
   td { border:1px solid #999; font-weight: 400;
     &:first-child { text-align: right; font-size:0.8em; vertical-align: middle; width:1em; }
-    &.title { cursor: pointer;
+    a { cursor: pointer; 
       &:hover { color:$blue; }
     }
     &.change { background-repeat: no-repeat; background-size: 0.8em 0.8em; background-position:center; width:3em; }
@@ -53,6 +53,7 @@ table { width: 600px; max-width: 100%; margin-left: auto; margin-right: auto; bo
 
 @media (max-width:560px) {
   table {
+    caption { font-size:5.1vw; }
     th, td { padding: 0.25rem; }
   } 
 }

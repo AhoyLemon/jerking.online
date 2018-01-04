@@ -1,0 +1,96 @@
+- var siteTitle = "Jerking Online"
+- var siteURL = "http://jerking.online"
+- var description = "New parody porn titles, every day in 2017."
+- var fplusURL = "https://thefpl.us/also-made/jerking-online"
+- var launchDate = "2016-01-06"
+- var d = new Date()
+- var lastUpdated = d.getFullYear() + '-' + (d.getMonth()<10?'0':'') + d.getMonth() + '-' + (d.getDate()<10?'0':'') + d.getDate() + '@' + (d.getHours()<10?'0':'') + d.getHours() + ':' + (d.getMinutes()<10?'0':'') + d.getMinutes() + ':' + (d.getSeconds()<10?'0':'') + d.getSeconds()
+
+doctype html
+html(lang="en")
+  head
+    include partials/_head.pug
+  body
+    #app
+      include partials/_header.pug
+
+      main
+        .table-holder(v-cloak)
+          a.switch-day.prev-day(v-on:click="prevDay()" v-if="showPrevDay")
+            svg(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100")
+              path(d="M51.2 2.4L4.1 48.8v.2l47.1 46.4 7.7-7.8-33.7-33.2h70.7v-11H25.2l33.7-33.2z")
+          a.switch-day.next-day(v-on:click="nextDay()" v-if="showNextDay")
+            svg(xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100")
+              path(d="M48.8 95.4L95.9 49v-.2L48.8 2.4l-7.7 7.8 33.7 33.2H4.1v11h70.7L41.1 87.6z")
+          table.top-porn
+            caption
+              span Top selling pornographic films for 
+              span {{displayDatePretty}}
+            thead
+              tr
+                th 
+                th TITLE
+                th GROSS
+                th.change
+              tr(v-for="(movie, index) in list")
+                td.rank {{index + 1}}
+                td.title 
+                  a(v-on:click="shareMovie(index + 1, movie.title)" title="Share this title") {{movie.title}}
+                td.gross {{dollars(movie.take)}}
+                td.change(v-bind:class="movie.change")
+            tbody#PornTitles
+
+      include partials/_share.pug
+    
+    //- #ss
+      social-sharing(url='https://vuejs.org/', title='The Progressive JavaScript Framework', description='Intuitive, Fast and Composable MVVM for building interactive interfaces.', quote='Vue is a progressive framework for building user interfaces.', hashtags='vuejs,javascript,framework', twitter-user='vuejs', inline-template='')
+        div
+          network(network='email')
+            i.fa.fa-envelope
+            |  Email
+          network(network='facebook')
+            i.fa.fa-facebook
+            |  Facebook
+          network(network='googleplus')
+            i.fa.fa-google-plus
+            |  Google +
+          network(network='line')
+            i.fa.fa-line
+            |  Line
+          network(network='linkedin')
+            i.fa.fa-linkedin
+            |  LinkedIn
+          network(network='odnoklassniki')
+            i.fa.fa-odnoklassniki
+            |  Odnoklassniki
+          network(network='pinterest')
+            i.fa.fa-pinterest
+            |  Pinterest
+          network(network='reddit')
+            i.fa.fa-reddit
+            |  Reddit
+          network(network='skype')
+            i.fa.fa-skype
+            |  Skype
+          network(network='sms')
+            i.fa.fa-commenting-o
+            |  SMS
+          network(network='telegram')
+            i.fa.fa-telegram
+            |  Telegram
+          network(network='twitter')
+            i.fa.fa-twitter
+            |  Twitter
+          network(network='vk')
+            i.fa.fa-vk
+            |  VKontakte
+          network(network='weibo')
+            i.fa.fa-weibo
+            |  Weibo
+          network(network='whatsapp')
+            i.fa.fa-whatsapp
+            |  Whatsapp
+
+    
+    include partials/_javascripts.pug
+    include partials/_schema.pug

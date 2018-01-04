@@ -28,19 +28,25 @@ var app = new Vue({
   computed: {
     showNextDay: function() {
       var self = this;
+      return true;
+      /*
       if ( (moment().format('YYYYMMDD') <= moment(self.displayDate).format('YYYYMMDD')) || (moment().format(self.lastDay) <= moment(self.displayDate).format('YYYYMMDD')) ) {
         return false;
       } else {
         return true;
       }
+      */
     },
     showPrevDay: function() {
       var self = this;
+      return true;
+      /*
       if ( moment(self.today).subtract(14,'days').format('YYYYMMDD') >= moment(self.displayDate).format('YYYYMMDD') ) {
         return false;
       } else {
         return moment(self.displayDate).format('YYYYMMDD');
       }
+      */
     }
   },
   methods: {
@@ -51,7 +57,7 @@ var app = new Vue({
     },
     pullTitles: function(pullDate) {
       var self = this;
-      self.list = pornData[pullDate];
+      self.list = pornData[pullDate.substr(4)];
     },
     dollars: function(x) {
       return '$' + x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");

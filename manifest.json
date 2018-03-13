@@ -5,8 +5,8 @@
   "description": "New parody porn titles every day",
   "default_locale": "en",
   "display": "standalone",
-  "scope": "/",
-  "start_url": "/",
+  "scope": "https://ahoylemon.github.io/jerking.online/",
+  "start_url": "https://ahoylemon.github.io/jerking.online/",
   "theme_color": "#313131",
   "background_color": "#f0f1f2",
   "icons": [

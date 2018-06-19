@@ -459,7 +459,6 @@ var pornTitles = [
   // PODCASTS
   "My Brother, My Brother In Me"
 ];
-// jshint -W098
 var pornData = {
   "0101": [
     { title: "Slut Trek II: The Wrath of Cum", take: 46173, change: "new" },

@@ -22,7 +22,7 @@ var app = new Vue({
       msg: false,
       title: false,
       via: false,
-      url: 'http://jerking.online'
+      url: 'https://ahoylemon.github.io/jerking.online'
     }
   },
   computed: {

@@ -288,6 +288,9 @@ var pornTitles = [
   "Mother!Fucker!",
   "Stop! Or My Mom Will Squirt",
   "Fister Act 2: The Habit In Back",
+  "Don't Tell Mom The Babysitter's Giving Head",
+  "Adventures In Face Sitting",
+  "Get Off",
   
   // Documentaries
   "An Incontinent Truth",

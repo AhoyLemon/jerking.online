@@ -1,6 +1,3 @@
-// jshint -W098
-// jshint -W117
-
 var names = {
   female: [
     "Tilda Sweatin",

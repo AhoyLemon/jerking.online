@@ -42,7 +42,7 @@ function rankPornTitles(startDate) {
   
   // Begin of newDay loop
   var z = 0;
-  while (z < 22) {
+  while (z < 40) {
     var yesterdayArray = topMovies;
     topMovies = [];
     $.each(todayArray, function(key, value) {
@@ -95,7 +95,7 @@ function rankPornTitles(startDate) {
       };
       todayArray.push(a);
     });
-    var dy = moment(startDate).add(z,'days').format('YYYYMMDD');
+    var dy = moment(startDate).add(z,'days').format('MMDD');
     allDays[dy] = todayArray;
 
     $('#JSArray').append('  "'+ dy+ '": [');
@@ -115,7 +115,7 @@ function rankPornTitles(startDate) {
 var today = moment().format('YYYYMMDD');
 
 $(document).ready(function() {
-  rankPornTitles('20171226');
+  rankPornTitles('20181129');
   console.log('I processed '+avoidList.length+' titles.');
   //console.log(avoidList);
 });

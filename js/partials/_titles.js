@@ -128,7 +128,6 @@ var pornTitles = [
   "American History XXX",
   "The Italian Blowjob",
   "Blowing For Columbine",
-  "Star Whores: The Foreskin Awakens",
   "Mr. Chode's Wild Ride",
   "Like Water For Cockolate",
   "The Gropes of Wrath",
@@ -291,6 +290,10 @@ var pornTitles = [
   "Don't Tell Mom The Babysitter's Giving Head",
   "Adventures In Face Sitting",
   "Get Off",
+  "Where In The World Is Carmen Sandiego's Clitoris?",
+  "Lady In The Water Closet",
+  "Ocean's 11″",
+  "Ready? Play With Oneself",
   
   // Documentaries
   "An Incontinent Truth",
@@ -361,6 +364,10 @@ var pornTitles = [
   "Slut Trek VI: The Undiscovered Entry",
   "Slut Trek: Penetrations",
   "Slut Trek: Fist Contact",
+
+  // Star Wars
+  "Star Whores: The Foreskin Awakens",
+  "Star Whores: The Last JOI",
   
   // These are all TV shows....
   "Welcome Back, Frotteur",

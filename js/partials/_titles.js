@@ -332,6 +332,7 @@ var pornTitles = [
   "The Ladyboys From Brazil",
   "Barton Pink",
   "The Ballad Of Buster Nutt",
+  "Bart On Twink",
   
   // Quentin Tarantino
   "In Glory Hole Basterds",
@@ -393,7 +394,6 @@ var pornTitles = [
   "Person of Incest",
   "Charles In Charles",
   "Better Ball Saul",
-  "Haters Whack Off!",
   "Eastbound And Going Down",
   "Who's The Bottom?",
   "Perfect Strange",
@@ -403,6 +403,20 @@ var pornTitles = [
   "Joanie Loves Crotchie",
   "The John From Cincinnati",
   "Pokémoan",
+
+  // Netflix
+  "Haters Whack Off!",
+  "Strangers' Things",
+  "Marvel's Jessica Bones",
+  "Unbelievably Fuckable Kimmy Schmidt",
+  "Grace and Spankie",
+  "Wet Hot American Hummer: Ten Beers Later",
+  "Everyone Sucks!",
+  "Russian Real Doll",
+  "Salt, Fat, Acid, Skeet!",
+  "Somebody Fill Phil",
+  "Wild Wild Cunt, See?",
+  "Knock Up The Spouse",
   
   // Musicals...
   "Taint Must Be Shaven",

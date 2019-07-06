@@ -346,7 +346,6 @@ var pornTitles = [
   
   // Documentaries
   "An Incontinent Truth",
-  "Making A Murderer Cum",
   
   // Jack Lemmon
   "Some Like A Twat",
@@ -367,7 +366,6 @@ var pornTitles = [
   "Pud Simple",
   "Filler's Crossing",
   "The Ladyboys From Brazil",
-  "Barton Pink",
   "The Ballad Of Buster Nutt",
   "Bart On Twink",
   
@@ -454,6 +452,7 @@ var pornTitles = [
   "Somebody Fill Phil",
   "Wild Wild Cunt, See?",
   "Knock Up The Spouse",
+  "Making A Murderer Cum",
   
   // Musicals...
   "Taint Must Be Shaven",

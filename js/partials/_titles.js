@@ -295,9 +295,21 @@ var pornTitles = [
   "Ocean's 11″",
   "Ready? Play With Oneself",
   "Missionary? Impossible!",
+  "There Will Be Cum",
+  "Sorry To Bugger You",
+  "The Fast And The Bi-Curious",
+  "Black In Men",
+  "Detective Peek-At-You",
+  "The Indian In The Cuckhold",
+  "Pride and Prejudice and Prostitutes",
+  "This Ain't Lars von Trier's Nymphomaniac XXX",
+  "Horton Spears A Dude",
+  "Mr. Popper's Poppers",
+  "Thirst Man",
   
   // Documentaries
   "An Incontinent Truth",
+  "Making A Murderer Cum",
   
   // Jack Lemmon
   "Some Like A Twat",
@@ -319,6 +331,7 @@ var pornTitles = [
   "Filler's Crossing",
   "The Ladyboys From Brazil",
   "Barton Pink",
+  "The Ballad Of Buster Nutt",
   
   // Quentin Tarantino
   "In Glory Hole Basterds",

@@ -42,7 +42,7 @@ function rankPornTitles(startDate) {
   
   // Begin of newDay loop
   var z = 0;
-  while (z < 40) {
+  while (z < 365) {
     var yesterdayArray = topMovies;
     topMovies = [];
     $.each(todayArray, function(key, value) {
@@ -115,7 +115,7 @@ function rankPornTitles(startDate) {
 var today = moment().format('YYYYMMDD');
 
 $(document).ready(function() {
-  rankPornTitles('20181129');
+  rankPornTitles('20190101');
   console.log('I processed '+avoidList.length+' titles.');
   //console.log(avoidList);
 });

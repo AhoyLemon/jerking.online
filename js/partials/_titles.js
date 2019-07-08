@@ -31,7 +31,7 @@ var pornTitles = [
   "Breasts In Shows",
   "Six Days Seven Cocks",
   "Mr. Smith Goes Down on Washington",
-  "Enslaving Private Ryan",
+  "Shaving Ryan's Priates",
   "Rebel Without a Cooze",
   "The Lust of the Mohicans",
   "To Shave and Shave Not",
@@ -306,6 +306,7 @@ var pornTitles = [
   "Horton Spears A Dude",
   "Mr. Popper's Poppers",
   "Thirst Man",
+  "Free Dildos Outside of Tribbing, Missouri",
   
   // Documentaries
   "An Incontinent Truth",

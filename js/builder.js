@@ -22,12 +22,14 @@ function parseHistoricalData(startDate) {
         avoidList.push(thisDaysData[key].title);
       }
     });
+
     if (z == 1) {
       $.each(thisDaysData, function(key, value) {
         topMovies.push(thisDaysData[key].title);
       });
       todayArray = thisDaysData;
     }
+
   }
 }
 
@@ -72,6 +74,20 @@ function rankPornTitles(startDate) {
         avoidList.push(topMovies[key]);
       }
     });
+
+
+    // Let's make the Avoid List max out at 100.
+
+    console.log('avoidList count: '+avoidList.length);
+
+    if (avoidList.length > 99) {
+      let removeNum = avoidList.length - 99;
+      console.log('remove '+removeNum);
+      avoidList.splice(0,removeNum);
+      console.log('NEW avoidList : '+avoidList.length);
+    }
+
+    
 
     todayArray = [];
     var g = Math.floor(Math.random() * (60000 - 50000)) + 50000;

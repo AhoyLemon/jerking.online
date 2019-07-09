@@ -404,7 +404,7 @@ var pornTitles = [
   "Pokémoan",
   "The Goop Place",
   "The Handmaid's Tail",
-  "BoJack Horsecock",
+  "BoJack Horsedong",
   "The End of the World, Fucking",
   "Jane, The “Virgin”",
 

@@ -439,6 +439,10 @@ var pornTitles = [
   "Joanie Loves Crotchie",
   "The John From Cincinnati",
   "Pokémoan",
+  "The Goop Place",
+  "The Handmaid's Tail",
+  "BoJack Horsecock",
+  "The End of the World, Fucking",
 
   // Netflix
   "Haters Whack Off!",

@@ -166,7 +166,7 @@ var pornTitles = [
   "Slop Shot",
   "Million Dollar Booby",
   "Brian's Schlong",
-  "Twins Peaking",
+  "Twins Peeking",
   "Trick 'r Skeet",
   "Sore Jaws",
   "The Ho Men",
@@ -422,6 +422,7 @@ var pornTitles = [
   "Wild Wild Cunt, See?",
   "Knock Up The Spouse",
   "Making A Murderer Cum",
+  "Orgy Is The New Black",
   
   // Musicals...
   "Taint Must Be Shaven",

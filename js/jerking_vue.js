@@ -21,6 +21,7 @@ var app = new Vue({
       date: false,
       msg: false,
       title: false,
+      titlePretty: false,
       via: false,
       url: 'https://ahoylemon.github.io/jerking.online'
     }
@@ -67,10 +68,12 @@ var app = new Vue({
     prevDay: function() {
       this.formatDate(moment(this.displayDate).subtract(1,'days'));
       this.pullTitles(this.displayDate);
+      sendEvent('Previous Day', this.displayDatePretty);
     },
     nextDay: function() {
       this.formatDate(moment(this.displayDate).add(1,'days'));
       this.pullTitles(this.displayDate);
+      sendEvent('Next Day', this.displayDatePretty);
     },
     shareMovie: function(n, t) {
       var self = this;
@@ -78,7 +81,10 @@ var app = new Vue({
       self.share.msg = encodeURIComponent('The #'+n+' porno title for '+self.share.date+': '+t+'\n');
       self.share.url = encodeURIComponent('https://ahoylemon.github.io/jerking.online');
       self.share.title = encodeURIComponent(t);
+      self.share.titlePretty = t;
       self.share.visible = true;
+      sendEvent('Share Movie',t, '#'+n);
+
     },
     shareVia: function(m) {
       var share = this.share;
@@ -86,6 +92,7 @@ var app = new Vue({
       var h;
       var l;
       var t;
+      
       if (m == "Twitter") {
         w = 520;
         h = 270;
@@ -125,6 +132,9 @@ var app = new Vue({
       } else if (m == "Email") {
         window.location.href = 'mailto:?subject='+share.title+'&body='+share.msg+'\n'+share.url;
       }
+
+      sendEvent('Share via '+m, share.titlePretty, m);
+
       share.visible = false;
     }
   },

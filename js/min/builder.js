@@ -3,13 +3,20 @@
 function sendEvent(c, a, l, v) {
   if (v) {
     ga('send', 'event', { eventCategory: c, eventAction: a, eventLabel: l, eventValue:v });
-    //console.log('CATEGORY: '+c+', ACTION:'+a+', LABEL:'+l+', VALUE:'+v);
+    if (testing) {
+      
+    }
+    
   } else if (l) {
     ga('send', 'event', { eventCategory: c, eventAction: a, eventLabel: l });
-    //console.log('CATEGORY: '+c+', ACTION:'+a+', LABEL:'+l);
+    if (testing) {
+      console.log('CATEGORY: '+c+', ACTION:'+a+', LABEL:'+l);
+    }
   } else {
     ga('send', 'event', { eventCategory: c, eventAction: a });
-    //console.log('CATEGORY: '+c+', ACTION:'+a);
+    if (testing) {
+      console.log('CATEGORY: '+c+', ACTION:'+a);
+    }
   }
 }
 
@@ -203,7 +210,7 @@ var pornTitles = [
   "Slop Shot",
   "Million Dollar Booby",
   "Brian's Schlong",
-  "Twins Peaking",
+  "Twins Peeking",
   "Trick 'r Skeet",
   "Sore Jaws",
   "The Ho Men",
@@ -344,6 +351,7 @@ var pornTitles = [
   "Mr. Popper's Poppers",
   "Thirst Man",
   "Free Dildos Outside of Tribbing, Missouri",
+  "The Devil Wears Nada",
   
   // Documentaries
   "An Incontinent Truth",
@@ -441,7 +449,7 @@ var pornTitles = [
   "Pokémoan",
   "The Goop Place",
   "The Handmaid's Tail",
-  "BoJack Horsecock",
+  "BoJack Horsedong",
   "The End of the World, Fucking",
   "Jane, The “Virgin”",
 
@@ -459,6 +467,7 @@ var pornTitles = [
   "Wild Wild Cunt, See?",
   "Knock Up The Spouse",
   "Making A Murderer Cum",
+  "Orgy Is The New Black",
   
   // Musicals...
   "Taint Must Be Shaven",
@@ -499,6 +508,7 @@ var pornTitles = [
   // PODCASTS
   "My Brother, My Brother In Me"
 ];
+
 var pornData = {
   
 

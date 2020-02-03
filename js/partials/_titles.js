@@ -166,7 +166,6 @@ var pornTitles = [
   "Slop Shot",
   "Million Dollar Booby",
   "Brian's Schlong",
-  "Twins Peeking",
   "Trick 'r Skeet",
   "Sore Jaws",
   "The Ho Men",
@@ -308,9 +307,16 @@ var pornTitles = [
   "Thirst Man",
   "Free Dildos Outside of Tribbing, Missouri",
   "The Devil Wears Nada",
+  "Oiledboy",
+  "Nutting Butt Trouble",
+  "God's Not Het",
+  "The Day His Girth Stood Still",
+  "Bicurious George",
+  "Take This Knob And Shove It",
   
   // Documentaries
   "An Incontinent Truth",
+  "Jodorowsky's Poon",
   
   // Jack Lemmon
   "Some Like A Twat",
@@ -333,6 +339,7 @@ var pornTitles = [
   "The Ladyboys From Brazil",
   "The Ballad Of Buster Nutt",
   "Bart On Twink",
+  "O Rubber, Where Art Thou?",
   
   // Quentin Tarantino
   "In Glory Hole Basterds",
@@ -408,6 +415,7 @@ var pornTitles = [
   "BoJack Horsedong",
   "The End of the World, Fucking",
   "Jane, The “Virgin”",
+  "Twins Peeking",
 
   // Netflix
   "Haters Whack Off!",

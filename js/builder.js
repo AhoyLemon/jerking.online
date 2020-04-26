@@ -39,6 +39,7 @@ function rankPornTitles(startDate) {
   
   parseHistoricalData(startDate);
   
+  $('#JSArray').append('var pornData = {\n');
   //console.log(avoidList);
   //console.log(topMovies);
   
@@ -117,7 +118,7 @@ function rankPornTitles(startDate) {
     $('#JSArray').append('  "'+ dy+ '": [');
     $('#JSArray').append('<br />');
     $.each(todayArray, function(key, value) {
-      $('#JSArray').append('    {title: "'+todayArray[key].title+'", take: '+todayArray[key].take+', change: "'+todayArray[key].change+'" }');
+      $('#JSArray').append('    {title: "'+ todayArray[key].title +'", take: '+todayArray[key].take+', change: "'+todayArray[key].change+'" }');
       if (key < 19) { $('#JSArray').append(','); }
       $('#JSArray').append('<br />');
     });

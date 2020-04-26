@@ -156,7 +156,6 @@ var pornTitles = [
   "Much Ado About Cumming",
   "My Big Fat Freak, Wetting",
   "My Sex Life With A Zucchini",
-  "Natural Porn Killers",
   "Never Been Kissed... There",
   "Night At The Mapplethorpe Museum",
   "Night of the Giving Head",
@@ -345,11 +344,11 @@ var pornTitles = [
   
   
   // Quentin Tarantino
+  "Reservoir Dongs",
+  "Natural Porn Killers",
+  "Fill Bill, vol 2",
   "In Glory Hole Basterds",
   "Django Chained",
-  "Fill Bill, vol 2",
-  "Reservoir Dongs",
-  "Jack Me Brown",
   
   // Lord of the Rings series
   "Lord of the Cockrings: The Fellowship of the Cockring",

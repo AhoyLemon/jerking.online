@@ -2,7 +2,7 @@
 #### (New Parody Porn Titles Every Day)
 
 ## What?
-So you know you keep a list with you of all the funny parody porn titles you've ever thought of?
+So, you know how you keep a list with you of all the funny parody porn titles you've ever thought of?
 
 ## No.
 You don't do that?
@@ -11,7 +11,7 @@ You don't do that?
 Well, I do that.
 
 ## Why?
-Because it's funny? Look, I don't know what to tell you here. I had this list sitting around for a couple years, and finally decided to make a website out of it. There's a big master list of names, and then the site itself will generate a daily list of 20 of those titles as well as their ranking and gross,  structurally trying to bring you artificial market forces while maximizing funny names.
+Because it's funny? Look, I don't know what to tell you here. I had this list sitting around for a couple years, and finally decided to make a website out of it. There's a big master list of names, and then the site itself will generate a daily list of 20 of those titles as well as their ranking and box office gross, structurally trying to bring you artificial market forces while maximizing funny names.
 
 ## Who made this?
 My name is [Lemon](http://ahoylemon.xyz), I made this. My friend [Boots](https://thefpl.us/meet/boots-raingear) helped. A whole lot of people have sent me titles which I've added if I've liked them enough.

@@ -131,18 +131,8 @@ var app = new Vue({
         t = (window.screen.height / 2) - ((h / 2) + 50);
         window.open('https://www.livejournal.com/update.bml?subject='+share.msg+'&event='+share.url, m, 'width='+w+', height='+h+', left='+l+',top='+t);
       } else if (m == "Telegram") {
-        // w = 790;
-        // h = 640;
-        // l = (window.screen.width / 2) - ((w / 2) + 10);
-        // t = (window.screen.height / 2) - ((h / 2) + 50);
-        //window.open('https://telegram.me/share/url?url='+share.url+'&text='+share.msg, m, 'width='+w+', height='+h+', left='+l+',top='+t);
         window.open('tg://msg_url?text='+share.msg+'\n'+share.url);
       } else if (m == "SMS") {
-        // w = 790;
-        // h = 640;
-        // l = (window.screen.width / 2) - ((w / 2) + 10);
-        // t = (window.screen.height / 2) - ((h / 2) + 50);
-        //window.open('https://telegram.me/share/url?url='+share.url+'&text='+share.msg, m, 'width='+w+', height='+h+', left='+l+',top='+t);
         window.open('sms:?body='+share.msg);
       } else if (m == "Email") {
         window.location.href = 'mailto:?subject='+share.title+'&body='+share.msg+'\n\n'+share.url;

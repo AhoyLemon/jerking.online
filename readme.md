@@ -35,7 +35,9 @@ Alright. You can [tweet](https://twitter.com/AhoyLemon) or [email](mailto:lemon@
 
 ## Aren't you the guy who made [damn.dog](https://damn.dog)?
 
-Yeah. I also made [Sisyphus Clicker](https://kinda.fun/sisyphus) and [idiots win](https://idiots.win) and... a bunch of other stuff. You can go to [my website](https://ahoylemon.xyz) if you want a list of dumb things I've made. 
+Yeah.
+
+I also made [Sisyphus Clicker](https://kinda.fun/sisyphus) and [idiots win](https://idiots.win) and... a bunch of other stuff. You can go to [my website](https://ahoylemon.xyz) if you want a list of dumb things I've made. 
 
 ## Do you take pull requests?
 

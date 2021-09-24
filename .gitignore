@@ -1,6 +1,9 @@
 .sass-cache/
 *.css.map
 
+# Prepros
+.prepros_*
+
 # =========================
 # Operating System Files
 # =========================

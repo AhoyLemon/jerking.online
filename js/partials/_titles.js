@@ -69,6 +69,7 @@ var pornTitles = [
   "Dong: Skullfuck Island",
   "Dr. Strangelust, or: How I Learned To Stop Worrying And Love The Bum",
   "Drilling Zoe",
+  "Drive Horny",
   "Driving Into Ms Daisy",
   "Ender's Gay",
   "Enemy of the Prostate",
@@ -76,7 +77,6 @@ var pornTitles = [
   "Even Reverse Cowgirls Get the Blues",
   "Evil Head 2: Head By Dawn",
   "FUX 1138",
-  "Face/Fuck",
   "Fannie Hall",
   "Fantastic Breasts And Where To Fuck Them",
   "Fantastic Fucks, Mister",
@@ -86,6 +86,7 @@ var pornTitles = [
   "Fist Fist, Bang Bang",
   "Fist Me Deadly",
   "Five Years In To Beth",
+  "Forest Humps",
   "Four Weddings, A Funeral, And Then A Gangbang",
   "Free Dildos Outside of Tribbing, Missouri",
   "Frotting Hill",
@@ -104,6 +105,7 @@ var pornTitles = [
   "God's Not Het",
   "Good Night And Good Fuck",
   "GoodFellatas",
+  "Gooper Troopers",
   "Gosford Porking",
   "Group Sex on the Bounty",
   "Guess Who Came On Dinner",
@@ -122,6 +124,7 @@ var pornTitles = [
   "In Sid Anus",
   "In The Cumpanties of Men",
   "Indiana Bones and the Temple of Poon",
+  "Isle of PAWGs",
   "Invasion of the Bawdy Snatches",
   "Jack Reacharound",
   "Jacob's Splatter",
@@ -139,6 +142,7 @@ var pornTitles = [
   "Logan Lucky Fucky Sucky",
   "Lube²: Hyperlube",
   "Mad Maxxx: Furious Loads",
+  "“Manos”: The Handjobs of Fate",
   "Me, Myself in Irene",
   "Mega Low Dong",
   "Midnight Ladyboy",
@@ -260,6 +264,7 @@ var pornTitles = [
   "The Lust of the Mohicans",
   "The Magnificent Semen",
   "The Maltese Fistin",
+  "The Man Who Was Thirstaaayy 🥵",
   "The Mud Wrestler",
   "The Munchurian Candidass",
   "The Nutting Professor",
@@ -277,6 +282,7 @@ var pornTitles = [
   "Thighs Wide Shut",
   "Thirst Man",
   "This Ain't Lars von Trier's Nymphomaniac XXX",
+  "Thong of the South",
   "Throbbin' Hood: Princess of Queefs",
   "Tim, Fuck Two",
   "Tinker, Tailor, Soldier, Spycam",
@@ -303,11 +309,11 @@ var pornTitles = [
   "Whiskey, Tango, Facefuck",
   "White Men Can't Hump",
   "Who Rogered That Rabbit?",
+  "Whore-a! Whore-a! Whore-a!",
   "Who'd We Do In The Shadows",
   "Wyatt Slurp",
   "XXX: State of the Union: XXX",
   "You've Got Male",
-  "“Manos”: The Handjobs of Fate",
   
   // Documentaries
   "An Incontinent Truth",
@@ -326,7 +332,7 @@ var pornTitles = [
   "Filler's Crossing",
   "Bart On Twink",
   "The Cocksucker Proxy",
-  // Fargo???
+  "Fargoo",
   "The Big Lebow Chicka Wow Wow Ski",
   "O Rubber, Where Art Thou?",
   "The Man Who Was In There",
@@ -336,12 +342,11 @@ var pornTitles = [
   "Burn After Peeing",
   // A Serious Man??
   "True Clit",
-  // Gambit??
+  "Gambutt",
   "Actually Inside Llewyn Davis",
   "Nail Caesar!",
   // Suburbicon???
   "The Ballad Of Buster Nutt",
-  
   
   // Quentin Tarantino
   "Reservoir Dongs",
@@ -349,7 +354,27 @@ var pornTitles = [
   "Fill Bill, vol 2",
   "In Glory Hole Basterds",
   "Django Chained",
-  
+
+  // Hayao Miyazaki
+  // My Neighbor Totoro??
+  "Kiki's Rimjobbery Service",
+  // Princess Mononoke??
+  "Spurted Away",
+  "Howl's Moving Asshole",
+  // Ponyo
+
+  // John Woo
+  "A Wetter Tomorrow",
+  "Hard Femboiled",
+  "Bulleit And Some Head",
+  "Face/Fuck",
+
+  // Mel Brooks
+  "Hung Frankenstein",
+  "Rubbin' Hood: Men In Tight Men",
+  "The Jism Producers",
+  "Dracula: Cucked and Loving It",
+
   // Lord of the Rings series
   "Lord of the Cockrings: The Fellowship of the Cockring",
   "Lord of the Cockrings: The Return of the Kink",
@@ -397,6 +422,7 @@ var pornTitles = [
   "30″ Cock",
   "A Bit of Fry in Laurie",
   "America's Next Topless Model",
+  "Battlethroat Glackglickgluck",
   "Better Ball Saul",
   "Beverly's Hills, Billy!",
   "BoJack Horsedong",
@@ -477,6 +503,9 @@ var pornTitles = [
   "Journey To The Center With His Girth",
   "I Have No Muff And I Must Cream",
   "A Supposedly Fun Thing We're Get Paid To Do Again",
+  "Stepdaughterhouse 5",
+  "Cat's F/F Cradle",
+  "Blowers For Algerdong",
   
   // PODCASTS
   "My Brother, My Brother In Me"

@@ -52,7 +52,7 @@ function rankPornTitles(startDate) {
       topMovies.push(todayArray[key].title);
     });
     var i = 0;
-    var r = Math.floor((Math.random() * 6)) + 6;
+    var r = 15;
     while (i < r) {
       var r = Math.floor((Math.random() * pornTitles.length));
       if (topMovies.indexOf(pornTitles[r]) == -1 && avoidList.indexOf(pornTitles[r]) == -1) {
@@ -77,12 +77,12 @@ function rankPornTitles(startDate) {
     });
 
 
-    // Let's make the Avoid List max out at 100.
+    // Let's make the Avoid List max out at 200.
 
     console.log('avoidList count: '+avoidList.length);
 
-    if (avoidList.length > 99) {
-      let removeNum = avoidList.length - 99;
+    if (avoidList.length > 199) {
+      let removeNum = avoidList.length - 199;
       console.log('remove '+removeNum);
       avoidList.splice(0,removeNum);
       console.log('NEW avoidList : '+avoidList.length);
@@ -122,11 +122,11 @@ function rankPornTitles(startDate) {
       if (key < 19) { $('#JSArray').append(','); }
       $('#JSArray').append('<br />');
     });
-    $('#JSArray').append('], ');
+    $('#JSArray').append('&nbsp;&nbsp;], ');
     $('#JSArray').append('<br />');
     z++;
   }
-  $('#JSArray').append('  };');
+  $('#JSArray').append('};');
 }
 
 var today = moment().format('YYYYMMDD');

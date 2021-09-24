@@ -108,7 +108,7 @@ var pornTitles = [
   "Gooper Troopers",
   "Gosford Porking",
   "Group Sex on the Bounty",
-  "Guess Who Came On Dinner",
+  "Guess Who Came During Dinner",
   "Gunfight at the KY Corral",
   "Hannah on Her Sisters",
   "Harold & Kumar Fuck In A White Castle Bathroom",
@@ -118,6 +118,7 @@ var pornTitles = [
   "How To Drain Your Dragon",
   "How To Get Some Head In Advertising",
   "Humpin' Jack Flash",
+  "Humpy Old Men",
   "I Am Clam",
   "I Broke My Back Mounting",
   "I'm In Her, With Andre",
@@ -210,6 +211,7 @@ var pornTitles = [
   "Six Days Seven Cocks",
   "Slop Shot",
   "Slutter Island",
+  "Some Like A Twat",
   "Sore Jaws",
   "Sorry To Bugger You",
   "Space Jammin'",
@@ -267,6 +269,7 @@ var pornTitles = [
   "The Man Who Was Thirstaaayy 🥵",
   "The Mud Wrestler",
   "The Munchurian Candidass",
+  "The Emptied Man",
   "The Nutting Professor",
   "The Pleasure of Sierra's Madre",
   "The Princess Ride",
@@ -295,6 +298,7 @@ var pornTitles = [
   "Tub Girl Time Machine",
   "Twatman vs Booberman: Dawn of Just Tits",
   "Twerking Girl",
+  "Under The Cum Cum Tree",
   "Urethral Weapon",
   "Veinspotting",
   "Vulva! Lez Vegas",
@@ -315,17 +319,11 @@ var pornTitles = [
   "XXX: State of the Union: XXX",
   "You've Got Male",
   
-  // Documentaries
+  // DOCUMENTARIES **********************************************
   "An Incontinent Truth",
   "Jodorowsky's Poon",
-  
-  // Jack Lemmon
-  "Some Like A Twat",
-  "Humpy Old Men",
-  "Under The Cum Cum Tree",
-  
-  ///////////////////////////////////////
-  // These are all Coen Brothers movies
+
+  // COEN BROTHERS **********************************************
   "Pud Simple",
   // Crimewave???
   "Glazing Arizona",
@@ -348,39 +346,39 @@ var pornTitles = [
   // Suburbicon???
   "The Ballad Of Buster Nutt",
   
-  // Quentin Tarantino
+  // QUENTIN TARANTINO ******************************************
   "Reservoir Dongs",
   "Natural Porn Killers",
   "Fill Bill, vol 2",
   "In Glory Hole Basterds",
   "Django Chained",
 
-  // Hayao Miyazaki
-  // My Neighbor Totoro??
+  // MIYAZAKI ***************************************************
+  "My Neighbor Frotoro",
   "Kiki's Rimjobbery Service",
   // Princess Mononoke??
   "Spurted Away",
   "Howl's Moving Asshole",
   // Ponyo
 
-  // John Woo
+  // JOHN WOO ***************************************************
   "A Wetter Tomorrow",
   "Hard Femboiled",
   "Bulleit And Some Head",
   "Face/Fuck",
 
-  // Mel Brooks
+  // MEL BROOKS *************************************************
   "Hung Frankenstein",
   "Rubbin' Hood: Men In Tight Men",
   "The Jism Producers",
   "Dracula: Cucked and Loving It",
 
-  // Lord of the Rings series
+  // LORD OF THE RINGS ******************************************
   "Lord of the Cockrings: The Fellowship of the Cockring",
   "Lord of the Cockrings: The Return of the Kink",
   "Lord of the Cockrings: The Two Showers",
   
-  // The Harry Potter Series
+  // HARRY POTTER ***********************************************
   "Hairy Twatter and the Pornographer's Bone",
   "Hairy Twatter and the Chamber of Secretions",
   "Hairy Twatter and the Prisoner of Ass Cabin",
@@ -389,13 +387,13 @@ var pornTitles = [
   "Hairy Twatter and the Half Chub Prince",
   "Hairy Twatter and the Depth He Swallows",
   
-  // The Hunger Games
+  // THE HUNGER GAMES *******************************************
   "The Hung Games",
   "The Hung Games: Flashing Firecrotch",
   "The Hung Games: Crotch On Fire",
   "The Hung Games: Mocking J/O [Part 1]",
   
-  // James Bond
+  // JAMES BOND ************************************************
   "Dr. O Yes",
   "Thunderballs",
   "Fuck Russians With Love",
@@ -405,7 +403,7 @@ var pornTitles = [
   "Try Another Gay",
   "The Man With The Golden Cunt",
   
-  // Star Trek series...
+  // STAR TREK ************************************************
   "Slut Trek II: The Wrath of Cum",
   "Slut Trek III: The Search For Cock",
   "Slut Trek IV: The Voyeur's Moan",
@@ -414,11 +412,11 @@ var pornTitles = [
   "Slut Trek: Penetrations",
   "Slut Trek: Fist Contact",
 
-  // Star Wars
+  // STAR WARS ************************************************
   "Star Whores: The Foreskin Awakens",
   "Star Whores: The Last JOI",
   
-  // These are all TV shows....
+  // TV SHOWS *************************************************
   "30″ Cock",
   "A Bit of Fry in Laurie",
   "America's Next Topless Model",
@@ -450,7 +448,7 @@ var pornTitles = [
   "Welcome Back, Frotteur",
   "Who's The Bottom?",
 
-  // Netflix
+  // NETFLIX ****************************************************
   "Haters Whack Off!",
   "Strangers' Things",
   "Marvel's Jessica Bones",
@@ -466,7 +464,7 @@ var pornTitles = [
   "Making A Murderer Cum",
   "Orgy Is The New Black",
   
-  // Musicals...
+  // MUSICALS ***************************************************
   "Taint Must Be Shaven",
   "Anything Grows",
   "MILF Saigon",
@@ -495,10 +493,10 @@ var pornTitles = [
   "How To Give Her The Business Without Really Trying",
   "My Fair Labia",
   
-  // Plays
+  // PLAYS ******************************************************
   "On Speed And Plowin",
   
-  // Books
+  // BOOKS ******************************************************
   "A Wrinkle In Tom",
   "Journey To The Center With His Girth",
   "I Have No Muff And I Must Cream",
@@ -507,6 +505,6 @@ var pornTitles = [
   "Cat's F/F Cradle",
   "Blowers For Algerdong",
   
-  // PODCASTS
+  // PODCASTS ***************************************************
   "My Brother, My Brother In Me"
 ];

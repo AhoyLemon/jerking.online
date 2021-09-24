@@ -1,5 +1,3 @@
-// jshint -W117
-// jshint -W098
 function sendEvent(c, a, l, v) {
   if (v) {
     ga('send', 'event', { eventCategory: c, eventAction: a, eventLabel: l, eventValue:v });

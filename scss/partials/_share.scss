@@ -2,14 +2,14 @@
   &.visible { background:rgba($body,0.65); pointer-events: all; }
 }
 .cover { @include position(fixed,0,0,0,0); z-index:$z-sharebox; display: flex; align-items: center; justify-content: center; padding: 32px; transform: translateY(160vh); transition:all 1s ease;
-  .sharebox { background-color:$copy; color:$white; padding: 16px 0 6px 1.1em; width:100%; max-width: 580px; }
+  .sharebox { background-color:#212121; color:$white; padding: 20px; width:100%; max-width: 360px; }
   h4 { margin-bottom: 16px; font-weight: $medium; }
-  .share-options { @include flex-container();
-    svg { transform: scale(1); }
+  .share-options { display:grid; grid-template-columns: repeat(4,1fr); gap:20px;
+    svg { transform: scale(1); width:100%; }
     svg, span { display: block; }
-    a { @include flex-item(56px); margin-bottom: 1em; cursor: pointer;
-      svg { margin-bottom: 6px; width:52px; height: 52px; transform-origin: center; }
-      span { font-size:10px; }
+    a { cursor: pointer; text-align: center;
+      svg { margin-bottom: 6px; width:52px; height: 52px; margin-left: auto; margin-right: auto; transform-origin: center; }
+      span { font-size:12px; font-family: sans-serif; }
     }
     .icon { fill:$black; }
     .box { fill:currentColor; }
@@ -21,9 +21,10 @@
     a.reddit { color:$color-reddit; }
     a.googleplus { color:$color-googleplus; }
     a.tumblr { color:$color-tumblr; }
+    a.sms { color:#ebdf39; }
+    a.telegram { color:#45c1ff; }
     a.email { color:$color-email; }
-    //a.close .icon { fill:$white; }
-    
+
     a:hover { 
       svg { transform: scale(1.15); }
     }

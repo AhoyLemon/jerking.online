@@ -78,8 +78,9 @@ var app = new Vue({
     shareMovie: function(n, t) {
       var self = this;
       self.share.date = moment(self.displayDate).format('MMM Do');
-      self.share.msg = encodeURIComponent('The #'+n+' porno title for '+self.share.date+': '+t+'\n');
+      self.share.msg = encodeURIComponent('The #'+n+' parody porn for '+self.share.date+':\n '+t+'\n');
       self.share.url = encodeURIComponent('https://ahoylemon.github.io/jerking.online');
+      const lineBreak = "%0D%0A";
       self.share.title = encodeURIComponent(t);
       self.share.titlePretty = t;
       self.share.visible = true;
@@ -128,9 +129,23 @@ var app = new Vue({
         h = 640;
         l = (window.screen.width / 2) - ((w / 2) + 10);
         t = (window.screen.height / 2) - ((h / 2) + 50);
-        window.open('http://www.livejournal.com/update.bml?subject='+share.msg+'&event='+share.url, m, 'width='+w+', height='+h+', left='+l+',top='+t);
+        window.open('https://www.livejournal.com/update.bml?subject='+share.msg+'&event='+share.url, m, 'width='+w+', height='+h+', left='+l+',top='+t);
+      } else if (m == "Telegram") {
+        // w = 790;
+        // h = 640;
+        // l = (window.screen.width / 2) - ((w / 2) + 10);
+        // t = (window.screen.height / 2) - ((h / 2) + 50);
+        //window.open('https://telegram.me/share/url?url='+share.url+'&text='+share.msg, m, 'width='+w+', height='+h+', left='+l+',top='+t);
+        window.open('tg://msg_url?text='+share.msg+'\n'+share.url);
+      } else if (m == "SMS") {
+        // w = 790;
+        // h = 640;
+        // l = (window.screen.width / 2) - ((w / 2) + 10);
+        // t = (window.screen.height / 2) - ((h / 2) + 50);
+        //window.open('https://telegram.me/share/url?url='+share.url+'&text='+share.msg, m, 'width='+w+', height='+h+', left='+l+',top='+t);
+        window.open('sms:?body='+share.msg);
       } else if (m == "Email") {
-        window.location.href = 'mailto:?subject='+share.title+'&body='+share.msg+'\n'+share.url;
+        window.location.href = 'mailto:?subject='+share.title+'&body='+share.msg+'\n\n'+share.url;
       }
 
       sendEvent('Share via '+m, share.titlePretty, m);

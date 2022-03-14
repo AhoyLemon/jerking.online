@@ -47,11 +47,13 @@ var pornTitles = [
   "Blowing For Columbine",
   "Blumpkinhead",
   "Boobs! A Madea Porno",
+  "Bottom Gun",
   "Boyz N The Clitoral Hood",
   "Breakfast In Tiffany",
   "Breasts In Shows",
   "Brian's Schlong",
   "Bright Lights, Big Titties",
+  "Catch Me If YOu Cum",
   "CitizenWhore",
   "Clitty Lickers 2: The Legend of Curly Pubes",
   "Cool Handjob, Luke",
@@ -440,6 +442,7 @@ var pornTitles = [
   "Pokémoan",
   "Slut Trek: Deep Throat 9",
   "Spoo Detective",
+  "That Mitchell & Webb Nookie",
   "The End of the World, Fucking",
   "The Gang Bang Theory",
   "The Goop Place",
@@ -497,6 +500,7 @@ var pornTitles = [
   
   // PLAYS ******************************************************
   "On Speed And Plowin",
+  "Sex and Sexability",
   
   // BOOKS ******************************************************
   "A Wrinkle In Tom",
@@ -506,6 +510,7 @@ var pornTitles = [
   "Stepdaughterhouse 5",
   "Cat's F/F Cradle",
   "Blowers For Algerdong",
+  "The Old Man And The Pee",
   
   // PODCASTS ***************************************************
   "My Brother, My Brother In Me"

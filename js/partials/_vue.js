@@ -1,12 +1,6 @@
-// jshint -W117
-//@prepros-prepend partials/_functions.js
-//@prepros-prepend partials/_titles.js 
-//@prepros-prepend data/_data.js
-
 var app = new Vue({
   el: '#app',
   data: {
-    //message: 'Hello Vue!',
     expanded: false,
     titleCount: pornTitles.length,
     days: pornData,
@@ -38,13 +32,6 @@ var app = new Vue({
     showPrevDay: function() {
       var self = this;
       return true;
-      /*
-      if ( moment(self.today).subtract(14,'days').format('YYYYMMDD') >= moment(self.displayDate).format('YYYYMMDD') ) {
-        return false;
-      } else {
-        return moment(self.displayDate).format('YYYYMMDD');
-      }
-      */
     }
   },
   methods: {
@@ -66,20 +53,27 @@ var app = new Vue({
       }
     },
     prevDay: function() {
+      const self = this;
       this.formatDate(moment(this.displayDate).subtract(1,'days'));
       this.pullTitles(this.displayDate);
+      let url = new URL(window.location);
+      url.searchParams.set('date', self.displayDate);
+      window.history.pushState({date: self.displayDate, action:"Previous Day"}, '', url);
       sendEvent('Previous Day', this.displayDatePretty);
     },
     nextDay: function() {
       this.formatDate(moment(this.displayDate).add(1,'days'));
       this.pullTitles(this.displayDate);
+      let url = new URL(window.location);
+      url.searchParams.set('date', self.displayDate);
+      window.history.pushState({date: self.displayDate, action:"Previous Day"}, '', url);
       sendEvent('Next Day', this.displayDatePretty);
     },
     shareMovie: function(n, t) {
       var self = this;
       self.share.date = moment(self.displayDate).format('MMM Do');
       self.share.msg = encodeURIComponent('The #'+n+' parody porn for '+self.share.date+':\n '+t+'\n');
-      self.share.url = encodeURIComponent('https://ahoylemon.github.io/jerking.online');
+      self.share.url = encodeURIComponent('https://ahoylemon.github.io/jerking.online?date='+self.displayDate);
       const lineBreak = "%0D%0A";
       self.share.title = encodeURIComponent(t);
       self.share.titlePretty = t;
@@ -144,7 +138,20 @@ var app = new Vue({
     }
   },
   beforeMount: function() {
-    this.pullTitles(this.today.format('YYYYMMDD'));
-    this.formatDate(this.today);
+    const self = this;
+    
+    
+    if (window.location.search) {
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.get('date')) {
+        const urlDate = urlParams.get('date').toString();
+        self.pullTitles(urlDate);
+        self.formatDate(urlDate);
+      }
+    }
+    if (!self.displayDate || !self.list) {
+      self.pullTitles(self.today.format('YYYYMMDD'));
+      self.formatDate(self.today);
+    }
   }
 });

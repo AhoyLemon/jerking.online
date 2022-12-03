@@ -3,7 +3,7 @@
 
 ## What?
 
-So... you know how you keep a list with you of all the funny parody porn titles you've ever thought of?
+So... you know how you keep a list of all the funny parody porn titles you've ever thought of?
 
 ## No.
 
@@ -31,7 +31,7 @@ My name is [Lemon](http://ahoylemon.xyz), I made this. My friends helped. A whol
 
 ## Oooh, I have some more titles for you!
 
-Alright. You can [tweet](https://twitter.com/AhoyLemon) or [email](mailto:lemon@thefpl.us) them to me.
+Alright. You can [toot](https://mastodon.social/@ahoylemon) or [email](mailto:lemon@thefpl.us) them to me.
 
 ## Aren't you the guy who made [damn.dog](https://damn.dog)?
 
@@ -41,4 +41,4 @@ I also made [Sisyphus Clicker](https://kinda.fun/sisyphus) and [idiots win](http
 
 ## Do you take pull requests?
 
-Yeah.... but talk to me about it first. I'm not gonna merge any unsolicited PR on this one.
+Maybe? But probably not. Talk to me about it first. I'm not gonna merge any unsolicited PR on this one.

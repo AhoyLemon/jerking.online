@@ -36,7 +36,8 @@ $orange:#c85c0d;
 //$rubik: 'Rubik', sans-serif;
 //$font: $rubik;
 
-$font: 'Volkhov', serif;
+$font-family: 'Volkhov', serif;
+$font: $font-family;
 
 $font-size: 18px;
 $light:300;

@@ -17,7 +17,9 @@ var app = new Vue({
       title: false,
       titlePretty: false,
       via: false,
-      url: 'https://ahoylemon.github.io/jerking.online'
+      url: 'https://ahoylemon.github.io/jerking.online',
+      isCopySuccess: false,
+      isCopyFailure: false
     }
   },
   computed: {
@@ -32,6 +34,15 @@ var app = new Vue({
     showPrevDay: function() {
       var self = this;
       return true;
+    },
+    computedShareText() {
+      const self = this;
+      if (!self.share.msg || !self.share.url) {
+        return null;
+      }
+      const msg = decodeURIComponent(self.share.msg);
+      const url = decodeURIComponent(self.share.url);
+      return `${msg}${url}`;
     }
   },
   methods: {
@@ -73,8 +84,10 @@ var app = new Vue({
       var self = this;
       self.share.date = moment(self.displayDate).format('MMM Do');
       self.share.msg = encodeURIComponent('The #'+n+' parody porn for '+self.share.date+':\n '+t+'\n');
+      // self.share.msgUnencoded = `The #${n} parody porn title for ${self.share.date}: \n ${t}`;
       self.share.url = encodeURIComponent('https://ahoylemon.github.io/jerking.online?date='+self.displayDate);
-      const lineBreak = "%0D%0A";
+      // self.share.urlUnencoded = `'https://ahoylemon.github.io/jerking.online?date=${self.displayDate}`
+      // const lineBreak = "%0D%0A";
       self.share.title = encodeURIComponent(t);
       self.share.titlePretty = t;
       self.share.visible = true;
@@ -135,6 +148,25 @@ var app = new Vue({
       sendEvent('Share via '+m, share.titlePretty, m);
 
       share.visible = false;
+    },
+    copyShareInfo: function() {
+      const self = this;
+      navigator.clipboard.writeText(self.computedShareText).then(() => {
+        self.share.isCopySuccess = true;
+        self.share.isCopyFailure = false;
+        /* Resolved - text copied to clipboard successfully */
+      },() => {
+        self.share.isCopySuccess = false;
+        self.share.isCopyFailure = true;
+        /* Rejected - text failed to copy to the clipboard */
+      });
+    },
+    closeShareScreen: function() {
+      const self = this;
+      console.log('close share screen');
+      self.share.visible = false;
+      self.share.isCopyFailure = false;
+      self.share.isCopySuccess = false;
     }
   },
   beforeMount: function() {

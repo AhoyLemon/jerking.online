@@ -1,10 +1,25 @@
 .share-outer { @include position(fixed,0,0,0,0); background:transparent; transition:background 1s ease; pointer-events: none;
   &.visible { background:rgba($body,0.65); pointer-events: all; }
 }
+.clicksheet { @include position(fixed,0,0,0,0); background:red; }
 .cover { @include position(fixed,0,0,0,0); z-index:$z-sharebox; display: flex; align-items: center; justify-content: center; padding: 32px; transform: translateY(160vh); transition:all 1s ease;
-  .sharebox { background-color:#212121; color:$white; padding: 20px; width:100%; max-width: 360px; }
-  h4 { margin-bottom: 16px; font-weight: $medium; }
-  .share-options { display:grid; grid-template-columns: repeat(4,1fr); gap:20px;
+  .sharebox { background-color:#212121; color:$white; padding: 20px; width:100%; max-width: 600px; pointer-events: all;
+    h4 { margin-bottom: 16px; font-weight: $medium; }
+    .share-text-holder { position: relative; margin-bottom: 1em; }
+    textarea { font-family: $font-family; font-size:0.9rem; display:block; width:100%; border:1px solid $white;
+      &:focus  { outline:none; border:1px solid $blue; }
+    }
+    button.copy { position:absolute; top:1px; right:1px; cursor: pointer;
+      svg { width:1.5em; height:1.5em; }
+    }
+    .success-message { position: absolute; right:0; bottom:0; left:0; font-family: sans-serif; background:rgba(0,0,0,0.85); color:$blue; font-size:12px; padding:0.5em 1em; }
+    .failure-message { position: absolute; right:0; bottom:0; left:0; font-family: sans-serif; background:rgba(0,0,0,0.85); color:$red; font-size:12px; padding:0.5em 1em; }
+  }
+  
+
+  .share-options { //display:grid; grid-template-columns: repeat(8,1fr); gap:20px;
+    display:flex; flex-wrap: wrap; gap:20px; text-align: center;
+    
     svg { transform: scale(1); width:100%; }
     svg, span { display: block; }
     a { cursor: pointer; text-align: center;

@@ -20,10 +20,11 @@ var pornTitles = [
   "Alexander and the Terrible, Horrible, No Good, Very Bad Handjob",
   "Alvin and the Fuckmunks 2: The Fuckuel",
   "American History XXX",
-  "An American Warewolf In Laura",
+  "An American Werewolf In Laura",
   "An Officer With A Gentleman",
   "Anne of Groin Gobbles",
   "As You Lick It",
+  "Ass Onion",
   "Assassin's Cream",
   "Astroglide Boy",
   "Atlas Chugged",
@@ -34,6 +35,7 @@ var pornTitles = [
   "Bang My Bum Slowly",
   "Banging John Malkovich",
   "Bareback To The Future",
+  "Beavis Does Butt",
   "Before The Devil Knows You're Dicked",
   "Being Inside Elmo",
   "Bend Over, Like Beckham",
@@ -130,7 +132,6 @@ var pornTitles = [
   "I'm In Her, With Andre",
   "In Sid Anus",
   "In The Cumpanties of Men",
-  "Indiana Bones and the Temple of Poon",
   "Isle of PAWGs",
   "Invasion of the Bawdy Snatches",
   "Jack Reacharound",
@@ -148,7 +149,7 @@ var pornTitles = [
   "Let the White One In",
   "Logan Lucky Fucky Sucky",
   "Lube²: Hyperlube",
-  "Mad Maxxx: Furious Loads",
+  "Mad Maxxx: Furious Roadhead",
   "“Manos”: The Handjobs of Fate",
   "Me, Myself in Irene",
   "Mega Low Dong",
@@ -323,6 +324,7 @@ var pornTitles = [
   "Who'd We Do In The Shadows",
   "Wyatt Slurp",
   "XXX: State of the Union: XXX",
+  "Yes Bears",
   "You've Got Male",
   
   // DOCUMENTARIES **********************************************
@@ -351,6 +353,12 @@ var pornTitles = [
   "Nail Caesar!",
   // Suburbicon???
   "The Ballad Of Buster Nutt",
+
+  // INDIANA JONES ***********************************************
+  "Indiana Bones and the Last Cruised Gay",
+  "Indiana Bones and the Rammers of Lusty Mark",
+  "Indiana Bones and the Temple of Poon",
+  "Indiana Bones and Krystal's Skullfuck",
 
   // ALFRED HITCHCOCK *******************************************
   "Rear Entry Widow",

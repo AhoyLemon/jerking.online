@@ -219,6 +219,7 @@ var pornTitles = [
   "Slop Shot",
   "Slutter Island",
   "Some Like A Twat",
+  "Something Dicked This Way Cums",
   "Sore Jaws",
   "Sorry To Bugger You",
   "Space Jammin'",
@@ -526,6 +527,7 @@ var pornTitles = [
   // PLAYS ******************************************************
   "On Speed And Plowin",
   "Sex and Sexability",
+  "King Lear",
   
   // BOOKS ******************************************************
   "A Wrinkle In Tom",

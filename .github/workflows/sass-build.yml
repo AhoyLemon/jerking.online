@@ -21,13 +21,13 @@ jobs:
             submodules: true
 
       - name: Make destination directory for compiled CSS
-        run: mkdir -vp /tmp/repo-name/assets/css
+        run: mkdir -vp /tmp/jerking.online/assets/css
 
       - name: Compile CSS from SCSS files
         uses: gha-utilities/sass-build@v0.5.1
         with:
           source: scss/jerking.scss
-          destination: /tmp/repo-name/assets/css/jerking.css
+          destination: /tmp/jerking.online/assets/css/jerking.css
 
       - name: Checkout destination Git branch
         uses: actions/checkout@v2

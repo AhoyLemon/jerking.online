@@ -24,7 +24,7 @@ jobs:
         run: rm css -r
       
       - name: Make a new production CSS directory
-        run: mkdir
+        run: mkdir css
 
       - name: Compile CSS from SCSS files
         uses: gha-utilities/sass-build@v0.5.1

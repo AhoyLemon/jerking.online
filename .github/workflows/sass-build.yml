@@ -31,36 +31,3 @@ jobs:
         with:
           source: scss/jerking.scss
           destination: css/jerking.css
-
-      # - name: Checkout destination Git branch
-      #   uses: actions/checkout@v2
-      #   with:
-      #       ref: pr-pages
-      #       fetch-depth: 1
-
-      # - name: Move compiled CSS to path within pr-pages branch
-      #   run: mv /tmp/repo-name/assets/css /css-minified
-
-      # - name: Add and Commit changes to pr-pages branch
-      #   run: |
-      #     git config --local user.email 'action@github.com'
-      #     git config --local user.name 'GitHub Action'
-      #     git add css/*
-      #     git commit -m 'Updates compiled CSS files'
-
-      # - name: Push changes
-      #   uses: ad-m/github-push-action@master
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     branch: sass-build
-
-      # - name: Initialize Pull Request
-      #   uses: gha-utilities/init-pull-request@v0.0.4
-      #   with:
-      #     pull_request_token: ${{ secrets.GITHUB_TOKEN }}
-      #     head: sass-build
-      #     base: sass-build
-      #     title: 'Updates site files from latest Actions build'
-      #     body: >
-      #       Perhaps a multi-line description
-      #       about latest features and such.

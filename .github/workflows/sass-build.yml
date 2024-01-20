@@ -11,7 +11,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: 🚀 Job triggered by a ${{ github.event_name }}.
+      - name: 🚀 Job triggered by a ${{ github.event_name }}.
+        run: echo "🚀 Job triggered by a ${{ github.event_name }}."
 
       - name: 🛒 Checkout source Git branch
         uses: actions/checkout@v4
@@ -32,4 +33,5 @@ jobs:
           source: scss/jerking.scss
           destination: css/jerking.css
 
-      - run: echo "🫠 This job's status is ${{ job.status }}."
+      - name: 🫠 This job's status is ${{ job.status }}.
+        run: echo "🫠 This job's status is ${{ job.status }}."

@@ -242,7 +242,7 @@ var pornTitles = [
   "Take This Knob And Shove It",
   "Tetsuo: The Erect Man",
   "The African Drag Queen",
-  "The Angry Black Girl And Her Monster Dildo",
+  "The Angry Black Girl And Her Monster Sized Dildo",
   "The Assventures of Fuckaroo Buttzai Across The Gape Dimension",
   "The Bear Up There",
   "The Bicycle Queef",

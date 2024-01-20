@@ -1,11 +1,9 @@
 on:
   push:
     branches:
-      - master
       - main
   pull_request:
     branches:
-      - master
       - main
 
 jobs:
@@ -13,21 +11,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout source Git branch
-        uses: actions/checkout@v2
+      - run: echo "🚀 Job triggered by a ${{ github.event_name }}."
+
+      - name: 🛒 Checkout source Git branch
+        uses: actions/checkout@v4
         with:
-            ref: master
+            ref: main
             fetch-depth: 10
             submodules: true
 
-      - name: Remove sourcemapped CSS.
+      - name: 🛒 Remove sourcemapped CSS.
         run: rm css -r
       
-      - name: Make a new production CSS directory
+      - name: 🪄 Make a new production CSS directory
         run: mkdir css
 
-      - name: Compile CSS from SCSS files
+      - name: 🗜️ Compile CSS from SCSS files
         uses: gha-utilities/sass-build@v0.5.1
         with:
           source: scss/jerking.scss
           destination: css/jerking.css
+
+      - run: echo "🫠 This job's status is ${{ job.status }}."

@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: echo "🚀 Job triggered by a ${{ github.event_name }}."
+      - run: 🚀 Job triggered by a ${{ github.event_name }}.
 
       - name: 🛒 Checkout source Git branch
         uses: actions/checkout@v4
@@ -20,7 +20,7 @@ jobs:
             fetch-depth: 10
             submodules: true
 
-      - name: 🛒 Remove sourcemapped CSS.
+      - name: 🚮 Remove sourcemapped CSS.
         run: rm css -r
       
       - name: 🪄 Make a new production CSS directory

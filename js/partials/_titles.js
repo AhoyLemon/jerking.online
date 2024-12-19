@@ -228,7 +228,7 @@ var pornTitles = [
   "Sex Machina",
   "Shaun The Creep Movie",
   "Shaving Mr. Banks",
-  "Shaving Ryan's Priates",
+  "Shaving Ryan's Privates",
   "Short Cummings",
   "Sinning In The Rain",
   "Six Days Seven Cocks",

@@ -36,7 +36,7 @@ function rankPornTitles(startDate) {
   
   parseHistoricalData(startDate);
   
-  $('#JSArray').append('var pornData = {\n');
+  $('#JSArray').append('const pornData = {\n');
   //console.log(avoidList);
   //console.log(topMovies);
   

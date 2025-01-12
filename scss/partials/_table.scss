@@ -11,7 +11,7 @@ main { }
 }
 
 table { width: 600px; max-width: 100%; margin-left: auto; margin-right: auto; border-collapse: collapse; font-size:14px;
-  caption { font-size:2.2em; text-align: center; font-weight: 600; padding-bottom: 0.5em;
+  caption { font-size:clamp(34px,1.8vw,20px); text-align: center; font-weight: 600; padding-bottom: 0.5em;
     span { display: block; }
   }
   th, td { padding: 0.5rem 1rem;
@@ -31,29 +31,60 @@ table { width: 600px; max-width: 100%; margin-left: auto; margin-right: auto; bo
     &.down { background-image:url(../svg/down.svg);}
     &.same { background-image:url(../svg/same.svg);}
   }
+
+  &.top-actors { max-width: 30ch; position: absolute;
+    caption { font-size:clamp(32px,1.8vw,20px); }
+    //position: absolute; left:20px; bottom:60px;
+  }
 }
 
-@media (min-width:$desktop-min) {
-  main { padding:10vh $sidebar 10vh 1rem; }
+@media (min-width:1381px) {
+  main {  padding:10vh $sidebar 10vh 12ch; }
   .table-holder {
     .switch-day { @include position(absolute,1rem); }
     .prev-day { left:50%; margin-left: -370px; }
     .next-day { right:50%; margin-right: -370px; }
   }
+  table.top-actors {
+    position: absolute; left:20px; bottom:60px;
+  }
+}
+
+@media (max-width:1380px) and (min-width: 1024px) {
+  main {  padding:10vh $sidebar 10vh 1ch; }
+  .table-holder {
+    .switch-day { @include position(absolute,1rem); }
+    .prev-day { left:50%; margin-left: -370px; }
+    .next-day { right:50%; margin-right: -370px; }
+  }
+  table.top-actors {
+    right:20px; bottom:160px;
+  }
 }
 
 @media (max-width:$mobile-max) {
-  .table-holder { padding-top:2em; padding-bottom: 180px; padding-left: 0.5em; padding-right: 0.5em;
-    .switch-day { @include position(absolute,null,null,130px); width:32px; height:32px; }
-    .prev-day { right:82px; }
+  .table-holder { padding-top:2em; padding-bottom: 40px; padding-left: 0.5em; padding-right: 0.5em;
+    .switch-day { @include position(absolute,50px,null,null); width:32px; height:32px; }
+    .prev-day { left:32px; }
     .next-day { right:32px; }
+    caption { padding-left: 24px; padding-right: 24px;}
   }
   table { width:100% !important; }
+  .actor-holder { padding-left: 10px; padding-right: 10px;}
+  table.top-actors {
+    position:relative; max-width: 100%;
+  }
 }
 
 @media (max-width:560px) {
-  table {
-    caption { font-size:5.1vw; }
-    th, td { padding: 0.25rem; }
-  } 
+  main { padding-bottom: 160px; }
+  .table-holder {
+    .prev-day { left:10px; }
+    .next-day { right:10px; }
+  }
+  // table {
+  //   caption { font-size:5.1vw; }
+  //   th, td { padding: 0.25rem; }
+  //   &.top-actors { max-width:calc(100% - 40px); }
+  // } 
 }

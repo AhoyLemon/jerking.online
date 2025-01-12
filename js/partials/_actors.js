@@ -1,4 +1,4 @@
-var names = {
+const names = {
   female: [
     "Tilda Sweatin",
     "Katherine Rugburn",
@@ -36,7 +36,7 @@ var names = {
     "Anna Packed In",
     "Julia Knobberts"
   ],
-  male: [
+  male: [ 
     "Alan Thicc",
     "Benedict Cumbersomebatch",
     "Blowin' Atkinson",
@@ -44,12 +44,13 @@ var names = {
     "Channing TaintYum",
     "Colin Filth",
     "Dustin Boffman",
-    'Dwayne "The Cock" Johnson',
+    'Dwayne “The Cock” Johnson',
     "Gape Vagoda",
     "Gerard Butt",
     "Giovanni Ribbedisi",
     "Going Downey, Jr",
     "Gregory Pecker",
+    "Huge Jack, Man",
     "Jake Fillin All",
     "James Gandalf Weenie",
     "Keith Gayvid",

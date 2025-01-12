@@ -1,189 +1,217 @@
-var app = new Vue({
-  el: '#app',
-  data: {
-    expanded: false,
-    titleCount: pornTitles.length,
-    days: pornData,
-    today: moment(),
-    displayDate: '',
-    displayDatePretty: '',
-    firstDay: Object.keys(pornData)[0],
-    lastDay: Object.keys(pornData)[Object.keys(pornData).length - 1],
-    list: {},
-    share: {
+const { createApp, ref, computed, onBeforeMount } = Vue;
+
+const app = createApp({
+  setup() {
+    const expanded = ref(false);
+    const titleCount = ref(pornTitles.length);
+    const days = ref(pornData);
+    const today = ref(moment());
+    const displayDate = ref('');
+    const displayDatePretty = ref('');
+    const firstDay = ref(Object.keys(pornData)[0]);
+    const lastDay = ref(Object.keys(pornData)[Object.keys(pornData).length - 1]);
+    const list = ref({});
+    const actorList = ref({}); 
+    const share = ref({
       visible: false,
       date: false,
       msg: false,
       title: false,
       titlePretty: false,
       via: false,
-      url: 'https://ahoylemon.github.io/jerking.online',
+      url: 'https://jerking.ahoylemon.xyz',
       isCopySuccess: false,
       isCopyFailure: false
-    }
-  },
-  computed: {
-    showNextDay: function() {
-      var self = this;
-      if ( (moment().format('YYYYMMDD') <= moment(self.displayDate).format('YYYYMMDD')) ) {
-        return false;
-      } else {
-        return true;
-      }
-    },
-    showPrevDay: function() {
-      var self = this;
-      return true;
-    },
-    computedShareText() {
-      const self = this;
-      if (!self.share.msg || !self.share.url) {
+    });
+
+    const showNextDay = computed(() => {
+      return moment().format('YYYYMMDD') > moment(displayDate.value).format('YYYYMMDD');
+    });
+
+    const showPrevDay = computed(() => true);
+
+    const computedShareText = computed(() => {
+      if (!share.value.msg || !share.value.url) {
         return null;
       }
-      const msg = decodeURIComponent(self.share.msg);
-      const url = decodeURIComponent(self.share.url);
+      const msg = decodeURIComponent(share.value.msg);
+      const url = decodeURIComponent(share.value.url);
       return `${msg}${url}`;
-    }
-  },
-  methods: {
-    formatDate: function(x) {
-      var self = this;
-      this.displayDate = moment(x).format('YYYYMMDD');
-      this.displayDatePretty = moment(x).format('MMMM Do, YYYY');
-    },
-    pullTitles: function(pullDate) {
-      var self = this;
-      self.list = pornData[pullDate.substr(4)];
-    },
-    dollars: function(x) {
+    });
+
+    // const randomActors = computed(() => {
+    //   const getRandomActors = (namesArray, count) => {
+    //     const shuffled = namesArray.sort(() => 0.5 - Math.random());
+    //     return shuffled.slice(0, count);
+    //   };
+
+    //   const femaleActors = getRandomActors(names.female, 2);
+    //   const maleActors = getRandomActors(names.male, 2);
+    //   const remainingActors = getRandomActors([...names.female, ...names.male], 1);
+
+    //   const allActors = [...femaleActors, ...maleActors, ...remainingActors];
+    //   const randomNumbers = Array.from({ length: 5 }, () => Math.floor(Math.random() * (300 - 30 + 1)) + 30).sort((a, b) => b - a);
+
+    //   return allActors.map((actor, index) => ({
+    //     name: actor,
+    //     films: randomNumbers[index]
+    //   }));
+    // });
+
+    const formatDate = (x) => {
+      displayDate.value = moment(x).format('YYYYMMDD');
+      displayDatePretty.value = moment(x).format('MMMM Do, YYYY');
+    };
+
+    const pullTitles = (pullDate) => {
+      list.value = pornData[pullDate.substr(4)].titles;
+    };
+    const pullActors= (pullDate) => {
+      actorList.value = pornData[pullDate.substr(4)].actors;
+    };
+
+    const dollars = (x) => {
       return '$' + x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-    },
-    showChange: function(x) {
+    };
+
+    const showChange = (x) => {
       if (x == 'up') {
         return 'up';
       }
-    },
-    prevDay: function() {
-      const self = this;
-      this.formatDate(moment(this.displayDate).subtract(1,'days'));
-      this.pullTitles(this.displayDate);
-      let url = new URL(window.location);
-      url.searchParams.set('date', self.displayDate);
-      window.history.pushState({date: self.displayDate, action:"Previous Day"}, '', url);
-      sendEvent('Previous Day', this.displayDatePretty);
-    },
-    nextDay: function() {
-      this.formatDate(moment(this.displayDate).add(1,'days'));
-      this.pullTitles(this.displayDate);
-      let url = new URL(window.location);
-      url.searchParams.set('date', self.displayDate);
-      window.history.pushState({date: self.displayDate, action:"Previous Day"}, '', url);
-      sendEvent('Next Day', this.displayDatePretty);
-    },
-    shareMovie: function(n, t) {
-      var self = this;
-      self.share.date = moment(self.displayDate).format('MMM Do');
-      self.share.msg = encodeURIComponent('The #'+n+' parody porn for '+self.share.date+':\n '+t+'\n');
-      // self.share.msgUnencoded = `The #${n} parody porn title for ${self.share.date}: \n ${t}`;
-      self.share.url = encodeURIComponent('https://ahoylemon.github.io/jerking.online?date='+self.displayDate);
-      // self.share.urlUnencoded = `'https://ahoylemon.github.io/jerking.online?date=${self.displayDate}`
-      // const lineBreak = "%0D%0A";
-      self.share.title = encodeURIComponent(t);
-      self.share.titlePretty = t;
-      self.share.visible = true;
-      sendEvent('Share Movie',t, '#'+n);
+    };
 
-    },
-    shareVia: function(m) {
-      var share = this.share;
-      var w;
-      var h;
-      var l;
-      var t;
-      
+    const prevDay = () => {
+      formatDate(moment(displayDate.value).subtract(1, 'days'));
+      pullTitles(displayDate.value);
+      pullActors(displayDate.value)
+      let url = new URL(window.location);
+      url.searchParams.set('date', displayDate.value);
+      window.history.pushState({ date: displayDate.value, action: "Previous Day" }, '', url);
+      sendEvent('Previous Day', displayDatePretty.value);
+    };
+
+    const nextDay = () => {
+      formatDate(moment(displayDate.value).add(1, 'days'));
+      pullTitles(displayDate.value);
+      pullActors(displayDate.value);
+      let url = new URL(window.location);
+      url.searchParams.set('date', displayDate.value);
+      window.history.pushState({ date: displayDate.value, action: "Next Day" }, '', url);
+      sendEvent('Next Day', displayDatePretty.value);
+    };
+
+    const shareMovie = (n, t) => {
+      share.value.date = moment(displayDate.value).format('MMM Do');
+      share.value.msg = encodeURIComponent('The #' + n + ' parody porn for ' + share.value.date + ':\n ' + t + '\n');
+      share.value.url = encodeURIComponent('https://jerking.ahoylemon.xyz?date=' + displayDate.value);
+      share.value.title = encodeURIComponent(t);
+      share.value.titlePretty = t;
+      share.value.visible = true;
+      sendEvent('Share Movie', t, '#' + n);
+    };
+
+    const shareVia = (m) => {
+      const shareData = share.value;
+      let w, h, l, t;
+
       if (m == "Twitter") {
         w = 520;
         h = 270;
-        l = (window.screen.width / 2) - ((w / 2) + 10);
-        t = (window.screen.height / 2) - ((h / 2) + 50);
-        window.open('https://twitter.com/intent/tweet?text='+share.msg+share.url, m, 'width='+w+', height='+h+', left='+l+',top='+t);
       } else if (m == "Facebook") {
         w = 650;
         h = 520;
-        l = (window.screen.width / 2) - ((w / 2) + 10);
-        t = (window.screen.height / 2) - ((h / 2) + 50);
-        window.open('https://www.facebook.com/sharer/sharer.php?u='+share.url, m, 'width='+w+', height='+h+', left='+l+',top='+t);
       } else if (m == "Reddit") {
         w = 980;
         h = 780;
-        l = (window.screen.width / 2) - ((w / 2) + 10);
-        t = (window.screen.height / 2) - ((h / 2) + 50);
-        window.open('https://reddit.com/submit?url='+share.url+'&title='+share.msg, m, 'width='+w+', height='+h+', left='+l+',top='+t);
       } else if (m == "Tumblr") {
         w = 555;
         h = 850;
-        l = (window.screen.width / 2) - ((w / 2) + 10);
-        t = (window.screen.height / 2) - ((h / 2) + 50);
-        window.open('https://www.tumblr.com/widgets/share/tool?canonicalUrl='+share.url+'&title='+share.title+'&caption='+share.msg, m, 'width='+w+', height='+h+', left='+l+',top='+t);
       } else if (m == "Google Plus") {
         w = 400;
         h = 640;
-        l = (window.screen.width / 2) - ((w / 2) + 10);
-        t = (window.screen.height / 2) - ((h / 2) + 50);
-        window.open('https://plus.google.com/share?url='+share.url+'&text='+share.msg, m, 'width='+w+', height='+h+', left='+l+',top='+t);
       } else if (m == "LiveJournal") {
         w = 790;
         h = 640;
-        l = (window.screen.width / 2) - ((w / 2) + 10);
-        t = (window.screen.height / 2) - ((h / 2) + 50);
-        window.open('https://www.livejournal.com/update.bml?subject='+share.msg+'&event='+share.url, m, 'width='+w+', height='+h+', left='+l+',top='+t);
       } else if (m == "Telegram") {
-        window.open('tg://msg_url?text='+share.msg+'\n'+share.url);
+        window.open('tg://msg_url?text=' + shareData.msg + '\n' + shareData.url);
+        return;
       } else if (m == "SMS") {
-        window.open('sms:?body='+share.msg);
+        window.open('sms:?body=' + shareData.msg);
+        return;
       } else if (m == "Email") {
-        window.location.href = 'mailto:?subject='+share.title+'&body='+share.msg+'\n\n'+share.url;
+        window.location.href = 'mailto:?subject=' + shareData.title + '&body=' + shareData.msg + '\n\n' + shareData.url;
+        return;
       }
 
-      sendEvent('Share via '+m, share.titlePretty, m);
+      l = (window.screen.width / 2) - ((w / 2) + 10);
+      t = (window.screen.height / 2) - ((h / 2) + 50);
+      window.open(`https://${m.toLowerCase()}.com/share?url=${shareData.url}&title=${shareData.msg}`, m, `width=${w}, height=${h}, left=${l}, top=${t}`);
 
-      share.visible = false;
-    },
-    copyShareInfo: function() {
-      const self = this;
-      navigator.clipboard.writeText(self.computedShareText).then(() => {
-        self.share.isCopySuccess = true;
-        self.share.isCopyFailure = false;
-        /* Resolved - text copied to clipboard successfully */
-      },() => {
-        self.share.isCopySuccess = false;
-        self.share.isCopyFailure = true;
-        /* Rejected - text failed to copy to the clipboard */
+      sendEvent('Share via ' + m, shareData.titlePretty, m);
+      share.value.visible = false;
+    };
+
+    const copyShareInfo = () => {
+      navigator.clipboard.writeText(computedShareText.value).then(() => {
+        share.value.isCopySuccess = true;
+        share.value.isCopyFailure = false;
+      }, () => {
+        share.value.isCopySuccess = false;
+        share.value.isCopyFailure = true;
       });
-    },
-    closeShareScreen: function() {
-      const self = this;
-      console.log('close share screen');
-      self.share.visible = false;
-      self.share.isCopyFailure = false;
-      self.share.isCopySuccess = false;
-    }
-  },
-  beforeMount: function() {
-    const self = this;
-    
-    
-    if (window.location.search) {
-      const urlParams = new URLSearchParams(window.location.search);
-      if (urlParams.get('date')) {
-        const urlDate = urlParams.get('date').toString();
-        self.pullTitles(urlDate);
-        self.formatDate(urlDate);
+    };
+
+    const closeShareScreen = () => {
+      share.value.visible = false;
+      share.value.isCopyFailure = false;
+      share.value.isCopySuccess = false;
+    };
+
+    onBeforeMount(() => {
+      if (window.location.search) {
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('date')) {
+          const urlDate = urlParams.get('date').toString();
+          pullTitles(urlDate);
+          pullActors(urlDate);
+          formatDate(urlDate);
+        }
       }
-    }
-    if (!self.displayDate || !self.list) {
-      self.pullTitles(self.today.format('YYYYMMDD'));
-      self.formatDate(self.today);
-    }
+      if (!displayDate.value || !list.value) {
+        pullTitles(today.value.format('YYYYMMDD'));
+        pullActors(today.value.format('YYYYMMDD'));
+        formatDate(today.value);
+      }
+    });
+
+    return {
+      expanded,
+      titleCount,
+      days,
+      today,
+      displayDate,
+      displayDatePretty,
+      firstDay,
+      lastDay,
+      list,
+      actorList,
+      share,
+      showNextDay,
+      showPrevDay,
+      computedShareText,
+      // randomActors,
+      formatDate,
+      pullTitles,
+      dollars,
+      showChange,
+      prevDay,
+      nextDay,
+      shareMovie,
+      shareVia,
+      copyShareInfo,
+      closeShareScreen
+    };
   }
 });
+
+app.mount('#app');

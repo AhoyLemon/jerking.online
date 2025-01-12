@@ -1,4 +1,5 @@
 //@prepros-prepend partials/_functions.js
+//@prepros-prepend partials/_actors.js
 //@prepros-prepend partials/_titles.js
 //@prepros-prepend data/_data.js
 
@@ -8,8 +9,6 @@ var allDays = {};
 //var r;
 
 var avoidList = [];
-
-
 
 function parseHistoricalData(startDate) {
   for (z = 10; z > 0; z--) { 
@@ -29,7 +28,6 @@ function parseHistoricalData(startDate) {
 
   }
 }
-
 
 function rankPornTitles(startDate) {
   console.log('there are '+pornTitles.length+' titles');
@@ -73,7 +71,6 @@ function rankPornTitles(startDate) {
       }
     });
 
-
     // Let's make the Avoid List max out at 200.
 
     console.log('avoidList count: '+avoidList.length);
@@ -84,8 +81,6 @@ function rankPornTitles(startDate) {
       avoidList.splice(0,removeNum);
       console.log('NEW avoidList : '+avoidList.length);
     }
-
-    
 
     todayArray = [];
     var g = Math.floor(Math.random() * (60000 - 50000)) + 50000;
@@ -109,18 +104,34 @@ function rankPornTitles(startDate) {
       };
       todayArray.push(a);
     });
-    var dy = moment(startDate).add(z,'days').format('MMDD');
-    allDays[dy] = todayArray;
 
-    $('#JSArray').append('  "'+ dy+ '": [');
-    $('#JSArray').append('<br />');
+    const getRandomActors = (namesArray, count) => {
+      const shuffled = namesArray.sort(() => 0.5 - Math.random());
+      return shuffled.slice(0, count);
+    };
+
+    const femaleActors = getRandomActors(names.female, 2);
+    const maleActors = getRandomActors(names.male, 2);
+    const remainingActors = getRandomActors([...names.female, ...names.male], 1);
+
+    const actors = [...femaleActors, ...maleActors, ...remainingActors];
+
+    var dy = moment(startDate).add(z,'days').format('MMDD');
+    allDays[dy] = { titles: todayArray, actors: actors };
+
+    $('#JSArray').append('  "'+ dy+ '": { \n    titles: [\n');
     $.each(todayArray, function(key, value) {
-      $('#JSArray').append('    {title: "'+ todayArray[key].title +'", take: '+todayArray[key].take+', change: "'+todayArray[key].change+'" }');
+      $('#JSArray').append('      { title: "'+ todayArray[key].title +'", take: '+todayArray[key].take+', change: "'+todayArray[key].change+'" }');
       if (key < 19) { $('#JSArray').append(','); }
-      $('#JSArray').append('<br />');
+      $('#JSArray').append('\n');
     });
-    $('#JSArray').append('&nbsp;&nbsp;], ');
-    $('#JSArray').append('<br />');
+    $('#JSArray').append('    ],\n    actors: [\n');
+    $.each(actors, function(key, value) {
+      $('#JSArray').append('      "'+ actors[key] +'"');
+      if (key < 4) { $('#JSArray').append(','); }
+      $('#JSArray').append('\n');
+    });
+    $('#JSArray').append('    ]\n  },\n');
     z++;
   }
   $('#JSArray').append('};');

@@ -4,7 +4,11 @@ script(type="application/ld+json").
     "@type": "WebSite",
     "name": "#{siteTitle}",
     "url": "#{siteURL}",
-    "sameAs": "#{fplusURL}",
+    "sameAs": [
+      "https://jerking.online",
+      "https://ahoylemon.github.io/jerking.online",
+      "#{fplusURL}"
+    ],
     "discussionUrl": "#{fplusURL}",
     "image": [
       "#{siteURL}/img/og-image.png",
@@ -16,6 +20,8 @@ script(type="application/ld+json").
     "typicalAgeRange": "18+",
     "isAccessibleForFree": true,
     "dateCreated": "#{launchDate}",
+    "datePublished": "#{launchDate}",
+    "dateModified": "#{lastUpdated}",
     "creator": {
       "@type": "Person",
       "name": "Lemon",

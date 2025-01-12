@@ -1,6 +1,6 @@
-- var siteTitle = "Jerking Online"
-- var siteURL = "https://ahoylemon.github.io/jerking.online"
-- var description = "New parody porn titles, every day."
+- var siteTitle = "Jerking"
+- var siteURL = "https://jerking.ahoylemon.xyz"
+- var description = "New parody porn titles, every day. (previously jerking.online)" 
 - var fplusURL = "https://thefpl.us/also-made/jerking-online"
 - var launchDate = "2016-01-06"
 - var d = new Date()
@@ -41,6 +41,20 @@ html(lang="en")
                 td.gross {{dollars(movie.take)}}
                 td.change(v-bind:class="movie.change")
             tbody#PornTitles
+        
+
+        .actor-holder
+          table.top-actors
+            caption
+              span Top Actors
+            thead
+              tr
+                th
+                th NAME
+            tbody
+              tr(v-for="(actor, index) in actorList")
+                td.rank {{index + 1}}
+                td {{actor}}
 
       include partials/_share.pug
     

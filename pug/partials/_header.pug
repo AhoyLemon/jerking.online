@@ -1,7 +1,7 @@
 header#header(v-on:click="expanded = !expanded" v-bind:class="{expanded: expanded}")
   img.fist(src="svg/fist-alone.svg" v-bind:class="{shaking: expanded}")
   aside.sidebar
-    img.logo(src="svg/logo-alone.svg")
+    img.logo(src="svg/logo-alone-newbrand.svg" alt="Jerking site logo")
     ul
       li
         span.label This site by 
@@ -13,5 +13,5 @@ header#header(v-on:click="expanded = !expanded" v-bind:class="{expanded: expande
       li 
         span.label More information can be found in the 
         span.indent
-          a(href="https://github.com/AhoyLemon/jerking.online#readme" target="blank" onclick="sendEvent('outside link', 'https://github.com/AhoyLemon/jerking.online')") GitHub repo
+          a(href="https://github.com/AhoyLemon/jerking#readme" target="blank" onclick="sendEvent('outside link', 'https://github.com/AhoyLemon/jerking.online')") GitHub repo
       li.smaller A new list is generated every day.

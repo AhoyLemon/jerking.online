@@ -1,4 +1,4 @@
-![jerking.online](https://ahoylemon.github.io/jerking.online/img/twitter-card.png)
+![Jerking logo](https:/jerking.ahoylemon.xyz/og-image-square.webp)
 #### (New Parody Porn Titles Every Day)
 
 ## What?

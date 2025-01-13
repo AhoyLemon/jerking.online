@@ -1,29 +1,40 @@
-var music = {
+const music = {
   bands: [
-    "Rub The Jewels",
-    "Red Hot Chubby Peckers",
+    "Aphex Twink",
     "Asstodong",
-    "The White Splotches",
-    "VD On The Radio",
-    "Snatchbox Plenty",
     "Belle Biv, Da Ho",
     "Boyz N2 Men",
-    "The Vulve Pipe",
-    "Poundgarden",
-    "Aphex Twink",
-    "Nipplez With Attitude",
-    "Megadepth",
-    "The Bobbing Heads",
-    "Hüsky Düdes",
-    "Hall In Oates",
-    "Urethamics",
     "Deep In The Purple",
-    "Pink Oyster Cult",
+    "Hall In Oates",
+    "Hüsky Düdes",
     "Jethro Tug",
-    "Pryx"
+    "Megadepth",
+    "Nipplez With Attitude",
+    "Pink Oyster Cult",
+    "Poundgarden",
+    "Pryx",
+    "Red Hot Chubby Peckers",
+    "Rub The Jewels",
+    "Snatchbox Plenty",
+    "The Bobbing Heads",
+    "The Vulve Pipe",
+    "The White Splotches",
+    "Urethamics",
+    "VD On The Radio"
   ],
   singers: [
+    "Aesoft Cock",
+    "Danny Jelqman",
+    "Del Tha Funkee Homo",
+    "Dick Assley",
+    "Frank Fappa",
+    "GEI$HA",
     "Ice Pube",
-    "Nail'er Swift"
+    "Jon Boner Jovi",
+    "Lady Gagger",
+    "Licki Mivaj",
+    "Mick Jacker",
+    "Nail'er Swift",
+    "Shagging 2 Dope and Violent JO"
   ]
 };

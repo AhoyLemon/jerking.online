@@ -5,8 +5,10 @@ const music = {
     "Belle Biv, Da Ho",
     "Boyz N2 Men",
     "Deep In The Purple",
+    "Frank Fappa and the Mothers I'd Like To Fuck Of Invention",
     "Hall In Oates",
     "Hüsky Düdes",
+    "Insane Clown Pussy",
     "Jethro Tug",
     "Megadepth",
     "Nipplez With Attitude",
@@ -27,14 +29,12 @@ const music = {
     "Danny Jelqman",
     "Del Tha Funkee Homo",
     "Dick Assley",
-    "Frank Fappa",
     "GEI$HA",
     "Ice Pube",
     "Jon Boner Jovi",
     "Lady Gagger",
     "Licki Mivaj",
     "Mick Jacker",
-    "Nail'er Swift",
-    "Shagging 2 Dope and Violent JO"
+    "Nail'er Swift"
   ]
 };

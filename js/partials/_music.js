@@ -36,5 +36,9 @@ const music = {
     "Licki Mivaj",
     "Mick Jacker",
     "Nail'er Swift"
+  ],
+  songs: [
+    "California: Bübes & Asses",
+    "Police Cuck"
   ]
 };

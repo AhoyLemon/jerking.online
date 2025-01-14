@@ -38,7 +38,14 @@ const music = {
     "Nail'er Swift"
   ],
   songs: [
+    "Bad Poon Rising",
     "California: Bübes & Asses",
-    "Police Cuck"
+    "The First Thrust Is The Deepest",
+    "Friday I'm In Cunt",
+    "Jerkin' Jackoff Flasher",
+    "Naked Pictures of You",
+    "Police Cuck",
+    "You Ain't Seen Nutting Yet",
+    "Friday I'm In Cunt"
   ]
 };

@@ -10,6 +10,7 @@ const music = {
     "Hüsky Düdes",
     "Insane Clown Pussy",
     "Jethro Tug",
+    "Kink Rimson",
     "Megadepth",
     "Nipplez With Attitude",
     "Pink Oyster Cult",
@@ -42,10 +43,13 @@ const music = {
     "California: Bübes & Asses",
     "The First Thrust Is The Deepest",
     "Friday I'm In Cunt",
+    "I've Been Wanking On A Girl Like You",
+    "Immigrant Schlong",
     "Jerkin' Jackoff Flasher",
+    "Loadi",
+    "Lookin' In Your Backdoor",
     "Naked Pictures of You",
     "Police Cuck",
-    "You Ain't Seen Nutting Yet",
-    "Friday I'm In Cunt"
+    "You Ain't Seen Nutting Yet"
   ]
 };

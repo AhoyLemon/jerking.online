@@ -1,4 +1,4 @@
-![Jerking logo](https:/jerking.ahoylemon.xyz/og-image-square.webp)
+![Jerking logo](https://jerking.ahoylemon.xyz/og-image-square.webp)
 #### (New Parody Porn Titles Every Day)
 
 ## What?
